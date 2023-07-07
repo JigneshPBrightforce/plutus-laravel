@@ -24,8 +24,14 @@ jobs:
       - name: Generate key
         run: php artisan key:generate
       
-      - name: Directory Permissions
-        run: sudo chmod -R 777 storage bootstrap/cache public
+      - name: Storae Directory Permissions
+        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/storage
+        
+      - name: Bootstrap Directory Permissions
+        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/bootstrap/cache
+        
+      - name: Public Directory Permissions
+        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/public
 
       - name: Deploy to my EC2 instance
         uses: easingthemes/ssh-deploy@v2.1.5
