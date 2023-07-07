@@ -148,7 +148,7 @@
     </div>
     <div class="policy">
         <hr>
-        <p class="mb-0 text-center pb-2">© <span id="currentYear"></span> Plutus Technologies Pvt. Ltd. </p>
+        <p class="mb-0 text-center pb-2">© <span id="currentYear"></span> Plutus Technologies Pvt. Ltd.</p>
     </div>
 </div>
 <script>
