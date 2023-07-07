@@ -25,13 +25,13 @@ jobs:
         run: php artisan key:generate
       
       - name: Storae Directory Permissions
-        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/storage
+        run: sudo chmod -R 777 /var/www/html/laravel/storage
         
       - name: Bootstrap Directory Permissions
-        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/bootstrap/cache
+        run: sudo chmod -R 777 /var/www/html/laravel/bootstrap/cache
         
       - name: Public Directory Permissions
-        run: sudo chmod -R 777 ${{ secrets.TARGET_DIR }}/public
+        run: sudo chmod -R 777 /var/www/html/laravel/public
 
       - name: Deploy to my EC2 instance
         uses: easingthemes/ssh-deploy@v2.1.5
