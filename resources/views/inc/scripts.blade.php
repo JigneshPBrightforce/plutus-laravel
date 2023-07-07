@@ -1,0 +1,16 @@
+<script src="js/jclocks.js"></script>
+<!-- <script src="js/crouseljs/jquery.min.js" no-conflict></script> -->
+<script src="js/crouseljs/owl.carousel.js"></script>
+<script src="js/homepage.js"></script>
+<script src="js/marquee.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jClocksGMT.js"></script>
+<script src="js/jquery.rotate.js"></script>
+<script src="js/jquery.countup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
+<script src="js/recaptcha_api.js"></script>
