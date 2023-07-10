@@ -29,5 +29,5 @@ jobs:
           
       - name: Assign Permissions
         run: |
-          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'chmod -R 755 /var/www/html/laravel/storage/'
-          
+          #ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'chmod -R 755 /var/www/html/laravel/storage/'
+          ssh $USERNAME@$HOST_DNS 'chmod 777 /var/www/html/laravel/storage/'
