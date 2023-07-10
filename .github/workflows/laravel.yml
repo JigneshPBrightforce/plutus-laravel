@@ -29,4 +29,4 @@ jobs:
           
       - name: Assign Permissions
         run: |
-          ssh $USERNAME@$HOST_DNS 'chmod 777 /var/www/html/laravel/storage/'
+          ssh -o $USERNAME@$HOST_DNS 'chmod 777 -R /var/www/html/laravel/storage/'
