@@ -25,18 +25,9 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
-
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@v0.1.10
-      with:
-        host: ${{ secrets.HOST_DNS }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.EC2_SSH_KEY }}
-        script: |
-          cd /var/www/html/laravel
-          sudo chmod 777 -R storage/
-          sudo chmod 777 -R bootstrap/
+          SSH_CMD_ARGS : "-o StrictHostKeyChecking=no"
+          
+      - name: Assign Permissions
+        run: |
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod 777 -R /var/www/html/laravel/storage/'
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod 777 -R /var/www/html/laravel/bootstrap/'
