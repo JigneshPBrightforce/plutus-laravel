@@ -6,22 +6,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@v0.1.10
-      with:
-        host: ${{ secrets.HOST_DNS }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.EC2_SSH_KEY }}
-        script: |
-          cd /var/www/html/laravel
-          sudo chmod 777 -R storage/
-          sudo chmod 777 -R bootstrap/
-          
+jobs:          
   deploy:
     name: Push to EC2 Instance
     runs-on: ubuntu-latest
@@ -40,3 +25,18 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.HOST_DNS }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.EC2_SSH_KEY }}
+        script: |
+          cd /var/www/html/laravel
+          sudo chmod 777 -R storage/
+          sudo chmod 777 -R bootstrap/
