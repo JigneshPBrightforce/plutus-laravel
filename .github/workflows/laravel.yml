@@ -21,17 +21,13 @@ jobs:
       - name: Deploy to my EC2 instance
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
-          SOURCE: "./"
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
-          SCRIPT_BEFORE: |
-            whoami
-            ls -al
-          SCRIPT_AFTER: |
-            whoami
-            ls -al
-            ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY@$HOST_DNS 'sudo chmod -R 777 /var/www/html/laravel/storage/'
           
+      - name: Assign Permissions
+        run: |
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod 777 -R /var/www/html/laravel/storage/'
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod 777 -R /var/www/html/laravel/bootstrap/'          
          
