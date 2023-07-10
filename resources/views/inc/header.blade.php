@@ -68,20 +68,20 @@
         <nav id='cssmenu'>
             <div class="logo">
                 <a href="/">
-                    <img src="image/Plutus-logo(new-o).png" alt="logo">
+                    <img src="{{ asset('image/Plutus-logo(new-o).png')}}" alt="logo">
                 </a>
             </div>
             <div class="button" onclick="showModal()"></div>
             <ul class="menu-links hidden" id="modal">
                 <li
                     class="company-menu <?php echo in_array($filename, ['aboutus','engagement-models','client-confidentiality','life-at-plutus']) !== false ? 'active' : ''; ?>">
-                    <a href='/' class="main-tag">Company</a>
+                    <a href="/" class="main-tag">Company</a>
                     <ul>
                         <li class="bg-white h-auto mobile-row-hine">
                             <div class="container">
                                 <div class="row heading-t">
                                     <div class="col-lg-3 col-md-6  dp-text">
-                                        <div><img src="image/about-us.svg" alt="aboutus">
+                                        <div><img src="{{ asset('image/about-us.svg')}}" alt="aboutus">
                                             <a class="dropdown-item <?php echo preg_match("(aboutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                 href="aboutus">About Us</a>
                                         </div>
@@ -91,7 +91,8 @@
                                             Considering that we offer...</p>
                                     </div>
                                     <div class="col-lg-3 col-md-6  dp-text">
-                                        <div><img src="image/Engagement-Model.svg" alt="engagement-models">
+                                        <div><img src="{{ asset('image/Engagement-Model.svg')}}"
+                                                alt="engagement-models">
                                             <a class="dropdown-item <?php echo preg_match("(engagement)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                 href="engagement-models">Engagement
                                                 Model</a>
@@ -102,7 +103,8 @@
                                             Considering that we offer...</p>
                                     </div>
                                     <div class="col-lg-3 col-md-6  dp-text">
-                                        <div><img src="image/client-confidentiality.svg" alt="client-confidentiality">
+                                        <div><img src="{{ asset('image/client-confidentiality.svg')}}"
+                                                alt="client-confidentiality">
                                             <a class="dropdown-item <?php echo preg_match("(client)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                 href="client-confidentiality">Client
                                                 Confidentiality</a>
@@ -113,7 +115,7 @@
                                             Considering that we offer...</p>
                                     </div>
                                     <div class="col-lg-3 col-md-6  dp-text">
-                                        <div><img src="image/life-plutus.svg" alt="life-at-plutus">
+                                        <div><img src="{{ asset('image/life-plutus.svg')}}" alt="life-at-plutus">
                                             <a class="dropdown-item <?php echo preg_match("(life-at-plutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                 href="life-at-plutus">Life@Plutus</a>
                                         </div>
@@ -131,21 +133,24 @@
                                         <div class="row w-100">
                                             <div class="col-md-4">
                                                 <div class="bottom-image">
-                                                    <img src="image/Company-menu-bottom-image.svg" alt="menu">
+                                                    <img src="{{ asset('image/Company-menu-bottom-image.svg')}}"
+                                                        alt="menu">
                                                 </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="row justify-content-end">
                                                     <div class="col-md-4 mb-3">
                                                         <div class="contact-details d-flex align-items-center">
-                                                            <img width="25" height="20" src="image/mail-icon-white.svg"
+                                                            <img width="25" height="20"
+                                                                src="{{ asset('image/mail-icon-white.svg')}}"
                                                                 alt="mail">
                                                             <a href="mailto:sales@plutustec.com">sales@plutustec.com</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 mb-3">
                                                         <div class="contact-details d-flex align-items-center">
-                                                            <img src="image/Skype-icon-white.svg" alt="skype">
+                                                            <img src="{{ asset('image/Skype-icon-white.svg')}}"
+                                                                alt="skype">
                                                             <a href="skype:live:kalpit.belani?chat">sales.plutustec</a>
                                                         </div>
                                                     </div>
@@ -153,27 +158,32 @@
                                                 <div class="row justify-content-end">
                                                     <div class="col-md-4">
                                                         <div class="contact-details d-flex align-items-center">
-                                                            <img src="image/Phone-icon-white.svg" alt="call">
+                                                            <img src="{{ asset('image/Phone-icon-white.svg')}}"
+                                                                alt="call">
                                                             <a href="tel:+91-794-800-0107">+91-794-800-0107</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 social-icons">
                                                         <div class="contact-details d-flex align-items-center">
                                                             <a href="https://www.facebook.com/PlutusTechnologies"
-                                                                target="_blank"><img src="image/Facebook-icon-white.svg"
+                                                                target="_blank"><img
+                                                                    src="{{ asset('image/Facebook-icon-white.svg')}}"
                                                                     alt="facebook"></a>
                                                             <a href="https://twitter.com/PlutusTech"
-                                                                target="_blank"><img src="image/Twitter-icon-wite.svg"
+                                                                target="_blank"><img
+                                                                    src="{{ asset('image/Twitter-icon-wite.svg')}}"
                                                                     alt="tw"></a>
                                                             <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
-                                                                target="_blank"><img src="image/Linkedin-icon-white.svg"
+                                                                target="_blank"><img
+                                                                    src="{{ asset('image/Linkedin-icon-white.svg')}}"
                                                                     alt="linkedin"></a>
                                                             <a href="https://www.instagram.com/plutustechnology/"
                                                                 target="_blank"><img
-                                                                    src="image/instagram-icon-white.svg"
+                                                                    src="{{ asset('image/instagram-icon-white.svg')}}"
                                                                     alt="instagram"></a>
                                                             <a href="https://in.pinterest.com/plutustechnologies/"
-                                                                target="_blank"><img src="image/pintrest-icon-white.svg"
+                                                                target="_blank"><img
+                                                                    src="{{ asset('image/pintrest-icon-white.svg')}}"
                                                                     alt="instagram"></a>
                                                         </div>
                                                     </div>
@@ -189,7 +199,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/about-us.svg" alt="aboutus">
+                                            <img src="{{ asset('image/about-us.svg')}}" alt="aboutus">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu" href="aboutus">About
@@ -203,7 +213,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Engagement-Model.svg" alt="engagement-models">
+                                            <img src="{{ asset('image/Engagement-Model.svg')}}" alt="engagement-models">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
@@ -217,7 +227,8 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/client-confidentiality.svg" alt="client-confidentiality">
+                                            <img src="{{ asset('image/client-confidentiality.svg')}}"
+                                                alt="client-confidentiality">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
@@ -231,7 +242,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/life-plutus.svg" alt="life-at-plutus">
+                                            <img src="{{ asset('image/life-plutus.svg')}}" alt="life-at-plutus">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
@@ -255,7 +266,8 @@
                                 <div class="services-main-menu">
                                     <div class="service-menu-inner-box">
                                         <div class="service-menu-image-div mb-3">
-                                            <img src="image/Service-inner-menu-image-1.svg" alt="mobiledevelopment">
+                                            <img src="{{ asset('image/Service-inner-menu-image-1.svg')}}"
+                                                alt="mobiledevelopment">
                                         </div>
                                         <div class="service-menu-right-content-div">
                                             <h4 class="">Mobile App Development</h4>
@@ -290,7 +302,8 @@
                                     </div>
                                     <div class="service-menu-inner-box">
                                         <div class="service-menu-image-div mb-3">
-                                            <img src="image/Service-inner-menu-image-2.svg" alt="webdevelopment">
+                                            <img src="{{ asset('image/Service-inner-menu-image-2.svg')}}"
+                                                alt="webdevelopment">
                                         </div>
                                         <div class="service-menu-right-content-div">
                                             <h4 class="">Web Development</h4>
@@ -334,7 +347,7 @@
                                     </div>
                                     <div class="service-menu-inner-box">
                                         <div class="service-menu-image-div mb-3">
-                                            <img src="image/Service-inner-menu-image-3.svg" alt="cms">
+                                            <img src="{{ asset('image/Service-inner-menu-image-3.svg')}}" alt="cms">
                                         </div>
                                         <div class="service-menu-right-content-div">
                                             <h4 class="">CMS & E-commerce</h4>
@@ -360,7 +373,7 @@
                                     </div>
                                     <div class="service-menu-inner-box">
                                         <div class="service-menu-image-div mb-3">
-                                            <img src="image/Service-inner-menu-image-4.svg" alt="qa">
+                                            <img src="{{ asset('image/Service-inner-menu-image-4.svg')}}" alt="qa">
                                         </div>
                                         <div class="service-menu-right-content-div">
                                             <h4 class="">QA & Testing</h4>
@@ -376,7 +389,8 @@
                                     </div>
                                     <div class="service-menu-inner-box">
                                         <div class="service-menu-image-div mb-3">
-                                            <img src="image/Service-inner-menu-image-5.svg" alt="Otherservices">
+                                            <img src="{{ asset('image/Service-inner-menu-image-5.svg')}}"
+                                                alt="Otherservices">
                                         </div>
                                         <div class="service-menu-right-content-div">
                                             <h4 class="">Other Services</h4>
@@ -407,7 +421,8 @@
                                         class="bottom-centent d-flex align-items-center justify-content-between flex-wrap-wrap">
                                         <div class="row w-100">
                                             <div class="bottom-image">
-                                                <img src="image/Services-menu-bottom-image.svg" alt="service bottom">
+                                                <img src="{{ asset('image/Services-menu-bottom-image.svg')}}"
+                                                    alt="service bottom">
                                             </div>
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
@@ -425,7 +440,8 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border ">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Service-inner-menu-image-1.svg" alt="mobiledevelopment">
+                                            <img src="{{ asset('image/Service-inner-menu-image-1.svg')}}"
+                                                alt="mobiledevelopment">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <h4>Mobile App Development</h4>
@@ -461,7 +477,8 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Service-inner-menu-image-2.svg" alt="webdevelopment">
+                                            <img src="{{ asset('image/Service-inner-menu-image-2.svg')}}"
+                                                alt="webdevelopment">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <h4>Web Development</h4>
@@ -505,7 +522,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Service-inner-menu-image-3.svg" alt="cms">
+                                            <img src="{{ asset('image/Service-inner-menu-image-3.svg')}}" alt="cms">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <h4>CMS & E-commerce</h4>
@@ -533,7 +550,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Service-inner-menu-image-4.svg" alt="qa">
+                                            <img src="{{ asset('image/Service-inner-menu-image-4.svg')}}" alt="qa">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <h4>QA & Testing</h4>
@@ -550,7 +567,7 @@
                                 <div class="col-12 col-lg-6 col-md-6  dp-text">
                                     <div class="d-flex mobile-menu-border">
                                         <div class="mobile-left-image-div">
-                                            <img src="image/Service-inner-menu-image-5.svg" alt="other">
+                                            <img src="{{ asset('image/Service-inner-menu-image-5.svg')}}" alt="other">
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <h4>Other Services</h4>
@@ -619,25 +636,27 @@
                                                 </div>
                                                 <div class="mt-3 row">
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="rsd_portfoli" class="p-0"><img src="image/RSD-1.jpg"
-                                                                alt="portfolio">
+                                                        <a href="rsd_portfoli" class="p-0"><img
+                                                                src="{{ asset('image/RSD-1.jpg')}}" alt="portfolio">
                                                             <h5>RSD</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img src="image/rapidparty.jpg"
+                                                        <a href="" class="p-0"><img
+                                                                src="{{ asset('image/rapidparty.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img src="image/reshyne_1.jpg"
-                                                                alt="portfolio">
+                                                        <a href="" class="p-0"><img
+                                                                src="{{ asset('image/reshyne_1.jpg')}}" alt="portfolio">
                                                             <h5>Reshyne</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img src="image/skilled_trade_exam.jpg"
+                                                        <a href="" class="p-0"><img
+                                                                src="{{ asset('image/skilled_trade_exam.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Skilled trade exam</h5>
                                                         </a>
@@ -656,7 +675,8 @@
                                             <div class="our-work-blog-list mt-3">
                                                 <div class="our-work-blog-list-row">
                                                     <div class="our-work-blog-list-row-image">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="blog">
                                                     </div>
                                                     <div class="our-work-blog-list-row-content">
                                                         <a class="title" href="">
@@ -669,7 +689,8 @@
                                                 </div>
                                                 <div class="our-work-blog-list-row">
                                                     <div class="our-work-blog-list-row-image">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="blog">
                                                     </div>
                                                     <div class="our-work-blog-list-row-content">
                                                         <a class="title" href="">
@@ -682,7 +703,8 @@
                                                 </div>
                                                 <div class="our-work-blog-list-row">
                                                     <div class="our-work-blog-list-row-image">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="blog">
                                                     </div>
                                                     <div class="our-work-blog-list-row-content">
                                                         <a class="title" href="">
@@ -705,7 +727,8 @@
                                         <div class="row w-100">
 
                                             <div class="bottom-image">
-                                                <img src="image/Services-menu-bottom-image.svg" alt="service bottom">
+                                                <img src="{{ asset('image/Services-menu-bottom-image.svg')}}"
+                                                    alt="service bottom">
                                             </div>
 
                                             <div class="bottom-text p-0">
@@ -762,21 +785,25 @@
                                             <ul class="sub-inner-list our-work-portfolio-boxes-mian">
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="portfolio">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="portfolio">
                                                         <a class="" href="">Clubify</a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="portfolio">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="portfolio">
                                                         <a class="" href="">RSD</a>
                                                     </div>
                                                 </li>
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="portfolio">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="portfolio">
                                                         <a class="" href="">Rapidparty</a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="image/Demo-portfolio-small.svg" alt="portfolio">
+                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                            alt="portfolio">
                                                         <a class="" href="">Dotima</a>
                                                     </div>
                                                 </li>
@@ -797,7 +824,8 @@
                                                 <li class="our-work-blog-list flex-wrap">
                                                     <div class="our-work-blog-list-row">
                                                         <div class="our-work-blog-list-row-image">
-                                                            <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                            <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                                alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
                                                             <a class="title" href="">
@@ -810,7 +838,8 @@
                                                     </div>
                                                     <div class="our-work-blog-list-row">
                                                         <div class="our-work-blog-list-row-image">
-                                                            <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                            <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                                alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
                                                             <a class="title" href="">
@@ -823,7 +852,8 @@
                                                     </div>
                                                     <div class="our-work-blog-list-row">
                                                         <div class="our-work-blog-list-row-image">
-                                                            <img src="image/Demo-portfolio-small.svg" alt="blog">
+                                                            <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
+                                                                alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
                                                             <a class="title" href="">

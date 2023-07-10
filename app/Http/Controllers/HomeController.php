@@ -21,6 +21,15 @@ class HomeController extends Controller
         ];
         return view('about-us')->with($data);
     }
+    public function contact_us()
+    {
+        $data = [
+            'title' => 'Contact Us | Web & Mobile App Development Company | Plutus',
+        ];
+        return view('contact-us')->with($data);
+    }
+
+    
 
     public function inquiryform(){
         if($_POST["page"] === 'contactForm' && $_POST["name"] !== '' && $_POST["email"] !== '' && $_POST["phone"] !== '' && $_POST["subject"] !== '' && $_POST["msg"] !== '' && $_POST["g-recaptcha-response"] !== ''){

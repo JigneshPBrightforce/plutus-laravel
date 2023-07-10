@@ -47,14 +47,14 @@
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
                 <div class="text-center text-lg-end">
-                    <img class="vission-mission" src="image/mission.svg" alt="">
+                    <img class="vission-mission" src="{{ asset('image/mission.svg')}}" alt="">
                 </div>
             </div>
         </div>
         <div class="row mission-row aos-init" data-aos="fade-up" data-aos-delay="600">
             <div class="col-lg-4 order-1 order-lg-1">
                 <div class="text-center text-lg-start">
-                    <img class="vission-mission" src="image/Vission.svg" alt="">
+                    <img class="vission-mission" src="{{ asset('image/Vission.svg')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-8 order-2 order-lg-1">
@@ -75,7 +75,7 @@
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="what-makes-different-image">
-            <img class="img-fluid" src="image/makes-us-different.svg" alt="">
+            <img class="img-fluid" src="{{ asset('image/makes-us-different.svg')}}" alt="">
         </div>
     </div>
 </div>
@@ -171,7 +171,7 @@
                             not about its promises, global recognitions or testimonials. With utter respect, we
                             embrace the diversity of thought, cultures, and of people. Nothing feels better than
                             getting inspired by the mentors and their success stories. Yes, IndiaNIC is
-                            compassionate for its priceless assets, the employees. Humans work here, not robots!!
+                            compassionate for its priceless asses, the employees. Humans work here, not robots!!
                         </p>
                     </div>
                 </div>

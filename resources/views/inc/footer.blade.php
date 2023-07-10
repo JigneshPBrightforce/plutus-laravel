@@ -38,7 +38,7 @@
     <div class=" container space">
         <div class="row">
             <div class="col-md-6 col-lg-3 f-abt footer-logo">
-                <img class="" src="image/logo-white.png" alt="logo">
+                <img class="" src="{{ asset('image/logo-white.png')}}" alt="logo">
                 <p class="c-txt pt-4 pb-3">Plutus Technologies Pvt. Ltd is one of the most versatile
                     web & mobile application development company with
                     headquarter in India & clients across the globe.</p>
@@ -155,5 +155,5 @@
 document.getElementById('currentYear').innerHTML = new Date().getFullYear();
 </script>
 <a class="w-app-call" target="_blank" href="https://wa.me/+917948000107?text=Hi">
-    <img src="image/whatsapp.png" alt="whatsapp call">
+    <img src="{{ asset('image/whatsapp.png')}}" alt="whatsapp call">
 </a>

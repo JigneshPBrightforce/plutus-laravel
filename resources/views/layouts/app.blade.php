@@ -14,7 +14,7 @@
     <link rel="icon" type="image/x-icon" href="{{asset('image/Plutus-logo(fevicon).ico')}}" />
     <title>{{$title}}</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,9 +23,9 @@
     @stack('extra-css')
 
     <!-- Fix Js -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/aos.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
 
 </head>
 

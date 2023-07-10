@@ -38,11 +38,10 @@ Route::get('/softwaretesting-development', 'HomeController@softwaretesting-devel
 Route::get('/uiux-development', 'HomeController@uiux-development');
 Route::get('/digital-marketing-development', 'HomeController@digital-marketing-development');
 Route::get('/customer-support-maintenance', 'HomeController@customer-support-maintenance');
-Route::get('/contact-us', 'HomeController@contact-us');
 Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/rsd_portfolio', 'HomeController@rsd_portfolio');
 Route::get('/blog', 'HomeController@blog');
-Route::get('/contact-us', 'HomeController@contact-us');
+Route::get('/contact-us', 'HomeController@contact_us');
 Route::get('/hire-php-developers', 'HomeController@hire-php-developers');
 Route::get('/hire-android-app-developer', 'HomeController@hire-android-app-developer');
 Route::get('/hire-ios-app-developer', 'HomeController@hire-ios-app-developer');
