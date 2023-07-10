@@ -26,7 +26,12 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            whoami
+            ls -al
+            ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY@$HOST_DNS 'sudo chmod -R 777 /var/www/html/laravel/storage/'
           
-      - name: Assign Permissions
-        run: |
-          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod -R 777 laravel/storage/'
+         
