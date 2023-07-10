@@ -9,13 +9,17 @@ class HomeController extends Controller
 {
     public function index()
     {
-
         $data = [
             'title' => 'Custom Software Development Company in India | Plutustec',
         ];
-        // $pageName = 'sales';
-        
         return view('welcome')->with($data);
+    }
+    public function aboutus()
+    {
+        $data = [
+            'title' => 'Custom Software Development Company in USA, India.',
+        ];
+        return view('about-us')->with($data);
     }
 
     public function inquiryform(){
