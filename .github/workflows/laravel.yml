@@ -29,4 +29,4 @@ jobs:
           
       - name: Assign Permissions
         run: |
-          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod 777 -R /var/www/html/laravel/'
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'sudo chmod -R 777 /var/www/html/laravel'
