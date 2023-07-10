@@ -60,27 +60,27 @@
                 <h2 class="f-h pb-4">Quick Links</h2>
                 <ul>
                     <li>
-                        <a href="aboutus.html" class="f-t">
+                        <a href="aboutus" class="f-t">
                             About Us
                         </a>
                     </li>
                     <li>
-                        <a href="services.html" class="f-t">
+                        <a href="services" class="f-t">
                             Services
                         </a>
                     </li>
                     <li>
-                        <a href="portfolio.html" class="f-t">
+                        <a href="portfolio" class="f-t">
                             Portfolio
                         </a>
                     </li>
                     <li>
-                        <a href="career.html" class="f-t">
+                        <a href="career" class="f-t">
                             Careers
                         </a>
                     </li>
                     <li>
-                        <a href="contact-us.html" class="f-t">
+                        <a href="contact-us" class="f-t">
                             Contact Us
                         </a>
                     </li>
@@ -90,32 +90,32 @@
                 <h2 class="f-h pb-4">Hire Resources</h2>
                 <ul>
                     <li>
-                        <a href="hire-php-developers.html" class="f-t">
+                        <a href="hire-php-developers" class="f-t">
                             Hire PHP Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-android-app-developer.html" class="f-t ">
+                        <a href="hire-android-app-developer" class="f-t ">
                             Hire Android App Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-ios-app-developer.html" class="f-t">
+                        <a href="hire-ios-app-developer" class="f-t">
                             Hire iOS App Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-wordpress-developer.html" class="f-t">
+                        <a href="hire-wordpress-developer" class="f-t">
                             Hire Wordpress Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-magento-app-developer.html" class="f-t">
+                        <a href="hire-magento-app-developer" class="f-t">
                             Hire Magento Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-uiux-designer.html" class="f-t">
+                        <a href="hire-uiux-designer" class="f-t">
                             Hire UI/UX Designer
                         </a>
                     </li>

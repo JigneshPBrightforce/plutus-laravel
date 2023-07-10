@@ -5,10 +5,6 @@
 // });  
 // Case Study Slider
 
-$("#headerDiv").load("header.php");
-$("#includedContent").load("inquiryform.html");
-$("#footerDiv").load("footer.html");
-$("#careerFormDiv").load("career-form.html");
 $('.case-study-slider').slick({
     dots: false,
     arrow: false,

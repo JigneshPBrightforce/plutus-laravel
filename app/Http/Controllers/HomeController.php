@@ -12,7 +12,6 @@ class HomeController extends Controller
 
         $data = [
             'title' => 'Custom Software Development Company in India | Plutustec',
-            'page_name' => 'sales'            
         ];
         // $pageName = 'sales';
         

@@ -759,7 +759,7 @@
             </div>
         </div>
         <div class="button-box aos-init" data-aos="fade-up" data-aos-delay="900">
-            <a class="btn-orange" aria-label="View All" href="portfolio.html">View All</a>
+            <a class="btn-orange" aria-label="View All" href="portfolio">View All</a>
         </div>
     </div>
 </section>
@@ -808,7 +808,7 @@
         </div>
         <!-- Jugaad Video Modal Popup -->
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="Let's Work Together" href="contact-us.html">Let's Work Together</a>
+            <a class="btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work Together</a>
         </div>
     </div>
 </section>
@@ -942,7 +942,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details.html"
+                            <a href="blog-details"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-in-business-transforming-banner.webp"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -951,7 +951,7 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details.html" aria-label="More from our Blog">How AI is transforming the
+                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -960,14 +960,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details.html" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-the-impact-of-ai-on-customer-banner1.webp"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details.html" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -975,14 +975,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details.html" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-myths-vs-reality-banner.webp"
                                     alt="ai" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details.html" aria-label="More from our Blog">Artificial Intelligence
+                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
@@ -990,7 +990,7 @@
             </div>
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog.html">More From
+            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>

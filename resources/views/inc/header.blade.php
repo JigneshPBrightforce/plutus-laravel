@@ -83,7 +83,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="image/about-us.svg" alt="aboutus">
                                             <a class="dropdown-item <?php echo preg_match("(aboutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="aboutus.html">About Us</a>
+                                                href="aboutus">About Us</a>
                                         </div>
                                         <hr>
                                         <p>We understand your business
@@ -93,7 +93,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="image/Engagement-Model.svg" alt="engagement-models">
                                             <a class="dropdown-item <?php echo preg_match("(engagement)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="engagement-models.html">Engagement
+                                                href="engagement-models">Engagement
                                                 Model</a>
                                         </div>
                                         <hr>
@@ -104,7 +104,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="image/client-confidentiality.svg" alt="client-confidentiality">
                                             <a class="dropdown-item <?php echo preg_match("(client)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="client-confidentiality.html">Client
+                                                href="client-confidentiality">Client
                                                 Confidentiality</a>
                                         </div>
                                         <hr>
@@ -115,7 +115,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="image/life-plutus.svg" alt="life-at-plutus">
                                             <a class="dropdown-item <?php echo preg_match("(life-at-plutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="life-at-plutus.html">Life@Plutus</a>
+                                                href="life-at-plutus">Life@Plutus</a>
                                         </div>
                                         <hr>
                                         <p>We understand your business
@@ -192,7 +192,7 @@
                                             <img src="image/about-us.svg" alt="aboutus">
                                         </div>
                                         <div class="mobile-right-content-div">
-                                            <a class="dropdown-item mobile-inner-title-menu" href="aboutus.html">About
+                                            <a class="dropdown-item mobile-inner-title-menu" href="aboutus">About
                                                 Us</a>
                                             <p>We understand your business
                                                 requirements are unique.
@@ -207,7 +207,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
-                                                href="engagement-models.html">Engagement Model</a>
+                                                href="engagement-models">Engagement Model</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -221,7 +221,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
-                                                href="client-confidentiality.html">Client Confidentiality</a>
+                                                href="client-confidentiality">Client Confidentiality</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -235,7 +235,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="dropdown-item mobile-inner-title-menu"
-                                                href="life-at-plutus.html">Life@Plutus</a>
+                                                href="life-at-plutus">Life@Plutus</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -248,7 +248,7 @@
                 </li>
                 <li
                     class="services-menu <?php echo preg_match("(services|development|maintenance)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='services.html' class="main-tag">Services</a>
+                    <a href='services' class="main-tag">Services</a>
                     <ul>
                         <li class="bg-white h-auto services-mobile-row-hine heading-t">
                             <div class="container">
@@ -263,26 +263,26 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ios-development.html">iOS App Development</a>
+                                                        href="ios-development">iOS App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="android-development.html">Android App
+                                                        href="android-development">Android App
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ionic-development.html">Ionic App
+                                                        href="ionic-development">Ionic App
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(react-native)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="react-native-development.html">React Native
+                                                        href="react-native-development">React Native
                                                         App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="flutter-development.html">Flutter App
+                                                        href="flutter-development">Flutter App
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -298,36 +298,36 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="php-development.html">PHP Development</a>
+                                                        href="php-development">PHP Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="nodejs-development.html">Node.js
+                                                        href="nodejs-development">Node.js
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="angularjs-development.html">AngularJS
+                                                        href="angularjs-development">AngularJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="reactjs-development.html">ReactJS
+                                                        href="reactjs-development">ReactJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="fullstack-development.html">Fullstack
+                                                        href="fullstack-development">Fullstack
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="python-development.html">Python
+                                                        href="python-development">Python
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(aspnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="aspnet-development.html">.NET Development</a>
+                                                        href="aspnet-development">.NET Development</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -342,17 +342,17 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="WordPress-development.html">WordPress
+                                                        href="WordPress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="drupal-development.html">Drupal
+                                                        href="drupal-development">Drupal
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="magento-development.html">Magento
+                                                        href="magento-development">Magento
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -368,7 +368,7 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(softwaretesting)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="softwaretesting-development.html">Software
+                                                        href="softwaretesting-development">Software
                                                         Testing</a>
                                                 </li>
                                             </ul>
@@ -384,16 +384,16 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="uiux-development.html">UI/UX Design</a>
+                                                        href="uiux-development">UI/UX Design</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="digital-marketing-development.html">Digital
+                                                        href="digital-marketing-development">Digital
                                                         Marketing</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(customer)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="customer-support-maintenance.html">Support &
+                                                        href="customer-support-maintenance">Support &
                                                         Maintenance</a>
                                                 </li>
                                             </ul>
@@ -412,7 +412,7 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="btn btn-white" href="contact-us.html">Contact Us</a>
+                                                    <a class="btn btn-white" href="contact-us">Contact Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -432,26 +432,26 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ios-development.html">iOS App Development</a>
+                                                        href="ios-development">iOS App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="android-development.html">Android App
+                                                        href="android-development">Android App
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ionic-development.html">Ionic App
+                                                        href="ionic-development">Ionic App
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(react)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="react-native-development.html">React Native
+                                                        href="react-native-development">React Native
                                                         App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="flutter-development.html">Flutter App
+                                                        href="flutter-development">Flutter App
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -468,35 +468,35 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="php-development.html">PHP Development</a>
+                                                        href="php-development">PHP Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="nodejs-development.html">Node.js Development</a>
+                                                        href="nodejs-development">Node.js Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="angularjs-development.html">AngularJS
+                                                        href="angularjs-development">AngularJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="reactjs-development.html">ReactJS
+                                                        href="reactjs-development">ReactJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="fullstack-development.html">Fullstack
+                                                        href="fullstack-development">Fullstack
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="python-development.html">Python
+                                                        href="python-development">Python
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(aspnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="aspnet-development.html">.NET Development</a>
+                                                        href="aspnet-development">.NET Development</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -512,17 +512,17 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="WordPress-development.html">WordPress
+                                                        href="WordPress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="drupal-development.html">Drupal
+                                                        href="drupal-development">Drupal
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="magento-development.html">Magento
+                                                        href="magento-development">Magento
                                                         Development</a>
                                                 </li>
 
@@ -540,7 +540,7 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(softwaretesting)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="softwaretesting-development.html">Software
+                                                        href="softwaretesting-development">Software
                                                         Testing</a>
                                                 </li>
                                             </ul>
@@ -557,16 +557,16 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="uiux-development.html">UI/UX Design</a>
+                                                        href="uiux-development">UI/UX Design</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="digital-marketing-development.html">Digital
+                                                        href="digital-marketing-development">Digital
                                                         Marketing</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(customer)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="customer-support-maintenance.html">Support &
+                                                        href="customer-support-maintenance">Support &
                                                         Maintenance</a>
                                                 </li>
                                             </ul>
@@ -615,12 +615,12 @@
                                                 <div
                                                     class="d-flex justify-content-between align-items-center w-100 portfolio-head">
                                                     <h4>Portfolio</h4>
-                                                    <a class="" href="portfolio.html">See all</a>
+                                                    <a class="" href="portfolio">See all</a>
                                                 </div>
                                                 <div class="mt-3 row">
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="rsd_portfoli.html" class="p-0"><img
-                                                                src="image/RSD-1.jpg" alt="portfolio">
+                                                        <a href="rsd_portfoli" class="p-0"><img src="image/RSD-1.jpg"
+                                                                alt="portfolio">
                                                             <h5>RSD</h5>
                                                         </a>
                                                     </div>
@@ -651,7 +651,7 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Blog</h4>
-                                                <a class="" href="blog.html">See all</a>
+                                                <a class="" href="blog">See all</a>
                                             </div>
                                             <div class="our-work-blog-list mt-3">
                                                 <div class="our-work-blog-list-row">
@@ -711,7 +711,7 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="btn btn-white" href="contact-us.html">Contact Us</a>
+                                                    <a class="btn btn-white" href="contact-us">Contact Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -756,9 +756,9 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center w-100 portfolio-head">
                                                 <h4>Portfolio</h4>
-                                                <a class="" href="portfolio.html">See all</a>
+                                                <a class="" href="portfolio">See all</a>
                                             </div>
-                                            <!-- <a class="dropdown-item" href="portfolio.html">Portfolio</a> -->
+                                            <!-- <a class="dropdown-item" href="portfolio">Portfolio</a> -->
                                             <ul class="sub-inner-list our-work-portfolio-boxes-mian">
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
@@ -790,9 +790,9 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Blog</h4>
-                                                <a class="" href="blog.html">See all</a>
+                                                <a class="" href="blog">See all</a>
                                             </div>
-                                            <!-- <a class="dropdown-item" href="blog.html">Blog</a> -->
+                                            <!-- <a class="dropdown-item" href="blog">Blog</a> -->
                                             <ul class="sub-inner-list blog-list-main">
                                                 <li class="our-work-blog-list flex-wrap">
                                                     <div class="our-work-blog-list-row">
@@ -844,7 +844,7 @@
                     </ul>
                 </li>
                 <li class="<?php echo strpos($filename, 'career') !== false ? 'active' : ''; ?>">
-                    <a href='career.html' class="main-tag">Careers</a>
+                    <a href='career' class="main-tag">Careers</a>
                 </li>
                 <li class="hire-resources-menu <?php echo preg_match("(hire)", $filename) === 1 ? 'active' : ''; ?>">
                     <a href='javascript:void(0)' class="main-tag">Hire Resources</a>
@@ -857,96 +857,96 @@
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-php-developers.html">Hire PHP
+                                                        href="hire-php-developers">Hire PHP
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-android-app-developer.html"> Hire Android
+                                                        href="hire-android-app-developer"> Hire Android
                                                         App Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-ios-app-developer.html">Hire iOS App
+                                                        href="hire-ios-app-developer">Hire iOS App
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-wordpress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-wordpress-developer.html">Hire WordPress
+                                                        href="hire-wordpress-developer">Hire WordPress
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-magento-app-developer.html">Hire Magento
+                                                        href="hire-magento-app-developer">Hire Magento
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-uiux-designer.html">Hire UI/UX
+                                                        href="hire-uiux-designer">Hire UI/UX
                                                         Designer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-ionic-app-developer.html">Hire Ionic App
+                                                        href="hire-ionic-app-developer">Hire Ionic App
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-reactnative-app-developer.html"> Hire React Native
+                                                        href="hire-reactnative-app-developer"> Hire React Native
                                                         App Developer </a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-flutter-app-developer.html">Hire Flutter App
+                                                        href="hire-flutter-app-developer">Hire Flutter App
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-nodejs-developer.html">Hire Node.js Developer</a>
+                                                        href="hire-nodejs-developer">Hire Node.js Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-reactjs-developer.html">Hire RactJS Developer</a>
+                                                        href="hire-reactjs-developer">Hire RactJS Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-angularjs-developer.html">Hire AngularJS
+                                                        href="hire-angularjs-developer">Hire AngularJS
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-fullstack-developer.html">Hire Fullstack
+                                                        href="hire-fullstack-developer">Hire Fullstack
                                                         Developer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-python-developer.html">Hire Python Developer</a>
+                                                        href="hire-python-developer">Hire Python Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-dotnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-dotnet-developer.html"> Hire .NET Developer </a>
+                                                        href="hire-dotnet-developer"> Hire .NET Developer </a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-drupal-developer.html">Hire Drupal Developer</a>
+                                                        href="hire-drupal-developer">Hire Drupal Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-sofwaretester.html">Hire Software Tester</a>
+                                                        href="hire-sofwaretester">Hire Software Tester</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-digitalmarketer.html">Hire Digital Marketer</a>
+                                                        href="hire-digitalmarketer">Hire Digital Marketer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-support-team)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-support-team.html">Hire Support Team</a>
+                                                        href="hire-support-team">Hire Support Team</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -966,7 +966,7 @@
 
                                             <div class="hire-resources-contact-btn">
                                                 <div class="d-flex align-items-center  justify-content-end">
-                                                    <a href="contact-us.html" class="btn btn-white">Contact Us</a>
+                                                    <a href="contact-us" class="btn btn-white">Contact Us</a>
                                                 </div>
 
                                             </div>
@@ -978,71 +978,71 @@
                         <li class="row mobile-row-show heading-t bg-white h-auto">
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="<?php echo preg_match("(hire-php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-php-developers.html">Hire PHP Developer</a>
+                                    href="hire-php-developers">Hire PHP Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-android-app-developer.html"> Hire Android App
+                                    href="hire-android-app-developer"> Hire Android App
                                     Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-ios-app-developer.html">Hire iOS App Developer</a>
+                                    href="hire-ios-app-developer">Hire iOS App Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-wordpress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-wordpress-developer.html">Hire WordPress Developer</a>
+                                    href="hire-wordpress-developer">Hire WordPress Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-magento-app-developer.html">Hire Magento Developer</a>
+                                    href="hire-magento-app-developer">Hire Magento Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-uiux-designer.html">Hire UI/UX Designer</a>
+                                    href="hire-uiux-designer">Hire UI/UX Designer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="<?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-ionic-app-developer.html">Hire Ionic App Developer</a>
+                                    href="hire-ionic-app-developer">Hire Ionic App Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-reactnative-app-developer.html"> Hire React Native App Developer </a>
+                                    href="hire-reactnative-app-developer"> Hire React Native App Developer </a>
 
                                 <a class="<?php echo preg_match("(hire-flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-flutter-app-developer.html">Hire Flutter App Developer</a>
+                                    href="hire-flutter-app-developer">Hire Flutter App Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-nodejs-developer.html">Hire Node.js Developer</a>
+                                    href="hire-nodejs-developer">Hire Node.js Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-reactjs-developer.html">Hire RactJS Developer</a>
+                                    href="hire-reactjs-developer">Hire RactJS Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-angularjs-developer.html">Hire AngularJS Developer</a>
+                                    href="hire-angularjs-developer">Hire AngularJS Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-fullstack-developer.html">Hire Fullstack Developer</a>
+                                    href="hire-fullstack-developer">Hire Fullstack Developer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="<?php echo preg_match("(hire-python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-python-developer.html">Hire Python Developer</a>
+                                    href="hire-python-developer">Hire Python Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-dotnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-dotnet-developer.html"> Hire .NET Developer </a>
+                                    href="hire-dotnet-developer"> Hire .NET Developer </a>
 
                                 <a class="<?php echo preg_match("(hire-drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-drupal-developer.html">Hire Drupal Developer</a>
+                                    href="hire-drupal-developer">Hire Drupal Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-sofwaretester.html">Hire Software Tester</a>
+                                    href="hire-sofwaretester">Hire Software Tester</a>
 
                                 <a class="<?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-digitalmarketer.html">Hire Digital Marketer</a>
+                                    href="hire-digitalmarketer">Hire Digital Marketer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="<?php echo preg_match("(hire-support-team)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-support-team.html">Hire Support Team</a>
+                                    href="hire-support-team">Hire Support Team</a>
                             </div>
                         </li>
                     </ul>
                 </li>
                 <li class="<?php echo preg_match("(contact-us)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='contact-us.html'>Contact Us</a>
+                    <a href='contact-us'>Contact Us</a>
                 </li>
             </ul>
         </nav>
