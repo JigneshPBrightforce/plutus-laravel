@@ -15,14 +15,8 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v1
       
-      - name: Copy .env
-        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
-      
       - name: Install Dependencies
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-      
-      - name: Generate key
-        run: php artisan key:generate
       
       - name: Deploy to my EC2 instance
         uses: easingthemes/ssh-deploy@v2.1.5
@@ -32,8 +26,8 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
-          SCRIPT_AFTER: |
-            sudo chmod -R 777 storage
-            sudo chmod -R 777 bootstrap/cache
-            sudo chmod -R 777 public
+          
+      - name: Assign Permissions
+        run: |
+          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'chmod -R 755 /var/www/html/laravel/storage/'
           
