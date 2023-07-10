@@ -27,10 +27,6 @@ jobs:
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
       
-      - name: list of directory
-        run: |
-          ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'ls -a'
-      
       - name: Assign Permissions
         run: |
           ssh -o StrictHostKeyChecking=no -i $EC2_SSH_KEY $HOST_DNS 'chmod 777 -R /var/www/html/laravel/storage/'
