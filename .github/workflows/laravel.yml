@@ -35,5 +35,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd $TARGET_DIR
-            sudo chmod 777 -R storage/
-            sudo chmod 777 -R bootstrap/
+            sudo chmod 777 -R /var/www/html/laravel/storage/
+            sudo chmod 777 -R /var/www/html/laravel/bootstrap/
