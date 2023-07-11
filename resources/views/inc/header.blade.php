@@ -355,7 +355,7 @@
                                             <ul>
                                                 <li>
                                                     <a class="<?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="WordPress-development">WordPress
+                                                        href="wordpress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>
@@ -529,7 +529,7 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="<?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="WordPress-development">WordPress
+                                                        href="wordpress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>

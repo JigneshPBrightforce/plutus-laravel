@@ -256,7 +256,7 @@
                         <img src="https://msb.plutustec.in/image/pdf.png" width="28"
                             style="display: inline-block;vertical-align: middle;" alt="resume" />
                         @else
-                        <img src="https://msb.plutustec.in/image/employee-friendly-leave-policies.svg" width="28"
+                        <img src="https://msb.plutustec.in/image/doc.png" width="28"
                             style="display: inline-block;vertical-align: middle;" alt="resume" />
                         @endif
                         <a style="margin-left: 5px;color: #000000;text-decoration: none;display: inline-block;vertical-align: middle;"

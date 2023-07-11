@@ -7,6 +7,7 @@ use Mail;
 
 class HomeController extends Controller
 {
+    
     public function index()
     {
         $data = [
@@ -14,12 +15,35 @@ class HomeController extends Controller
         ];
         return view('welcome')->with($data);
     }
+
+    // company menu
     public function aboutus()
     {
         $data = [
             'title' => 'Custom Software Development Company in USA, India.',
         ];
         return view('about-us')->with($data);
+    }
+    public function engagement_models()
+    {
+        $data = [
+            'title' => 'Business Engagement Models | Plutus Technologies Pvt.Ltd.',
+        ];
+        return view('engagement-models')->with($data);
+    }
+    public function client_confidentiality()
+    {
+        $data = [
+            'title' => 'Client Data Confidentiality | Plutus Technologies Pvt.Ltd.',
+        ];
+        return view('client-confidentiality')->with($data);
+    }
+    public function life_at_plutus()
+    {
+        $data = [
+            'title' => 'Life at Plutus Technologies',
+        ];
+        return view('life-at-plutus')->with($data);
     }
     public function contact_us()
     {
@@ -28,6 +52,8 @@ class HomeController extends Controller
         ];
         return view('contact-us')->with($data);
     }
+
+    // career menu
     public function career()
     {
         $data = [
@@ -79,7 +105,128 @@ class HomeController extends Controller
         return view('career.fresher')->with($data);
     }
 
+    // services menu
+    public function services(){
+        $data =[
+            'title' => 'Custom Website and Mobile Application Development Services | Plutus'
+        ];
+        return view('services.index')->with($data);
+    }
 
+    public function ios_development(){
+        $data =[
+            'title' => 'Best iOS App Development Company in India - Plutus Technologies'
+        ];
+        return view('services.ios-development')->with($data);
+    }
+    public function android_development(){
+        $data =[
+            'title' => 'Android App Development Company In India - Plutus Technologies'
+        ];
+        return view('services.android-development')->with($data);
+    }
+    public function ionic_development(){
+        $data =[
+            'title' => 'Ionic App Development Company In India - Plutus Technologies'
+        ];
+        return view('services.ionic-development')->with($data);
+    }
+    public function react_native_development(){
+        $data =[
+            'title' => 'React Native App Development Company India | React Native Application'
+        ];
+        return view('services.react-native-development')->with($data);
+    }
+    public function flutter_development(){
+        $data =[
+            'title' => 'Flutter App Development Company In India - Plutus Technologies'
+        ];
+        return view('services.flutter-development')->with($data);
+    }
+    public function php_development(){
+        $data =[
+            'title' => 'PHP Web Development Company In India, USA - Plutus Technologies'
+        ];
+        return view('services.php-development')->with($data);
+    }
+    public function nodejs_development(){
+        $data =[
+            'title' => 'Node.js Development Company In India, USA - Plutus Technologies'
+        ];
+        return view('services.nodejs-development')->with($data);
+    }
+    public function angularjs_development(){
+        $data =[
+            'title' => 'AngularJS Development Company In India - Plutus Technologies'
+        ];
+        return view('services.angularjs-development')->with($data);
+    }
+    public function reactjs_development(){
+        $data =[
+            'title' => 'ReactJS Development Company | React JS Development Services'
+        ];
+        return view('services.reactjs-development')->with($data);
+    }
+    public function fullstack_development(){
+        $data =[
+            'title' => 'Full Stack Development Company | Full Stack Development Services'
+        ];
+        return view('services.fullstack-development')->with($data);
+    }
+    public function python_development(){
+        $data =[
+            'title' => 'Python Web Development Company in India, USA - Plutus Technologies'
+        ];
+        return view('services.python-development')->with($data);
+    }
+    public function aspnet_development(){
+        $data =[
+            'title' => 'ASP.NET Development Company - Plutus Technologies'
+        ];
+        return view('services.aspnet-development')->with($data);
+    }
+    public function wordpress_development(){
+        $data =[
+            'title' => 'Wordpress Development Company In India & USA - Plutus Technologies'
+        ];
+        return view('services.wordpress-development')->with($data);
+    }
+    public function drupal_development(){
+        $data =[
+            'title' => 'Drupal Development Company | Drupal Web Development Services'
+        ];
+        return view('services.drupal-development')->with($data);
+    }
+    public function magento_development(){
+        $data =[
+            'title' => 'Magento ECommerce Development Company | Custom Magento ECommerce Development Services'
+        ];
+        return view('services.magento-development')->with($data);
+    }
+    public function softwaretesting_development(){
+        $data =[
+            'title' => 'Software Testing Company | QA and Software Testing Services Provider'
+        ];
+        return view('services.softwaretesting-development')->with($data);
+    }
+    public function uiux_development(){
+        $data =[
+            'title' => 'UI/UX Design Company | UI/UX Design Services Company'
+        ];
+        return view('services.uiux-development')->with($data);
+    }
+    public function digital_marketing_development(){
+        $data =[
+            'title' => 'Digital Marketing Company | Digital Marketing Agency | SEO Services'
+        ];
+        return view('services.digital-marketing-development')->with($data);
+    }
+    public function customer_support_maintenance(){
+        $data =[
+            'title' => 'Software Support and Maintenance provider | Plutus Technologies'
+        ];
+        return view('services.customer-support-maintenance')->with($data);
+    }
 
     // send mail when contact us
     public function inquiryform(Request $request){

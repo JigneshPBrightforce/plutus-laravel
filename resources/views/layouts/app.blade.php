@@ -36,10 +36,10 @@
 
     @include('inc.footer')
 
-    @include('inc.scripts')
-
     {{-- extra js for page --}}
     @stack('extra-js-scripts')
+
+    @include('inc.scripts')
 </body>
 
 </html>
