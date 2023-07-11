@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="https://msb.plutustec.in/image/Plutus-logo(fevicon).ico">
+    <link rel="icon" type="image/x-icon" href="{{ asset('image/Plutus-logo(fevicon).ico') }}">
     <style>
     * {
         box-sizing: border-box;
@@ -27,7 +27,7 @@
                       padding: 10px 15px;
                       text-align: center;
                     ">
-                <img src="https://msb.plutustec.in/image/Plutus-logo(new-o).png" style="max-width: 200px; margin: auto"
+                <img src="{{ asset('image/Plutus-logo(new-o).png')}}" style="max-width: 200px; margin: auto"
                     alt="logo" />
             </td>
         </tr>
@@ -37,7 +37,7 @@
                       padding: 15px 15px;
                       text-align: center;
                       vertical-align: middle;
-                      background-image: url('https://msb.plutustec.in/image/mail.png');
+                      background-image: {{ asset('image/mail.png') }}
                       height: 300px;
                       background-size: cover;
                     ">

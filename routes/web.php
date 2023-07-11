@@ -80,3 +80,12 @@ Route::get('/hire-drupal-developer', 'HomeController@hire-drupal-developer');
 Route::get('/hire-sofwaretester', 'HomeController@hire-sofwaretester');
 Route::get('/hire-digitalmarketer', 'HomeController@hire-digitalmarketer');
 Route::get('/hire-support-team', 'HomeController@hire-support-team');
+
+Route::get('/career', 'HomeController@career');
+Route::get('/career-details-fullstack', 'HomeController@career_details_fullstack');
+Route::get('/career-details-flutter', 'HomeController@career_details_flutter');
+Route::get('/career-details-php', 'HomeController@career_details_php');
+Route::get('/career-details-laravel', 'HomeController@career_details_laravel');
+Route::get('/career-details-ios', 'HomeController@career_details_ios');
+Route::get('/career-details-bde', 'HomeController@career_details_bde');
+Route::get('/career-details-fresher', 'HomeController@career_details_fresher');

@@ -91,7 +91,7 @@ $(document).ready(function () {
         
         $("#loaderImg").show();
         // var form = $(this);
-        var actionUrl = 'api.php';
+        var actionUrl = 'inquiryform';
         document.getElementById("submitButton").disabled=true;
 
         $.ajax({

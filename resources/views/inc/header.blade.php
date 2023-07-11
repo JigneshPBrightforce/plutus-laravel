@@ -1,4 +1,4 @@
-<?php $filename = '';?>
+<?php $filename =  request()->route()->uri; ?>
 <header class="fixed-top">
     <div class="top-header">
         <div class="d-flex justify-content-between justify-content-center flex-wrap">
