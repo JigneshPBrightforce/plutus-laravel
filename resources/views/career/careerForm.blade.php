@@ -72,7 +72,7 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <input type="file" class="form-control" name="resume" id="resume" required>
+                <input type="file" class="form-control" name="resume" id="resume" accept=".pdf, .doc, .docx" required>
             </div>
         </div>
     </div>

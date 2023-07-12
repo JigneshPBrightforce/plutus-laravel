@@ -636,7 +636,7 @@
                                                 </div>
                                                 <div class="mt-3 row">
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="rsd_portfoli" class="p-0"><img
+                                                        <a href="rsd_portfolio" class="p-0"><img
                                                                 src="{{ asset('image/RSD-1.jpg')}}" alt="portfolio">
                                                             <h5>RSD</h5>
                                                         </a>
@@ -966,7 +966,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-sofwaretester">Hire Software Tester</a>
+                                                        href="hire-softwaretester">Hire Software Tester</a>
                                                 </li>
                                                 <li>
                                                     <a class="<?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
@@ -1059,7 +1059,7 @@
                                     href="hire-drupal-developer">Hire Drupal Developer</a>
 
                                 <a class="<?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-sofwaretester">Hire Software Tester</a>
+                                    href="hire-softwaretester">Hire Software Tester</a>
 
                                 <a class="<?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="hire-digitalmarketer">Hire Digital Marketer</a>

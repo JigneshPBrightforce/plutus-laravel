@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 Route::post('/inquiryform', 'HomeController@inquiryform');
+Route::get('/contact-us', 'HomeController@contact_us');
 
 // compnay menu
 Route::get('/aboutus', 'HomeController@aboutus');
@@ -44,33 +45,32 @@ Route::get('/uiux-development', 'HomeController@uiux_development');
 Route::get('/digital-marketing-development', 'HomeController@digital_marketing_development');
 Route::get('/customer-support-maintenance', 'HomeController@customer_support_maintenance');
 
-// 
+// portfolio menu
 Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/rsd_portfolio', 'HomeController@rsd_portfolio');
 Route::get('/blog', 'HomeController@blog');
-Route::get('/contact-us', 'HomeController@contact_us');
-
+Route::get('/blog-details', 'HomeController@blog_details');
 
 // hire resource menu
-Route::get('/hire-php-developers', 'HomeController@hire-php-developers');
-Route::get('/hire-android-app-developer', 'HomeController@hire-android-app-developer');
-Route::get('/hire-ios-app-developer', 'HomeController@hire-ios-app-developer');
-Route::get('/hire-wordpress-developer', 'HomeController@hire-wordpress-developer');
-Route::get('/hire-magento-app-developer', 'HomeController@hire-magento-app-developer');
-Route::get('/hire-uiux-designer', 'HomeController@hire-uiux-designer');
-Route::get('/hire-ionic-app-developer', 'HomeController@hire-ionic-app-developer');
-Route::get('/hire-reactnative-app-developer', 'HomeController@hire-reactnative-app-developer');
-Route::get('/hire-flutter-app-developer', 'HomeController@hire-flutter-app-developer');
-Route::get('/hire-nodejs-developer', 'HomeController@hire-nodejs-developer');
-Route::get('/hire-reactjs-developer', 'HomeController@hire-reactjs-developer');
-Route::get('/hire-angularjs-developer', 'HomeController@hire-angularjs-developer');
-Route::get('/hire-fullstack-developer', 'HomeController@hire-fullstack-developer');
-Route::get('/hire-python-developer', 'HomeController@hire-python-developer');
-Route::get('/hire-dotnet-developer', 'HomeController@hire-dotnet-developer');
-Route::get('/hire-drupal-developer', 'HomeController@hire-drupal-developer');
-Route::get('/hire-sofwaretester', 'HomeController@hire-sofwaretester');
-Route::get('/hire-digitalmarketer', 'HomeController@hire-digitalmarketer');
-Route::get('/hire-support-team', 'HomeController@hire-support-team');
+Route::get('/hire-php-developers', 'HomeController@hire_php_developers');
+Route::get('/hire-android-app-developer', 'HomeController@hire_android_app_developer');
+Route::get('/hire-ios-app-developer', 'HomeController@hire_ios_app_developer');
+Route::get('/hire-wordpress-developer', 'HomeController@hire_wordpress_developer');
+Route::get('/hire-magento-app-developer', 'HomeController@hire_magento_app_developer');
+Route::get('/hire-uiux-designer', 'HomeController@hire_uiux_designer');
+Route::get('/hire-ionic-app-developer', 'HomeController@hire_ionic_app_developer');
+Route::get('/hire-reactnative-app-developer', 'HomeController@hire_reactnative_app_developer');
+Route::get('/hire-flutter-app-developer', 'HomeController@hire_flutter_app_developer');
+Route::get('/hire-nodejs-developer', 'HomeController@hire_nodejs_developer');
+Route::get('/hire-reactjs-developer', 'HomeController@hire_reactjs_developer');
+Route::get('/hire-angularjs-developer', 'HomeController@hire_angularjs_developer');
+Route::get('/hire-fullstack-developer', 'HomeController@hire_fullstack_developer');
+Route::get('/hire-python-developer', 'HomeController@hire_python_developer');
+Route::get('/hire-dotnet-developer', 'HomeController@hire_dotnet_developer');
+Route::get('/hire-drupal-developer', 'HomeController@hire_drupal_developer');
+Route::get('/hire-softwaretester', 'HomeController@hire_softwaretester');
+Route::get('/hire-digitalmarketer', 'HomeController@hire_digitalmarketer');
+Route::get('/hire-support-team', 'HomeController@hire_support_team');
 
 // career menu
 Route::get('/career', 'HomeController@career');

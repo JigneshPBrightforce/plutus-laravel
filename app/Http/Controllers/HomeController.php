@@ -228,6 +228,151 @@ class HomeController extends Controller
         return view('services.customer-support-maintenance')->with($data);
     }
 
+    // portfolio menu
+    public function portfolio(){
+        $data = [
+            'title' => 'Custom Software Development Company in India | Plutustec'
+        ];
+        return view('portfolio.index')->with($data);
+    }
+    public function rsd_portfolio(){
+        $data = [
+            'title' => 'Ready Set Dance | Plutustec'
+        ];
+        return view('portfolio.rsd-portfolio')->with($data);
+    }
+    public function blog(){
+        $data = [
+            'title' => 'Blog | Plutustec '
+        ];
+        return view('portfolio.blog')->with($data);
+    }
+    public function blog_details(){
+        $data = [
+            'title' => 'Blog details | Plutustec '
+        ];
+        return view('portfolio.blog-details')->with($data);
+    }
+
+    // hire-resources
+
+    public function hire_php_developers(){
+        $data = [
+            'title' => 'Hire PHP Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-php-developers')->with($data);
+    }
+    public function hire_android_app_developer(){
+        $data = [
+            'title' => 'Hire Android App Developers | Offshore Android App Developers'
+        ];
+        return view('hire_resources.android-app-developer')->with($data);
+    }
+    public function hire_ios_app_developer(){
+        $data = [
+            'title' => 'Hire iOS App Developers | iPhone & iPad App Developers'
+        ];
+        return view('hire_resources.ios-app-developer')->with($data);
+    }
+    public function hire_wordpress_developer(){
+        $data = [
+            'title' => 'Hire Wordpress Developer | Hire Dedicated Wordpress Developer In India'
+        ];
+        return view('hire_resources.hire-wordpress-developer')->with($data);
+    }
+    public function hire_magento_app_developer(){
+        $data = [
+            'title' => 'Hire Magento Developers | Hire Magento 2 Developers'
+        ];
+        return view('hire_resources.magento-app-developer')->with($data);
+    }
+    public function hire_uiux_designer(){
+        $data = [
+            'title' => 'Hire UI/UX Designers | Top UX/UI Designers For Hire'
+        ];
+        return view('hire_resources.hire-uiux-designer')->with($data);
+    }
+    public function hire_ionic_app_developer(){
+        $data = [
+            'title' => 'Hire Ionic App Developers | Offshore Ionic App Developers'
+        ];
+        return view('hire_resources.ionic-app-developer')->with($data);
+    }
+    public function hire_reactnative_app_developer(){
+        $data = [
+            'title' => 'Hire Reactnative App Developers | Offshore Reactnative App Developers'
+        ];
+        return view('hire_resources.reactnative-app-develop')->with($data);
+    }
+    public function hire_flutter_app_developer(){
+        $data = [
+            'title' => 'Hire Flutter App Developers | Offshore Flutter App Developers'
+        ];
+        return view('hire_resources.flutter-app-developer')->with($data);
+    }
+    public function hire_nodejs_developer(){
+        $data = [
+            'title' => 'Hire Node.js Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-nodejs-developer')->with($data);
+    }
+    public function hire_reactjs_developer(){
+        $data = [
+            'title' => 'Hire ReactJS Developers | Offshore Android App Developers'
+        ];
+        return view('hire_resources.hire-reactjs-developer')->with($data);
+    }
+    public function hire_angularjs_developer(){
+        $data = [
+            'title' => 'Hire AngularJS Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-angularjs-developer')->with($data);
+    }
+    public function hire_fullstack_developer(){
+        $data = [
+            'title' => 'Hire Fullstack Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-fullstack-developer')->with($data);
+    }
+    public function hire_python_developer(){
+        $data = [
+            'title' => 'Hire Python Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-python-developer')->with($data);
+    }
+    public function hire_dotnet_developer(){
+        $data = [
+            'title' => 'Hire .NET Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-dotnet-developer')->with($data);
+    }
+    public function hire_drupal_developer(){
+        $data = [
+            'title' => 'Hire Drupal Developer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-drupal-developer')->with($data);
+    }
+    public function hire_softwaretester(){
+        $data = [
+            'title' => 'Hire Software Tester in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire_softwaretester')->with($data);
+    }
+    public function hire_digitalmarketer(){
+        $data = [
+            'title' => 'Hire Digital Marketer in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire_digitalmarketer')->with($data);
+    }
+    public function hire_support_team(){
+        $data = [
+            'title' => 'Hire Support Team in India - Plutus Technologies'
+        ];
+        return view('hire_resources.hire-support-team')->with($data);
+    }
+    
+    
+
     // send mail when contact us
     public function inquiryform(Request $request){
         if($_POST["page"] === 'contactForm' && $_POST["name"] !== '' && $_POST["email"] !== '' && $_POST["phone"] !== '' && $_POST["subject"] !== '' && $_POST["msg"] !== '' && $_POST["g-recaptcha-response"] !== ''){
@@ -287,6 +432,51 @@ class HomeController extends Controller
                 \Mail::send('emails.careerform', $data, function ($message) use($data, $file){    
                     $message->from($data['email']);
                     $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is applying for job.');
+            
+                    $message->attach($file->getRealPath(), array(
+                        'as' => $file->getClientOriginalName(), // If you want you can chnage original name to custom name      
+                        'mime' => $file->getMimeType())
+                    );
+            
+                });
+
+                $response = ['success' => 1, 'message' => 'Email sent successfully.', 'error' => null];
+                echo json_encode($response);            
+            }
+        }else  if($_POST["page"] === 'hiredevelopers' && $_POST['firstName'] !== '' && $_POST['lastName'] !== '' && $_POST['phone'] !== '' && $_POST['email'] !== '' && $_POST['technology'] !== '' && $_POST['budget'] !== '' && $_POST['msg'] !== '' && $_FILES['doc'] !== ''){
+            
+            $uploadOk = 1;
+            $target_file = basename($_FILES["doc"]["name"]);
+            $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+            // Check file size
+            if ($_FILES["doc"]["size"] > 2000000) {
+                $uploadOk = 0;
+                $response = ['success' => false, 'message' => "Sorry, your file is too large.", 'error' => $_FILES["doc"]["size"] ];
+                echo json_encode($response);
+            }
+            // Allow certain file formats .pdf, .doc, .docx            
+            if($imageFileType != "doc" && $imageFileType != "docx" && $imageFileType != "pdf" ) {
+                $uploadOk = 0;
+                $response = ['success' => false, 'message' => "Sorry, only DOC, PDF files are allowed.", 'error' => $imageFileType];
+                echo json_encode($response);
+            }
+
+            if($uploadOk === 1){
+                $data = array(
+                    'firstName'=>$_POST['firstName'],
+                    'lastName'=>$_POST['lastName'],
+                    'phone'=>$_POST['phone'],
+                    'email'=>$_POST['email'],
+                    'technology'=>$_POST['technology'],
+                    'budget'=>$_POST['budget'],
+                    'msg'=>$_POST['msg'],                    
+                    'doc' => $_FILES["doc"]["name"],
+                    'file_type' =>$imageFileType
+                );
+                $file = $request->file('doc');
+                \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file){    
+                    $message->from($data['email']);
+                    $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is hirinf developer.');
             
                     $message->attach($file->getRealPath(), array(
                         'as' => $file->getClientOriginalName(), // If you want you can chnage original name to custom name      

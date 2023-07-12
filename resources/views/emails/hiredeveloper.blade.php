@@ -50,7 +50,7 @@
                         text-align: center;
                         margin: auto;
                       ">
-                    Customer email details
+                    Customer project details
                 </h4>
             </td>
         </tr>
@@ -80,7 +80,7 @@
                           line-height: 28px;
                           margin: 0px;
                         ">
-                        {{ $name }}
+                        {{ $firstName .' '. $lastName }}
                     </h4>
                 </div>
                 <div style="margin-bottom: 24px">
@@ -131,14 +131,14 @@
                           letter-spacing: 0.7px;
                           margin-bottom: 8px;
                           display: block;
-                        ">Subject</label>
+                        ">Technology</label>
                     <h4 style="
                           color: #000000;
                           font-size: 20px;
                           line-height: 28px;
                           margin: 0px;
                         ">
-                        {{ $subject }}
+                        {{ $technology }}
                     </h4>
                 </div>
                 <div style="margin-bottom: 24px">
@@ -150,7 +150,26 @@
                           letter-spacing: 0.7px;
                           margin-bottom: 8px;
                           display: block;
-                        ">Message</label>
+                        ">Budget</label>
+                    <h4 style="
+                          color: #000000;
+                          font-size: 20px;
+                          line-height: 28px;
+                          margin: 0px;
+                        ">
+                        {{ $budget }}
+                    </h4>
+                </div>
+                <div style="margin-bottom: 24px">
+                    <label style="
+                          text-transform: uppercase;
+                          font-size: 14px;
+                          line-height: 18px;
+                          color: #ff6c37;
+                          letter-spacing: 0.7px;
+                          margin-bottom: 8px;
+                          display: block;
+                        ">Product Details</label>
                     <h4 style="
                           color: #000000;
                           font-size: 20px;

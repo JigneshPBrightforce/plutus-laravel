@@ -515,7 +515,7 @@
                     <h2>Hire Software Testing Developer</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="hire-sofwaretester" class="btn btn-primary">Click Here</a>
+                    <a href="hire-softwaretester" class="btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
