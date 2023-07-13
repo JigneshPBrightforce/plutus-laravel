@@ -297,5 +297,6 @@
         </div>
     </div>
 </div>
+@include('hire_developers')
 @include('inquiryform')
 @endsection
