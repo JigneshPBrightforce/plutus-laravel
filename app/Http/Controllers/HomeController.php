@@ -253,6 +253,12 @@ class HomeController extends Controller
         ];
         return view('portfolio.reshyne-portfolio')->with($data);
     }
+    public function skilltrade_portfolio(){
+        $data = [
+            'title' => 'Skill Trade Exam | Plutustec'
+        ];
+        return view('portfolio.skilltrade-portfolio')->with($data);
+    }
     public function blog(){
         $data = [
             'title' => 'Blog | Plutustec '

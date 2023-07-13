@@ -655,7 +655,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img
+                                                        <a href="skilltrade_portfolio" class="p-0"><img
                                                                 src="{{ asset('image/skilled_trade_exam.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Skilled trade exam</h5>
