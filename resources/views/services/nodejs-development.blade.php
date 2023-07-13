@@ -479,7 +479,7 @@
                         <div class="listing-sm-img">
                             <a href="blog-details"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
-                                <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-in-business-transforming-banner.webp"
+                                <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
                                     height="210">
                             </a>
@@ -496,7 +496,7 @@
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
-                                <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-the-impact-of-ai-on-customer-banner1.webp"
+                                <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
@@ -511,7 +511,7 @@
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
-                                <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-myths-vs-reality-banner.webp"
+                                <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp"
                                     alt="ai" width="350" height="210">
                             </a>
                         </div>
@@ -539,27 +539,27 @@
 @push('extra-js-scripts')
 
 <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
-<script src="{{ asset('js/swiper.min.js') }}"></script>
-<script>
-var swiper = new Swiper('.swiper-container.two', {
-    autoplay: {
-        enabled: true,
-        delay: 2000
-    },
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    effect: 'coverflow',
-    loop: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    coverflow: {
-        rotate: 0,
-        stretch: 100,
-        depth: 150,
-        modifier: 1.5,
-        slideShadows: false,
-    }
-});
-</script>
-@endpush
-@endsection
+                                <script src="{{ asset('js/swiper.min.js') }}"></script>
+                                <script>
+                                var swiper = new Swiper('.swiper-container.two', {
+                                    autoplay: {
+                                        enabled: true,
+                                        delay: 2000
+                                    },
+                                    pagination: '.swiper-pagination',
+                                    paginationClickable: true,
+                                    effect: 'coverflow',
+                                    loop: true,
+                                    centeredSlides: true,
+                                    slidesPerView: 'auto',
+                                    coverflow: {
+                                        rotate: 0,
+                                        stretch: 100,
+                                        depth: 150,
+                                        modifier: 1.5,
+                                        slideShadows: false,
+                                    }
+                                });
+                                </script>
+                                @endpush
+                                @endsection

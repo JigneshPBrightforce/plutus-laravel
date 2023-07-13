@@ -55,7 +55,7 @@
                             <div class="listing-sm-img">
                                 <a href="blog-details"
                                     aria-label="How AI is transforming the way businesses operate and compete?">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-in-business-transforming-banner.webp"
+                                    <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp')}}"
                                         alt="AI is transforming the way businesses operate and compete" width="350"
                                         height="210">
                                 </a>
@@ -73,7 +73,7 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-the-impact-of-ai-on-customer-banner1.webp"
+                                    <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp')}}"
                                         alt="The impact of AI on customer service and experience" width="350"
                                         height="210">
                                 </a>
@@ -89,8 +89,8 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-myths-vs-reality-banner.webp"
-                                        alt="" width="350" height="210">
+                                    <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp')}}" alt="" width="350"
+                                        height="210">
                                 </a>
                             </div>
                             <div class="blog-listing-detail">
@@ -105,7 +105,7 @@
                             <div class="listing-sm-img">
                                 <a href="blog-details"
                                     aria-label="How AI is transforming the way businesses operate and compete?">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-in-business-transforming-banner.webp"
+                                    <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp')}}"
                                         alt="AI is transforming the way businesses operate and compete" width="350"
                                         height="210">
                                 </a>
@@ -123,7 +123,7 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-the-impact-of-ai-on-customer-banner1.webp"
+                                    <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp')}}"
                                         alt="The impact of AI on customer service and experience" width="350"
                                         height="210">
                                 </a>
@@ -139,8 +139,8 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-myths-vs-reality-banner.webp"
-                                        alt="" width="350" height="210">
+                                    <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp')}}" alt="" width="350"
+                                        height="210">
                                 </a>
                             </div>
                             <div class="blog-listing-detail">
@@ -155,7 +155,7 @@
                             <div class="listing-sm-img">
                                 <a href="blog-details"
                                     aria-label="How AI is transforming the way businesses operate and compete?">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-in-business-transforming-banner.webp"
+                                    <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp')}}"
                                         alt="AI is transforming the way businesses operate and compete" width="350"
                                         height="210">
                                 </a>
@@ -173,7 +173,7 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-the-impact-of-ai-on-customer-banner1.webp"
+                                    <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp')}}"
                                         alt="The impact of AI on customer service and experience" width="350"
                                         height="210">
                                 </a>
@@ -189,8 +189,8 @@
                         <div class="blog-listing-box">
                             <div class="listing-sm-img">
                                 <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
-                                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2023/03/hm-ai-myths-vs-reality-banner.webp"
-                                        alt="" width="350" height="210">
+                                    <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp')}}" alt="" width="350"
+                                        height="210">
                                 </a>
                             </div>
                             <div class="blog-listing-detail">
