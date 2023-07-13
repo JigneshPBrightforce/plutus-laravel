@@ -259,10 +259,10 @@
 @include('inquiryform')
 
 @push('extra-css')
-<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/lightbox.min.css') }}">
 @endpush
 @push('extra-js-scripts')
-<script src="js/swiper.min.js"></script>
-<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="{{ asset('js/swiper.min.js') }}"></script>
+<script src="{{ asset('js/lightbox-plus-jquery.min.js') }}"></script>
 @endpush
 @endsection

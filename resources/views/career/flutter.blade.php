@@ -34,54 +34,54 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Must have built at least two Android and/or iOS apps with Flutter</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Candidate must have flutter and dart experience</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience of handling location services , notifications ,
                                     video recording , rest APIs , 3rd party integration in flutter</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience in handling user friendly UI based on
                                     requirements in flutter</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Knowledge and understanding of Fire-base</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Ability to learn and adapt as per the requirement and
                                     ready to face new challenges.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Have published one or more mobile apps in Google Play
                                     or App Store.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Working knowledge of the general mobile landscape, architectures,
                                     trends, and emerging technologies.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Solid understanding of the full mobile development life cycle,
                                     including automated testing and building.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Be proficient in using version control and continuous integration,
                                     with tools such as Git and Jenkins.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good communication skills in English.</span>
                             </li>
                         </ul>
@@ -92,30 +92,30 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Proven software development experience in PHP (any framework)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce,
                                     etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Demonstrable knowledge of web technologies including HTML, CSS, Javascript,
                                     AJAX etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good knowledge of relational databases, version control tools and of
                                     developing web services</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience in common third-party APIs (Google, Facebook, Ebay etc)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Passion for best design and coding practices and a desire to develop new bold
                                     ideas</span>
                             </li>

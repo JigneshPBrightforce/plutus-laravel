@@ -34,40 +34,40 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Bachelor’s degree in computer science or a similar field.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Knowledge of basic concepts.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Logical reasoning has to be strong.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Knowledge of relevant frameworks.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Understanding of object-oriented programming.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>General idea of code versioning tools including Git,
                                     Mercurial, CVS, and SVN.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Familiarity with SQL/NoSQL databases.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good problem-solving skills.</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Great communication skills-written & verbal.</span>
                             </li>
                         </ul>
@@ -78,30 +78,30 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Proven software development experience in PHP (any framework)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce,
                                     etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Demonstrable knowledge of web technologies including HTML, CSS, Javascript,
                                     AJAX etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good knowledge of relational databases, version control tools and of
                                     developing web services</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience in common third-party APIs (Google, Facebook, Ebay etc)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Passion for best design and coding practices and a desire to develop new bold
                                     ideas</span>
                             </li>

@@ -50,6 +50,9 @@ Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/rsd_portfolio', 'HomeController@rsd_portfolio');
 Route::get('/blog', 'HomeController@blog');
 Route::get('/blog-details', 'HomeController@blog_details');
+Route::get('/rapidparty_portfolio', 'HomeController@rapidparty_portfolio');
+Route::get('/reshyne_portfolio', 'HomeController@reshyne_portfolio');
+
 
 // hire resource menu
 Route::get('/hire-php-developers', 'HomeController@hire_php_developers');

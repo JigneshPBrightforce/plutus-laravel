@@ -241,6 +241,18 @@ class HomeController extends Controller
         ];
         return view('portfolio.rsd-portfolio')->with($data);
     }
+    public function rapidparty_portfolio(){
+        $data = [
+            'title' => 'Rapid party | Plutustec'
+        ];
+        return view('portfolio.rapidparty-portfolio')->with($data);
+    }
+    public function reshyne_portfolio(){
+        $data = [
+            'title' => 'Reshyne | Plutustec'
+        ];
+        return view('portfolio.reshyne-portfolio')->with($data);
+    }
     public function blog(){
         $data = [
             'title' => 'Blog | Plutustec '

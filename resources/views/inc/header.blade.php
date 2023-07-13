@@ -642,14 +642,14 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img
+                                                        <a href="rapidparty_portfolio" class="p-0"><img
                                                                 src="{{ asset('image/rapidparty.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a href="" class="p-0"><img
+                                                        <a href="reshyne_portfolio" class="p-0"><img
                                                                 src="{{ asset('image/reshyne_1.jpg')}}" alt="portfolio">
                                                             <h5>Reshyne</h5>
                                                         </a>

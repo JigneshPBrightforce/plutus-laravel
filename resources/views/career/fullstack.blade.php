@@ -34,43 +34,43 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Must have worked with MongoDB, Express JS, Angular JS/React.JS, Node JS</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Develop micro services using node.js and understanding functional oriented
                                     code</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Configuration of code, rest design guidelines, testing of micro-services using
                                     Postman</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Must have good experience in JavaScript, CSS, HTML5</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Must have worked with Bootstrap/Semantic and jquery</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Should have an understanding of Prototype in JavaScript, Closures and Async
                                     programming that is needed to work on the stack</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Should have good Devops working knowledge of AWS, Azure, Ansible, Jenkins is a
                                     necessity</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Soft Skills: Good problem-solving skills</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good communication skills</span>
                             </li>
                         </ul>
@@ -81,30 +81,30 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Proven software development experience in PHP (any framework)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce,
                                     etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Demonstrable knowledge of web technologies including HTML, CSS, Javascript,
                                     AJAX etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good knowledge of relational databases, version control tools and of
                                     developing web services</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience in common third-party APIs (Google, Facebook, Ebay etc)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Passion for best design and coding practices and a desire to develop new bold
                                     ideas</span>
                             </li>

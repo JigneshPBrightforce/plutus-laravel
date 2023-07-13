@@ -8,7 +8,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-fullstack') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -17,7 +17,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-flutter') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -26,7 +26,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-php') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -35,7 +35,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-laravel') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -44,7 +44,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-ios') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -53,7 +53,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-fresher') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
             <li class="current-opening-list-box">
@@ -62,7 +62,7 @@
                     <p>2 Position</p>
                 </div>
                 <a href="{{ url('career-details-bde') }}">
-                    <img class="" src="image/Right-arrow-icon.svg" alt="right-arrow">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
             </li>
         </ul>

@@ -34,28 +34,28 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Write “clean”, well-designed code</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Produce detailed specifications</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Troubleshoot, test and maintain the core product software and
                                     databases to ensure strong optimization and functionality</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Contribute in all phases of the development life cycle</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Follow industry best practices</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Develop and deploy new features to facilitate related procedures
                                     and tools if necessary</span>
                             </li>
@@ -67,30 +67,30 @@
                     <div class="careers-details-responsibilities-list">
                         <ul>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Proven software development experience in PHP (any framework)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce,
                                     etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Demonstrable knowledge of web technologies including HTML, CSS, Javascript,
                                     AJAX etc</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Good knowledge of relational databases, version control tools and of
                                     developing web services</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Experience in common third-party APIs (Google, Facebook, Ebay etc)</span>
                             </li>
                             <li>
-                                <img src="./image/Orange-write-sign.svg" alt="write-sign">
+                                <img src="{{ asset('image/Orange-write-sign.svg')}}" alt="write-sign">
                                 <span>Passion for best design and coding practices and a desire to develop new bold
                                     ideas</span>
                             </li>

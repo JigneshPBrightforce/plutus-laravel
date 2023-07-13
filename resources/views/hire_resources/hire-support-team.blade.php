@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-5 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="image/hire-support-team.svg" class="w-100" alt="hire-php">
+                    <img src="{{ asset('image/hire-support-team.svg')}}" class="w-100" alt="hire-php">
                 </div>
             </div>
         </div>
@@ -67,25 +67,25 @@
         <div class="row">
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="image/Flutter-logo.svg" alt="slide 1">
+                    <img src="{{ asset('image/Flutter-logo.svg')}}" alt="slide 1">
                     <h3>Flutter</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="image/Kotlin-logo.svg" alt="slide 1">
+                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
                     <h3>Kotlin</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="image/Ionic-logo.svg" alt="slide 1">
+                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
                     <h3>Ionic</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
-                    <img src="image/Java-logo.svg" alt="slide 1">
+                    <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
                     <h3>Java</h3>
                 </div>
             </div>
@@ -101,55 +101,55 @@
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="image/Healthcare.svg" alt="slide 1">
+                    <img src="{{ asset('image/Healthcare.svg')}}" alt="slide 1">
                     <h3>Healthcare</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="image/Social.svg" alt="slide 1">
+                    <img src="{{ asset('image/Social.svg')}}" alt="slide 1">
                     <h3>Social</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="image/Education.svg" alt="slide 1">
+                    <img src="{{ asset('image/Education.svg')}}" alt="slide 1">
                     <h3>Education</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
-                    <img src="image/Music.svg" alt="slide 1">
+                    <img src="{{ asset('image/Music.svg')}}" alt="slide 1">
                     <h3>Music</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="600">
                 <div class="industry-box">
-                    <img src="image/Travel.svg" alt="slide 1">
+                    <img src="{{ asset('image/Travel.svg')}}" alt="slide 1">
                     <h3>Travel</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="700">
                 <div class="industry-box">
-                    <img src="image/Shopping.svg" alt="slide 1">
+                    <img src="{{ asset('image/Shopping.svg')}}" alt="slide 1">
                     <h3>Shopping</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="800">
                 <div class="industry-box">
-                    <img src="image/Food.svg" alt="slide 1">
+                    <img src="{{ asset('image/Food.svg')}}" alt="slide 1">
                     <h3>Food</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="900">
                 <div class="industry-box">
-                    <img src="image/Sport.svg" alt="slide 1">
+                    <img src="{{ asset('image/Sport.svg')}}" alt="slide 1">
                     <h3>Sport</h3>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="1000">
                 <div class="industry-box">
-                    <img src="image/Finance.svg" alt="slide 1">
+                    <img src="{{ asset('image/Finance.svg')}}" alt="slide 1">
                     <h3>Finance</h3>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="image/Hire-php.svg" class="" alt="hire_php1">
+                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
                         <h5>Custom PHP Development</h5>
@@ -202,7 +202,7 @@
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="image/Hire-php.svg" class="" alt="hire_php2">
+                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
                         <h5>Mobile App Development</h5>
@@ -214,7 +214,7 @@
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="image/Hire-php.svg" class="" alt="hire_php3">
+                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
                         <h5>Bespoke CMS Development</h5>
@@ -226,7 +226,7 @@
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="image/Hire-php.svg" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
                         <h5>PHP Website Development</h5>
@@ -240,7 +240,7 @@
         </div>
     </div>
 </div>
-<div class="why-hire space">
+<div class="why-hire-developer space">
     <div class="space pt-0">
         <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
             <h3 class="subtitle d-flex align-items-center"><span></span>Why Hire Support Team from Plutustec ?
@@ -259,14 +259,14 @@
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
                     <div class="text-center text-lg-end">
-                        <img src="image/why-hire-php-1.svg" class="w-100" alt="whyphp">
+                        <img src="{{ asset('image/why-hire-php-1.svg')}}" class="w-100" alt="whyphp">
                     </div>
                 </div>
             </div>
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="600">
                 <div class="col-lg-4 order-1 order-lg-1">
                     <div class="text-center text-lg-start">
-                        <img src="image/why-hire-php-2.svg" class="w-100" alt="whyphp">
+                        <img src="{{ asset('image/why-hire-php-2.svg')}}" class="w-100" alt="whyphp">
                     </div>
                 </div>
                 <div class="col-lg-8 order-2 order-lg-1">
@@ -296,7 +296,7 @@
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
                     <div class="text-center text-lg-end">
-                        <img src="image/why-hire-php-3.svg" class="w-100" alt="whyphp">
+                        <img src="{{ asset('image/why-hire-php-3.svg')}}" class="w-100" alt="whyphp">
                     </div>
                 </div>
             </div>
