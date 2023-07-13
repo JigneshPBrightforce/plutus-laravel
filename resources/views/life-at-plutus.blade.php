@@ -262,7 +262,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/lightbox.min.css') }}">
 @endpush
 @push('extra-js-scripts')
-<script src="{{ asset('js/swiper.min.js') }}"></script>
-<script src="{{ asset('js/lightbox-plus-jquery.min.js') }}"></script>
+<script src="{{ asset('js/swiper.min.js') }}?t=<?php echo time();?>"></script>
+<script src="{{ asset('js/lightbox-plus-jquery.min.js') }}?t=<?php echo time();?>"></script>
 @endpush
 @endsection

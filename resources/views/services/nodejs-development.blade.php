@@ -538,8 +538,8 @@
 @endpush
 @push('extra-js-scripts')
 
-<script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
-                                <script src="{{ asset('js/swiper.min.js') }}"></script>
+<script src="{{ asset('js/swiper-bundle.min.js') }}?t=<?php echo time();?>"></script>
+                                <script src="{{ asset('js/swiper.min.js') }}?t=<?php echo time();?>"></script>
                                 <script>
                                 var swiper = new Swiper('.swiper-container.two', {
                                     autoplay: {

@@ -188,7 +188,7 @@
 @endpush
 @push('extra-js-scripts')
 <!-- Mixitup -->
-<script src="{{ asset('js/slick.min.js') }}"></script>
+<script src="{{ asset('js/slick.min.js') }}?t=<?php echo time();?>"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
 <script>
