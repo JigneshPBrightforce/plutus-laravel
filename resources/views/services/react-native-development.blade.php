@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/reactnative-development-banner-image.svg" ') }}class=" w-100" alt="">
+                    <img src="{{ asset('image/reactnative-development-banner-image.svg') }}"class=" w-100" alt="">
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="engagement-models-box bg-lightblue">
-                    <img src="{{ asset('image/reactnative-development-box-1.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-1.svg') }}"class="" alt="">
                     <h3 class=" mb-0">Custom App Development</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">Custom App Development</h3>
@@ -64,7 +64,7 @@
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="engagement-models-box bg-lightorange">
-                    <img src="{{ asset('image/reactnative-development-box-2.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-2.svg') }}"class="" alt="">
                     <h3 class=" mb-0">Hybrid App Development</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">Hybrid App Development</h3>
@@ -78,7 +78,7 @@
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="engagement-models-box bg-lightblue">
-                    <img src="{{ asset('image/reactnative-development-box-3.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-3.svg') }}"class="" alt="">
                     <h3 class=" mb-0">React Native Maintenance & Support</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">React Native Maintenance & Support</h3>
@@ -91,7 +91,7 @@
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="engagement-models-box bg-lightorange">
-                    <img src="{{ asset('image/reactnative-development-box-4.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-4.svg') }}"class="" alt="">
                     <h3 class=" mb-0">React Native QA & Testing Services</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">React Native QA & Testing Services</h3>
@@ -105,7 +105,7 @@
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="600">
                 <div class="engagement-models-box bg-lightblue">
-                    <img src="{{ asset('image/reactnative-development-box-5.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-5.svg') }}"class="" alt="">
                     <h3 class=" mb-0">React Native Migration & Upgradation</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">React Native Migration & Upgradation</h3>
@@ -117,7 +117,7 @@
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="700">
                 <div class="engagement-models-box bg-lightorange">
-                    <img src="{{ asset('image/reactnative-development-box-6.svg" ') }}class="" alt="">
+                    <img src="{{ asset('image/reactnative-development-box-6.svg') }}"class="" alt="">
                     <h3 class=" mb-0">React Native MVP Development</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">React Native MVP Development</h3>
