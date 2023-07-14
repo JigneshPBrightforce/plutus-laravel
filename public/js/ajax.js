@@ -172,7 +172,7 @@ $(document).ready(function () {
                 $('#errorMsg').html('');
                 console.log(res)
                 if(res.success){
-                    document.getElementById("careerForm").reset();
+                    document.getElementById("hiredevelopers").reset();
                     $("#successMsg").show();
                     setTimeout(() => {
                         $("#successMsg").hide();                    

@@ -1,3 +1,7 @@
+<?php 
+$technology = ['PHP','Android','iOS','Wordpress','Magento','Ui Ux designer','Ionic','React native','Flutter','Node.js','React.js','Angular.js','Fullstack','Python', '.Net','Drupal','Software Tester','Digital Marketer','Support team'];
+$techArray = []; 
+?>
 <div class="d-flex justify-content-center pb-5">
     <div class="row aos-init" data-aos="fade-up" data-aos-delay="500">
         <div class="col-12">
@@ -42,31 +46,16 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label class="lable-style subtext f-text mb-2" for="name">Technologies</label>
-                        <select class="form-select" required aria-label="select example" name="technology"
-                            id="technology">
+                        <select class="form-select" required aria-label="select example" id="technology">
                             <option value="">Select</option>
-                            <option value="php">PHP</option>
-                            <option value="android">Android</option>
-                            <option value="ios">iOS</option>
-                            <option value="wordpress">Wordpress</option>
-                            <option value="magento">Magento</option>
-                            <option value="uiux-designer">Ui Ux designer</option>
-                            <option value="ionic">Ionic</option>
-                            <option value="reactnative">React native</option>
-                            <option value="flutter">Flutter</option>
-                            <option value="nodejs">Node.js</option>
-                            <option value="reactjs">React.js</option>
-                            <option value="angularjs">Angular.js</option>
-                            <option value="fullstack">Fullstack</option>
-                            <option value="python">Python</option>
-                            <option value="dotnet">.net</option>
-                            <option value="drupal">Drupal</option>
-                            <option value="softwaretester">Software Tester</option>
-                            <option value="digitalmarketer">Digital Marketer</option>
-                            <option value="support-team">Support team</option>
+                            @foreach ($technology as $tech)
+                            <option value="{{$tech}}">{{$tech}}</option>
+                            @endforeach
                         </select>
+                        <input type="hidden" id="technologyList" name="technology" id="page" value="" />
                     </div>
                 </div>
+                <div class="col-md-12 mb-2 techList"></div>
                 <input type="hidden" id="page" name="page" id="page" value="hiredevelopers" />
                 <div class="col-md-12">
                     <label class="lable-style subtext f-text mb-2" for="name">Budget</label>
@@ -117,5 +106,32 @@
 </div>
 @push('extra-js-scripts')
 <script type="text/javascript">
+var techarray = [];
+$("#technology").on('change', function() {
+    techarray.push($(this).val());
+    techarray = techarray.filter((item,
+        index) => techarray.indexOf(item) === index);
+    setTechtohtml();
+});
+
+function setTechtohtml() {
+    var html = '';
+    $.each(techarray, function(key, val) {
+        html += '<button type="button" class="btn-primary"> ' + val +
+            '<span class="badge badge-light"  onclick="deleteItem(' + key + ');">X</span></button>';
+    })
+    $(".techList").html(html)
+    $("#technologyList").val(techarray);
+}
+
+function deleteItem(item) {
+    delete techarray[item];
+    techarray = techarray.filter(function(el) {
+        return el != null;
+    });
+    $("#technology").val('');
+    setTechtohtml();
+    // techarray = techarray.filter(e => e !== value);
+}
 </script>
 @endpush

@@ -581,7 +581,7 @@ class HomeController extends Controller
                 $response = ['success' => 1, 'message' => 'Email sent successfully.', 'error' => null];
                 echo json_encode($response);            
             }
-        }else  if($_POST["page"] === 'hiredevelopers' && $_POST['firstName'] !== '' && $_POST['lastName'] !== '' && $_POST['phone'] !== '' && $_POST['email'] !== '' && $_POST['technology'] !== '' && $_POST['budget'] !== '' && $_POST['msg'] !== '' && $_FILES['doc'] !== ''){
+        }else  if($_POST["page"] === 'hiredevelopers' && $_POST['firstName'] !== '' && $_POST['lastName'] !== '' && $_POST['phone'] !== '' && $_POST['email'] !== '' && $_POST['technology'] !== '' && $_POST['budget'] !== '' && $_POST['msg'] !== '' && $_FILES['doc'] !== '' && $_POST["g-recaptcha-response"] !== ''){
             
             $uploadOk = 1;
             $target_file = basename($_FILES["doc"]["name"]);
@@ -614,7 +614,7 @@ class HomeController extends Controller
                 $file = $request->file('doc');
                 \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file){    
                     $message->from($data['email']);
-                    $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is hirinf developer.');
+                    $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is hiring developer.');
             
                     $message->attach($file->getRealPath(), array(
                         'as' => $file->getClientOriginalName(), // If you want you can chnage original name to custom name      
