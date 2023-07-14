@@ -22,7 +22,7 @@
     <meta name="description" content="{{$metaDescription}}">
     <meta name="keywords" content="{{$metaKeywords}}">
     <meta name="author" content="Plutus Technologies Pvt. Ltd.">
-    <meta http-equiv="refresh" content="5;url='{{ env('APP_URL')}}'">
+    <!-- <meta http-equiv="refresh" content="5;url='{{ env('APP_URL')}}'"> -->
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
