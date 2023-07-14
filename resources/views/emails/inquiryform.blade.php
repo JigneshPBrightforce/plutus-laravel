@@ -1,174 +1,143 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Thank you for contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="https://msb.plutustec.in/image/Plutus-logo(fevicon).ico">
-    <style>
-    * {
-        box-sizing: border-box;
-
-    }
-    </style>
+    <title>Plutus Technologies pvt.Ltd.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="font-family: Noto Sans, sans-serif;
-                margin: 0px;
-                padding: 15px 0;
-                border: 0;
-                background-color: rgba(255, 108, 55, 0.2);
-              ">
-    <table cellpadding="0" cellspacing="0" style="max-width: 700px; width: 100%; margin: auto">
-        <tr>
-            <td style="
-                      background-color: #ffffff;
-                      padding: 10px 15px;
-                      text-align: center;
-                    ">
-                <img src="https://msb.plutustec.in/image/Plutus-logo(new-o).png" style="max-width: 200px; margin: auto"
-                    alt="logo" />
-            </td>
-        </tr>
-        <tr>
-            <td style="
-                      background-color: #ff6c37;
-                      padding: 15px 15px;
-                      text-align: center;
-                      vertical-align: middle;
-                      background-image: url(\'https://msb.plutustec.in/image/mail.png\');
-                      height: 300px;
-                      background-size: cover;
-                    ">
-                <h4 style="
-                        color: #ffffff;
-                        font-size: 42px;
-                        line-height: 54px;
-                        font-weight: 500;
-                        max-width: 550px;
-                        text-align: center;
-                        margin: auto;
-                      ">
-                    Customer email details
-                </h4>
-            </td>
-        </tr>
-        <tr>
-            <td style="background-color: #ffffff; padding: 25px 15px">
-                <p style="
-                        color: #222222;
-                        font-size: 20px;
-                        line-height: 24px;
-                        margin: 0px 0px 24px;
-                      ">
-                    Here are the submitted details:
-                </p>
-                <div style="margin-bottom: 24px">
-                    <label style="
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          line-height: 18px;
-                          color: #ff6c37;
-                          letter-spacing: 0.7px;
-                          margin-bottom: 8px;
-                          display: block;
-                        ">Name</label>
-                    <h4 style="
-                          color: #000000;
-                          font-size: 20px;
-                          line-height: 28px;
-                          margin: 0px;
-                        ">
-                        {{ $name }}
+<body style="font-family: 'Roboto', sans-serif;">
+    <table style="padding: 0px; max-width: 740px;width:100%; margin: 0px auto;" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr style="width: 100%;display: table;border: 0;">
+                <td style="width:90%;padding: 15px 0 15px 40px;border: 0;text-align: center;background-color:#f8f8f6">
+                    <a href="{{ env('APP_URL') }}" target="_blank"> <img src="{{ asset('image/Plutus-logo.png') }}"
+                            alt="Logo" style="height: 60px;"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="{{ asset('image/contact.png') }}" alt="Ecommerce"
+                        style="max-width: 450px; height:auto; margin:10px auto; display: block;" />
+
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100%;border: 0;text-align: center;">
+                    <h4 style="font-size: 30px;margin:0;font-weight: 500; padding: 10px 0px">Customer email details:
                     </h4>
-                </div>
-                <div style="margin-bottom: 24px">
-                    <label style="
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          line-height: 18px;
-                          color: #ff6c37;
-                          letter-spacing: 0.7px;
-                          margin-bottom: 8px;
-                          display: block;
-                        ">Email</label>
-                    <h4 style="
-                          color: #000000;
-                          font-size: 20px;
-                          line-height: 28px;
-                          margin: 0px;
-                        ">
-                        <a href="mailto:{{ $email }}" style="color: #000000; text-decoration: none;">
-                            {{ $email }}</a>
-                    </h4>
-                </div>
-                <div style="margin-bottom: 24px">
-                    <label style="
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          line-height: 18px;
-                          color: #ff6c37;
-                          letter-spacing: 0.7px;
-                          margin-bottom: 8px;
-                          display: block;
-                        ">Phone</label>
-                    <h4 style="
-                          color: #000000;
-                          font-size: 20px;
-                          line-height: 28px;
-                          margin: 0px;
-                        ">
-                        {{ $phone }}
-                    </h4>
-                </div>
-                <div style="margin-bottom: 24px">
-                    <label style="
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          line-height: 18px;
-                          color: #ff6c37;
-                          letter-spacing: 0.7px;
-                          margin-bottom: 8px;
-                          display: block;
-                        ">Subject</label>
-                    <h4 style="
-                          color: #000000;
-                          font-size: 20px;
-                          line-height: 28px;
-                          margin: 0px;
-                        ">
-                        {{ $subject }}
-                    </h4>
-                </div>
-                <div style="margin-bottom: 24px">
-                    <label style="
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          line-height: 18px;
-                          color: #ff6c37;
-                          letter-spacing: 0.7px;
-                          margin-bottom: 8px;
-                          display: block;
-                        ">Message</label>
-                    <h4 style="
-                          color: #000000;
-                          font-size: 20px;
-                          line-height: 28px;
-                          margin: 0px;
-                        ">
-                        {{ $msg }}
-                    </h4>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td
-                style="text-align: center;background-color: #f1f1f1;font-size: 14px;line-height: 20px;padding: 20px 15px;color: #000000;">
-                © {{ date('Y') }} <a href="https://plutustec.com/"
-                    style="text-decoration: none;color: #ff6c37;margin-left: 5px;">Plutus Technologies Pvt.Ltd.</a></td>
-        </tr>
+                    <p style="color: #1a1a1a;font-weight: 300;font-size: 14px;">
+                        Here are the submitted details:
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="padding: 10px 10px 10px 10px; max-width: 740px;width:100%; margin: 0px auto;"
+                        cellpadding="0" cellspacing="0">
+                        <tr style="background-color:#FFF3EE">
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    Name
+                                </p>
+                            </td>
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    {{ $name }}
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style="background-color:#ffffff">
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    Email
+                                </p>
+                            </td>
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    <a href="mailto:{{ $email }}" style="color: #000000; text-decoration: none;">
+                                        {{ $email }}</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style="background-color:#FFF3EE">
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    Phone
+                                </p>
+                            </td>
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    {{ $phone }}
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style="background-color:#ffffff">
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    Subject
+                                </p>
+                            </td>
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    {{ $subject }}
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style="background-color:#FFF3EE">
+                            <td style="padding-left: 10px;vertical-align: top;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px; ">
+                                    Message
+                                </p>
+                            </td>
+                            <td style="padding-left: 10px;">
+                                <p style="color: #020202;font-weight: 300;font-size: 14px;">
+                                    {{ $msg }}
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div
+                        style="width: 100%;background-color: #ffffff;height:auto; text-align: center;align-items: center; padding: 20px 0px;">
+                        <ul style=" padding-left: 0px;">
+                            <li style="display: inline-block;margin-right:20px;margin-left: 0;">
+                                <a href="https://www.facebook.com/PlutusTechnologies/" target="_blank">
+                                    <img src="{{ asset('image/facebook.png') }}" alt="ecommerce"
+                                        style="padding-right: 10px; width: 20px;"></a>
+                                <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
+                                    target="_blank"><img src="{{ asset('image/linkedin.png') }}" alt="ecommerce"
+                                        style="padding-right: 10px; width: 20px;"></a>
+                                <a href="https://twitter.com/PlutusTech" target="_blank">
+                                    <img src="{{ asset('image/twitter.png') }}" alt="ecommerce"
+                                        style="padding-right: 10px; width: 20px;">
+                                </a>
+                            </li>
+                        </ul>
+                        <p style="color: #020202;font-size: 12px;font-weight: 300;">1222-1223 Zion Z1 , Off Sindhu
+                            Bhavan Road, Nr. Avalon Hotel, Bodakdev , Ahmedabad 380054
+                        </p>
+                        <p style="color: #020202;font-size: 12px;font-weight: 300;">
+                            need one staic website with attractive design with professional colors for my store. Please
+                            give me suggestons.
+                        </p>
+                        <p style="color: #020202;font-size: 12px;font-weight: 300;">
+                            copyright @ {{ date('Y')}} <span style="color: #ff6c37;"> Plutus Technologies
+                                Pvt.Ltd.</span>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
     </table>
+
 </body>
+
 
 </html>

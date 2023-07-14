@@ -26,7 +26,7 @@
                         padding: 10px 15px;
                         text-align: center;
                         ">
-                <img src="https://msb.plutustec.in/image/Plutus-logo(new-o).png" style="max-width: 200px; margin: auto"
+                <img src="https://msb.plutustec.in/image/Plutus-logo.png" style="max-width: 200px; margin: auto"
                     alt="logo" />
 
             </td>

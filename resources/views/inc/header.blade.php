@@ -68,7 +68,7 @@
         <nav id='cssmenu'>
             <div class="logo">
                 <a href="/">
-                    <img src="{{ asset('image/Plutus-logo(new-o).png')}}" alt="logo">
+                    <img src="{{ asset('image/Plutus-logo.png')}}" alt="logo">
                 </a>
             </div>
             <div class="button" onclick="showModal()"></div>
