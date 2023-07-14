@@ -10,13 +10,38 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
 
-    <!-- <title> {{ config('app.name', 'Plutus Technologies') }} </title> -->
     <link rel="icon" type="image/x-icon" href="{{asset('image/Plutus-logo(fevicon).ico')}}" />
-    <title>{{$title}}</title>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}?t=<?php echo time();?>" />
 
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>{{$title}}</title>
+    <meta name="description" content="{{$metaDescription}}">
+    <meta name="keywords" content="{{$metaKeywords}}">
+    <meta name="author" content="Plutus Technologies Pvt. Ltd.">
+    <meta http-equiv="refresh" content="5;url='{{ env('APP_URL')}}'">
+    <meta name="robots" content="index, follow">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{$title}}" />
+    <meta property="og:description" content="{{$metaDescription}}" />
+    <meta property="og:url" content="{{ Request::url() }}" />
+    <meta property="og:site_name" content="Web Application and Mobile App Development Company" />
+    <meta property="og:image" content="{{ asset('image/Plutus-logo(new-o).png')}}" />
+    <meta property="og:image:secure_url" content="{{ asset('image/Plutus-logo(new-o).png')}}" />
+    <meta property="og:image:width" content="915" />
+    <meta property="og:image:height" content="610" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="{{$metaDescription}}" />
+    <meta name="twitter:title" content="{{$title}}" />
+    <meta name="twitter:image" content="{{ asset('image/Plutus-logo(new-o).png')}}" />
+    <meta name="generator" content="Laravel 7" />
+    <meta name="keywords" content="custom software development company" />
+    <meta name="msapplication-TileImage" content="{{asset('image/Plutus-logo(fevicon).ico')}}" />
+    <meta name="generator" content="NitroPack" />
 
     <!-- Styles -->
     @include('inc.styles')
