@@ -5,7 +5,7 @@
     <div class="container aos-init" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Services</li>
             </ol>
         </nav>
