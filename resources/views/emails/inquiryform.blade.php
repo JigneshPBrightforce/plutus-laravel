@@ -124,10 +124,6 @@
                             Bhavan Road, Nr. Avalon Hotel, Bodakdev , Ahmedabad 380054
                         </p>
                         <p style="color: #020202;font-size: 12px;font-weight: 300;">
-                            need one staic website with attractive design with professional colors for my store. Please
-                            give me suggestons.
-                        </p>
-                        <p style="color: #020202;font-size: 12px;font-weight: 300;">
                             copyright @ {{ date('Y')}} <span style="color: #ff6c37;"> Plutus Technologies
                                 Pvt.Ltd.</span>
                         </p>
