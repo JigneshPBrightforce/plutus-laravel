@@ -1,4 +1,3 @@
-<!-- <script src="{{asset('js/crouseljs/jquery.min.js" no-conflict></')}}script> -->
 <script src="{{asset('js/jclocks.js')}}?t=<?php echo time();?>"></script>
 <script src="{{asset('js/crouseljs/owl.carousel.js')}}?t=<?php echo time();?>"></script>
 <script src="{{asset('js/homepage.js')}}?t=<?php echo time();?>"></script>
