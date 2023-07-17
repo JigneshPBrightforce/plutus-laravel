@@ -86,7 +86,8 @@ $techArray = [];
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                        <input type="file" class="form-control" name="doc" id="doc" required>
+                        <input type="file" class="form-control" name="doc" id="doc" required
+                            accept="application/msword, application/pdf">
                     </div>
                 </div>
                 <div class="col-md-12">
