@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
-                        <h3 class="subtitle d-flex align-items-start  justify-content-lg-end"><span>2. </span>
+                        <h3 class="subtitle text-lg-end"><span class="d-inline-block">2. </span>
                             Timely Delivery and Cost-effectiveness</h3>
                         <p>In order for a project to be timely, Plutus understands the importance of delivery. Using
                             efficient development methodologies, our WordPress developers complete your project

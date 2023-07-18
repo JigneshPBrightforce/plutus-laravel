@@ -13,10 +13,10 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Magento Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Plutustec recognizes the importance of having a strong and effective online presence for your e-commerce business. With highly proficient development team that specializes in Magento E-Commerce Website Development, offering you to employ dedicated Magento coders who can take your web store to brand-new highs.
+
+When you employ PlutusTec Magento developers, you receive access to a brilliant pool of individuals with considerable expertise and knowledge in Magento development. Our experts are well-versed in the most recent Magento versions and frameworks, allowing them to construct customized solutions that meet your company's objectives.
+</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -31,23 +31,10 @@
             <div class="col-lg-7">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Magento Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">We all know that WordPress is known for its Content Management
-                        System (CMS), but apart from CMS,
-                        WordPress is remarkably user-friendly and SEO-friendly. It gives you complete control on how
-                        to optimize
-                        your website for all popular search engines. It is one of the quickest evolving open-source
-                        platforms for
-                        web development solutions.
+                    <p class="sub-dec ms-4 mt-4">It is critical for an e-commerce company expanding into the digital age to have the expertise and advice of individuals who possess the experience and expertise to construct a custom and engaging Magento e-commerce website.
                     </p>
-                    <p class="sub-dec ms-4 mt-4">Since its inception, Apple has been effortlessly and continuously
-                        redefined to give the best user experience
-                        to its users. With its unprecedented range of smart devices, Apple has ridiculously enhanced
-                        its brand value
-                        and demand for B2C and B2B iOS apps. Our iOS developers meticulously balance the app
-                        requirements,
-                        company objectives, and the target audience needs into the application with an eye-catching
-                        user interface.
-                        Clients can rely on us for intuitive and captivating iOS apps.
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies is the ideal choice for hiring Magento developers for your e-commerce store. We have the knowledge and skills to design particular, interactive Magento websites that are specific to the requirements of your company. If you want an uncommon, evolving Magento e-commerce website, our Magento developers are the best choice. As we always prioritize responsive design, ensuring that your Magento website is also mobile-friendly.
+
                     </p>
                 </div>
             </div>
@@ -253,10 +240,8 @@
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Preferred Custimaization</h3>
+                        <p> Investing in Magento developers allows you to create an e-commerce website that meets your business requirements. To ensure that the Magento store properly aligns with your brand image and improves the overall buying experience for your customers, they may customize its style, functionality, and user experience.
                         </p>
                     </div>
                 </div>
@@ -274,11 +259,9 @@
                 </div>
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
-                        <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
+                        <h3 class="subtitle text-lg-end"><span class="d-inline-block">2. </span>
+                        Performance optimization</h3>
+                        <p>It is the domain of Magento developers to optimize the performance of your e-commerce website. Optimizing the code, database, and server settings may increase the loading speed and overall performance of your Magento store. For a better user experience, lower bounce rates, and higher conversions, this is essential.
                         </p>
                     </div>
                 </div>
@@ -286,14 +269,8 @@
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
+                        <h3 class="subtitle d-flex align-items-start"><span>3. </span>Economical solution</h3>
+                        <p>An in-house development team or multiple freelancers are more expensive options. With a dedicated development team, communication overhead is lowered and development processes are more efficient. There will be a high-quality end product delivered within the stipulated timeframe and budget within the specified budget.
                         </p>
                     </div>
                 </div>

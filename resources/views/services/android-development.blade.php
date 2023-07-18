@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/android-development-banner-image.svg') }}" class="w-100" alt="">
+                    <img src="{{ asset('image/android-development-banner-image.svg') }}"  alt="">
                 </div>
             </div>
         </div>
@@ -352,27 +352,27 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/Clubify_1.JPEG') }}" alt="slide 1">
+                    <img src="{{ asset('glimpse_work/android/Clubify.jpg') }}" alt="slide 1">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 2">
+                    <img src="{{ asset('glimpse_work/android/1ClickHeat.jpg') }}" alt="slide 2">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 3">
+                    <img src="{{ asset('glimpse_work/android/contrologistics_1.jpg') }}" alt="slide 3">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 4">
+                    <img src="{{ asset('glimpse_work/android/fp_1.jpg') }}" alt="slide 4">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 5">
+                    <img src="{{ asset('glimpse_work/android/SideStream_(1).jpg') }}" alt="slide 5">
                 </div>
             </div>
             <!-- Add Pagination -->
