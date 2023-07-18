@@ -21,16 +21,16 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="current-opening-list">
             <div class="row">
-                <div class="col-lg-6">
+                <a href="{{ url('career-details-bdm')}}" class="col-lg-6">
                     <div class="current-opening-list-box">
-                        <h3>Fullstack developer</h3>
-                        <a class="posiition" href="{{ url('career-details-fullstack')}}">
+                        <h3>BDM</h3>
+                        <div class="posiition" href="{{ url('career-details-bdm')}}">
                             <span>2 Position</span>
                             <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
-                        </a>
+</div>
                     </div>
-                </div>
-                <div class="col-lg-6">
+</a>
+                <!-- <div class="col-lg-6">
                     <div class="current-opening-list-box">
                         <h3>Flutter developer</h3>
                         <a class="posiition" href="{{ url('career-details-flutter')}}">
@@ -83,7 +83,7 @@
                             <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

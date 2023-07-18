@@ -124,6 +124,14 @@ class HomeController extends Controller
         ];
         return view('career.bde')->with($data);
     }
+    public function career_details_bdm(){
+        $data =[
+            'title' => 'BDM Job Opening | Careers At Plutus Technologies',
+            'metaDescription' => 'BDM Job Opening | Careers At Plutus Technologies',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('career.bdm')->with($data);
+    }
     public function career_details_fresher(){
         $data =[
             'title' => 'Fresher Job Opening | Careers At Plutus Technologies',

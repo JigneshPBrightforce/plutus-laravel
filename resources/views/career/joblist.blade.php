@@ -4,6 +4,15 @@
         <ul>
             <li class="current-opening-list-box">
                 <div class="other-jobs-text">
+                    <h3>BDM</h3>
+                    <p>1 Position</p>
+                </div>
+                <a href="{{ url('career-details-bdm') }}">
+                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
+                </a>
+            </li>
+            <!-- <li class="current-opening-list-box">
+                <div class="other-jobs-text">
                     <h3>Fullstack developer</h3>
                     <p>2 Position</p>
                 </div>
@@ -64,7 +73,7 @@
                 <a href="{{ url('career-details-bde') }}">
                     <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </div>
