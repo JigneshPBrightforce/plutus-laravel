@@ -34,7 +34,7 @@
                     </div>
                     <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop=""
                         onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls
-                        controlsList="nodownload" autoplay=”false”>
+                        controlsList="nodownload" autoplay="false">
                         <source type="video/mp4" src="video/pexels-pixabay.mp4">
                     </video>
                     <div class="video-full-screen"><span class="icon-ic-white-full-screen"></span></div>

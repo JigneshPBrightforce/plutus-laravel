@@ -140,6 +140,31 @@
                         <a class="v-tab-head v-tab-link d-block d-lg-none" data-target="#picnic-tab">Picnic</a>
                         <div id="picnic-tab" class="collapse fade lifeplutus">
                             <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                    <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
+                                        data-lightbox="example-set"><img class="example-image"
+                                            src="{{ asset('image/lifeatplutus/trip-6.webp')}}" alt=""></a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
+                                        data-lightbox="example-set"><img class="example-image"
+                                            src="{{ asset('image/lifeatplutus/trip.webp')}}" alt=""></a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
+                                        data-lightbox="example-set"><img class="example-image"
+                                            src="{{ asset('image/lifeatplutus/trip-9.webp')}}" alt=""></a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
+                                        data-lightbox="example-set"><img class="example-image"
+                                            src="{{ asset('image/lifeatplutus/trip-7.webp')}}" alt=""></a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
+                                        data-lightbox="example-set"><img class="example-image"
+                                            src="{{ asset('image/lifeatplutus/trip-8.webp')}}" alt=""></a>
+                                </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="example-image-link" href="{{ asset('image/lifeatplutus/trip-1.webp')}}"
                                         data-lightbox="example-set"><img class="example-image"

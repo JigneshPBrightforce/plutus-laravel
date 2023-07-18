@@ -26,30 +26,35 @@
                     <input type="hidden" id="page" name="page" value="contactForm">
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label class="lable-style subtext f-text mb-2" for="name">Name</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name"
                                 required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label class="lable-style subtext f-text mb-2" for="email">Email</label>
                             <input type="text" class="form-control" id="email" name="email" placeholder="Enter Email"
                                 required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label class="lable-style subtext f-text mb-2" for="Phone">Phone</label>
                             <input type="text" maxlength="13" class="form-control" id="phone" name="phone"
                                 placeholder="Enter Phone Number" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label class="lable-style subtext f-text mb-2" for="Ysub">Subject</label>
                             <input type="text" class="form-control" id="subject" name="subject"
                                 placeholder="Enter Subject" required>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
+                            <label class="lable-style subtext f-text mb-2" for="Ymsg">Message</label>
                             <textarea class="form-control message-box lable-style subtext f-text" id="msg" name="msg"
                                 rows="3" placeholder="Enter Message" required></textarea>
                         </div>
@@ -101,11 +106,11 @@
                     <div class="contact-number">
                         <img src="{{ asset('image/Gray-phone-icon.svg') }}" alt="phone">
                         <div class="">
-                            <a href="tel:+917600-782-354">
-                                <p>+91 7600-782-354</p>
+                            <a href="tel:+91 760-078-2354">
+                                <p>+91 760-078-2354</p>
                             </a>
-                            <a href="tel:+917600-782-354">
-                                <p>+91 7600-782-354</p>
+                            <a href="tel:+91 794-800-0107">
+                                <p>+91 794-800-0107</p>
                             </a>
                         </div>
                     </div>
