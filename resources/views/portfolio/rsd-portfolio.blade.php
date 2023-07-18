@@ -21,14 +21,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/android-development-banner-image.svg')}}" class="" alt="">
+                    <img src="{{ asset('Portfolio/RSD/RSD_1.png')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('image/rsd_top.png')}}">
+    <img class="w-100" src="{{ asset('Portfolio/RSD/rsd_top_banner.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
