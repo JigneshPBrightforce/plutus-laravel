@@ -75,7 +75,7 @@
             <ul class="menu-links hidden" id="modal">
                 <li
                     class="company-menu <?php echo in_array($filename, ['aboutus','engagement-models','client-confidentiality','life-at-plutus']) !== false ? 'active' : ''; ?>">
-                    <a href="/" class="main-tag">Company</a>
+                    <a href="#" class="main-tag">Company</a>
                     <ul>
                         <li class="bg-white h-auto mobile-row-hine">
                             <div class="container">
@@ -1071,8 +1071,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="<?php echo preg_match("(contact-us)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='contact-us'>Contact Us</a>
+                <li class="<?php echo preg_match("(contact-us)", $filename) === 1 ? 'active'  : ''; ?>">
+                    <a href='contact-us' class="main-tag">Contact Us</a>
                 </li>
             </ul>
         </nav>

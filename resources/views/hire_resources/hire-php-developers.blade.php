@@ -277,7 +277,7 @@
                 </div>
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
-                        <h3 class="subtitle d-flex align-items-start  justify-content-lg-end"><span>2. </span>
+                        <h3 class="subtitle d-flex align-items-start justify-content-lg-end"><span>2. </span>
                             Agile Development Methodology</h3>
                         <p>We employ PHP developers who are well-versed in Agile principles, allowing them to adapt
                             quickly to changing requirements, incorporate feedback, and deliver incremental updates.

@@ -259,7 +259,7 @@ We take pleasure in our comprehensive hiring procedure, which ensures that only 
                 </div>
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
-                        <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
+                    <h3 class="subtitle text-lg-end"><span class="d-inline-block">2. </span>
                         Professional Assistance</h3>
                         <p>With Ionic developers, you have access to a specialized team that will provide continuous support and maintenance for your project. The software developers will be able to handle any problems that arise, apply updates and additions, and ensure that the software is always up-to-date and compatible with emerging technologies.
                         </p>
