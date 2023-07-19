@@ -144,10 +144,10 @@
                             <td style="padding-left: 10px;">
                                 <p style="color: #020202;font-weight: 300;font-size: 14px;">
                                     @if($file_type === 'pdf')
-                                    <img src="https://msb.plutustec.in/image/pdf.png" width="28"
+                                    <img src="{{ asset('image/pdf.png') }}" width="28"
                                         style="display: inline-block;vertical-align: middle;" alt="resume" />
                                     @else
-                                    <img src="https://msb.plutustec.in/image/doc.png" width="28"
+                                    <img src="{{ asset('image/doc.png') }}" width="28"
                                         style="display: inline-block;vertical-align: middle;" alt="resume" />
                                     @endif
                                     <a style="margin-left: 5px;color: #000000;text-decoration: none;display: inline-block;vertical-align: middle;"

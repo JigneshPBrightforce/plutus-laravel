@@ -521,6 +521,10 @@ class HomeController extends Controller
 
     // send mail when contact us
     public function inquiryform(Request $request){
+
+        $hr_email = 'kalpit.belani@plutustec.com';
+        $sales_email = 'kalpit.belani@plutustec.com';
+
         if($_POST["page"] === 'contactForm' && $_POST["name"] !== '' && $_POST["email"] !== '' && $_POST["phone"] !== '' && $_POST["subject"] !== '' && $_POST["msg"] !== '' && $_POST["g-recaptcha-response"] !== ''){
 
             //admin_user_register
@@ -535,7 +539,13 @@ class HomeController extends Controller
             $userEmail = $_POST['email'];
             \Mail::send('emails.inquiryform', $mailContent ,
             function ($message) use ($userEmail) {
-                $message->to($userEmail)->subject('Test mode : '.$_POST["name"].' is contacting us');
+                $message->from($userEmail);
+                $message->to($hr_email)->subject('Test mode : '.$_POST["name"].' is contacting us');
+            });
+            // thank you email
+            \Mail::send('emails.thankyou', $mailContent ,
+            function ($message) use ($userEmail) {
+                $message->to($userEmail)->subject('Thank you for joining with us');
             });
             
             $response = ['success' => 1, 'message' => 'Email sent successfully.', 'error' => null];
@@ -577,13 +587,12 @@ class HomeController extends Controller
                 $file = $request->file('resume');
                 \Mail::send('emails.careerform', $data, function ($message) use($data, $file){    
                     $message->from($data['email']);
-                    $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is applying for job.');
+                    $message->to($hr_email)->subject('Test mode : '.$_POST["firstName"].' is applying for job.');
             
                     $message->attach($file->getRealPath(), array(
                         'as' => $file->getClientOriginalName(), // If you want you can chnage original name to custom name      
                         'mime' => $file->getMimeType())
-                    );
-            
+                    );            
                 });
 
                 $response = ['success' => 1, 'message' => 'Email sent successfully.', 'error' => null];
@@ -622,13 +631,19 @@ class HomeController extends Controller
                 $file = $request->file('doc');
                 \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file){    
                     $message->from($data['email']);
-                    $message->to($data['email'])->subject('Test mode : '.$_POST["firstName"].' is hiring developer.');
+                    $message->to($sales_email)->subject('Test mode : '.$_POST["firstName"].' is hiring developer.');
             
                     $message->attach($file->getRealPath(), array(
                         'as' => $file->getClientOriginalName(), // If you want you can chnage original name to custom name      
                         'mime' => $file->getMimeType())
                     );
             
+                });
+
+                $userEmail = $data['email'];
+                \Mail::send('emails.thankyou', $mailContent ,
+                function ($message) use ($userEmail) {
+                    $message->to($userEmail)->subject('Thank you for joining with us');
                 });
 
                 $response = ['success' => 1, 'message' => 'Email sent successfully.', 'error' => null];
