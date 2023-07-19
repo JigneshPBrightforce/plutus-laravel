@@ -24,7 +24,11 @@
                     <h4 style="font-size: 30px;margin:0;font-weight: 500; padding: 0px 0px">Thank you for joining with
                         us</h4>
                     <p style="color: #1a1a1a;font-weight: 400;font-size: 14px;">
+                        @if($page === 'hiredevelopers')
                         Our project manager will reach to you in 2 to 3 working day.
+                        @else
+                        Our HR department will reach to you in 2 to 3 working day.
+                        @endif
                     </p>
                 </td>
             </tr>

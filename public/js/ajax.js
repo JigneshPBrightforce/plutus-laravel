@@ -12,6 +12,8 @@ $(document).ready(function () {
             },
             phone: {
                 required: true,
+                maxlength: 13,
+                minlength: 10,
                 regex : /^\+?(?:[\d]*)$/
             },
             subject: {
@@ -75,7 +77,7 @@ $(document).ready(function () {
             email: {required: true, regex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/},
             firstName:{required : true,lettersonly: true},
             lastName:{required : true,lettersonly: true},
-            phone:{required : true, regex : /^\+?(?:[\d]*)$/},
+            phone:{required : true, regex : /^\+?(?:[\d]*)$/, maxlength: 13,minlength: 10},            
             current_ctc:{required : true,number : true},
             expected_ctc:{required : true,number : true},
             experience_year:{required : true,number : true,},

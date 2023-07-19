@@ -533,7 +533,8 @@ class HomeController extends Controller
                 'email' => $_POST['email'], 
                 'subject' =>  $_POST['subject'], 
                 'phone' => $_POST['phone'], 
-                'msg'  => $_POST['msg'], 
+                'msg'  => $_POST['msg'],
+                'page' => $_POST["page"]
             ];
 
             $userEmail = $_POST['email'];
@@ -543,7 +544,7 @@ class HomeController extends Controller
                 $message->to($hr_email)->subject('Test mode : '.$_POST["name"].' is contacting us');
             });
             // thank you email
-            \Mail::send('emails.thankyou', [], function ($message) use ($userEmail) {
+            \Mail::send('emails.thankyou', $mailContent, function ($message) use ($userEmail) {
                 $message->to($userEmail)->subject('Thank you for joining with us');
             });
             
@@ -584,7 +585,7 @@ class HomeController extends Controller
                     'file_type' =>$imageFileType
                 );
                 $file = $request->file('resume');
-                \Mail::send('emails.careerform', $data, function ($message) use($data, $file){    
+                \Mail::send('emails.careerform', $data, function ($message) use($data, $file, $hr_email){    
                     $message->from($data['email']);
                     $message->to($hr_email)->subject('Test mode : '.$_POST["firstName"].' is applying for job.');
             
@@ -625,7 +626,8 @@ class HomeController extends Controller
                     'budget'=>$_POST['budget'],
                     'msg'=>$_POST['msg'],                    
                     'doc' => $_FILES["doc"]["name"],
-                    'file_type' =>$imageFileType
+                    'file_type' =>$imageFileType,
+                    'page' => $_POST["page"]
                 );
                 $file = $request->file('doc');
                 \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file, $sales_email){    
@@ -640,7 +642,7 @@ class HomeController extends Controller
                 });
 
                 $userEmail = $data['email'];
-                \Mail::send('emails.thankyou', [], function ($message) use ($userEmail) {
+                \Mail::send('emails.thankyou', $data, function ($message) use ($userEmail) {
                     $message->to($userEmail)->subject('Thank you for joining with us');
                 });
 
