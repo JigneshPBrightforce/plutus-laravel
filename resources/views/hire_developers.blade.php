@@ -11,7 +11,7 @@ $techArray = [];
         </div>
     </div>
 </div>
-<div class="bg-lightblue space careers-details-bottom-form" style="display: none">
+<div class="bg-lightorange space careers-details-bottom-form" style="display: none">
     <div class="container aos-init" data-aos="fade-up">
         <form id="hiredevelopers" novalidate="novalidate" enctype="multipart/form-data">
             @csrf
@@ -60,18 +60,18 @@ $techArray = [];
                 <div class="col-md-12">
                     <label class="lable-style subtext f-text mb-2" for="name">Budget</label>
                     <div class="form-group">
-                        <div class="custom-radio">
-                            <div class="form-check form-check-inline">
+                        <div class="custom-radio d-flex align-item-center flex-wrap">
+                            <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Fixed" id="flexRadioDefault1"
                                     name="budget">
                                 <label class="form-check-label" for="flexRadioDefault1">
-                                </label><span>Fixed</span>
+                                </label><span class="ms-2">Fixed</span>
                             </div>
-                            <div class="form-check form-check-inline ">
+                            <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Hourly" id="flexRadioDefault2"
                                     name="budget">
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                </label><span>Hourly</span>
+                                </label><span class="ms-2">Hourly</span>
                             </div>
                         </div>
                     </div>
@@ -86,6 +86,7 @@ $techArray = [];
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
+                    <label class="lable-style subtext f-text mb-2" for="name">Upload Documents</label>
                         <input type="file" class="form-control" name="doc" id="doc" required
                             accept="application/msword, application/pdf">
                     </div>
