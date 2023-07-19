@@ -538,7 +538,7 @@ class HomeController extends Controller
 
             $userEmail = $_POST['email'];
             \Mail::send('emails.inquiryform', $mailContent ,
-            function ($message) use ($userEmail) {
+            function ($message) use ($userEmail, $hr_email) {
                 $message->from($userEmail);
                 $message->to($hr_email)->subject('Test mode : '.$_POST["name"].' is contacting us');
             });
@@ -629,7 +629,7 @@ class HomeController extends Controller
                     'file_type' =>$imageFileType
                 );
                 $file = $request->file('doc');
-                \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file){    
+                \Mail::send('emails.hiredeveloper', $data, function ($message) use($data, $file, $sales_email){    
                     $message->from($data['email']);
                     $message->to($sales_email)->subject('Test mode : '.$_POST["firstName"].' is hiring developer.');
             
