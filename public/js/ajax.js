@@ -174,6 +174,9 @@ $(document).ready(function () {
                 if(res.success){
                     document.getElementById("hiredevelopers").reset();
                     $("#successMsg").show();
+                    $("#technologyList").val('');
+                    $(".techList").html('');
+                    techarray = [];
                     setTimeout(() => {
                         $("#successMsg").hide();                    
                     }, 3000);
