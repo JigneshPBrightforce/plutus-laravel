@@ -543,8 +543,7 @@ class HomeController extends Controller
                 $message->to($hr_email)->subject('Test mode : '.$_POST["name"].' is contacting us');
             });
             // thank you email
-            \Mail::send('emails.thankyou', $mailContent ,
-            function ($message) use ($userEmail) {
+            \Mail::send('emails.thankyou', function ($message) use ($userEmail) {
                 $message->to($userEmail)->subject('Thank you for joining with us');
             });
             
@@ -641,8 +640,7 @@ class HomeController extends Controller
                 });
 
                 $userEmail = $data['email'];
-                \Mail::send('emails.thankyou', $mailContent ,
-                function ($message) use ($userEmail) {
+                \Mail::send('emails.thankyou', function ($message) use ($userEmail) {
                     $message->to($userEmail)->subject('Thank you for joining with us');
                 });
 
