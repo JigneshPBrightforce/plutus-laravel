@@ -111,7 +111,7 @@
         </div>
     </div>
 </div>
-<div class="bg-lightblue space careers-details-bottom-form" style="display: none">
+<div class="bg-lightorange space careers-details-bottom-form" style="display: none">
     <div class="container aos-init" data-aos="fade-up">
         <h1>Apply for php developer</h1>
         <p>Are you interested to be part of our excellent team?</p>
