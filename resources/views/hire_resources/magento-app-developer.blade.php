@@ -4,13 +4,17 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire Magento Developer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/Hire-magento-developer.svg') }}" class="w-100"
+                        alt="Hire-magento-developer">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Magento Developer</h3>
                     <p class="sub-dec ms-4 mt-4">Plutustec recognizes the importance of having a strong and effective online presence for your e-commerce business. With highly proficient development team that specializes in Magento E-Commerce Website Development, offering you to employ dedicated Magento coders who can take your web store to brand-new highs.
@@ -19,7 +23,7 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
 </p>
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <div class="page-breadcrumb-img">
                     <img src="{{ asset('image/Hire-magento-developer.svg') }}" class="w-100"
                         alt="Hire-magento-developer">

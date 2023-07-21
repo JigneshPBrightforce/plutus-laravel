@@ -4,13 +4,16 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire Ionic App Developer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/hire-ionic-app-developer.svg')}}" class="w-100" alt="hire-android-banner">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Ionic App Developer</h3>
                     <p class="sub-dec ms-4 mt-4">The Plutustec team looks forward to welcoming you to our stellar team of experienced and dedicated Ionic developers. It is imperative that you consider our Ionic app development services if you are in need of high-quality Ionic apps. When you hire Ionic developers from PlutusTechnology, we make sure to offer our clients the opportunity to hire the very efficient Ionic developers in the business because of our impressive technical knowledge and persistent commitment to perfection.
@@ -19,7 +22,7 @@ One of the things that sets our Ionic developers apart is that they possess exce
 </p>
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <div class="page-breadcrumb-img">
                     <img src="{{ asset('image/hire-ionic-app-developer.svg')}}" class="w-100" alt="hire-android-banner">
                 </div>

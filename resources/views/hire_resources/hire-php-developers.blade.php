@@ -4,13 +4,16 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li> 
                         <li class="breadcrumb-item active" aria-current="page">Hire PHP Developer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/Hire-php.svg')}}" class="w-100" alt="hire-php">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire PHP Developer</h3>
                     <p class="sub-dec ms-4 mt-4">It's no secret that the industry is evolving at breakneck speed and
@@ -22,7 +25,7 @@
                         flourish.</p>
                 </div>
             </div>            
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <div class="page-breadcrumb-img">
                     <img src="{{ asset('image/Hire-php.svg')}}" class="w-100" alt="hire-php">
                 </div>
