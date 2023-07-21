@@ -4,13 +4,16 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire UI/UX Designer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire UI/UX Designer</h3>
                     <p class="sub-dec ms-4 mt-4">In order to develop a successful website, Plutus Technologies understands the importance of user interaction and user experience. Any website or web application can be successful by utilizing these elements. Our designers have a thorough understanding of character design, user experience, and user interface, allowing them to provide outstanding solutions.
@@ -19,7 +22,7 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
 </p>
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 text-center d-none d-lg-block">
                 <div class="page-breadcrumb-img">
                     <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
                 </div>
