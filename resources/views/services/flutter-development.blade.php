@@ -392,27 +392,42 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 1">
+                    <img src="{{ asset('glimpse_work/flutter/Agro-Trade_1.jpg') }}" alt="slide 1">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 2">
+                    <img src="{{ asset('glimpse_work/flutter/cheeky-events.jpg') }}" alt="slide 2">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 3">
+                    <img src="{{ asset('glimpse_work/flutter/CycleAI_1.jpg') }}" alt="slide 3">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 4">
+                    <img src="{{ asset('glimpse_work/flutter/emvite.jpg') }}" alt="slide 4">
                 </div>
             </div>
             <div class="swiper-slide" data-swiper-autoplay="2000">
                 <div class="slider-image">
-                    <img src="{{ asset('image/glimpse-of-our-work-slide-1.png') }}" alt="slide 5">
+                    <img src="{{ asset('glimpse_work/flutter/MSB.jpg') }}" alt="slide 5">
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+                <div class="slider-image">
+                    <img src="{{ asset('glimpse_work/flutter/Powerzada.jpg') }}" alt="slide 5">
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+                <div class="slider-image">
+                    <img src="{{ asset('glimpse_work/flutter/Recovr_splash.jpg') }}" alt="slide 5">
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+                <div class="slider-image">
+                    <img src="{{ asset('glimpse_work/flutter/RSD_playlists.jpg') }}" alt="slide 5">
                 </div>
             </div>
             <!-- Add Pagination -->

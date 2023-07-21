@@ -16,22 +16,19 @@
 </div>
 <div class="our-vission-mission">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <h4>Since the inception in <span class="bold-text">2014</span>, Plutus Technologies has been committed to
-            deliver services those surpass excellence and
-            tailored to cater the needs of an ever-evolving digital landscape. The key compelling benefits due to
-            which our customers
-            enjoy outsourcing to us are our technical expertise, competitive pricing, faster and accurate delivery
-            models,
-            state-of-the-art project management practices, superior quality management, optimized processes and most
-            importantly
-            our development methods.
-
+        <h4>Established in<span class="bold-text">2014</span>, with a vision to provide top-quality web and mobile app development 
+        solution that meets the ever-growing needs of modern customers in the digital landscape. Plutus Technologies is now a leading 
+        and fastest-growing IT company that believes in delivering fully functional, scalable, and customized technology solutions with 100%
+         customer satisfaction. We are a proficient team of dedicated developers, creative UI/UX designers, and marketing specialists to handle 
+         complex web or app design and development projects. We have proven years of experience in the IT industry that help us deliver enterprise-grade 
+         solutions with a combination of our industry knowledge, technology expertise, and a passion for excellence. We have designed and developed 
+         hundreds of websites and mobile applications for our worldwide clients with successful results in a minimum time and budget. 
         </h4>
         <h4>
-            With <span class="bold-text">70+</span> team of in house designer & developers, we have successfully
-            completed <span class="bold-text">150+</span> websites and <span class="bold-text">100+</span> mobile
-            applications. We take pride in building software development solutions those drive growth for our
-            clients’ business.
+        We are proud to design and build customized software solutions that streamline your business processes, simplify operations,
+        and drive significant growth more efficiently. Whether you want to build a fresh new website or custom software or just need
+        help adding new features to your existing website or application, we can help. Contact us today to see how we can help convert
+        your ideas into powerful technology solutions. 
         </h4>
     </div>
     <div class="container">
@@ -39,10 +36,9 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="vission">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Our Vision</h3>
-                    <p>Provide scalable and cost effective techno-functional solutions helping each
-                        customer and their business to grow significantly at their satisfaction. We
-                        believe if our customers grow, our growth is definite.
+                    <p>To provide robust, scalable, and functionality-rich software solutions that make your business grow significantly faster in a digital landscape.  
                     </p>
+                    <p class="mt-0">To offer the highest quality web and app development services with 100% satisfaction guaranteed. </p>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -60,10 +56,9 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="mission">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Our Mission</h3>
-                    <p>Our mission is to evolve into a leading IT company with a perfect
-                        blend of technology, practicality and aesthetics to provide the competitive
-                        cutting edge solutions to our valuable clients.
+                    <p>To become a well-established and reputed web and app development company that believes in delivering customized technology solutions to worldwide clients. 
                     </p>
+                    <p class="mt-0">To help startups, SMEs, and small businesses grab the opportunity to work with us and take their business to the next level. </p>
                 </div>
             </div>
         </div>
@@ -128,6 +123,7 @@
 <div class="core-value space">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="subtitle d-flex align-items-center"> <span></span>Our Core Value</h3>
+        <p>The Plutus Technologies culture and values are a reflection of our highest aspirations for how we engage with our colleagues, clients, and board members.</p>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -141,37 +137,30 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Optimum Client Satisfaction</h3>
-                        <p>It’s in our DNA. Our clients are the partners behind the success we have tasted over the
-                            decades. This is the reason we keep client satisfaction at the center of our ecosystem.
-                            We are not shy of collaboration to sharpen our insights for perfect execution of our
-                            offerings. The praise from the clients is music to our ears and we’d crave for that.
-                            It’s a hunger in us that never fades.
+                        <p>We strive hard to provide the best service possible to ensure our clients are 100% satisfied
+                            with our quality of work. We put our clients first and take time to understand their business
+                            goals and objectives so we can help them achieve the set milestone more efficiently and successfully.
+                            In case the client is not happy with the service offered, we will make it right for you without any additional cost.
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Result-Oriented Approach</h3>
-                        <p>The roots of our success are connected to our vision and execution of it. Starting from
-                            the recruitment to the quality deliverables, we keep our values intact. We hire
-                            passionate humans who have that fire burning in them. People who really want to work
-                            with us and understand the importance of client expectations to deliver quality results.
+                        <p>We understand that every business has its vision to achieve! This is why we highly pay attention to what you want to achieve so that we
+                            can create a perfect plan aligned with your business goals. No matter how tight a schedule we are in, we always focus on delivering quality
+                            service from start to finish. We hire qualified and experienced software engineers who are passionate and understand the importance of a business.
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Integrity in Everything</h3>
-                        <p>Integrity is our core and is at the center of everything we do. For us, it is as good as
-                            following the law, maybe more than that. It is about delivering on our commitments,
-                            honesty and fairness in business and day-to-day living. We are a family that believes in
-                            team work with one Mantra, that is to die with memories, not dreams. Memories with our
-                            peeps, memories with our clients.
+                        <p>We place integrity at the core of everything we do. Being honest and fair in business and daily life entails delivering on our commitments. We are a
+                            family of dedicated IT professionals who work hard for a vision, which is to provide top-quality services with exceptional customer satisfaction. 
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Great Place to Work</h3>
-                        <p>There are a few things that make IndiaNIC a family. We love our peeps. IndiaNIC is just
-                            not about its promises, global recognitions or testimonials. With utter respect, we
-                            embrace the diversity of thought, cultures, and of people. Nothing feels better than
-                            getting inspired by the mentors and their success stories. Yes, IndiaNIC is
-                            compassionate for its priceless asses, the employees. Humans work here, not robots!!
+                        <p>We have a state-of-the-art infrastructure that makes us feel like we are not working in a company but in a family. There is nothing better than getting
+                            inspired by the success stories of the mentors and how they overcame obstacles. We embrace diversity in all forms, including thoughts, cultures, and people.
+                            We treat people as humans, not a robot.
                         </p>
                     </div>
                 </div>

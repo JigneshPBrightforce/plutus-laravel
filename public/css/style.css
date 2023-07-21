@@ -3890,8 +3890,8 @@ select {
 }
 
 .listing-sm-img:hover img {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05) rotate(2deg);
+  transform: scale(1.05) rotate(2deg);
 }
 
 .blog-listing-detail .category {
