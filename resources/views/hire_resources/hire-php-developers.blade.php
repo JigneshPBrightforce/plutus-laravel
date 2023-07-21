@@ -21,9 +21,11 @@
                         unprecedented levels of success. Trust in our expertise and watch your digital dreams
                         flourish.</p>
                 </div>
-            </div>
+            </div>            
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/Hire-php.svg')}}" class="w-100" alt="hire-php">
+                </div>
             </div>
         </div>
     </div>
@@ -34,7 +36,7 @@
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <p class="sub-dec ms-4 mt-4">The time for hesitation is over. A path to success lies before you,
                         paved with the expertise of our PHP developers, who will guide you along the way. As you
@@ -52,12 +54,7 @@
                         development with Plutus Technologies.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/Hire-php.svg')}}" class="w-100" alt="hire-php">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

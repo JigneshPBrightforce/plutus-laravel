@@ -20,7 +20,10 @@
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-flutter-app-developer.svg')}}" class="w-100"
+                        alt="hire-android-banner">
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +31,7 @@
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Flutter Developer</h3>
                     <p class="sub-dec ms-4 mt-4">As the Android market is growing bigger and bigger, businesses need
@@ -42,12 +45,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-flutter-app-developer.svg')}}" class="w-100"
-                        alt="hire-android-banner">
-                </div>
-            </div>
+            <!-- <div class="col-lg-5 text-center">
+                
+            </div> -->
         </div>
     </div>
 </div>

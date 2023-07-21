@@ -19,7 +19,9 @@ Experienced Python programmers can exceed your expectations no matter how demand
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-python-developer.svg')}}" class="w-100" alt="hire-php">
+                </div>
             </div>
         </div>
     </div>
@@ -30,7 +32,7 @@ Experienced Python programmers can exceed your expectations no matter how demand
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <p class="sub-dec ms-4 mt-4">Each Python engineer has been carefully selected based on their technical expertise, problem-solving skills, and teamwork capability. Aside from web development, data analysis, machine learning, and artificial intelligence, they also have expertise in other areas as well.
                     </p>
@@ -38,12 +40,7 @@ Experienced Python programmers can exceed your expectations no matter how demand
                     </p>
                     <p class="sub-dec ms-4 mt-4">Using our Python experts assigned to work on your development project, you will be able to speed up the development process, increase productivity, and gain a competitive advantage. With more than a decade of expert Python programming experience, Plutus Technologies is committed to providing its clients with the best programming services available.</p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-python-developer.svg')}}" class="w-100" alt="hire-php">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

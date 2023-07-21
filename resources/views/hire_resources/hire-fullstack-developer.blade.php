@@ -20,7 +20,9 @@ The team at Plutus Technologies understands the value of employee experience and
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-fullstack-developer.svg')}}" class="w-100" alt="hire-php">
+                </div>
             </div>
         </div>
     </div>
@@ -31,19 +33,14 @@ The team at Plutus Technologies understands the value of employee experience and
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <p class="sub-dec ms-4 mt-4">In order to gain a competitive advantage in the market, companies are increasingly engaging and recruiting full-stack engineers who have a strong background in both server and front-end development expertise.  At Plutus Technologies the developers specialize in everything from the concept to the finished product.
                     </p>
                     <p class="sub-dec ms-4 mt-4">Working with Plutus Technologies ensures more than simply advanced technical knowledge when you hire fullstack programmers. Our full-stack developers demonstrate unrelenting dedication, a never-ending thirst for education, and a profound desire to solve problems. Their dedication to excellence and ability to manage complicated challenges make them invaluable assets to your corporation.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-fullstack-developer.svg')}}" class="w-100" alt="hire-php">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

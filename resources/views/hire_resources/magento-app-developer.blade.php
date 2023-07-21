@@ -20,7 +20,10 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/Hire-magento-developer.svg') }}" class="w-100"
+                        alt="Hire-magento-developer">
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +31,7 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Magento Developer</h3>
                     <p class="sub-dec ms-4 mt-4">It is critical for an e-commerce company expanding into the digital age to have the expertise and advice of individuals who possess the experience and expertise to construct a custom and engaging Magento e-commerce website.
@@ -37,13 +40,7 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
 
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/Hire-magento-developer.svg') }}" class="w-100"
-                        alt="Hire-magento-developer">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

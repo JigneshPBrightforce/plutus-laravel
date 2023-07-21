@@ -26,7 +26,9 @@
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-wordpress-developer.svg') }}" class="w-100" alt="hire-wordpress">
+                </div>
             </div>
         </div>
     </div>
@@ -34,7 +36,7 @@
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire WordPress Developer
                     </h3>
@@ -55,12 +57,7 @@
                         and intuitive websites that engage users and help you stand out from the competition.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-wordpress-developer.svg') }}" class="w-100" alt="hire-wordpress">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
@@ -189,7 +186,6 @@
                             aria-selected="false">.NET Development</button>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="col-12 col-md-7 white-box">

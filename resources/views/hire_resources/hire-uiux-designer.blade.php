@@ -20,7 +20,9 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +30,7 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire UI/UX Designer</h3>
                     <p class="sub-dec ms-4 mt-4">Choosing Plutus Technologies' UI and UX designers gives you access to experts who are passionate about creating visually stunning websites with intuitive user interfaces and impeccable user experiences. Designers at our company have a knack for creating interactive applications that leave an indelible impression on users. You can count on our professional team of developers who sure that your website meets and exceeds the expectations of your audience: whether they're viewing it on desktop, tablet, or smartphone.
@@ -36,12 +38,7 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
                     <p class="sub-dec ms-4 mt-4">Hire UI UX Developer and Designers provide a full suite of UI/UX design services, including consultancy, flexible engagement models, end-to-end design solutions, and 100% responsive applications. Our dedication to a high-quality procedure, extensive testing, and validation ensures that your website or application is polished and functions properly.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

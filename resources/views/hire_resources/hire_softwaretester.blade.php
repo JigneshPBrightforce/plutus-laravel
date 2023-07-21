@@ -20,7 +20,9 @@
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-softwaretester.svg')}}" class="w-100" alt="hire-php">
+                </div>
             </div>
         </div>
     </div>
@@ -31,7 +33,7 @@
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <p class="sub-dec ms-4 mt-4">Do you have a new PHP development project coming up? Then
                         definitely you must be looking for expert
@@ -48,12 +50,7 @@
                         PHP development.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-softwaretester.svg')}}" class="w-100" alt="hire-php">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

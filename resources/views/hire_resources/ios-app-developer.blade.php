@@ -26,7 +26,10 @@
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/Hire-ios-App-Developer.svg')}}" class="w-100"
+                        alt="hire-ios-app-developer">
+                </div>
             </div>
         </div>
     </div>
@@ -34,7 +37,7 @@
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire iOS Developer</h3>
                     <p class="sub-dec ms-4 mt-4">Since its founding, Apple has continuously pushed the frontiers of
@@ -55,12 +58,12 @@
                         appealing.</p>
                 </div>
             </div>
-            <div class="col-lg-5 text-center">
+            <!-- <div class="col-lg-5 text-center">
                 <div class="page-breadcrumb-img">
                     <img src="{{ asset('image/Hire-ios-App-Developer.svg')}}" class="w-100"
                         alt="hire-ios-app-developer">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

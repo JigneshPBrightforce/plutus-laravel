@@ -20,7 +20,9 @@ One of the things that sets our Ionic developers apart is that they possess exce
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-ionic-app-developer.svg')}}" class="w-100" alt="hire-android-banner">
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +30,7 @@ One of the things that sets our Ionic developers apart is that they possess exce
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Ionic Developer</h3>
                     <p class="sub-dec ms-4 mt-4">Partnering with Plutustec is more than just employing Ionic developers; it entails working with a dependable and trustworthy team committed to reaching your business objectives. We take pleasure in our open communication, on-time project completion, and superior customer satisfaction.
@@ -37,12 +39,7 @@ We take pleasure in our comprehensive hiring procedure, which ensures that only 
 
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-ionic-app-developer.svg')}}" class="w-100" alt="hire-android-banner">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
