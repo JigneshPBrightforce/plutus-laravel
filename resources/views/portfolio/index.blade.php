@@ -44,13 +44,13 @@
                     </div>
                 </div>
             </li>
-            <li class="mix python col-xl-6 col-md-6 col-12 col-sm-6 pd">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Recover</h3>
+                        <p class="category">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally. </p>
                         <a href="#" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>

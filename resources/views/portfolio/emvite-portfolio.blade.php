@@ -8,36 +8,38 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">RapidParty</li>
+                        <li class="breadcrumb-item active" aria-current="page">Emvite</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>RapidParty</h3>
-                    <p class="sub-dec ms-4 mt-4">Feature-rich event planning.  Item registry, crowdfunding, chat and more!</p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Emvite</h3>
+                    <p class="sub-dec ms-4 mt-4">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Rapidparty/rapidparty.png') }}" class="" alt="">
+                    <img src="{{ asset('Portfolio/Emvite/emvite-logo.svg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Rapidparty/top_banner_rapidparty.jpg') }}" />
+    <img class="w-100" src="{{ asset('Portfolio/Emvite/top_banner_emvite.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"> RapidParty will take the stress out of party planning.  While optimized for house parties, RapidParty can
-            be used for a wide variety of events.  RapidParty has added or improved features that are lacking in other event planning
-            platforms. The App has a light and private social networking platform built around it. Unlike other social networking platforms,
-            RapidParty has no need to make money from their users and never will.</p>
+        <p class="sub-dec">Welcome to emVite, a location-based social search engine and networking community to help you connect
+            to new people around you who share your interests by simply choosing and interacting through specific emojis that describe
+            your real time interests, hobbies or activities.
+            <br>
+            Have coffee, brunch, enjoy a day at the beach or simply chat – with more than 25 emojis, emVite will get you close to those with your same interest.
+</p>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About RapidParty</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Emvite</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -51,8 +53,7 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>USA</p>
-                        <p> Canada
+                        <p>Denmark
                         </p>
                     </div>
                     <div class="core-value-detail-box">
@@ -73,8 +74,7 @@
 </div>
 <div class="industry-verticals technology-expertise">
     <div class="container">
-        <h3 class="subtitle d-flex align-items-center aos-init" data-aos="fade-up">
-            <span></span>Technology Used
+        <h3 class="subtitle d-flex align-items-center aos-init" data-aos="fade-up"> <span></span>Technology Used
         </h3>
     </div>
     <div class="container industry-verticals-box-row">
@@ -91,13 +91,13 @@
                     <h3>Dart</h3>
                 </div>
             </div>
-            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
-                    <h3>Ionic</h3>
+                    <img src="{{ asset('image/firebase-1.svg')}}" alt="slide 1">
+                    <h3>Firebase Database</h3>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
+            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
                     <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
                     <h3>Java</h3>
@@ -108,43 +108,33 @@
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_1.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Account.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_2.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_home.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_3.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Home-details.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_4.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_splash.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_5.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_subscription.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_6.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_New-user-home.jpg') }}">
     </div>
     <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_7.jpg') }}">
-    </div>
-    <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_8.jpg') }}">
-        <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_9.jpg') }}">
-    </div>
-    <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_10.jpg') }}">
-    </div>
-    <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_11.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Recovr/.jpg') }}">
     </div> -->
-    </div>
+    <!-- <div>
+        <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
+    </div> -->
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="home-page-title d-flex align-items-center justify-content-center">You May Also Like
-        </h3>
+        <h3 class="home-page-title d-flex align-items-center justify-content-center">You May Also Like</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 

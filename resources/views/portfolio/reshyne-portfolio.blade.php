@@ -13,10 +13,7 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Reshyne</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Reshyne helps companies make the most of their repairs business. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -32,15 +29,20 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the world by
-            storm!<br>
+        <p class="sub-dec">From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue
+            growth and business success. Offer your customers a fully branded repair experience that allows them to browse services, place orders,
+            print out shipping labels, and track progress, all directly from your website. Reshyne makes the process
+            seamless, secure, and completely contact-free to keep your customers confident, satisfied, and coming back for more.<br>
 
-            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to teachers using
-            the <span>READY SET DANCE</span> program only.<br>
+            Payment Gateway Integration:
+Payment services used across the Reshyne for payment. Integrated stripe payment gateway along with transaction failure
+handling mechanism, refund mechanism, stripe connect etc.
+<br>
 
-            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new content. It’s
-            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
-            community support, big budget marketing, and class resources are all available to you.</p>
+Shipping Integration:
+Shipping services used across the Reshyne for shipping. Integrated EasyPost shipping along with a carrier account mechanism,
+shipping rates, download label, tracking shipment, etc.
+</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -192,7 +194,7 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     responsive: [{
             breakpoint: 768,
             settings: {

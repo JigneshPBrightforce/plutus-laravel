@@ -345,6 +345,22 @@ class HomeController extends Controller
         ];
         return view('portfolio.skilltrade-portfolio')->with($data);
     }
+    public function recovr_portfolio(){
+        $data = [
+            'title' => 'Recovr | Plutustec',
+            'metaDescription' => 'Recovr| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.recovr-portfolio')->with($data);
+    }
+    public function emvite_portfolio(){
+        $data = [
+            'title' => 'Emvite | Plutustec',
+            'metaDescription' => 'Emvite| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.emvite-portfolio')->with($data);
+    }
     public function blog(){
         $data = [
             'title' => 'Blog | Plutustec ',
