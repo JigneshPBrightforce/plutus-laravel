@@ -164,16 +164,16 @@
                         aria-orientation="vertical">
                         <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Custom PHP Development</button>
+                            aria-selected="true">React Native App Development</button>
                         <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Mobile App Development</button>
+                            aria-selected="false">Android App Development</button>
                         <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Bespoke CMS Development</button>
+                            aria-selected="false">Ionic App Development</button>
                         <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
-                            aria-selected="false">PHP Website Development</button>
+                            aria-selected="false">iOS App Development</button>
                     </div>
                 </div>
 
@@ -184,49 +184,41 @@
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php1">
+                        <img src="{{ asset('image/reactnative-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
-                        <h5>Custom PHP Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>React Native App Development</h5>
+                        <p>Plutustec is your go-to partner for React Native app development. To build amazing mobile applications, we bring together a committed team, cutting-edge technology, and industry best practices.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php2">
+                        <img src="{{ asset('image/android-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
-                        <h5>Mobile App Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Android App Development</h5>
+                        <p>Reliable partners for your Android/IOS App Development, with focused on custom solutions, that are designed to meet unique goals and requirements.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php3">
+                        <img src="{{ asset('image/ionic-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
-                        <h5>Bespoke CMS Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Ionic App Development</h5>
+                        <p>Plutustec is witnessing unprecedented growth in the realm of iOS/iPhone application development, and we proudly stand as a leading force in India's dynamic technology sector.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/ios-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
-                        <h5>PHP Website Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>iOS App Development</h5>
+                        <p>As a prominent iOS software development firm based in India, Plutus technologies, we take pride ourselves on delivering bespoke and all-encompassing iOS app development services.</p>
                     </div>
                 </div>
 

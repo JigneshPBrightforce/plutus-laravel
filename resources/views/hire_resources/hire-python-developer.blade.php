@@ -160,16 +160,16 @@ Experienced Python programmers can exceed your expectations no matter how demand
                         aria-orientation="vertical">
                         <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Custom PHP Development</button>
+                            aria-selected="true">Android App Development</button>
                         <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Mobile App Development</button>
+                            aria-selected="false">PHP Web Development</button>
                         <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Bespoke CMS Development</button>
+                            aria-selected="false">Flutter App Development</button>
                         <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
-                            aria-selected="false">PHP Website Development</button>
+                            aria-selected="false">.NET Development</button>
                     </div>
                 </div>
 
@@ -180,49 +180,41 @@ Experienced Python programmers can exceed your expectations no matter how demand
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php1">
+                        <img src="{{ asset('image/android-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
-                        <h5>Custom PHP Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Android App Development</h5>
+                        <p>Reliable partners for your Android/IOS App Development, with focused on custom solutions, that are designed to meet unique goals and requirements.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php2">
+                        <img src="{{ asset('image/PHP-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
-                        <h5>Mobile App Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>PHP Web Development</h5>
+                        <p>Plutus Technologies stands as a distinguished entity in the realm of web development, specializing in PHP. </p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php3">
+                        <img src="{{ asset('image/flutter-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
-                        <h5>Bespoke CMS Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Flutter App Development</h5>
+                        <p>As an industry-leading Flutter App Development Company in India, we specialize in rendering custom Flutter app development services designed to satisfy our clients' distinct business objectives.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/aspnet-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
-                        <h5>PHP Website Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>.NET Development</h5>
+                        <p>Plutus Technologies, as an ASP.NET application development company, can provide a remarkable variety of ASP.NET application development services that are not only resilient but also flexible and hyper-customized to match the specific demands of organizations.</p>
                     </div>
                 </div>
 

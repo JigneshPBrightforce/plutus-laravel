@@ -170,16 +170,16 @@
                         aria-orientation="vertical">
                         <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Custom PHP Development</button>
+                            aria-selected="true">Magento Development</button>
                         <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Mobile App Development</button>
+                            aria-selected="false">WordPress Development</button>
                         <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Bespoke CMS Development</button>
+                            aria-selected="false">Software Testing</button>
                         <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
-                            aria-selected="false">PHP Website Development</button>
+                            aria-selected="false">UI/UX Design</button>
                     </div>
                 </div>
 
@@ -190,49 +190,41 @@
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php1">
+                        <img src="{{ asset('image/magento-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
-                        <h5>Custom PHP Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Magento Development</h5>
+                        <p>In today's digital era, e-commerce has become a vital aspect of every business. It allows businesses to reach out to their customers globally, offer a seamless shopping experience, and generate revenue 24/7.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php2">
+                        <img src="{{ asset('image/wordpress-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
-                        <h5>Mobile App Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>WordPress Development</h5>
+                        <p>Plutustec is a premier WordPress Development Company, offering WordPress website design and development services to ensure a responsive, high-quality website that will engage your audience and generate sales or interactions.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php3">
+                        <img src="{{ asset('image/softwaretesting-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
-                        <h5>Bespoke CMS Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Software Testing</h5>
+                        <p>At Plutus Technologies, we understand the pivotal role that quality software plays in shaping exceptional customer experiences. </p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/uiux-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
-                        <h5>PHP Website Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>UI/UX Design</h5>
+                        <p>Plutus Technologies attempts to understand the core of your brand and transform it into an interface that resonates with your target audience through an iterative and collaborative process.</p>
                     </div>
                 </div>
 
