@@ -37,9 +37,9 @@ $(document).ready(function () {
         
         if(grecaptcha.getResponse() == "") {
             e.preventDefault();
-            $("#captchError").show();
+            $("#contact_captchError").show();
         }else{
-            $("#captchError").hide();
+            $("#contact_captchError").hide();
         } 
         $("#loaderImg").show();
         var form = $(this);

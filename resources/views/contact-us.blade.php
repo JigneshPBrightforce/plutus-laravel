@@ -64,7 +64,7 @@
                             <div class="form-group">
                                 <div class="g-recaptcha" data-sitekey="6Lc7bHcmAAAAAKJMOt6Gz7gv2X80LqFFjJTicu3s"
                                     data-callback="recaptchaCallback"></div>
-                                <div id="captchError" class="error" style="display: none;">This field is required.
+                                <div id="contact_captchError" class="error" style="display: none;">This field is required.
                                 </div>
                             </div>
                         </div>

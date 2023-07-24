@@ -30,7 +30,7 @@
                     </div>
                     <div class="g-recaptcha" data-sitekey="6Lc7bHcmAAAAAKJMOt6Gz7gv2X80LqFFjJTicu3s"
                         data-callback="recaptchaCallback"></div>
-                    <div id="captchError" class="error" style="display: none;">This field is required.</div>
+                    <div id="contact_captchError" class="error" style="display: none;">This field is required.</div>
                     <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
                     <div class="d-flex align-items-center mt-3">
                         <button type="submit" class=" btn-orange" id="submitButton">Send</button>
