@@ -21,14 +21,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/STE/ste_logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/STE/ste_logo.jpg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/STE/top_banner _ste.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/STE/top_banner _ste.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -108,25 +108,25 @@
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Dashboard_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Dashboard_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Exam_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Exam_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Login_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Login_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Result_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Result_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_splash_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_splash_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Summary_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Summary_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Test_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Test_page.jpg') }}">
     </div>
     <!-- <div>
         <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">

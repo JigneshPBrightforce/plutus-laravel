@@ -361,6 +361,14 @@ class HomeController extends Controller
         ];
         return view('portfolio.emvite-portfolio')->with($data);
     }
+    public function agrotrade_portfolio(){
+        $data = [
+            'title' => 'Agrotrade | Plutustec',
+            'metaDescription' => 'Agrotrade| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.agrotrade-portfolio')->with($data);
+    }
     public function blog(){
         $data = [
             'title' => 'Blog | Plutustec ',

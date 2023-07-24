@@ -8,38 +8,41 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Recovr</li>
+                        <li class="breadcrumb-item active" aria-current="page">Agrotrade</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>Recovr</h3>
-                    <p class="sub-dec ms-4 mt-4">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally. </p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Agrotrade</h3>
+                    <p class="sub-dec ms-4 mt-4">READY SET DANCE is the award winning dance curriculum taking the world by storm!</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/Recovr/recovr-logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/RSD/RSD_1.png')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/Recovr/top_banner_recovr.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/RSD/rsd_top_banner.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">Users are able to access rehab, prehab, mobility, strengthening and self-care programs to help them overcome annoying aches and pains.
-            <br>
-            All content is created by trusted rehab professionals that have gone through a rigorous quality content process. Our in app assessment makes
-            sure relevant content is shown to the user, with the ability to reach out to a recovr professional if they need more support. Our network of
-            rehab professionals allows users to find the rehab professional for them.
-</p>
+        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the world by
+            storm!<br>
+
+            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to teachers using
+            the <span>READY SET DANCE</span> program only.<br>
+
+            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new content. It’s
+            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
+            community support, big budget marketing, and class resources are all available to you.</p>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Recovr</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Agrotrade</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -87,50 +90,50 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/RevenueCat.svg')}}" alt="slide 1">
-                    <h3>Revenuecat</h3>
+                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
+                    <h3>Kotlin</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="{{ asset('image/firebase-1.svg')}}" alt="slide 1">
-                    <h3>Firebase Database</h3>
+                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
+                    <h3>Ionic</h3>
                 </div>
             </div>
-            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
                     <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
                     <h3>Java</h3>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_Account.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_favorites.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_login.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_Home-details.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_newa.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_splash.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_onboarding.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_subscription.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_playlists.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_New-user-home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_setting.jpg') }}">
     </div>
-    <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/.jpg') }}">
-    </div> -->
-    <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
-    </div> -->
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_splash.jpg') }}">
+    </div>
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_tracks.jpg') }}">
+    </div>
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
@@ -143,10 +146,10 @@
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Android</span>
-                        <h3 class="category">RapidParty</h3>
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">RSD</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="rsd_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>

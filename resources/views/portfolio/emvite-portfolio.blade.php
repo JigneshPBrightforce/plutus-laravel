@@ -18,14 +18,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Emvite/emvite-logo.svg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Emvite/emvite-logo.svg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Emvite/top_banner_emvite.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/Emvite/top_banner_emvite.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -108,26 +108,26 @@
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Account.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Onboarding-1.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Onboarding-2.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Home-details.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Onboarding-3.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_splash.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Onboarding-4.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_subscription.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Welcome.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_New-user-home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Main-Match.jpg') }}">
     </div>
-    <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/.jpg') }}">
-    </div> -->
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/Emvite/Emvite_2.jpg') }}">
+    </div>
     <!-- <div>
         <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
     </div> -->

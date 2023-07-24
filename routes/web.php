@@ -55,6 +55,7 @@ Route::get('/reshyne_portfolio', 'HomeController@reshyne_portfolio');
 Route::get('/skilltrade_portfolio', 'HomeController@skilltrade_portfolio');
 Route::get('/recovr_portfolio', 'HomeController@recovr_portfolio');
 Route::get('/emvite_portfolio', 'HomeController@emvite_portfolio');
+Route::get('/agrotrade_portfolio', 'HomeController@agrotrade_portfolio');
 // hire resource menu
 Route::get('/hire-php-developers', 'HomeController@hire_php_developers');
 Route::get('/hire-android-app-developer', 'HomeController@hire_android_app_developer');
