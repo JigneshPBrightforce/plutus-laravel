@@ -59,18 +59,18 @@ $techArray = [];
                 <input type="hidden" id="page" name="page" id="page" value="hiredevelopers" />
                 <div class="col-md-12">
                     <label class="lable-style subtext f-text mb-2" for="name">Budget</label>
-                    <div class="form-group">
-                        <div class="custom-radio d-flex align-item-center flex-wrap">
+                    <div class="form-group mb-0">
+                        <div class="custom-radio d-flex align-item-center flex-wrap position-relative pb-4">
                             <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Fixed" id="flexRadioDefault1"
                                     name="budget">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <label class="custom" for="flexRadioDefault1">
                                 </label><span class="ms-2">Fixed</span>
                             </div>
                             <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Hourly" id="flexRadioDefault2"
                                     name="budget">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <label class="custom" for="flexRadioDefault2">
                                 </label><span class="ms-2">Hourly</span>
                             </div>
                         </div>
