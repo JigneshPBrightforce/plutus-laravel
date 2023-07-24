@@ -18,14 +18,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Rapidparty/rapidparty.png') }}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Rapidparty/rapidparty.png') }}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Rapidparty/top_banner_rapidparty.jpg') }}" />
+    <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/top_banner_rapidparty.jpg') }}" />
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -108,38 +108,35 @@
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_1.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-1.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_2.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-2.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_3.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-3.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_4.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-4.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_5.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-5.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_6.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-6.png') }}">
+    </div>
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-7.png') }}">
+    </div>
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/Rapidparty/app-mobile-8.png') }}">
     </div>
     <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_7.jpg') }}">
-    </div>
-    <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_8.jpg') }}">
-        <div>
-        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_9.jpg') }}">
-    </div>
-    <div>
         <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_10.jpg') }}">
     </div>
     <div>
         <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_11.jpg') }}">
     </div> -->
-    </div>
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">

@@ -643,7 +643,7 @@
                                                     </div>
                                                     <div class="col-6 portfolio-box">
                                                         <a href="rapidparty_portfolio" class="p-0"><img
-                                                                src="{{ asset('image/rapidparty.jpg')}}"
+                                                                src="{{ asset('image/rapidparty.png')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>

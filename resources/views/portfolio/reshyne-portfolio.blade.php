@@ -18,14 +18,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Reshyne/Reshyne-logo.png') }}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Reshyne/Reshyne-logo.png') }}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne_topbanner.jpg') }}">
+    <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne_topbanner.jpg') }}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -116,22 +116,22 @@ shipping rates, download label, tracking shipment, etc.
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-invoice.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-invoice.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-login.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-login.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-pricelist.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-pricelist.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-service.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-service.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-store-1.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store-1.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-store.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store.png') }}">
     </div>
     <!-- <div>
             <img class="w-100" src="{{ asset('Portfolio/RSD_splash.jpg') }}">
