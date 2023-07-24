@@ -99,8 +99,11 @@ $techArray = [];
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
-            <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;">
+            <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
+            <div class="d-flex align-items-center">
+                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
+            </div>
             <div id="successMsg" class="text-primary mt-3" style="display: none">Application sent successfully.</div>
             <div id="errorMsg" class="text-primary mt-3" style="display: none"></div>
         </form>

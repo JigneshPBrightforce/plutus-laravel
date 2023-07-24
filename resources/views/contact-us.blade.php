@@ -71,8 +71,11 @@
                     </div>
                 </div>
                 <div class="">
-                    <button type="submit" class="btn btn-primary btn-orange" id="submitButton">Send</button>
-                    <img src="{{ asset('images/loading.gif')}} " alt="loader" id="loaderImg" style="display: none;">
+                    <div class="d-flex align-items-center">
+                        <button type="submit" class="btn btn-primary btn-orange" id="submitButton">Send</button>
+                        <!-- <img src="{{ asset('images/loading.gif')}} " alt="loader" id="loaderImg" style="display: none;"> -->
+                        <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
+                    </div>
                     <div id="successMsg" class="text-primary mt-3" style="display: none">Email sent successfully.
                     </div>
                 </div>
