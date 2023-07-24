@@ -4,13 +4,16 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire WordPress Developer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/hire-wordpress-developer.svg') }}" class="w-100" alt="hire-wordpress">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire WordPress Developer</h3>
                     <p class="sub-dec ms-4 mt-4">You gain access to an array of seasoned experts who are passionate
@@ -25,8 +28,10 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-
+            <div class="col-lg-6 text-center d-none d-lg-block">
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-wordpress-developer.svg') }}" class="w-100" alt="hire-wordpress">
+                </div>
             </div>
         </div>
     </div>
@@ -34,7 +39,7 @@
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire WordPress Developer
                     </h3>
@@ -55,12 +60,7 @@
                         and intuitive websites that engage users and help you stand out from the competition.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-wordpress-developer.svg') }}" class="w-100" alt="hire-wordpress">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
@@ -177,19 +177,18 @@
                         aria-orientation="vertical">
                         <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Custom PHP Development</button>
+                            aria-selected="true">Drupal Development</button>
                         <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Mobile App Development</button>
+                            aria-selected="false">Magento Development</button>
                         <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Bespoke CMS Development</button>
+                            aria-selected="false">ReactJS Development</button>
                         <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
-                            aria-selected="false">PHP Website Development</button>
+                            aria-selected="false">.NET Development</button>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="col-12 col-md-7 white-box">
@@ -197,49 +196,41 @@
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg') }}" class="" alt="hire_php1">
+                        <img src="{{ asset('image/drupal-development-banner-image.svg') }}" width="271" height="200" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
-                        <h5>Custom PHP Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Drupal Development</h5>
+                        <p>Providing outstanding Drupal development services that meet the unique requirements and needs of your company. </p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg') }}" class="" alt="hire_php2">
+                        <img src="{{ asset('image/magento-development-banner-image.svg') }}" width="271" height="200" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
-                        <h5>Mobile App Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Magento Development</h5>
+                        <p>In today's digital era, e-commerce has become a vital aspect of every business.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg') }}" class="" alt="hire_php3">
+                        <img src="{{ asset('image/reactjs-development-banner-image.svg') }}" width="271" height="200" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
-                        <h5>Bespoke CMS Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>ReactJS Development</h5>
+                        <p>Plutus Technologies, an experienced ReactJS Development Company in India, specializes in providing outstanding ReactJS Development Services that are highly scalable and versatile.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg') }}" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/aspnet-development-banner-image.svg') }}" width="271" height="200" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
-                        <h5>PHP Website Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>.NET Development</h5>
+                        <p>Plutus Technologies, as an ASP.NET application development company, can provide a remarkable variety of ASP.NET application development services that are not only resilient but also flexible and hyper-customized to match the specific demands of organizations.</p>
                     </div>
                 </div>
 

@@ -8,11 +8,11 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">RSD</li>
+                        <li class="breadcrumb-item active" aria-current="page"> Skill Trade Exam</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>Ready Set Dance</h3>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span> Skill Trade Exam</h3>
                     <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
                         team of expert
                         programmers. Hire PHP developers who help your business grow bigger and faster
@@ -21,31 +21,25 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/android-development-banner-image.svg')}}" class="" alt="">
+                    <img src="{{ asset('Portfolio/STE/ste_logo.jpg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('image/rsd_top.png')}}">
+    <img class="w-100" src="{{ asset('Portfolio/STE/top_banner _ste.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the world by
-            storm!<br>
-
-            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to teachers using
-            the <span>READY SET DANCE</span> program only.<br>
-
-            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new content. It’s
-            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
-            community support, big budget marketing, and class resources are all available to you.</p>
+        <p class="sub-dec">Use your smart device to change your future! Skilled Trade Exams provides access to auto-generated multiple
+            choice exam questions to prepare you for license and certification test questions that can be found in real-test scenarios.
+</p>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Ready Set Dance</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Skill Trade Exam</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -93,50 +87,50 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
-                    <h3>Kotlin</h3>
+                    <img src="{{ asset('image/dart.svg')}}" alt="slide 1">
+                    <h3>Dart</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
                     <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
-                    <h3>Ionic</h3>
+                    <h3>GetX</h3>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
+            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
                     <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
                     <h3>Java</h3>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_favorites.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Dashboard_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_login.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Exam_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_newa.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Login_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_onboarding.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Result_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_playlists.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_splash_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_setting.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Summary_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_splash.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Test_page.jpg') }}">
     </div>
-    <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD_tracks.jpg') }}">
-    </div>
+    <!-- <div>
+        <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
+    </div> -->
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
@@ -149,10 +143,10 @@
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Android</span>
-                        <h3 class="category">RapidParty</h3>
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Recovr</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="{{ url('recovr_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>
@@ -165,7 +159,7 @@
                         <span class="overlay-content-badge">Python</span>
                         <h3 class="category">Project Name</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>

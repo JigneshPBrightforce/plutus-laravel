@@ -13,10 +13,7 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>RapidParty</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Feature-rich event planning.  Item registry, crowdfunding, chat and more!</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -28,22 +25,14 @@
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/RSD/rsd_top_banner.jpg') }}" />
+    <img class="w-100" src="{{ asset('Portfolio/Rapidparty/top_banner_rapidparty.jpg') }}" />
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the
-            world by
-            storm!<br>
-
-            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to
-            teachers using
-            the <span>READY SET DANCE</span> program only.<br>
-
-            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new
-            content. It’s
-            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
-            community support, big budget marketing, and class resources are all available to you.</p>
+        <p class="sub-dec"> RapidParty will take the stress out of party planning.  While optimized for house parties, RapidParty can
+            be used for a wide variety of events.  RapidParty has added or improved features that are lacking in other event planning
+            platforms. The App has a light and private social networking platform built around it. Unlike other social networking platforms,
+            RapidParty has no need to make money from their users and never will.</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -62,7 +51,8 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>Denmark
+                        <p>USA</p>
+                        <p> Canada
                         </p>
                     </div>
                     <div class="core-value-detail-box">
@@ -97,11 +87,11 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
-                    <h3>Kotlin</h3>
+                    <img src="{{ asset('image/dart.svg')}}" alt="slide 1">
+                    <h3>Dart</h3>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
                     <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
                     <h3>Ionic</h3>
@@ -112,34 +102,43 @@
                     <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
                     <h3>Java</h3>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_favorites.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_1.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_login.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_2.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_newa.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_3.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_onboarding.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_4.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_playlists.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_5.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_setting.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_6.jpg') }}">
+    </div>
+    <!-- <div>
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_7.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_splash.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_8.jpg') }}">
+        <div>
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_9.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/RSD/RSD_tracks.jpg') }}">
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_10.jpg') }}">
+    </div>
+    <div>
+        <img class="w-100" src="{{ asset('Portfolio/Rapidparty/Rapid-party_11.jpg') }}">
+    </div> -->
     </div>
 </div>
 <section class="blog-wrap space">

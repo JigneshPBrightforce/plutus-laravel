@@ -2458,7 +2458,9 @@ video::-webkit-media-controls-panel {
   align-items: stretch;
   margin: 50px 0px 0px 0px !important;
 }
-
+.page-breadcrumb-img img {
+  max-height: 250px;
+}
 .orange-box-row .orange-box {
   background-color: #ff6c37;
   padding: 24px 44px 24px 24px;
@@ -3890,8 +3892,8 @@ select {
 }
 
 .listing-sm-img:hover img {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05) rotate(2deg);
+  transform: scale(1.05) rotate(2deg);
 }
 
 .blog-listing-detail .category {
@@ -5151,7 +5153,7 @@ select {
   .page-breadcrumb-img {
     margin-top: 40px;
   }
-
+ 
   .asked-questions .accordion-item .accordion-button {
     font-size: 18px !important;
   }

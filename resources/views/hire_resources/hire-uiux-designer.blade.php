@@ -4,13 +4,16 @@
 <div class="page-breadcrumb space bg-lightorange top-space">
     <div class="container aos-init" data-aos="fade-up">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire UI/UX Designer</li>
                     </ol>
                 </nav>
+                <div class="page-breadcrumb-img d-lg-none my-4">
+                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
+                </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire UI/UX Designer</h3>
                     <p class="sub-dec ms-4 mt-4">In order to develop a successful website, Plutus Technologies understands the importance of user interaction and user experience. Any website or web application can be successful by utilizing these elements. Our designers have a thorough understanding of character design, user experience, and user interface, allowing them to provide outstanding solutions.
@@ -19,8 +22,10 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
 </p>
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-
+            <div class="col-lg-6 text-center d-none d-lg-block">
+                <div class="page-breadcrumb-img">
+                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +33,7 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
 <div class="hire-developer space">
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire UI/UX Designer</h3>
                     <p class="sub-dec ms-4 mt-4">Choosing Plutus Technologies' UI and UX designers gives you access to experts who are passionate about creating visually stunning websites with intuitive user interfaces and impeccable user experiences. Designers at our company have a knack for creating interactive applications that leave an indelible impression on users. You can count on our professional team of developers who sure that your website meets and exceeds the expectations of your audience: whether they're viewing it on desktop, tablet, or smartphone.
@@ -36,12 +41,7 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
                     <p class="sub-dec ms-4 mt-4">Hire UI UX Developer and Designers provide a full suite of UI/UX design services, including consultancy, flexible engagement models, end-to-end design solutions, and 100% responsive applications. Our dedication to a high-quality procedure, extensive testing, and validation ensures that your website or application is polished and functions properly.
                     </p>
                 </div>
-            </div>
-            <div class="col-lg-5 text-center">
-                <div class="page-breadcrumb-img">
-                    <img src="{{ asset('image/hire-uiux-designer.svg')}}" class="w-100" alt="hire-uiux">
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
@@ -158,16 +158,16 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
                         aria-orientation="vertical">
                         <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Custom PHP Development</button>
+                            aria-selected="true">Digital Marketing</button>
                         <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Mobile App Development</button>
+                            aria-selected="false">Fullstack Development</button>
                         <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Bespoke CMS Development</button>
+                            aria-selected="false">iOS App Development</button>
                         <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
-                            aria-selected="false">PHP Website Development</button>
+                            aria-selected="false">Node.js Development</button>
                     </div>
                 </div>
 
@@ -178,49 +178,41 @@ We provide our clients to hire dedicated UI UX designers and specilaiszed develo
                 <div class="tab-pane fade show active " id="v-pills-first" role="tabpanel"
                     aria-labelledby="v-pills-first-tab" tabindex="0">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php1">
+                        <img src="{{ asset('image/digitalmarketing-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php1">
                     </div>
                     <div class="white-box-text">
-                        <h5>Custom PHP Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Digital Marketing</h5>
+                        <p>Revolutionize your digital marketing strategy with Plutustec's acute solutions.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php2">
+                        <img src="{{ asset('image/fullstack-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php2">
                     </div>
                     <div class="white-box-text">
-                        <h5>Mobile App Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Fullstack Development</h5>
+                        <p>Welcome to the forefront of full stack development companies in India! As the industry leader, we are committed to providing unrivaled full stack development services to businesses of all sizes.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_php3">
+                        <img src="{{ asset('image/ios-development-banner-image.svg')}}" width="271" height="200" class="" alt="hire_php3">
                     </div>
                     <div class="white-box-text">
-                        <h5>Bespoke CMS Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>iOS App Development</h5>
+                        <p>As a prominent iOS software development firm based in India, Plutus technologies, we take pride ourselves on delivering bespoke and all-encompassing iOS app development services.</p>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab"
                     tabindex="1">
                     <div class="text-center">
-                        <img src="{{ asset('image/Hire-php.svg')}}" class="" alt="hire_ph41">
+                        <img src="{{ asset('image/Hire-php.svg')}}" width="271" height="200" class="" alt="hire_ph41">
                     </div>
                     <div class="white-box-text">
-                        <h5>PHP Website Development</h5>
-                        <p>Rapidly crafting websites with built-in validation features that are responsive and
-                            work across
-                            various platforms.</p>
+                        <h5>Node.js Development</h5>
+                        <p>Plutus Technologies is the premier Node.js development company in India and the United States, offering Node.js web development services. </p>
                     </div>
                 </div>
 
