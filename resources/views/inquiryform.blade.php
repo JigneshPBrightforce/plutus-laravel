@@ -32,8 +32,8 @@
                         data-callback="recaptchaCallback"></div>
                     <div id="captchError" class="error" style="display: none;">This field is required.</div>
                     <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
-                    <div class="d-flex align-items-center">
-                        <button type="submit" class=" mt-3 btn-orange" id="submitButton">Send</button>
+                    <div class="d-flex align-items-center mt-3">
+                        <button type="submit" class=" btn-orange" id="submitButton">Send</button>
                         <!-- <img src="{{ asset('images/loading.gif')}}" alt="loader" id="loaderImg" style="display: none;"> -->
                         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
                     </div>
