@@ -1733,8 +1733,7 @@ video::-webkit-media-controls-panel {
 }
 
 .portfolio-slider {
-  background-image: url("../image/rsd_bg.png");
-
+  /* background-image: url("../image/rsd_bg.png"); */
   padding: 80px 0px;
 }
 
@@ -1945,6 +1944,7 @@ video::-webkit-media-controls-panel {
 
 .industry-box img {
   height: 100px;
+  width: 100%;
 }
 
 .industry-box h3 {

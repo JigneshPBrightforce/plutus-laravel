@@ -16,10 +16,10 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Support Team</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">We are a trusted customer support outsourcing company committed to offering on-demand
+                        professional customer support specialists to help deliver your products and services to your customers more efficiently
+                        and professionally. Hire our customer support team to improve your customer service, enhance the experience, and generate
+                        more leads to capitalize on the growth.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,19 +38,17 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">Do you have a new PHP development project coming up? Then
-                        definitely you must be looking for expert
-                        PHP developers from a reputed and cost-effective web development company. Well, you can
-                        always count
-                        on us. Build Robust websites and applicationsby hiring the best PHP developers from India.
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies is a professional customer support outsourcing company offering round-the-clock
+                        support services to clients worldwide. To make your business stand out from the competition and create a great impression in customers’ minds,
+                        we tap into this experience. We understand that you need to focus on specific offerings in a way that not only makes sense to your customers but
+                        also your business to take it to the next level. With this in mind, we aim to provide the best and most affordable dedicated customer support team
+                        to ensure no customers are left unsatisfied. Our outsourced customer support services help you be proactive and anticipate your customers' needs so
+                        that you can deliver your offerings the way you want. 
                     </p>
-                    <p class="sub-dec ms-4 mt-4">PHP cms developers at Plutus Technologies build your business
-                        website with feature-rich database maintenance
-                        and ensure the greatest levels of tailored PHP development. As an open-source platform, PHP
-                        is a greatly used
-                        platform for we b and portal development. We are known for being committed to providing the
-                        best solutions for
-                        PHP development.
+                    <p class="sub-dec ms-4 mt-4">At Plutus Technologies, we are a proficient team of dedicated customer support specialists and technical support professionals with
+                        extensive knowledge and experience in working on different tools and technologies and dealing with small and large-sized business customers & clients quickly
+                        and proactively. If you are a business looking to hire a dedicated support team that adds value to your business, Plutus Technologies is the right choice for you.
+                        Set up a quick interview with us to hire support team professionals today!
                     </p>
                 </div>
             </div> 
@@ -237,15 +235,19 @@
         <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
             <h3 class="subtitle d-flex align-items-center"><span></span>Why Hire Support Team from Plutustec ?
             </h3>
+        <p>We are a well-established and reputed firm that believes in quality services with 100% customer satisfaction. Our support team specialists
+            are friendly, skilled, and experienced to deliver top-class customer support services that improve the overall customer experience.
+            We have been providing personalized support services as an extension of your company, our technical expert linguists work seamlessly
+            with your customers to ensure you won't miss another important call. Here are some reasons why should you hire a support team from us;
+
+        </p>
         </div>
         <div class="container our-vission-mission">
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span>Extensive Knowledge</h3>
+                        <p>The customer experience is the most important aspect of our customer support system, which enables businesses to make data-driven decisions that lead to success by reducing friction at every stage of the customer journey. Our customer support services have the requisites to ensure a seamless customer experience across multiple channels, such as phone calls, emails, chats, or even social media platforms. Our support team can handle all your customers from different platforms and mediums.
                         </p>
                     </div>
                 </div>
@@ -264,10 +266,8 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
+                        Prompt Response</h3>
+                        <p>As a leading outsourcing customer support company, we at Plutus Technologies understand the value of time, so we strive to respond within a minute or even seconds to ensure you get your answer without having to wait in a long queue. We proactively reply to your calls, emails, and messages and offer the best support services possible to make your business stand out. If you are a business searching for fast and reliable customer support services or individual support specialists, consider hiring a support team from Plutus Technologies.
                         </p>
                     </div>
                 </div>
@@ -275,14 +275,8 @@
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
+                        <h3 class="subtitle d-flex align-items-center"><span>3. </span>Best & Affordable Pricing</h3>
+                        <p>Creating value-add interactions with your customers is integral to your business with them. We at Plutus Technologies assist you in bringing a difference to your lives. We focus on providing the best and most affordable customer support team to take care of your products & services and customers. We are a dedicated support team responsible for providing both technical and non-technical support services your business needs to upscale in the market. Hire a support team from us today & let us manage your customers more professionally!
                         </p>
                     </div>
                 </div>

@@ -369,6 +369,49 @@ class HomeController extends Controller
         ];
         return view('portfolio.agrotrade-portfolio')->with($data);
     }
+    public function powerzada_portfolio(){
+        $data = [
+            'title' => 'Powerzada | Plutustec',
+            'metaDescription' => 'Powerzada| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.powerzada-portfolio')->with($data);
+    }
+    public function cheekyevent_portfolio(){
+        $data = [
+            'title' => 'Cheekyevent | Plutustec',
+            'metaDescription' => 'Cheekyevent| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.cheekyevent-portfolio')->with($data);
+    }
+    public function cycleai_portfolio(){
+        $data = [
+            'title' => 'cycleai | Plutustec',
+            'metaDescription' => 'cycleai| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.cycleai-portfolio')->with($data);
+    }
+    public function propertyWatch_portfolio(){
+        $data = [
+            'title' => 'propertyWatch | Plutustec',
+            'metaDescription' => 'propertyWatch| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.propertyWatch-portfolio')->with($data);
+    }
+    public function msb_portfolio(){
+        $data = [
+            'title' => 'msb | Plutustec',
+            'metaDescription' => 'msb| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.msb-portfolio')->with($data);
+    }
+
+
+
     public function blog(){
         $data = [
             'title' => 'Blog | Plutustec ',
@@ -386,6 +429,7 @@ class HomeController extends Controller
         return view('portfolio.blog-details')->with($data);
     }
 
+    
     // hire-resources
 
     public function hire_php_developers(){
