@@ -185,7 +185,7 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     responsive: [{
             breakpoint: 768,
             settings: {
