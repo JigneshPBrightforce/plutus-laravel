@@ -4185,6 +4185,36 @@ select {
   z-index: 9999;
 }
 
+/* team size design */
+.team-size .badge-primary{
+  background-color: #ff6c37;
+  padding: 12px 30px;
+  color: #ffffff; 
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  border-radius: 10px;
+}
+.team-count {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: #ff6c37;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.project-url li a{
+  color: #ff6c37;
+}
+
+
 /* Media Start */
 /* @media (max-width: 1500px) {.services-menu-bottom-content .bottom-image img {
   height: 160px !important;

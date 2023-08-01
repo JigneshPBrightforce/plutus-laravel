@@ -541,7 +541,15 @@ class HomeController extends Controller
         return view('hire_resources.hire-support-team')->with($data);
     }
     
-    
+    // Case studies
+    public function one_click_heat(){
+        $data = [
+            'title' => '1 Click Heat case study - Plutus Technologies',
+            'metaDescription' => '1 Click Heat case study - Plutus Technologies',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('case_studies.one-clickheat')->with($data);
+    }    
 
     // send mail when contact us
     public function inquiryform(Request $request){

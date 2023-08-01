@@ -87,3 +87,6 @@ Route::get('/career-details-laravel', 'HomeController@career_details_laravel');
 Route::get('/career-details-ios', 'HomeController@career_details_ios');
 Route::get('/career-details-bde', 'HomeController@career_details_bde');
 Route::get('/career-details-fresher', 'HomeController@career_details_fresher');
+
+// Case study 
+Route::get('/one-clickheat', 'HomeController@one_click_heat');
