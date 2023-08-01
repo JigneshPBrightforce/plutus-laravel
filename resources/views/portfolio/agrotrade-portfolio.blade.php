@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/RSD/RSD_1.png')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/agrotrade/agrotrade-logo.svg')}}" class="" alt="">
                 </div>
             </div>
         </div>
@@ -111,29 +111,29 @@
 </div>
 <div class="portfolio-slider">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_favorites.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/communication.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_login.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/login.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_newa.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/notification.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_onboarding.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/pricealert.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_playlists.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/request.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_setting.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/agrotrade/verification.jpg') }}">
     </div>
-    <div>
+    <!-- <div>
         <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_splash.jpg') }}">
     </div>
     <div>
         <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_tracks.jpg') }}">
-    </div>
+    </div> -->
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
