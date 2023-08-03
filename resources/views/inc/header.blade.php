@@ -609,7 +609,7 @@
                                             </div>
                                             <ul class="mt-3">
                                                 <li>
-                                                    <a class="" href="">IOS App Developer</a>
+                                                    <a class="" href="one-clickheat">1Click Heat</a>
                                                 </li>
                                                 <li>
                                                     <a class="" href="">Android App Developer</a>
@@ -643,7 +643,7 @@
                                                     </div>
                                                     <div class="col-6 portfolio-box">
                                                         <a href="rapidparty_portfolio" class="p-0"><img
-                                                                src="{{ asset('image/rapidparty.jpg')}}"
+                                                                src="{{ asset('image/rapidparty.png')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>

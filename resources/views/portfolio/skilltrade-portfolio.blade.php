@@ -21,14 +21,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/STE/ste_logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/STE/ste_logo.jpg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/STE/top_banner _ste.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/STE/top_banner _ste.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -106,27 +106,27 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/ste_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Dashboard_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Dashboard_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Exam_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Exam_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Login_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Login_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Result_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Result_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_splash_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_splash_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Summary_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Summary_page.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/STE_Test_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Test_page.jpg') }}">
     </div>
     <!-- <div>
         <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
@@ -144,9 +144,9 @@
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Recovr</h3>
+                        <h3 class="category">Powerzada</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="{{ url('recovr_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="powerzada_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>
@@ -156,10 +156,10 @@
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Cheekyevents</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="cheekyevent_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>
@@ -185,14 +185,14 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     responsive: [{
             breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 4
             }
         },
         {

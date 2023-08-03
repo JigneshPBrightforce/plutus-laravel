@@ -59,18 +59,18 @@ $techArray = [];
                 <input type="hidden" id="page" name="page" id="page" value="hiredevelopers" />
                 <div class="col-md-12">
                     <label class="lable-style subtext f-text mb-2" for="name">Budget</label>
-                    <div class="form-group">
-                        <div class="custom-radio d-flex align-item-center flex-wrap">
+                    <div class="form-group mb-0">
+                        <div class="custom-radio d-flex align-item-center flex-wrap position-relative pb-4">
                             <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Fixed" id="flexRadioDefault1"
                                     name="budget">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <label class="custom" for="flexRadioDefault1">
                                 </label><span class="ms-2">Fixed</span>
                             </div>
                             <div class="d-flex align-item-center me-3">
                                 <input class="form-check-input" type="radio" value="Hourly" id="flexRadioDefault2"
                                     name="budget">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <label class="custom" for="flexRadioDefault2">
                                 </label><span class="ms-2">Hourly</span>
                             </div>
                         </div>
@@ -99,8 +99,11 @@ $techArray = [];
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
-            <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;">
+            <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
+            <div class="d-flex align-items-center mt-3">
+                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
+            </div>
             <div id="successMsg" class="text-primary mt-3" style="display: none">Application sent successfully.</div>
             <div id="errorMsg" class="text-primary mt-3" style="display: none"></div>
         </form>

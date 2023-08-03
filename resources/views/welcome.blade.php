@@ -620,17 +620,15 @@
     <div class="container">
         <div class="our-work-block-slider">
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="400">
-                <div class="cs-main" tabindex="0">
+                <a class="cs-main" href="rsd_portfolio" tabindex="0">
                     <div class="cs-info"
-                        style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;">
+                    style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;" >
                         <div class="case-study-block even">
                             <div class="cs-detail">
-                                <p class="cs-title">incometax</p>
-                                <h2 class="cs-description">UX design for a startup focusing on measuring Team
-                                    Performance</h2>
+                                <p class="cs-title">Ready set dance</p>
+                                <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking the world by storm!</h2>
                                 <div class="client-says">
-                                    <h4>“Impressive how they crafted such a complicated vision into a beautiful
-                                        produc”</h4>
+                                    <h4>“I With READY SET DANCE, you no longer need to plan, search for, or create new content.”</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Incometax_ 1.svg" alt="ncometax" width="48" height="48">
@@ -663,12 +661,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="600">
-                <a class="cs-main" href="" tabindex="0">
+                <a class="cs-main" href="reshyne_portfolio" tabindex="0">
                     <div class="cs-info"
-                        style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;">
+                    style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;" >
                         <div class="case-study-block odd">
                             <div class="cs-thumb-img">
                                 <div class="case-study-slider">
@@ -690,12 +688,11 @@
                                 </div>
                             </div>
                             <div class="cs-detail">
-                                <p class="cs-title">Cambridge</p>
-                                <h2 class="cs-description">Centralized CRM for World's Leading Education Institute
+                                <p class="cs-title">Reshyne</p>
+                                <h2 class="cs-description">Reshyne helps companies make the most of their repairs business
                                 </h2>
                                 <div class="client-says">
-                                    <h4>"Needed a solid, responsive, and reliable vendor PM I could count on and got
-                                        one at IndiaNIC."</h4>
+                                    <h4>"From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue growth and business success."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/RSD.svg" alt="Rsd" width="48" height="48">
@@ -712,17 +709,15 @@
                 </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="800">
-                <a class="cs-main" href="" tabindex="0">
+                <a class="cs-main" href="recovr_portfolio" tabindex="0">
                     <div class="cs-info"
                         style="background: linear-gradient(80.12deg, #596D3A -0.35%, #B7D18E 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
-                                <p class="cs-title">Zinzi</p>
-                                <h2 class="cs-description">A social platform for celebrities to connect with their
-                                    followers</h2>
+                                <p class="cs-title">Recovr</p>
+                                <h2 class="cs-description">A digital marketplace that provides affordable and accessible rehab and recovery content</h2>
                                 <div class="client-says">
-                                    <h4>"They are transparent in everything they do, Which means there are no
-                                        surprises along the way"</h4>
+                                    <h4>"All content is created by trusted rehab professionals that have gone through a rigorous quality content process."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Recover.svg" alt="Recover" width="48" height="48">

@@ -55,6 +55,12 @@ Route::get('/reshyne_portfolio', 'HomeController@reshyne_portfolio');
 Route::get('/skilltrade_portfolio', 'HomeController@skilltrade_portfolio');
 Route::get('/recovr_portfolio', 'HomeController@recovr_portfolio');
 Route::get('/emvite_portfolio', 'HomeController@emvite_portfolio');
+Route::get('/agrotrade_portfolio', 'HomeController@agrotrade_portfolio');
+Route::get('/powerzada_portfolio', 'HomeController@powerzada_portfolio');
+Route::get('/cheekyevent_portfolio', 'HomeController@cheekyevent_portfolio');
+Route::get('/cycleai_portfolio', 'HomeController@cycleai_portfolio');
+Route::get('/propertyWatch_portfolio', 'HomeController@propertyWatch_portfolio');
+Route::get('/msb_portfolio', 'HomeController@msb_portfolio');
 // hire resource menu
 Route::get('/hire-php-developers', 'HomeController@hire_php_developers');
 Route::get('/hire-android-app-developer', 'HomeController@hire_android_app_developer');
@@ -86,3 +92,6 @@ Route::get('/career-details-laravel', 'HomeController@career_details_laravel');
 Route::get('/career-details-ios', 'HomeController@career_details_ios');
 Route::get('/career-details-bde', 'HomeController@career_details_bde');
 Route::get('/career-details-fresher', 'HomeController@career_details_fresher');
+
+// Case study 
+Route::get('/one-clickheat', 'HomeController@one_click_heat');

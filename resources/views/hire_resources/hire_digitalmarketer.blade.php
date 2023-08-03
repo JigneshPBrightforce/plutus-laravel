@@ -16,10 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Digital Marketer</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Hire certified digital marketers to improve online visibility, website rankings, and brand awareness
+                        in the digital landscape. Our digital marketing specialists offer tech-enabled marketing solutions that provide successful outcomes. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,19 +36,16 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">Do you have a new PHP development project coming up? Then
-                        definitely you must be looking for expert
-                        PHP developers from a reputed and cost-effective web development company. Well, you can
-                        always count
-                        on us. Build Robust websites and applicationsby hiring the best PHP developers from India.
+                    <p class="sub-dec ms-4 mt-4">DPlutus Technologies is a leading digital marketing agency that offers a comprehensive range of digital marketing services,
+                        including SEO, SEM, PCC, Google Ads campaign management, and content writing & marketing. We are a team of skilled and certified digital marketers to
+                        ensure you get the best digital marketing & social media marketing services that add value to your business. We offer fast, reliable, and cost-effective
+                        digital marketing solutions using the right, more efficient digital marketing strategies in the first place. When you hire digital marketing experts
+                        from Plutus Technologies, you can be assured that you will get the best return on your marketing investments.
                     </p>
-                    <p class="sub-dec ms-4 mt-4">PHP cms developers at Plutus Technologies build your business
-                        website with feature-rich database maintenance
-                        and ensure the greatest levels of tailored PHP development. As an open-source platform, PHP
-                        is a greatly used
-                        platform for we b and portal development. We are known for being committed to providing the
-                        best solutions for
-                        PHP development.
+                    <p class="sub-dec ms-4 mt-4">Our digital marketers will help you in tracking & analyzing even the toughest marketing things using the right marketing tools.
+                        With decades of experience in digital marketing, we know what it takes to make your business succeed in the digital space. We create the best marketing plans,
+                        SEO strategies, and efficient ad campaigns based on in-depth market research, target audience, and core products & services to ensure everything goes right
+                        and drives profitable results. If you want to scale your business in the digital landscape, hire our digital marketing experts today!
                     </p>
                 </div>
             </div>
@@ -240,15 +235,21 @@
         <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
             <h3 class="subtitle d-flex align-items-center"><span></span>Why Hire Digital Marketer from Plutustec ?
             </h3>
+            <p>We are a reputed digital marketing company committed to providing top-rated digital marketing services your business needs to
+                thrive in the competitive marketplace. The thing that sets us apart from others in the market is that we believe in delivering fully
+                customized digital marketing solutions with successful outcomes rather than just providing our services. You can grow and scale up your
+                business online by hiring a digital marketer from Plutus Technologies.
+            </p>
         </div>
         <div class="container our-vission-mission">
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
+                        <p>We have extensive experience, knowledge, and expertise in different fields and technologies to ensure your business
+                            is in good hands. We are not just limited to digital marketing services but also offer customized solutions tailored to
+                            your unique business needs. Whether you are planning to scale your business to the next level, improve brand awareness, or
+                            just want to increase website rankings, we can help. 
                         </p>
                     </div>
                 </div>
@@ -267,10 +268,10 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
+                        Extensive Knowledge</h3>
+                        <p>You need marketers who understand online marketing basics and know how to make profitable marketing decisions.
+                            Our digital marketers use the latest marketing tools, tactics, and proven strategies to run successful campaigns
+                            for businesses across a variety of industries. Hire our digital marketing experts today to take your business to the next level.
                         </p>
                     </div>
                 </div>
@@ -279,13 +280,10 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
+                        <p>Our team of experts understands that digital marketing is a vast area of expertise encompassing multiple subspecialties.
+                            The digital marketing industry has countless aspects, so our team consists of digital marketing experts who can handle each
+                            one of them. Since started, we have been running successful and profitable marketing campaigns for many years. If you want to
+                            grow your business online in the digital world, hire a digital marketer today from us.
                         </p>
                     </div>
                 </div>

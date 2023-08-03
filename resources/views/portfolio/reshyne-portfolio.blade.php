@@ -18,14 +18,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Reshyne/Reshyne-logo.png') }}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Reshyne/Reshyne-logo.png') }}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne_topbanner.jpg') }}">
+    <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne_topbanner.jpg') }}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -114,24 +114,24 @@ shipping rates, download label, tracking shipment, etc.
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/reshyne_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-invoice.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-invoice.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-login.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-login.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-pricelist.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-pricelist.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-service.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-service.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-store-1.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store-1.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Reshyne/reshyne-store.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store.png') }}">
     </div>
     <!-- <div>
             <img class="w-100" src="{{ asset('Portfolio/RSD_splash.jpg') }}">
@@ -151,10 +151,10 @@ shipping rates, download label, tracking shipment, etc.
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Android</span>
-                        <h3 class="category">RapidParty</h3>
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">CycleAi</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="cycleai_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>
@@ -194,14 +194,14 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     responsive: [{
             breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 1
             }
         },
         {

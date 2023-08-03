@@ -18,14 +18,14 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('Portfolio/Recovr/recovr-logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Recovr/recovr-logo.jpg')}}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('Portfolio/Recovr/top_banner_recovr.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/Recovr/top_banner_recovr.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -106,24 +106,24 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/recovr_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Account.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_Account.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_home.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_Home-details.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_Home-details.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_splash.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_splash.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_subscription.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_subscription.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('Portfolio/Recovr/Recovr_New-user-home.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_New-user-home.jpg') }}">
     </div>
     <!-- <div>
         <img class="w-100" src="{{ asset('Portfolio/Recovr/.jpg') }}">
@@ -185,7 +185,7 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     responsive: [{
             breakpoint: 768,
             settings: {
