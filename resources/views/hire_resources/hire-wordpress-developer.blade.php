@@ -16,16 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire WordPress Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">You gain access to an array of seasoned experts who are passionate
-                        about producing sturdy and user-friendly websites by employing our WordPress developers. A
-                        team with a horizon of knowledge and experience to offer great outcomes whether you need a
-                        custom WordPress theme, plugin development, or continuous website maintenance.
-
-                        The advantage when you hire dedicated wordpress developer comes along a collaborative
-                        understanding. Who will work closely with you and find personalised solutions that
-                        correspond with your objectives. Help you with simple or specific requirements that you
-                        might have time to time.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">You gain access to an array of seasoned experts who are passionate about producing sturdy and user-friendly websites by employing our WordPress developers. A team with a horizon of knowledge and experience to offer great outcomes whether you need a custom WordPress theme, plugin development, or continuous website maintenance.</p>
+                    <p class="sub-dec ms-4 mt-4">The advantage when you hire a dedicated WordPress developer comes along with a collaborative understanding. A developer will work closely with you and find personalised solutions that correspond with your objectives. Help you with simple or specific requirements that you might have from time to time.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -43,22 +35,9 @@
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire WordPress Developer
                     </h3>
-                    <p class="sub-dec ms-4 mt-4">With decades of experience, Plutus Technologies specializes in
-                        crafting custom WordPress web solutions. We work with a team of professionals to deliver
-                        feature-rich and reliable websites that highlight the online presence of your business.
-
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Considering the importance of creating a well-designed,
-                        user-friendly website that goes beyond being a content management system (CMS), we place a
-                        high emphasis on search engine optimization (SEO). Our WordPress-powered websites are
-                        optimized for maximum visibility and appeal to popular search engines, ensuring your
-                        business reaches its target audience efficiently.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">There is no doubt that a mediocre website is detrimental to your
-                        business's ability to grow and impede the acquisition of new customers in today's cut-throat
-                        digital landscape. Consequently, we place a high priority on creating visually captivating
-                        and intuitive websites that engage users and help you stand out from the competition.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">With decades of experience, Plutus Technologies specializes in crafting custom WordPress web solutions. We work with a team of professionals to deliver feature-rich and reliable websites that highlight the online presence of your business.</p>
+                    <p class="sub-dec ms-4 mt-4">Considering the importance of creating a well-designed, user-friendly website that goes beyond being a Content Management System (CMS), we place a high emphasis on Search Engine Optimization (SEO). Our WordPress-powered websites are optimized for maximum visibility and appeal to popular search engines, ensuring your business reaches its target audience efficiently.</p>
+                    <p class="sub-dec ms-4 mt-4">There is no doubt that a mediocre website is detrimental to your business's ability to grow and impedes the acquisition of new customers in today's cut-throat digital landscape. Consequently, we place a high priority on creating visually captivating and intuitive websites that engage users and help you stand out from the competition.</p>
                 </div>
             </div> 
         </div>
@@ -249,14 +228,8 @@
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-start"><span>1. </span> Advanced Technical
-                            Competence</h3>
-                        <p>The Plutus team stays informed of the latest technological developments in the WordPress
-                            ecosystem. They are able to design WordPress solutions that are sturdy and scalable by
-                            utilising well-versed tools, frameworks, and plugins with a team of competent and
-                            experienced developers. They can improve the performance, security, and user interface
-                            of your website by leveraging their technical expertise.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-start"><span>1. </span> Advanced Technical Competence</h3>
+                        <p>The Plutus team stays informed of the latest technological developments in the WordPress ecosystem. They are able to design WordPress solutions that are sturdy and scalable by utilising well-versed tools, frameworks, and plugins with a team of competent and experienced developers. They can improve the performance, security, and user interface of your website by leveraging their technical expertise.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -274,12 +247,8 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle text-lg-end"><span class="d-inline-block">2. </span>
-                            Timely Delivery and Cost-effectiveness</h3>
-                        <p>In order for a project to be timely, Plutus understands the importance of delivery. Using
-                            efficient development methodologies, our WordPress developers complete your project
-                            within the timeframe you agreed upon. With Plutus, you will get quality WordPress
-                            development services that are cost-effective and do not compromise on quality.
-                        </p>
+                        Timely Delivery and Cost-effectiveness</h3>
+                        <p>In order for a project to be timely, Plututec understands the importance of delivery. Using efficient development methodologies, our WordPress developers complete your project within the timeframe you agreed upon. With Plutus, you will get quality WordPress development services that are cost-effective and do not compromise on quality.</p>
                     </div>
                 </div>
             </div>
@@ -288,11 +257,7 @@
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span> Dedicated Customer Support
                         </h3>
-                        <p>Plutustec promotes customer satisfaction and offers specialized customer support during
-                            the development process and even after the project has been finished. Their refreshing
-                            and capable support team is always there to help you with any questions, difficulties,
-                            or upgrades to your WordPress website.
-                        </p>
+                        <p>Plutustec promotes customer satisfaction and offers specialized customer support during the development process and even after the project has been finished. Their refreshing and capable support team is always there to help you with any questions, difficulties, or upgrades to your WordPress website</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

@@ -17,16 +17,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire iOS App Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">Accelerate your business's growth in the digital landscape with our
-                        team of proficient iOS App Developers. Our quick growth and dedication to offering
-                        exceptional results have brought us the title of the industry's top iOS App Development
-                        company.
-
-                        By hiring our iOS App Developers, you receive access to a pool of seasoned individuals with
-                        extensive knowledge of iOS app development. They are constantly up to speed on industry
-                        trends, so your apps will be designed with the latest technologies and standards of
-                        excellence.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">Accelerate your business's growth in the digital landscape with our team of proficient iOS App Developers. Our quick growth and dedication to offering exceptional results have brought us the title of the industry's top iOS App Development company.</p>
+                    <p class="sub-dec ms-4 mt-4">By hiring our iOS App Developers, you receive access to a pool of seasoned individuals with extensive knowledge of iOS app development. They are constantly up to speed on industry trends, so your apps will be designed with the latest technologies and standards of excellence.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -44,22 +36,9 @@
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire iOS Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">Since its founding, Apple has continuously pushed the frontiers of
-                        user experience. In the recent years, Apple's ever-expanding range of smart devices has
-                        exponentially increased the value of its brand, as a result of which there has been a
-                        tremendous demand for B2C and B2B iOS applications.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">At Plutus Technologies, we pride ourselves on having meticulous iOS
-                        developers who blend the app requirements, the company objectives, as well as the needs of
-                        the target audience into engaging applications with a visually appealing user interface that
-                        will engage the user. As a result, our clients can be confident that they will receive iOS
-                        applications that are compelling, intuitive, and easy to use.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Our iOS developers are not only technically talented but also
-                        driven to provide you with specialized approaches that completely correspond with your
-                        business objectives. Since they have a comprehensive understanding of the iOS ecosystem,
-                        they are capable of designing applications that are functional, easy to use, and visually
-                        appealing.</p>
+                    <p class="sub-dec ms-4 mt-4">Since its founding, Apple has continuously pushed the frontiers of user experience. In recent years, Apple's ever-expanding range of smart devices has exponentially increased the value of its brand, as a result of which there has been a tremendous demand for B2C and B2B iOS applications</p>
+                    <p class="sub-dec ms-4 mt-4">At Plutus Technologies, we pride ourselves on having meticulous iOS developers who blend the app requirements, the company objectives, as well as the needs of the target audience into engaging applications with a visually appealing user interface that will engage the user. As a result, our clients can be confident that they will receive iOS applications that are compelling, intuitive, and easy to use.</p>
+                    <p class="sub-dec ms-4 mt-4">Our iOS developers are not only technically talented but also driven to provide you with specialized approaches that completely correspond with your business objectives. Since they have a comprehensive understanding of the iOS ecosystem, they are capable of designing applications that are functional, easy to use, and visually appealing.</p>
                 </div>
             </div>
             <!-- <div class="col-lg-5 text-center">
@@ -257,10 +236,7 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>1. </span> Professional Expertise</h3>
-                        <p>Our team consists of dedicated iOS developers with extensive knowledge and experience in
-                            iOS app development. They stay current on the newest trends and technology in the iOS
-                            environment in order to provide advanced options.
-                        </p>
+                        <p>Our team consists of dedicated iOS developers with extensive knowledge and experience in iOS app development. They stay current on the newest trends and technology in the iOS environment to provide advanced options.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -278,11 +254,8 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-start  justify-content-lg-end"><span>2. </span>
-                            Scalable Solutionse</h3>
-                        <p>We recognise the significance of scalability in today's continuously changing digital
-                            landscape. Our iOS developers create apps that can handle increasing user needs while
-                            also adapting to future growth.
-                        </p>
+                        Scalable Solutions</h3>
+                        <p>We recognise the significance of scalability in today's continuously changing digital landscape. Our iOS developers create apps that can handle increasing user needs while also adapting to future growth.</p>
                     </div>
                 </div>
             </div>
@@ -290,11 +263,7 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span> Tailored Approach</h3>
-                        <p>The company takes a client-centric approach, working closely with the client to identify
-                            and understand the specific needs and objectives of the client. By integrating our
-                            development approach with our client's vision, we design custom iOS apps that meet their
-                            business objectives.
-                        </p>
+                        <p>The company takes a client-centric approach, working closely with the client to identify and understand the specific needs and objectives of the client. By integrating our development approach with our client's vision, we design custom iOS apps that meet their business objectives.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

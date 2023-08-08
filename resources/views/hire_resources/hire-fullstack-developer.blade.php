@@ -16,10 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Fullstack Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">Plutus Technologies has assembled an exceptional team of highly experienced and motivated fullstack programmers. These people have an instinctive capacity to bridge the gap between front-end and back-end development, harmoniously integrating technology and aesthetics to produce appealing online apps. You leave your project to a team driven by passion, innovation, and a solid dedication to quality when you hire our dedicated full stack developers.
-
-The team at Plutus Technologies understands the value of employee experience and dedication to your project and that an employee's passion will make a difference in its success.It is our promise that committing your web development needs to our team of skilled full-stack engineers will result in an efficient conclusion of your project, guaranteeing your vision becomes a reality.
-</p>
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies has assembled an exceptional team of highly experienced and motivated fullstack programmers. These people have an instinctive capacity to bridge the gap between front-end and back-end development, harmoniously integrating technology and aesthetics to produce appealing online apps. You leave your project to a team driven by passion, innovation, and a solid dedication to quality when you hire our dedicated full stack developers.</p>
+                    <p class="sub-dec ms-4 mt-4">The team at Plutus Technologies understands the value of employee experience and dedication to your project and that an employee's passion will make a difference in its success. We promise that committing your web development needs to our team of skilled full-stack engineers will result in an efficient conclusion of your project, guaranteeing your vision becomes a reality.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,10 +36,8 @@ The team at Plutus Technologies understands the value of employee experience and
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">In order to gain a competitive advantage in the market, companies are increasingly engaging and recruiting full-stack engineers who have a strong background in both server and front-end development expertise.  At Plutus Technologies the developers specialize in everything from the concept to the finished product.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Working with Plutus Technologies ensures more than simply advanced technical knowledge when you hire fullstack programmers. Our full-stack developers demonstrate unrelenting dedication, a never-ending thirst for education, and a profound desire to solve problems. Their dedication to excellence and ability to manage complicated challenges make them invaluable assets to your corporation.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">To gain a competitive advantage in the market, companies are increasingly engaging and recruiting full-stack engineers who have a strong background in both server and front-end development expertise.  At Plutus Technologies the developers specialize in everything from the concept to the finished product.</p>
+                    <p class="sub-dec ms-4 mt-4">Working with Plutus Technologies ensures more than simply advanced technical knowledge when you hire fullstack programmers. Our full-stack developers demonstrate unrelenting dedication, a never-ending thirst for education, and a profound desire to solve problems. Their dedication to excellence and ability to manage complicated challenges make them invaluable assets to your corporation.</p>
                 </div>
             </div> 
         </div>
@@ -233,8 +229,7 @@ The team at Plutus Technologies understands the value of employee experience and
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>1. </span>Future-Proofing</h3>
-                        <p>Despite the constant change in technology, full stack developers are well suited to adapting and mastering new tools and frameworks. Your project will remain relevant and future-proof as their expertise keeps them on top of industry developments.
-                        </p>
+                        <p>Despite the constant technology change, full stack developers are well suited to adapting and mastering new tools and frameworks. Your project will remain relevant and future-proof as their expertise keeps them on top of industry developments.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -253,8 +248,7 @@ The team at Plutus Technologies understands the value of employee experience and
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-start  justify-content-lg-end"><span>2. </span>
                         Agile Development</h3>
-                        <p>We have Full Stack Developers familiar with Agile methodologies, but they can easily adapt to changing project requirements. Shorter development cycles and faster delivery of high-quality solutions result from their ability to switch between different technologies, libraries, and frameworks easily.
-                        </p>
+                        <p>We have Full Stack Developers familiar with Agile methodologies, but they can easily adapt to changing project requirements. Shorter development cycles and faster delivery of high-quality solutions result from their ability to switch between different technologies, libraries, and frameworks easily.</p>
                     </div>
                 </div>
             </div>
@@ -262,8 +256,7 @@ The team at Plutus Technologies understands the value of employee experience and
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span>Efficient Project Management</h3>
-                        <p>The process of managing projects is simplified by hiring Full Stack Developers. Whether it's designing user interfaces, developing complicated server side functionality, or managing the complete development lifecycle, they can handle it all. Having a thorough understanding of how the development process works enables them to successfully coordinate the development process and decreases communication gaps within the team.
-                        </p>
+                        <p>The process of managing projects is simplified by hiring Full Stack Developers. Whether it's designing user interfaces, developing complicated server-side functionality, or managing the complete development lifecycle, they can handle it all. Having a thorough understanding of how the development process works enables them to successfully coordinate the development process and decreases communication gaps within the team.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

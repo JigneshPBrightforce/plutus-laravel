@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}
+} 
 
 @font-face {
   font-family: "Nunito-regular";
@@ -2491,7 +2491,7 @@ video::-webkit-media-controls-panel {
   margin: 50px 0px 0px 0px !important;
 }
 .page-breadcrumb-img img {
-  max-height: 250px;
+  max-height: 400px;
 }
 .orange-box-row .orange-box {
   background-color: #ff6c37;
