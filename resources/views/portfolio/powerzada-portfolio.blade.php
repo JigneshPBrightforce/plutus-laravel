@@ -8,11 +8,11 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page"> Skill Trade Exam</li>
+                        <li class="breadcrumb-item active" aria-current="page">Powerzada</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span> Skill Trade Exam</h3>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Powerzada</h3>
                     <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
                         team of expert
                         programmers. Hire PHP developers who help your business grow bigger and faster
@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/STE/ste_logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/powerzada/powerzada_logo.png')}}" class="" alt="">
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Skill Trade Exam</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Powerzada</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -156,10 +156,10 @@
                 <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Cheekyevents</h3>
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Project Name</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="cheekyevent_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>

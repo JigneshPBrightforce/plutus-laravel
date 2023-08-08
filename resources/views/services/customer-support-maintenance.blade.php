@@ -13,7 +13,7 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Support & Maintenance</h3>
-                    <p class="sub-dec ms-4 mt-4">We provide end to end customer support to all our clients.</p>
+                    <p class="sub-dec ms-4 mt-4">We offer top-notch customer support and maintenance services to help businesses reach their customers faster and gain a competitive advantage with a quicker time-to-market at a significantly reduced cost. We provide comprehensive solutions that will reduce the total cost of ownership for your business & help you reach your target customers faster.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -25,14 +25,17 @@
 <div class="about-ios-app-development">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
         <h3 class="subtitle d-flex align-items-center"> <span></span>Support & Maintenance</h3>
-        <p class="sub-dec">Building an optimum solution on a contemporary technology & platform is half the job
-            done. Managing the applications, helping them integrate
-            intelligently within the various Modules & allowing for forward & back integration is the key.
-            Maintaining the applications as the Business processes
-            evolve is of utmost importance in the longevity of the applications.
-            Plutus Technologies has a good experience in providing the whole gamut of Training, Customer Support and
-            Maintenance Services after the
-            solutions have been successfully implemented. </p>
+        <p class="sub-dec">We offer a comprehensive range of support & maintenance services to ensure your website is up 
+            and running smoothly at its peak performance and maximum efficiency. On-site maintenance, remote monitoring, and 
+            on-demand support services are just a few of the services we offer that come with 100% customer satisfaction guaranteed.
+             Plutus Technologies has enabled IT businesses to meet the challenge of ongoing product support and maintenance with a range
+              of services designed to significantly lower maintenance costs and ensure timely response & guarantee service. Customer 
+              satisfaction is our top priority & we strive to provide end-to-end support and maintenance services to worldwide customers.
+               Throughout the lifecycle of a system, we offer unmatched maintenance and support services to ensure your business is on top. </p>
+               <p class="sub-dec">If you are looking for professional customer support & maintenance services to manage your business and products & services more
+                 effectively, we can help. In addition to offering fast and affordable support & maintenance for high-volume websites, we also provide technical support, 
+                 user support, and ongoing content updates. Reliable and highly available technical support will help your company retain customers.
+                 Let us help you support and maintain your business website to ensure they are up-to-date and running smoothly at its peak.</p>
     </div>
     <div class="container aos-init" data-aos="fade-up">
 

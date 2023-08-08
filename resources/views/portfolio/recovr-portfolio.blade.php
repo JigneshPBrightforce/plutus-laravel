@@ -106,7 +106,7 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/recovr_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
         <img class="w-100" src="{{ asset('portfolio_images/Recovr/Recovr_Account.jpg') }}">
     </div>

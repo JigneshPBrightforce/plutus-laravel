@@ -56,18 +56,17 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>Denmark
+                        <p>Australia
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Item Traders,
-                            Individuals looking to buy or sell used items
+                        <p>Childrens, Parents
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>E-commerce, Items Trading
+                        <p>Dancing
                         </p>
                     </div>
                 </div>
@@ -109,7 +108,7 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style=" background-image:url('image/rsd_bg.png');background-repeat: no-repeat;background-size: cover;">
     <div>
         <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_favorites.jpg') }}">
     </div>
@@ -143,7 +142,7 @@
 
         <ul class="row portfolio-item">
             <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+                <img src="portfolio_images/agrotrade.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
@@ -156,11 +155,11 @@
                 </div>
             </li>
             <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+                <img src="portfolio_images/reshyne1.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
+                        <h3 class="category">Reshyne</h3>
                         <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <a href="emvite_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
@@ -188,14 +187,14 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     responsive: [{
             breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 4
             }
         },
         {
