@@ -17,10 +17,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Magento Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">Plutustec recognizes the importance of having a strong and effective online presence for your e-commerce business. With highly proficient development team that specializes in Magento E-Commerce Website Development, offering you to employ dedicated Magento coders who can take your web store to brand-new highs.
-
-When you employ PlutusTec Magento developers, you receive access to a brilliant pool of individuals with considerable expertise and knowledge in Magento development. Our experts are well-versed in the most recent Magento versions and frameworks, allowing them to construct customized solutions that meet your company's objectives.
-</p>
+                    <p class="sub-dec ms-4 mt-4">PlutusTec recognizes the importance of having a strong and effective online presence for your e-commerce business. With a highly proficient development team that specializes in Magento E-Commerce Website Development, offering you to employ dedicated Magento coders who can take your web store to brand-new highs.</p>
+                    <p class="sub-dec ms-4 mt-4">When you Hire Magento developers, you receive access to a brilliant pool of individuals with considerable expertise and knowledge in Magento development. Our experts are well-versed in the most recent Magento versions and frameworks, allowing them to construct customized solutions that meet your company's objectives.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,11 +36,8 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Magento Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">It is critical for an e-commerce company expanding into the digital age to have the expertise and advice of individuals who possess the experience and expertise to construct a custom and engaging Magento e-commerce website.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Plutus Technologies is the ideal choice for hiring Magento developers for your e-commerce store. We have the knowledge and skills to design particular, interactive Magento websites that are specific to the requirements of your company. If you want an uncommon, evolving Magento e-commerce website, our Magento developers are the best choice. As we always prioritize responsive design, ensuring that your Magento website is also mobile-friendly.
-
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">It is critical for an e-commerce company expanding into the digital age to have the expertise and advice of individuals who possess the experience and expertise to construct a custom and engaging Magento e-commerce website.</p>
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies is the ideal choice for hiring Magento developers for your e-commerce store. We have the knowledge and skills to design particular, interactive Magento websites that are specific to the requirements of your company. If you want an uncommon, evolving Magento e-commerce website, our Magento developers are the best choice. As we always prioritize responsive design, ensuring that your Magento website is also mobile-friendly.</p>
                 </div>
             </div> 
         </div>
@@ -233,9 +228,8 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Preferred Custimaization</h3>
-                        <p> Investing in Magento developers allows you to create an e-commerce website that meets your business requirements. To ensure that the Magento store properly aligns with your brand image and improves the overall buying experience for your customers, they may customize its style, functionality, and user experience.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Preferred Customization</h3>
+                        <p>Investing in Magento developers allows you to create an e-commerce website that meets your business requirements. To ensure that the Magento store properly aligns with your brand image and improves the overall buying experience for your customers, they may customize its style, functionality, and user experience. Customization enables firms to develop an intuitive and user-friendly user interface, improving the whole purchase experience for clients. </p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -254,8 +248,7 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
                     <div class="mission">
                         <h3 class="subtitle text-lg-end"><span class="d-inline-block">2. </span>
                         Performance optimization</h3>
-                        <p>It is the domain of Magento developers to optimize the performance of your e-commerce website. Optimizing the code, database, and server settings may increase the loading speed and overall performance of your Magento store. For a better user experience, lower bounce rates, and higher conversions, this is essential.
-                        </p>
+                        <p>It is the domain of Magento developers to optimize the performance of your e-commerce website. Optimizing the code, database, and server settings may increase the loading speed and overall performance of your Magento store. For a better user experience, lower bounce rates, and higher conversions, this is essential. Developers may ensure that the website's code runs efficiently and smoothly by optimising it, lowering load times and improving the user experience. </p>
                     </div>
                 </div>
             </div>
@@ -263,8 +256,7 @@ When you employ PlutusTec Magento developers, you receive access to a brilliant 
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span>Economical solution</h3>
-                        <p>An in-house development team or multiple freelancers are more expensive options. With a dedicated development team, communication overhead is lowered and development processes are more efficient. There will be a high-quality end product delivered within the stipulated timeframe and budget within the specified budget.
-                        </p>
+                        <p>An in-house development team or multiple freelancers are more expensive options. With a dedicated development team, communication overhead is lowered and development processes are more efficient. There will be a high-quality end product delivered within the stipulated timeframe and budget within the specified budget.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

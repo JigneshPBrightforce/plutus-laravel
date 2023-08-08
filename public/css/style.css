@@ -3104,6 +3104,31 @@ select {
   transform: scale(1, 1) translate(-50%);
   transform-origin: 50% 50%;
 }
+.btn-orange::before {
+  content: '';
+  position: absolute;
+  border: 2px solid transparent;
+  width: calc(100% - 10px);
+  left: 50%;
+  top: 50%;
+  height: calc(100% - 10px);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  transition: all linear 0.3s;
+  opacity: 0;
+}
+.btn-orange:hover::before {
+  content: '';
+  position: absolute;
+  border: 2px solid #fff;
+  width: calc(100% - 10px);
+  left: 50%;
+  top: 50%;
+  height: calc(100% - 10px);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  opacity: 1;
+}
 
 .hm-banner-sec .main-hero-image {
   max-width: 60%;
