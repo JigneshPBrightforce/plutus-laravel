@@ -5,7 +5,7 @@
     <div class="container aos-init" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Company</a></li>
+                <li class="breadcrumb-item"><span href="#">Company</span></li>
                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
             </ol>
         </nav>
@@ -16,7 +16,7 @@
 </div>
 <div class="our-vission-mission">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <h4>Established in<span class="bold-text">2014</span>, with a vision to provide top-quality web and mobile app development 
+        <h4>Established in<span class="bold-text mx-1">2014</span>, with a vision to provide top-quality web and mobile app development 
         solution that meets the ever-growing needs of modern customers in the digital landscape. Plutus Technologies is now a leading 
         and fastest-growing IT company that believes in delivering fully functional, scalable, and customized technology solutions with 100%
          customer satisfaction. We are a proficient team of dedicated developers, creative UI/UX designers, and marketing specialists to handle 
@@ -24,7 +24,7 @@
          solutions with a combination of our industry knowledge, technology expertise, and a passion for excellence. We have designed and developed 
          hundreds of websites and mobile applications for our worldwide clients with successful results in a minimum time and budget. 
         </h4>
-        <h4>
+        <h4 class="mt-3">
         We are proud to design and build customized software solutions that streamline your business processes, simplify operations,
         and drive significant growth more efficiently. Whether you want to build a fresh new website or custom software or just need
         help adding new features to your existing website or application, we can help. Contact us today to see how we can help convert

@@ -72,13 +72,13 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <input type="file" class="form-control" name="resume" id="resume" required
+                <input type="file" class="cursor-hover form-control" name="resume" id="resume" required
                     accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/pdf">
             </div>
         </div>
     </div>
     <div class="d-flex align-items-center mt-3">
-        <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+        <button type="submit" class="cursor-hover btn btn-primary" id="submitButton">Submit</button>
         <!-- <img src="{{ asset('images/loading.gif')}}" alt="loader" id="loaderImg" style="display: none;"> -->
         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
     </div>

@@ -44,14 +44,14 @@
                     headquarter in India & clients across the globe.</p>
                 <ul class="s-icon">
                     <li>
-                        <a href="https://www.facebook.com/PlutusTechnologies" target="_blank"><i
+                        <a href="https://www.facebook.com/PlutusTechnologies" class="cursor-hover" target="_blank"><i
                                 class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/PlutusTech" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
+                        <a href="https://twitter.com/PlutusTech" class="cursor-hover" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/" class="cursor-hover"
                             target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/plutustechnology/" target="_blank"><i
+                        <a href="https://www.instagram.com/plutustechnology/" class="cursor-hover" target="_blank"><i
                                 class="fa fa-instagram"></i></a>
-                        <a href="https://in.pinterest.com/plutustechnologies/" target="_blank"><i
+                        <a href="https://in.pinterest.com/plutustechnologies/" class="cursor-hover" target="_blank"><i
                                 class="fa fa-pinterest"></i></a>
                     </li>
                 </ul>
@@ -60,27 +60,27 @@
                 <h2 class="f-h pb-4">Quick Links</h2>
                 <ul>
                     <li>
-                        <a href="aboutus" class="f-t">
+                        <a href="aboutus" class="cursor-hover f-t">
                             About Us
                         </a>
                     </li>
                     <li>
-                        <a href="services" class="f-t">
+                        <a href="services" class="cursor-hover f-t">
                             Services
                         </a>
                     </li>
                     <li>
-                        <a href="portfolio" class="f-t">
+                        <a href="portfolio" class="cursor-hover f-t">
                             Portfolio
                         </a>
                     </li>
                     <li>
-                        <a href="career" class="f-t">
+                        <a href="career" class="cursor-hover f-t">
                             Careers
                         </a>
                     </li>
                     <li>
-                        <a href="contact-us" class="f-t">
+                        <a href="contact-us" class="cursor-hover f-t">
                             Contact Us
                         </a>
                     </li>
@@ -90,32 +90,32 @@
                 <h2 class="f-h pb-4">Hire Resources</h2>
                 <ul>
                     <li>
-                        <a href="hire-php-developers" class="f-t">
+                        <a href="hire-php-developers" class="cursor-hover f-t">
                             Hire PHP Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-android-app-developer" class="f-t ">
+                        <a href="hire-android-app-developer" class="cursor-hover f-t ">
                             Hire Android App Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-ios-app-developer" class="f-t">
+                        <a href="hire-ios-app-developer" class="cursor-hover f-t">
                             Hire iOS App Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-wordpress-developer" class="f-t">
+                        <a href="hire-wordpress-developer" class="cursor-hover f-t">
                             Hire Wordpress Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-magento-app-developer" class="f-t">
+                        <a href="hire-magento-app-developer" class="cursor-hover f-t">
                             Hire Magento Developer
                         </a>
                     </li>
                     <li>
-                        <a href="hire-uiux-designer" class="f-t">
+                        <a href="hire-uiux-designer" class="cursor-hover f-t">
                             Hire UI/UX Designer
                         </a>
                     </li>
@@ -124,22 +124,22 @@
             <div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
                 <h2 class="f-h  pb-4">Contact</h2>
                 <ul class="c-text">
-                    <li class="pb-3"><a class="d-flex"><i class="fa fa-map-marker"></i><span>1222-23, Zion Z1,Off
+                    <li class="pb-3"><a class="cursor-hover d-flex"><i class="fa fa-map-marker"></i><span>1222-23, Zion Z1,Off
                                 Sindhu Bhavan
                                 Marg,
                                 Bodakdev, Ahmedabad-380054,
-                                Gujarat, India.</span></a> </li>
-                    <li class="d-flex pb-3">
+                                Gujarat, India.</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li>
+                    <li class="cursor-hover d-flex pb-3">
                         <i class="fa fa-phone"></i>
                         <div>
                             <a class="d-block" href="tel:+917600-782-354">+91 760-078-2354 </a>
                             <a href="tel:+917948-000-107">+91 794-800-0107</a>
                         </div>
                     </li>
-                    <li class="pb-3"><a href="mailto:sales@plutustec.com"><i
+                    <li class="pb-3"><a class="cursor-hover" href="mailto:sales@plutustec.com"><i
                                 class="fa fa-envelope"></i>sales@plutustec.com </a>
                     </li>
-                    <li class="pb-3"><a href="skype:live:kalpit.belani?chat"><i class="fa fa-skype"></i>sales.plutustec
+                    <li class="pb-3"><a class="cursor-hover" href="skype:live:kalpit.belani?chat"><i class="fa fa-skype"></i>sales.plutustec
                         </a>
                     </li>
                 </ul>
@@ -154,6 +154,6 @@
 <script>
 document.getElementById('currentYear').innerHTML = new Date().getFullYear();
 </script>
-<a class="w-app-call" target="_blank" href="https://wa.me/+917948000107?text=Hi">
+<a class="cursor-hover w-app-call" target="_blank" href="https://wa.me/+917948000107?text=Hi">
     <img src="{{ asset('image/whatsapp.png')}}" alt="whatsapp call">
 </a>

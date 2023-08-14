@@ -33,7 +33,7 @@
                     <div id="contact_captchError" class="error" style="display: none;">This field is required.</div>
                     <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
                     <div class="d-flex align-items-center mt-3">
-                        <button type="submit" class=" btn-orange" id="submitButton">Send</button>
+                        <button type="submit" class="cursor-hover btn-orange" id="submitButton">Send</button>
                         <!-- <img src="{{ asset('images/loading.gif')}}" alt="loader" id="loaderImg" style="display: none;"> -->
                         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
                     </div>

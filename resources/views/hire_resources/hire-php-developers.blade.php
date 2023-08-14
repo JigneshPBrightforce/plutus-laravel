@@ -7,7 +7,7 @@
             <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li> 
+                        <li class="breadcrumb-item"><span>Home</span></li> 
                         <li class="breadcrumb-item active" aria-current="page">Hire PHP Developer</li>
                     </ol>
                 </nav>
@@ -172,16 +172,16 @@
                 <div class="select-catagory d-lg-block align-items-start d-flex">
                     <div class="nav flex-column nav-pills align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
                             aria-selected="true">Node.js Development</button>
-                        <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
                             aria-selected="false">AngularJS Development</button>
-                        <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
                             aria-selected="false">ReactJS Development</button>
-                        <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
                             aria-selected="false">Fullstack Development</button>
                     </div>
@@ -231,7 +231,6 @@
                         <p>Welcome to the forefront of full stack development companies in India! As the industry leader, we are committed to providing unrivaled full stack development services to businesses of all sizes.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

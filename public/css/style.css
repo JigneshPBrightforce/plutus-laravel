@@ -25,8 +25,7 @@
 @font-face {
   font-family: "Nunito-bold";
   src: url("../font/Nunito-Bold.ttf");
-}
-
+} 
 
 /* Loader */
 .loader {
@@ -84,9 +83,12 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Nunito-regular" !important;
-}
-
+  font-family: "Nunito-regular" !important;  
+  cursor: none;
+} 
+body:hover #custom-cursor {
+  opacity: 1;
+} 
 ul {
   list-style: none !important;
 }
@@ -237,7 +239,7 @@ input {
   align-items: center;
 }
 
-.page-breadcrumb .breadcrumb-item a {
+.page-breadcrumb .breadcrumb-item span {
   color: #939598;
   font-size: 24px;
   font-family: "Nunito-regular";
@@ -3081,6 +3083,7 @@ select {
   border: none;
   min-width: 150px;
   text-align: center;
+  cursor: none;
 }
 
 .btn-orange:hover {
@@ -5547,3 +5550,21 @@ select {
 }
 
 /* Media End */
+
+
+#custom-cursor {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  pointer-events: none; 
+  z-index: 99999;
+  transition: transform 500ms; 
+} 
+
+#custom-cursor.zoom {
+  transform: scale(2);
+}

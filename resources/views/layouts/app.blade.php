@@ -54,7 +54,8 @@
 
 </head>
 
-<body lass="">
+<body class=""> 
+<div id="custom-cursor"></div>
     @include('inc.header')
 
     @yield('content')

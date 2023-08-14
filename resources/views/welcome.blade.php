@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+@section('content') 
 <section class="hm-banner-sec">
     <div class="hero-wrapper">
         <div class="main-hero-title">
@@ -15,7 +15,7 @@
                     the boundaries of our industry and setting new standards of excellence.</p>
             </div>
             <div class="button-box justify-content-start aos-init" data-aos="fade-up" data-aos-delay="500">
-                <a class="btn-orange" href="">What we do</a>
+                <a class="btn-orange cursor-hover" href="">What we do</a>
             </div>
         </div>
         <div class="main-hero-image">
@@ -28,7 +28,7 @@
                         <img width="1140" height="750" class="video-poster-bg" src="image/Banner-bg.jpg" alt="banner">
                     </noscript>
                     <div class="video-btn-play">
-                        <span class="icon-video-play tglclass">
+                        <span class="icon-video-play tglclass cursor-hover">
                             <img src="image/Video-icon.svg" alt="vidoeicon">
                         </span>
                     </div>
@@ -49,28 +49,28 @@
             <div class="brands-marquee-inner ml-0 float-left">
                 <ul class="m-0">
                     <li>
-                        <a href="" aria-label="Oracle" class="logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Oracle" class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
                                 src="image/eva-play-new-blue.png" alt="eva-play-new-blue"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Cambridge" class="logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Cambridge" class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
                                 src="image/maingutschen.svg" alt="maingutschen"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Mumayiz" class="abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Mumayiz" class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
                                 src="image/mektronic-new.png" alt="mektronic-new"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTN Logo" class="logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTN Logo" class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
                                 src="image/Offsight_Logo.svg" alt="Offsight"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTU Logo" class="logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTU Logo" class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
                                 src="image/skylon-tower_logo.svg" alt="skylon-tower_logo"></a>
                     </li>
-                    <!-- <li>
-                            <a href="" aria-label="BCG Logo" class="logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/mektronic-new.png" /></a>
-                         </li> -->
+                    <li>
+                            <a href="" aria-label="BCG Logo" class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/reshyne.svg" alt="Reshyne" /></a>
+                         </li>
                 </ul>
             </div>
         </div>
@@ -296,27 +296,27 @@
         <div class="technologies-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
+                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
                         type="button" role="tab" aria-controls="frontend" aria-selected="false">Front End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
+                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
                         type="button" role="tab" aria-controls="backend" aria-selected="true">Back End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button"
+                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button"
                         role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button"
+                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button"
                         role="tab" aria-controls="cms" aria-selected="false">CMS</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse"
+                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse"
                         type="button" role="tab" aria-controls="databse" aria-selected="false">Database</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
+                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
                         role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
                 </li>
             </ul>
@@ -620,7 +620,7 @@
     <div class="container">
         <div class="our-work-block-slider">
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="400">
-                <a class="cs-main" href="rsd_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="rsd_portfolio" tabindex="0">
                     <div class="cs-info"
                     style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;" >
                         <div class="case-study-block even">
@@ -664,7 +664,7 @@
                 </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="600">
-                <a class="cs-main" href="reshyne_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="reshyne_portfolio" tabindex="0">
                     <div class="cs-info"
                     style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;" >
                         <div class="case-study-block odd">
@@ -709,7 +709,7 @@
                 </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="800">
-                <a class="cs-main" href="recovr_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="recovr_portfolio" tabindex="0">
                     <div class="cs-info"
                         style="background: linear-gradient(80.12deg, #596D3A -0.35%, #B7D18E 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
@@ -754,7 +754,7 @@
             </div>
         </div>
         <div class="button-box aos-init" data-aos="fade-up" data-aos-delay="900">
-            <a class="btn-orange" aria-label="View All" href="portfolio">View All</a>
+            <a class="cursor-hover btn-orange" aria-label="View All" href="portfolio">View All</a>
         </div>
     </div>
 </section>
@@ -763,18 +763,14 @@
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Innovation, Bottoms Up.</h3>
     </div>
     <div class="container">
-        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">When we mix organized Jugaad with
-            our structural R&amp;D and expertise, it can deliver commendable results that create value. All in all,
-            IndiaNIC believes that Jugaad shouldn’t replace the structured approach to innovation but rather
-            compliment it like bread &amp; butter. It’s always about finding the right balance between top-down
-            R&amp;D vs bottom-up Jugaad innovation.</p>
+        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">We understand innovation often occurs as a result of improvements to products & services, technologies, processes, and artworks. It's not always upper management who comes up with the most innovative ideas, sometimes it's the bottom-up team members who do. We use our extensive experience, knowledge, and expertise combined with innovative ideas to deliver value-added software solutions that support the growth of your business. We, at Plutus Technologies, focus on both top-down R&D and bottom-up ideas to build the most innovative technology solution based on your custom business needs. Our team of highly skilled and experienced software developers, creative designers, and marketing experts not only helps you with innovations but also creates next-gen solutions that make your business thrive in the competitive marketplace. </p>
         <!-- Jugaad Video Modal Popup -->
         <div class="jugaad-video aos-init" data-aos="fade-up" data-aos-delay="300">
             <div class="jugaad-video-img-play">
                 <img src="image/Video-bg.jfif" alt="video" width="1000" height="562">
             </div>
             <div class="jugaad-video-btn">
-                <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img src="image/Video-icon.svg" alt="vidoeicon">
                 </button>
             </div>
@@ -789,7 +785,7 @@
                         </div> -->
                     <div class="modal-body">
                         <div id="iframe_div">
-                            <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                            <button type="button cursor-hover" class="btn-close float-end" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                             <iframe id="ytplayer" class="w-100" sandbox
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -803,7 +799,7 @@
         </div>
         <!-- Jugaad Video Modal Popup -->
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work Together</a>
+            <a class="cursor-hover btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work Together</a>
         </div>
     </div>
 </section>
@@ -820,7 +816,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -836,7 +832,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -852,7 +848,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -868,7 +864,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -884,7 +880,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -900,7 +896,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -916,7 +912,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -938,6 +934,7 @@
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details"
+                                class="cursor-hover"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp') }}"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -946,7 +943,8 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
+                            <a href="blog-details" aria-label="More from our Blog"
+                                class="cursor-hover">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -955,14 +953,16 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a href="blog-details" 
+                                class="cursor-hover" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp') }}"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a href="blog-details"
+                                class="cursor-hover" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -970,14 +970,16 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a href="blog-details" 
+                                class="cursor-hover" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp') }}" alt="ai" width="350"
                                     height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
+                            <a href="blog-details"
+                                class="cursor-hover" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
@@ -985,7 +987,7 @@
             </div>
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
+            <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>

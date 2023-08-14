@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="services">Services</a></li>
+                        <li class="breadcrumb-item"><span>Services</span></li>
                         <li class="breadcrumb-item active" aria-current="page">iOS App Development</li>
                     </ol>
                 </nav>
@@ -234,7 +234,7 @@
                     <h2>Let's Discuss Your iOS App Idea</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="contact-us" class="btn btn-primary">Click Here</a>
+                    <a href="contact-us" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
@@ -247,7 +247,7 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Which tools and software do you use?
                     </button>
@@ -284,7 +284,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Which language do you use to develop iOS/iPhone apps?
                     </button>
@@ -305,7 +305,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="400">
                 <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Will you help me to upload my iOS app to the App store?
                     </button>
@@ -325,7 +325,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         How much time does it take to develop a custom iOS app development?
                     </button>
@@ -350,7 +350,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="600">
                 <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         How do you allocate services for my iOS app development project?
                     </button>
@@ -371,7 +371,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="700">
                 <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         What type of iOS apps have you developed before?
                     </button>
@@ -510,7 +510,7 @@
                     <h2>Hire iOS App Developer</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="hire-ios-app-developer" class="btn btn-primary">Click Here</a>
+                    <a href="hire-ios-app-developer" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
@@ -527,6 +527,7 @@
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details"
+                                class="cursor-hover"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp')}}"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -535,7 +536,7 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
+                            <a href="blog-details" class="cursor-hover" aria-label="More from our Blog">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -544,14 +545,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a href="blog-details" class="cursor-hover" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp')}}"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a href="blog-details" class="cursor-hover" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -559,14 +560,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a href="blog-details" class="cursor-hover" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp')}}" alt="ai" width="350"
                                     height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
+                            <a href="blog-details" class="cursor-hover" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
@@ -574,7 +575,7 @@
             </div>
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
+            <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>

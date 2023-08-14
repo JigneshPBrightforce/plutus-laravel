@@ -6,7 +6,7 @@ $techArray = [];
     <div class="row aos-init" data-aos="fade-up" data-aos-delay="500">
         <div class="col-12">
             <div class="">
-                <button class="btn btn-primary" id="apply_now">Hire Developers</button>
+                <button class="cursor-hover btn-orange" id="apply_now">Hire Developers</button>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@ $techArray = [];
                 <div class="col-md-12">
                     <div class="form-group">
                     <label class="lable-style subtext f-text mb-2" for="name">Upload Documents</label>
-                        <input type="file" class="form-control" name="doc" id="doc" required
+                        <input type="file" class="cursor-hover form-control" name="doc" id="doc" required
                             accept="application/msword, application/pdf">
                     </div>
                 </div>
@@ -101,7 +101,7 @@ $techArray = [];
             </div>
             <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
             <div class="d-flex align-items-center mt-3">
-                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                <button type="submit" class="cursor-hover btn btn-primary" id="submitButton">Submit</button>
                 <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
             </div>
             <div id="successMsg" class="text-primary mt-3" style="display: none">Application sent successfully.</div>

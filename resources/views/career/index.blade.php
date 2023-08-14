@@ -5,7 +5,7 @@
     <div class="container aos-init" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><span>Home</span></li>
                 <li class="breadcrumb-item active" aria-current="page">Career</li>
             </ol>
         </nav>
@@ -21,7 +21,7 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="400">
         <div class="current-opening-list">
             <div class="row">
-                <a href="{{ url('career-details-bdm')}}" class="col-lg-6">
+                <a href="{{ url('career-details-bdm')}}" class="cursor-hover col-lg-6">
                     <div class="current-opening-list-box">
                         <h3>BDM</h3>
                         <div class="posiition" href="{{ url('career-details-bdm')}}">

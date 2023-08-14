@@ -3,12 +3,14 @@
     <div class="aos-init careers-details-other-jobs-list" data-aos="fade-up">
         <ul>
             <li class="current-opening-list-box">
-                <div class="other-jobs-text">
-                    <h3>BDM</h3>
-                    <p>1 Position</p>
-                </div>
-                <a href="{{ url('career-details-bdm') }}">
-                    <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
+                <a href="{{ url('career-details-bdm') }}" class="cursor-hover d-flex align-items-center justify-content-between w-100">
+                    <div class="other-jobs-text">
+                        <h3>BDM</h3>
+                        <p>1 Position</p>
+                    </div>
+                    <span>
+                        <img class="" src="{{ asset('image/Right-arrow-icon.svg')}}" alt="right-arrow">
+                    </span>
                 </a>
             </li>
             <!-- <li class="current-opening-list-box">
