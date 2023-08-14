@@ -16,13 +16,7 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire PHP Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">It's no secret that the industry is evolving at breakneck speed and
-                        staying ahead of the competitors requires expertise and innovation to stay competitive. PHP
-                        developers have the knowledge and proficiency required to make your vision a reality, and we
-                        can help you with that. The benefits you gain from working with us as a client are that you
-                        can access a formidable pool of talent that is capable of propelling your business to
-                        unprecedented levels of success. Trust in our expertise and watch your digital dreams
-                        flourish.</p>
+                    <p class="sub-dec ms-4 mt-4">It's no secret that the industry is evolving at breakneck speed and staying ahead of the competitors requires expertise and innovation to stay competitive. Our PHP developers have the knowledge and proficiency required to make your vision a reality, and we can help you with that. The benefits you gain from working with us as a client are that you can access a formidable pool of talent that is capable of propelling your business to unprecedented levels of success. Trust in our expertise and watch your digital dreams flourish.</p>
                 </div>
             </div>            
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -41,21 +35,8 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">The time for hesitation is over. A path to success lies before you,
-                        paved with the expertise of our PHP developers, who will guide you along the way. As you
-                        take advantage of this opportunity to hire these incredible individuals, you will embark on
-                        a transformative journey that will redefine your digital presence in a way you never thought
-                        possible. Keeping in mind the ever-evolving technological landscape, we will navigate the
-                        intricacies of this ever-evolving landscape as a collective team, striving to achieve
-                        excellence in everything we attempt.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Profit from our seasoned PHP engineers' considerable abilities,
-                        access to libraries and extensions, and industry standards. We strive to give the finest
-                        solutions for your individual project needs, from undisputed security precautions to access
-                        to a large choice of PHP libraries and extensions. Choose from a variety of flexible
-                        scheduling, engagement, and outsourcing options to realise the full potential of PHP
-                        development with Plutus Technologies.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">The time for hesitation is over. A path to success lies before you paved with the expertise of our PHP developers, who will guide you along the way. As you take advantage of this opportunity to hire these incredible individuals, you will embark on a transformative journey that will redefine your digital presence in a way you never thought possible. Keeping in mind the ever-evolving technological landscape, we will navigate the intricacies of this ever-evolving landscape as a collective team, striving to achieve excellence in everything we attempt.</p>
+                    <p class="sub-dec ms-4 mt-4">Profit from our seasoned PHP engineers' considerable abilities, access to libraries and extensions, and industry standards.  We strive to give the finest solutions for your individual project needs, from undisputed security precautions to access to a large choice of PHP libraries and extensions. Choose from a variety of flexible scheduling, engagement, and outsourcing options to realise the full potential of PHP development with Plutus Technologies.</p>
                 </div>
             </div> 
         </div>
@@ -246,12 +227,7 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>1. </span> Quality Assurance</h3>
-                        <p>Plutustec places a premium on providing high-quality PHP solutions to our clients. Our
-                            PHP developers adhere to coding standards and industry best practises to ensure that
-                            your application is durable, secure, and bug-free. We conduct rigorous testing at each
-                            stage of development, including functional testing, performance testing, and security
-                            testing, to guarantee an effective ui.
-                        </p>
+                        <p>Plutustec places a premium on providing high-quality PHP solutions to our clients. Our PHP developers adhere to coding standards and industry best practises to ensure that your application is durable, secure, and bug-free. We conduct rigorous testing at each stage of development, including functional testing, performance testing, and security testing, to guarantee an effective UI.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -269,12 +245,8 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-start justify-content-lg-end"><span>2. </span>
-                            Agile Development Methodology</h3>
-                        <p>We employ PHP developers who are well-versed in Agile principles, allowing them to adapt
-                            quickly to changing requirements, incorporate feedback, and deliver incremental updates.
-                            As a result of our adoption of an agile approach, we are able to ensure transparency,
-                            flexibility, and improved project outcomes.
-                        </p>
+                        Agile Development Methodology</h3>
+                        <p>We employ PHP developers who are well-versed in Agile principles, allowing them to adapt quickly to changing requirements, incorporate feedback, and deliver incremental updates. As a result of our adoption of an agile approach, we are able to ensure transparency, flexibility, and improved project outcomes.</p>
                     </div>
                 </div>
             </div>
@@ -283,11 +255,7 @@
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span> Advanced Framework Knowledge
                         </h3>
-                        <p>We have many years of experience working with popular PHP frameworks, including Laravel,
-                            Symfony, CodeIgniter, and CakePHP. In choosing Plutustec as your PHP developer, you get
-                            access to experts who can provide you with assistance in maximizing the performance
-                            potential of PHP frameworks for your project.
-                        </p>
+                        <p>We have many years of experience working with popular PHP frameworks, including Laravel, Symfony, CodeIgniter, and CakePHP. In choosing Plutustec as your PHP developer, you get access to experts who can provide you with assistance in maximizing the performance potential of PHP frameworks for your project.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
