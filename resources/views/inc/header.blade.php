@@ -734,7 +734,7 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="btn btn-white" href="contact-us">Contact Us</a>
+                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -996,9 +996,8 @@
 
                                             <div class="hire-resources-contact-btn">
                                                 <div class="d-flex align-items-center  justify-content-end">
-                                                    <a href="cursor-hover contact-us" class="btn btn-white">Contact Us</a>
+                                                    <a href="cursor-hover contact-us" class="cursor-hover btn btn-white">Contact Us</a>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>

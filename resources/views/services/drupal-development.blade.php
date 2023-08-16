@@ -13,11 +13,7 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Drupal Development</h3>
-                    <p class="sub-dec ms-4 mt-4">Providing outstanding Drupal development services that meet the
-                        unique requirements and needs of your company. By combining the latest technology with our
-                        team of skilled developers and designers, this cutting-edge Drupal development company can
-                        help you create a custom-made website that seamlessly integrates your brand. We can ensure a
-                        smooth user experience, performance, and security for your Drupal website.</p>
+                    <p class="sub-dec ms-4 mt-4">Providing outstanding Drupal development services that meet the unique requirements and needs of your company. By combining the latest technology with our team of skilled developers and designers, this leading Drupal development company can help you create a custom-made website that seamlessly integrates your brand. We can ensure a smooth user experience, performance, and security for your Drupal website.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -32,15 +28,8 @@
 <div class="about-ios-app-development">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
         <h3 class="subtitle d-flex align-items-center"> <span></span>About Drupal Development</h3>
-        <p class="sub-dec">Drupal development is a sophisticated and highly versatile CMS used by businesses of all
-            sizes to create stunning, high-performance websites. As an open-source content management system, Drupal
-            provides a vast range of features and functionalities to meet the diverse needs of businesses. From
-            design to development, we ensure every aspect of your website meets the highest standards of performance
-            and security.
-            Our proficient Drupal team possesses vast technical knowledge to meet clients' expectations. Among our
-            services are site maintenance and support, which ensure robust security and authentication protocols.
-            Partner with us for Drupal solutions that exceed expectations.
-        </p>
+        <p class="sub-dec">Drupal development is a sophisticated and highly versatile CMS used by businesses of all sizes to create stunning, high-performance websites. As an open-source content management system, Drupal provides a vast range of features and functionalities to meet the diverse needs of businesses.  From design to development, we ensure every aspect of your website meets the highest standards of performance and security.</p>
+        <p class="sub-dec">Our proficient Drupal team possesses vast technical knowledge to meet clients' expectations. Among our services are site maintenance and support, which ensure robust security and authentication protocols. Partner with us for Drupal solutions that exceed expectations.</p>
     </div>
 </div>
 <div class="engagement-models ios-app-development-boxes bg-lightblue-100 space">
@@ -55,9 +44,7 @@
                     <h3 class="mb-0">Drupal Design</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">Drupal Design</h3>
-                        <p>Our Drupal Design services correspond to the specific requirements of clients from many
-                            different sectors. We employ our Drupal expertise to generate visually appealing layouts
-                            that are optimized for user experience and responsiveness.</p>
+                        <p>Our Drupal Design services correspond to the specific requirements of clients from many different sectors. We employ our Drupal expertise to generate visually appealing layouts that are optimized for user experience and responsiveness.</p>
                     </div>
                 </div>
             </div>
@@ -67,21 +54,17 @@
                     <h3 class="mb-0">Drupal 9 Development</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">Drupal 9 Development</h3>
-                        <p>A large part of our development team's expertise lies in creating custom Drupal modules,
-                            themes, and plugins that enhance Drupal's functionality.
-                        </p>
+                        <p>A large part of our development team's expertise lies in creating custom Drupal modules, themes, and plugins that enhance Drupal's functionality.</p>
                     </div>
                 </div>
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="engagement-models-box bg-lightblue">
                     <img src="{{ asset('image/drupal-development-box-3.svg') }}" class="" alt="drupal-service3">
-                    <h3 class="mb-0">Upgrade & Migration</h3>
+                    <h3 class="mb-0">Upgrade and Migration</h3>
                     <div class="engement-overly-div bg-lightblue">
-                        <h3 class="mb-0">Upgrade & Migration</h3>
-                        <p>We also provide Drupal Upgrade and Migration services to businesses that are still using
-                            earlier versions of Drupal. Our skilled staff guarantees that the relocation process is
-                            smooth and quick, with little downtime.</p>
+                        <h3 class="mb-0">Upgrade and Migration</h3>
+                        <p>We also provide Drupal Upgrade and Migration services to businesses that are still using earlier versions of Drupal. Our skilled staff guarantees that the relocation process is smooth and quick, with little downtime.</p>
                     </div>
                 </div>
             </div>
@@ -91,9 +74,7 @@
                     <h3 class="mb-0">Maintenance & Support</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">Maintenance & Support</h3>
-                        <p>Plutustec understands how difficult it may be to maintain a Drupal website. As a result,
-                            we offer dependable Drupal Maintenance and Support services to ensure that your website
-                            functions properly and without interruptions.</p>
+                        <p>PlutusTec understands how difficult it may be to maintain a Drupal website. As a result, we offer dependable Drupal Maintenance and Support services to ensure that your website functions properly and without interruptions.</p>
                     </div>
                 </div>
             </div>
@@ -103,22 +84,17 @@
                     <h3 class="mb-0">Consulting</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">Consulting</h3>
-                        <p>Our Drupal consulting offerings are designed to assist businesses with Drupal development
-                            and deployment methods. We deliver expert guidance and recommendations based on industry
-                            best practices to assist organizations in achieving their objectives.</p>
+                        <p>Our Drupal consulting offerings are designed to assist businesses with Drupal development and deployment methods. We deliver expert guidance and recommendations based on industry best practices to assist organizations in achieving their objectives.</p>
                     </div>
                 </div>
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="700">
                 <div class="engagement-models-box bg-lightorange">
                     <img src="{{ asset('image/drupal-development-box-6.svg') }}" class="" alt="drupal-service6">
-                    <h3 class="mb-0">Hire a Drupal Developer</h3>
+                    <h3 class="mb-0">Hire a Drupal Development</h3>
                     <div class="engement-overly-div bg-lightorange">
-                        <h3 class="mb-0">Hire a Drupal Developer</h3>
-                        <p>Finally, we offer a Hire a Drupal Development service to help organisations find the top
-                            Drupal expertise for their project requirements. Our professional developers are able to
-                            work with you to create a personalized Drupal solution that matches your specific
-                            business needs.</p>
+                        <h3 class="mb-0">Hire a Drupal Development</h3>
+                        <p>Finally, we offer a Hire a Drupal Development service to help organisations find the top Drupal expertise for their project requirements. Our professional developers are able to work with you to create a personalized Drupal solution that matches your specific business needs.</p>
                     </div>
                 </div>
             </div>
@@ -135,53 +111,42 @@
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-1">
                 <div class="benefits-ios-box">
                     <h3>
-                        The modular nature and flexibility of Drupal make it extremely scalable, permitting
-                        developers to create websites of any size, from personal blogs to massive enterprise-level
-                        websites.
+                        Due to its long history, Drupal is among the top three most popular content management systems worldwide. Although Drupal is still in its infancy, it has proven to be a reliable platform for building large and scalable websites.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-2">
                 <div class="benefits-ios-box">
                     <h3>
-                        It is able to handle tremendous levels of traffic and content, making it beneficial for
-                        businesses with significant expansion aspirations.
+                    The modular nature and flexibility of Drupal make it extremely scalable, permitting developers to create websites of any size, from personal blogs to massive enterprise-level websites. It is able to handle tremendous levels of traffic and content, making it beneficial for businesses with significant expansion aspirations.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-3">
                 <div class="benefits-ios-box">
                     <h3>
-                        Developers can easily create custom solutions and integrations with Drupal's open-source
-                        ethos and comprehensive APIs. The result is a more customized online presence that meets the
-                        individual needs of businesses, giving them more design and functionality flexibility.
-
+                    Developers can easily create custom solutions and integrations with Drupal's open-source ethos and comprehensive APIs. The result is a more customized online presence that meets the individual needs of businesses, giving them more design and functionality flexibility.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-4">
                 <div class="benefits-ios-box">
                     <h3>
-                        Businesses can easily optimize their content for search engines using Drupal's built-in SEO
-                        features. Websites with these features will rank higher on search engine results pages
-                        because they have meta tags, clean URLs, XML sitemaps, and more.
+                    Drupal specialists and contributors have rigorously tested Drupal up to strict security standards. Drupal comes with built-in security, which prevents users from gaining access to important data or configuration files.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-5">
                 <div class="benefits-ios-box">
                     <h3>
-                        Using Drupal, businesses can build websites in multiple languages, reaching a broader
-                        demographic through multilingual support. It features support for over 100 languages, making
-                        it easy to develop localized content for multiple countries and corporations.
+                    Businesses can easily optimize their content for search engines using Drupal's built-in SEO features. Websites with these features will rank higher on search engine results pages because they have meta tags, clean URLs, XML sitemaps, and more.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-6">
                 <div class="benefits-ios-box">
                     <h3>
-                        Drupal allows you to manage complexity by clearly
-                        separating code from content.
+                    Using Drupal, businesses can build websites in multiple languages, reaching a broader demographic through multilingual support. It features support for over 100 languages, making it easy to develop localized content for multiple countries and corporations.
                     </h3>
                 </div>
             </div>
