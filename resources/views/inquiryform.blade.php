@@ -23,16 +23,18 @@
                         <label class="lable-style subtext f-text mb-2" for="Ysub">Subject</label>
                         <input type="text" id="subject" name="subject" placeholder="Enter Subject" required>
                     </div>
-                    <div class="form-group ">
+                    <div class="form-group">
                         <label class="lable-style subtext f-text mb-2" for="Ymsg">Message</label>
                         <textarea class="form-control message-box lable-style subtext f-text" id="msg" name="msg"
                             rows="3" placeholder="Enter Message" required></textarea>
                     </div>
+                    <div class="form-group">
                     <div class="g-recaptcha" data-sitekey="6Lc7bHcmAAAAAKJMOt6Gz7gv2X80LqFFjJTicu3s"
                         data-callback="recaptchaCallback"></div>
                     <div id="contact_captchError" class="error" style="display: none;">This field is required.</div>
+</div>
                     <!-- <img src="images/loading.gif" alt="loader" id="loaderImg" style="display: none;"> -->
-                    <div class="d-flex align-items-center mt-3">
+                    <div class="d-flex align-items-center">
                         <button type="submit" class="cursor-hover btn-orange" id="submitButton">Send</button>
                         <!-- <img src="{{ asset('images/loading.gif')}}" alt="loader" id="loaderImg" style="display: none;"> -->
                         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>

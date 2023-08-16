@@ -5568,3 +5568,20 @@ select {
 #custom-cursor.zoom {
   transform: scale(2);
 }
+.portfolio-detail ul li{
+  padding-left: 30px;
+  position: relative;
+}
+.portfolio-detail ul li::before{
+  content: '';
+  width: 15px;
+  height: 2px;
+  background-color: #ff895f;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+select.error option,select.error {
+  color: #000000 !important;
+}

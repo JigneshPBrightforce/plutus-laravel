@@ -9,7 +9,7 @@
 <script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 <script src="{{asset('js/jquery.validate.min.js')}}"></script>
 <script src="{{asset('js/additional-methods.min.js')}}"></script>
-<script src="{{asset('js/recaptcha_api.js')}}?t=<?php echo time();?>"></script>
+<script src="https://www.google.com/recaptcha/api.js    "></script>
 <script src="{{asset('js/homepage.js')}}?t=<?php echo time();?>"></script>
 <script src="{{asset('js/ajax.js')}}?t=<?php echo time();?>"></script>
 <script src="{{asset('js/custom.js')}}?t=<?php echo time();?>"></script>

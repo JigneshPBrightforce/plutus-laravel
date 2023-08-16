@@ -7,13 +7,13 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Agrotrade</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Agrotrade</h3>
-                    <p class="sub-dec ms-4 mt-4">READY SET DANCE is the award winning dance curriculum taking the world by storm!</p>
+                    <p class="sub-dec ms-4 mt-4">Explore the new dimension of foodstuff importing experience.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -29,15 +29,16 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the world by
-            storm!<br>
-
-            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to teachers using
-            the <span>READY SET DANCE</span> program only.<br>
-
-            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new content. It’s
-            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
-            community support, big budget marketing, and class resources are all available to you.</p>
+        <p class="sub-dec">Hello!!! I’m Ashish Babaria - an Agro Trade Specialist (make sure it’s not my company name, but it’s me only), serving certain & renowned Foodstuff importers from Middle east & EU through trade intermediation services since 2016.</p>
+        <p class="sub-dec">Through this app I’d like to offer the whole new experience of foodstuff importation process and decisions, to my existing & prospective clients.</p>
+        <ul class="mb-0">
+            <li>The App offers</li>
+            <li>Price Updates</li>
+            <li>Price Alerts</li>
+            <li>Quote Requests</li>
+            <li>My orders (upcoming feature)</li>
+            <li>Market Reports (upcoming feature)</li>
+        </ul>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -90,22 +91,10 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
-                    <h3>Kotlin</h3>
+                    <img src="{{ asset('image/stripe.svg')}}" alt="slide 1">
+                    <h3>Stripe</h3>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
-                    <h3>Ionic</h3>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
-                    <h3>Java</h3>
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
