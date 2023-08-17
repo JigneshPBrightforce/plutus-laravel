@@ -5,20 +5,24 @@
             <div class="top-left">
                 <ul>
                     <li class="me-4">
-                        <a href="mailto:sales@plutustec.com" class="cursor-hover"> <i class="fa fa-envelope"></i>sales@plutustec.com</a>
+                        <a href="mailto:sales@plutustec.com" class="cursor-hover"> <i
+                                class="fa fa-envelope"></i>sales@plutustec.com</a>
                     </li>
                     <li class="me-4">
-                        <a href="tel:+91-794-800-0107" class="cursor-hover"><i class="fa fa-phone"></i>+91-794-800-0107</a>
+                        <a href="tel:+91-794-800-0107" class="cursor-hover"><i
+                                class="fa fa-phone"></i>+91-794-800-0107</a>
                     </li>
                     <li>
-                        <a href="skype:live:kalpit.belani?chat" class="cursor-hover"> <i class="fa fa-skype"></i>sales.plutustec</a>
+                        <a href="skype:live:kalpit.belani?chat" class="cursor-hover"> <i
+                                class="fa fa-skype"></i>sales.plutustec</a>
                     </li>
                 </ul>
             </div>
             <div class="top-right">
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/PlutusTechnologies" class="cursor-hover me-2 d-inline-block" target="_blank" class="me-3">
+                        <a href="https://www.facebook.com/PlutusTechnologies" class="cursor-hover me-2 d-inline-block"
+                            target="_blank" class="me-3">
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -26,7 +30,8 @@
                                     fill="#FF6C37" />
                             </svg>
                         </a>
-                        <a href="https://twitter.com/PlutusTech" class="cursor-hover me-2 d-inline-block" target="_blank" class="me-3">
+                        <a href="https://twitter.com/PlutusTech" class="cursor-hover me-2 d-inline-block"
+                            target="_blank" class="me-3">
                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -43,7 +48,8 @@
                                     fill="#FF6C37" />
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/plutustechnology/" class="cursor-hover me-2 d-inline-block" target="_blank" class="me-3">
+                        <a href="https://www.instagram.com/plutustechnology/" class="cursor-hover me-2 d-inline-block"
+                            target="_blank" class="me-3">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -51,7 +57,8 @@
                                     fill="#FF6C37" />
                             </svg>
                         </a>
-                        <a href="https://in.pinterest.com/plutustechnologies/" class="cursor-hover d-inline-block" target="_blank" class="me-3">
+                        <a href="https://in.pinterest.com/plutustechnologies/" class="cursor-hover d-inline-block"
+                            target="_blank" class="me-3">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -144,14 +151,16 @@
                                                             <img width="25" height="20"
                                                                 src="{{ asset('image/mail-icon-white.svg')}}"
                                                                 alt="mail">
-                                                            <a href="mailto:sales@plutustec.com" class="cursor-hover">sales@plutustec.com</a>
+                                                            <a href="mailto:sales@plutustec.com"
+                                                                class="cursor-hover">sales@plutustec.com</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 mb-3">
                                                         <div class="contact-details d-flex align-items-center">
                                                             <img src="{{ asset('image/Skype-icon-white.svg')}}"
                                                                 alt="skype">
-                                                            <a href="skype:live:kalpit.belani?chat" class="cursor-hover">sales.plutustec</a>
+                                                            <a href="skype:live:kalpit.belani?chat"
+                                                                class="cursor-hover">sales.plutustec</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -165,23 +174,28 @@
                                                     </div>
                                                     <div class="col-md-4 social-icons">
                                                         <div class="contact-details d-flex align-items-center">
-                                                            <a class="cursor-hover" href="https://www.facebook.com/PlutusTechnologies"
+                                                            <a class="cursor-hover"
+                                                                href="https://www.facebook.com/PlutusTechnologies"
                                                                 target="_blank"><img
                                                                     src="{{ asset('image/Facebook-icon-white.svg')}}"
                                                                     alt="facebook"></a>
-                                                            <a class="cursor-hover" href="https://twitter.com/PlutusTech"
+                                                            <a class="cursor-hover"
+                                                                href="https://twitter.com/PlutusTech"
                                                                 target="_blank"><img
                                                                     src="{{ asset('image/Twitter-icon-wite.svg')}}"
                                                                     alt="tw"></a>
-                                                            <a class="cursor-hover" href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
+                                                            <a class="cursor-hover"
+                                                                href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
                                                                 target="_blank"><img
                                                                     src="{{ asset('image/Linkedin-icon-white.svg')}}"
                                                                     alt="linkedin"></a>
-                                                            <a class="cursor-hover" href="https://www.instagram.com/plutustechnology/"
+                                                            <a class="cursor-hover"
+                                                                href="https://www.instagram.com/plutustechnology/"
                                                                 target="_blank"><img
                                                                     src="{{ asset('image/instagram-icon-white.svg')}}"
                                                                     alt="instagram"></a>
-                                                            <a class="cursor-hover" href="https://in.pinterest.com/plutustechnologies/"
+                                                            <a class="cursor-hover"
+                                                                href="https://in.pinterest.com/plutustechnologies/"
                                                                 target="_blank"><img
                                                                     src="{{ asset('image/pintrest-icon-white.svg')}}"
                                                                     alt="instagram"></a>
@@ -202,7 +216,8 @@
                                             <img src="{{ asset('image/about-us.svg')}}" alt="aboutus">
                                         </div>
                                         <div class="mobile-right-content-div">
-                                            <a class="cursor-hover dropdown-item mobile-inner-title-menu" href="aboutus">About
+                                            <a class="cursor-hover dropdown-item mobile-inner-title-menu"
+                                                href="aboutus">About
                                                 Us</a>
                                             <p>We understand your business
                                                 requirements are unique.
@@ -427,7 +442,8 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact Us</a>
+                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact
+                                                        Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -642,20 +658,22 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="rapidparty_portfolio" class="p-0"><img
-                                                                src="{{ asset('image/rapidparty.png')}}"
+                                                        <a class="cursor-hover" href="rapidparty_portfolio"
+                                                            class="p-0"><img src="{{ asset('image/rapidparty.png')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="reshyne_portfolio" class="p-0"><img
-                                                                src="{{ asset('image/reshyne_1.jpg')}}" alt="portfolio">
+                                                        <a class="cursor-hover" href="reshyne_portfolio"
+                                                            class="p-0"><img src="{{ asset('image/reshyne_1.jpg')}}"
+                                                                alt="portfolio">
                                                             <h5>Reshyne</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="skilltrade_portfolio" class="p-0"><img
+                                                        <a class="cursor-hover" href="skilltrade_portfolio"
+                                                            class="p-0"><img
                                                                 src="{{ asset('image/skilled_trade_exam.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Skilled trade exam</h5>
@@ -734,7 +752,8 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact Us</a>
+                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact
+                                                        Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -996,7 +1015,8 @@
 
                                             <div class="hire-resources-contact-btn">
                                                 <div class="d-flex align-items-center  justify-content-end">
-                                                    <a href="cursor-hover contact-us" class="cursor-hover btn btn-white">Contact Us</a>
+                                                    <a href="contact-us" class="cursor-hover btn btn-white">Contact
+                                                        Us</a>
                                                 </div>
                                             </div>
                                         </div>

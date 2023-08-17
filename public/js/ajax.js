@@ -175,8 +175,9 @@ $(document).ready(function () {
                     document.getElementById("hiredevelopers").reset();
                     $("#successMsg").show();
                     setTimeout(() => {
+                        location.reload();
                         $("#successMsg").hide();                    
-                    }, 3000);
+                    }, 5000);
                 }else{
                     $("#errorMsg").show();
                     $('#errorMsg').html('<p class="alert alert-danger">'+res.message+'</p>');

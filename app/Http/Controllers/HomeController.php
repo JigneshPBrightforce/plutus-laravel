@@ -698,7 +698,7 @@ class HomeController extends Controller
                     'lastName'=>$_POST['lastName'],
                     'phone'=>$_POST['phone'],
                     'email'=>$_POST['email'],
-                    'technology'=>$_POST['technology'],
+                    'technology'=>str_replace(',', ', ', $_POST['technology']),
                     'budget'=>$_POST['budget'],
                     'msg'=>$_POST['msg'],                    
                     'doc' => $_FILES["doc"]["name"],
@@ -717,7 +717,7 @@ class HomeController extends Controller
                 });
 
                 $userEmail = $data['email'];
-                \Mail::send('emails.thankyou', $mailContent ,
+                \Mail::send('emails.thankyou', $data ,
                 function ($message) use ($userEmail) {
                     $message->to($userEmail)->subject('Thank you for joining with us');
                 });
