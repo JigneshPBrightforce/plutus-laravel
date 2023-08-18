@@ -40,7 +40,7 @@ $techArray = [];
                 <div class="col-md-6">
                     <div class="form-group">
                         <label class="lable-style subtext f-text mb-2" for="name">Email</label>
-                        <input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
+                        <input type="text" class="form-control" placeholder="Email" name="email" id="email" required>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -86,7 +86,7 @@ $techArray = [];
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                    <label class="lable-style subtext f-text mb-2" for="name">Upload Documents</label>
+                        <label class="lable-style subtext f-text mb-2" for="name">Upload Documents</label>
                         <input type="file" class="cursor-hover form-control" name="doc" id="doc" required
                             accept="application/msword, application/pdf">
                     </div>
