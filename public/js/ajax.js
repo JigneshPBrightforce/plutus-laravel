@@ -73,8 +73,8 @@ $(document).ready(function () {
     $('#careerForm').validate({ // initialize the plugin
         rules: {
             email: {required: true, regex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/},
-            firstName:{required : true,lettersonly: true},
-            lastName:{required : true,lettersonly: true},
+            firstName:{required : true,regex : /^[a-zA-Z ]*$/},
+            lastName:{required : true,regex : /^[a-zA-Z ]*$/},
             phone:{required : true, regex : /^\+?(?:[\d]*)$/},
             current_ctc:{required : true,number : true},
             expected_ctc:{required : true,number : true},
@@ -134,8 +134,8 @@ $(document).ready(function () {
     $('#hiredevelopers').validate({ // initialize the plugin
         rules: {
             email: {required: true, regex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/},
-            firstName:{required : true,lettersonly: true},
-            lastName:{required : true,lettersonly: true},
+            firstName:{required : true,regex : /^[a-zA-Z ]*$/},
+            lastName:{required : true,regex : /^[a-zA-Z ]*$/},
             phone:{required : true, regex : /^\+?(?:[\d]*)$/},
             technology:{required : true},
             budget:{required : true},
@@ -175,8 +175,9 @@ $(document).ready(function () {
                     document.getElementById("hiredevelopers").reset();
                     $("#successMsg").show();
                     setTimeout(() => {
+                        location.reload();
                         $("#successMsg").hide();                    
-                    }, 3000);
+                    }, 5000);
                 }else{
                     $("#errorMsg").show();
                     $('#errorMsg').html('<p class="alert alert-danger">'+res.message+'</p>');
@@ -201,3 +202,7 @@ $(document).ready(function () {
 function recaptchaCallback() {
     $("#captchError").hide();
 };
+
+function recaptchaActions(){
+    $("#contact_captchError").hide();
+}

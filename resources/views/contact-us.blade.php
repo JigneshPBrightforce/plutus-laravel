@@ -63,8 +63,9 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="g-recaptcha" data-sitekey="6Lc7bHcmAAAAAKJMOt6Gz7gv2X80LqFFjJTicu3s"
-                                    data-callback="recaptchaCallback"></div>
-                                <div id="contact_captchError" class="error" style="display: none;">This field is required.
+                                    data-callback="recaptchaActions"></div>
+                                <div id="contact_captchError" class="error" style="display: none;">This field is
+                                    required.
                                 </div>
                             </div>
                         </div>
@@ -72,7 +73,8 @@
                 </div>
                 <div class="">
                     <div class="d-flex align-items-center">
-                        <button type="submit" class="cursor-hover btn btn-primary btn-orange" id="submitButton">Send</button>
+                        <button type="submit" class="cursor-hover btn btn-primary btn-orange"
+                            id="submitButton">Send</button>
                         <!-- <img src="{{ asset('images/loading.gif')}} " alt="loader" id="loaderImg" style="display: none;"> -->
                         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
                     </div>
@@ -151,7 +153,8 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a class="cursor-hover" href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
+                        <a class="cursor-hover"
+                            href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
                             target="_blank">
                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -168,7 +171,8 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a class="cursor-hover" href="https://in.pinterest.com/plutustechnologies/" target="_blank" class="me-3">
+                        <a class="cursor-hover" href="https://in.pinterest.com/plutustechnologies/" target="_blank"
+                            class="me-3">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
