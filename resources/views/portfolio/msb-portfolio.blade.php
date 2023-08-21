@@ -7,21 +7,18 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">MSB</li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
+                        <li class="breadcrumb-item active" aria-current="page">MSB Instructor App</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>MSB</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>MSB Instructor App</h3>
+                    <p class="sub-dec ms-4 mt-4">Easily manage, maximixe, and coordinate your swim lesson schedule across many locations with numerous communities and families.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/STE/ste_logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/MSB_Instructor/Logo.png    ')}}" class="" alt="">
                 </div>
             </div>
         </div>
@@ -32,9 +29,7 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">Use your smart device to change your future! Skilled Trade Exams provides access to auto-generated multiple
-            choice exam questions to prepare you for license and certification test questions that can be found in real-test scenarios.
-</p>
+        <p class="sub-dec">Easily manage, maximixe, and coordinate your swim lesson schedule across many locations with numerous communities and families. Be able to communicate and coordinate with swimmers, their families and your team with ease.</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -87,14 +82,14 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/dart.svg')}}" alt="slide 1">
-                    <h3>Dart</h3>
+                    <img src="{{ asset('image/redux.svg')}}" alt="slide 1">
+                    <h3>Redux</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
-                    <h3>GetX</h3>
+                    <img src="{{ asset('image/firebase-1.svg')}}" alt="slide 1">
+                    <h3>Firebase</h3>
                 </div>
             </div>
             <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
@@ -139,27 +134,28 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/propertywatch.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Powerzada</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="powerzada_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <h3 class="category">PropertyWatch</h3>
+                        <p class="category">Protect your properties and gain peace of mind with the property checking solution.</p>
+                        <a href="propertyWatch_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/emvite.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Emvite</h3>
+                        <p class="category">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally.</p>
+                        <a href="emvite_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>

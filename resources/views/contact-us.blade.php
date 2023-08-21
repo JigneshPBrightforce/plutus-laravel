@@ -84,7 +84,7 @@
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="row">
-            <div class="col-md-4 white-boxs">
+            <div class="col-lg-4 white-boxs">
                 <div class="contact-us-details-box">
                     <img src="{{ asset('image/Map-pin.svg')}} " alt="map-pin">
                     <h3>Plutus Technologies</h3>
@@ -94,7 +94,7 @@
                         Gujarat 380054</p>
                 </div>
             </div>
-            <div class="col-md-4 white-boxs">
+            <div class="col-lg-4 white-boxs">
                 <div class="contact-us-details-box">
                     <img src="{{ asset('image/Map-pin.svg')}}" alt="map-pin">
                     <h3>Plutus Technologies</h3>
@@ -103,7 +103,7 @@
                         P.O.Box 454597</p>
                 </div>
             </div>
-            <div class="col-md-4 white-boxs last-box">
+            <div class="col-lg-4 white-boxs last-box">
                 <div class="contact-us-details-box">
                     <h3>General Contact</h3>
                     <div class="contact-number">

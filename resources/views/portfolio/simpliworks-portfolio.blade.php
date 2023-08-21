@@ -8,41 +8,46 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><span>Portfolio</span></li>
-                        <li class="breadcrumb-item active" aria-current="page">RSD</li>
+                        <li class="breadcrumb-item active" aria-current="page">Simpliworks</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>Ready Set Dance</h3>
-                    <p class="sub-dec ms-4 mt-4">READY SET DANCE is the award winning dance curriculum taking the world by storm!</p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Simpliworks</h3>
+                    <p class="sub-dec ms-4 mt-4">Reshyne helps companies make the most of their repairs business. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/RSD/RSD_1.png')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Reshyne/reshyne.svg') }}" class="" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/RSD/rsd_top_banner.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne_topbanner.jpg') }}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec"><span>READY SET DANCE</span> is the award winning dance curriculum taking the world by
-            storm!<br>
+        <p class="sub-dec">From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue
+            growth and business success. Offer your customers a fully branded repair experience that allows them to browse services, place orders,
+            print out shipping labels, and track progress, all directly from your website. Reshyne makes the process
+            seamless, secure, and completely contact-free to keep your customers confident, satisfied, and coming back for more.<br>
 
-            This App is the curriculum powered by <span>READY SET DANCE</span>. It is available to teachers using
-            the <span>READY SET DANCE</span> program only.<br>
+            Payment Gateway Integration:
+Payment services used across the Reshyne for payment. Integrated stripe payment gateway along with transaction failure
+handling mechanism, refund mechanism, stripe connect etc.
+<br>
 
-            With <span>READY SET DANCE</span>, you no longer need to plan, search for, or create new content. It’s
-            all done for you! A whole dance class ready to play from your pocket? But that’s not all,
-            community support, big budget marketing, and class resources are all available to you.</p>
+Shipping Integration:
+Shipping services used across the Reshyne for shipping. Integrated EasyPost shipping along with a carrier account mechanism,
+shipping rates, download label, tracking shipment, etc.
+</p>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Ready Set Dance</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Reshyne</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -56,17 +61,17 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>Australia
+                        <p>New York
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Childrens, Parents
+                        <p>Jewelry reparis store 
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>Dancing
+                        <p>E-commerce
                         </p>
                     </div>
                 </div>
@@ -83,56 +88,56 @@
         <div class="row">
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Flutter-logo.svg')}}" alt="slide 1">
-                    <h3>Flutter</h3>
+                    <img src="{{ asset('image/react-2.svg') }}" alt="slide 1">
+                    <h3>ReactJS</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Kotlin-logo.svg')}}" alt="slide 1">
-                    <h3>Kotlin</h3>
+                    <img src="{{ asset('image/python.svg') }}" alt="slide 1">
+                    <h3>Python</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
+                    <img src="{{ asset('image/Ionic-logo.svg') }}" alt="slide 1">
                     <h3>Ionic</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
+                    <img src="{{ asset('image/Java-logo.svg') }}" alt="slide 1">
                     <h3>Java</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="portfolio-slider" style=" background-image:url('image/rsd_bg.png');background-repeat: no-repeat;background-size: cover;">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/reshyne_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_favorites.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-invoice.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_login.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-login.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_newa.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-pricelist.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_onboarding.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-service.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_playlists.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store-1.png') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_setting.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store.png') }}">
     </div>
-    <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_splash.jpg') }}">
-    </div>
-    <div>
-        <img class="w-100" src="{{ asset('portfolio_images/RSD/RSD_tracks.jpg') }}">
-    </div>
+    <!-- <div>
+            <img class="w-100" src="{{ asset('Portfolio/RSD_splash.jpg') }}">
+        </div>
+        <div>
+            <img class="w-100" src="{{ asset('Portfolio/RSD_tracks.jpg') }}">
+        </div> -->
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
@@ -141,27 +146,29 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="portfolio_images/agrotrade.jpg" alt="Image description">
+            <li class="mix web col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/incometax.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Agrotrade</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="agrotrade_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Incometax</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="portfolio_images/reshyne1.jpg" alt="Image description">
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/applebees.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Reshyne</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="emvite_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">.Net</span>
+                        <h3 class="category">Applebees</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
@@ -170,6 +177,7 @@
         </ul>
     </div>
 </section>
+
 @include('inquiryform')
 
 
@@ -187,14 +195,14 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 5,
+    slidesToShow: 2,
     responsive: [{
             breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 4
+                slidesToShow: 1
             }
         },
         {

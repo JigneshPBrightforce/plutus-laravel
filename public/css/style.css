@@ -1741,12 +1741,7 @@ video::-webkit-media-controls-panel {
 
 .portfolio-slider .slick-slide {
   margin: 20px 20px 0;
-}
-
-.portfolio-slider .slick-slide.slick-current {
-  margin: 0px 20px 0;
-}
-
+} 
 /* portfolio details css end */
 
 /* iOS app development Page Css Start */
@@ -1946,7 +1941,8 @@ video::-webkit-media-controls-panel {
 
 .industry-box img {
   height: 100px;
-  width: 100%;
+  width: 100px;
+  margin: auto;
 }
 
 .industry-box h3 {
@@ -3417,7 +3413,7 @@ select {
   -moz-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   -o-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-  cursor: grab;
+  cursor: none;
 }
 
 .service-main-slider .our-services-slider-owl .owl-stage .our-services-inner .service-box .card {
@@ -5235,7 +5231,8 @@ select {
   }
 
   .industry-box img {
-    height: 60px;
+    height: 60px; 
+    width: 60px; 
   }
 
   .industry-box h3 {
@@ -5337,7 +5334,9 @@ select {
 }
 
 @media (max-width: 767px) {
-
+    .video-poster-bg {
+      height: 300px;
+    }
   .black-tap {
     display: none;
   }
@@ -5551,22 +5550,37 @@ select {
 
 /* Media End */
 
+@media (min-width: 1040px){
+  #custom-cursor {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    pointer-events: none; 
+    z-index: 99999;
+    transition: transform 500ms; 
+  } 
 
-#custom-cursor {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background-color: #000000;
-  position: fixed;
-  top: 0;
-  opacity: 0;
-  pointer-events: none; 
-  z-index: 99999;
-  transition: transform 500ms; 
-} 
-
-#custom-cursor.zoom {
-  transform: scale(2);
+  #custom-cursor.zoom {
+    transform: scale(2);
+  }
+}
+@media (max-width: 1040px){   
+  body{
+    cursor: default !important;
+  }
+  .btn-orange{
+    cursor: pointer !important;
+  }
+  .form-control{
+    cursor: auto !important;
+  }
+  .service-main-slider .our-services-slider-owl .owl-stage .our-services-inner .service-box{
+    cursor: grab !important;
+  }
 }
 .portfolio-detail ul li{
   padding-left: 30px;
@@ -5584,4 +5598,17 @@ select {
 }
 select.error option,select.error {
   color: #000000 !important;
+}
+.form-control{
+  cursor: none !important;
+}
+.coming-soon{
+  font-size: 16px;
+  line-height: 120%;
+  color: #333333;
+}
+.coming-soon-img{
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
 }

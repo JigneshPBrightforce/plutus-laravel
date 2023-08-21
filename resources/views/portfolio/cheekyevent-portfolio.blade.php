@@ -7,21 +7,18 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Cheekyevent</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Cheekyevent</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Speed dating is an organized matchmaking process with the objective of encouraging eligible singles to meet large numbers of potential partners in a short period of time.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/STE/ste_logo.jpg')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/cheekyevents/cheeky_event.png')}}" class="" alt="">
                 </div>
             </div>
         </div>
@@ -32,9 +29,7 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">Use your smart device to change your future! Skilled Trade Exams provides access to auto-generated multiple
-            choice exam questions to prepare you for license and certification test questions that can be found in real-test scenarios.
-</p>
+        <p class="sub-dec">In these events, participants rotate around the room, having brief "dates" with each other. This mobile application aims to digitize the process of recording interest during such events. Participants will use the app to view profiles of fellow attendees and mark whether or not they are interested in them. If two participants mutually show interest in each other, their contact details will be shared with each other.</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -53,7 +48,7 @@
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>Denmark
+                        <p>Australia
                         </p>
                     </div>
                     <div class="core-value-detail-box">
@@ -81,8 +76,8 @@
         <div class="row">
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Flutter-logo.svg')}}" alt="slide 1">
-                    <h3>Flutter</h3>
+                    <img src="{{ asset('image/flutter-flow.svg')}}" alt="slide 1">
+                    <h3>Flutterflow</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
@@ -93,16 +88,16 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg')}}" alt="slide 1">
-                    <h3>GetX</h3>
+                    <img src="{{ asset('image/firebase-1.svg')}}" alt="slide 1">
+                    <h3>Firebase</h3>
                 </div>
             </div>
-            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
-                    <h3>Java</h3>
+                    <img src="{{ asset('image/Google_Cloud_functions.svg')}}" alt="slide 1">
+                    <h3>Cloud function</h3>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
@@ -139,27 +134,27 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/ste.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Powerzada</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="powerzada_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <h3 class="category">Skill Trade Exam</h3>
+                        <p class="category">Study for your exam from anywhere.</p>
+                        <a href="skilltrade_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/emvite.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Emvite</h3>
+                        <p class="category">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally.</p>
+                        <a href="emvite_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>

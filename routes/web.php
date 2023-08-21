@@ -61,6 +61,16 @@ Route::get('/cheekyevent_portfolio', 'HomeController@cheekyevent_portfolio');
 Route::get('/cycleai_portfolio', 'HomeController@cycleai_portfolio');
 Route::get('/propertyWatch_portfolio', 'HomeController@propertyWatch_portfolio');
 Route::get('/msb_portfolio', 'HomeController@msb_portfolio');
+Route::get('/nkenne_portfolio', 'HomeController@nkenne_portfolio');
+Route::get('/side_stream_portfolio', 'HomeController@side_stream_portfolio');
+Route::get('/misal_portfolio', 'HomeController@misal_portfolio');
+Route::get('/easyref_portfolio', 'HomeController@easyref_portfolio'); 
+Route::get('/offsite_portfolio', 'HomeController@offsite_portfolio');
+Route::get('/bidalift_portfolio', 'HomeController@bidalift_portfolio');
+Route::get('/incomtax_portfolio', 'HomeController@incomtax_portfolio');
+Route::get('/cycle_ai_portfolio', 'HomeController@cycle_ai_portfolio');
+Route::get('/applebees_portfolio', 'HomeController@applebees_portfolio');
+Route::get('/simpliworks_portfolio', 'HomeController@simpliworks_portfolio');
 // hire resource menu
 Route::get('/hire-php-developers', 'HomeController@hire_php_developers');
 Route::get('/hire-android-app-developer', 'HomeController@hire_android_app_developer');

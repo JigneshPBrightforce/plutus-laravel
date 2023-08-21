@@ -67,8 +67,8 @@
     <div class="">
         <nav id='cssmenu'>
             <div class="logo position-relative">
-                <a href="/" class="cursor-hover">
-                    <img src="{{ asset('image/Plutus-logo.png')}}" alt="logo">
+                <a href="/">
+                    <img src="{{ asset('image/Plutus-logo.png')}}" class="cursor-hover" alt="logo">
                 </a>
             </div>
             <div class="button" onclick="showModal()"></div>
@@ -670,52 +670,9 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Blog</h4>
-                                                <a class="cursor-hover" href="blog">See all</a>
+                                                <!-- <a class="cursor-hover" href="blog">See all</a> -->
                                             </div>
-                                            <div class="our-work-blog-list mt-3">
-                                                <div class="our-work-blog-list-row">
-                                                    <div class="our-work-blog-list-row-image">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="blog">
-                                                    </div>
-                                                    <div class="our-work-blog-list-row-content">
-                                                        <a class="cursor-hover title" href="">
-                                                            Online food delivery app clone:
-                                                        </a>
-                                                        <span class="date">
-                                                            Date: 15/01/2023
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="our-work-blog-list-row">
-                                                    <div class="our-work-blog-list-row-image">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="blog">
-                                                    </div>
-                                                    <div class="our-work-blog-list-row-content">
-                                                        <a class="cursor-hover title" href="">
-                                                            Online food delivery app clone:
-                                                        </a>
-                                                        <span class="date">
-                                                            Date: 15/01/2023
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="our-work-blog-list-row">
-                                                    <div class="our-work-blog-list-row-image">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="blog">
-                                                    </div>
-                                                    <div class="our-work-blog-list-row-content">
-                                                        <a class="cursor-hover title" href="">
-                                                            Online food delivery app clone:
-                                                        </a>
-                                                        <span class="date">
-                                                            Date: 15/01/2023
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <span class="coming-soon d-block mt-4">Coming soon...</span>
                                         </div>
                                     </div>
                                 </div>
@@ -757,7 +714,7 @@
                                                 <li>
                                                     <a class="cursor-hover" href="">1. IOS App Developer</a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a class="cursor-hover" href="">2. Android App Developer</a>
                                                 </li>
                                                 <li>
@@ -768,7 +725,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover" href="">5. Flutter App Developer</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </div>
                                     </div>
@@ -819,8 +776,8 @@
                                                 <h4>Blog</h4>
                                                 <a class="cursor-hover" href="blog">See all</a>
                                             </div>
-                                            <!-- <a class="dropdown-item" href="blog">Blog</a> -->
-                                            <ul class="sub-inner-list blog-list-main">
+                                            <span class="coming-soon d-block mt-4 mb-4">Coming soon...</span>
+                                            <!-- <ul class="sub-inner-list blog-list-main">
                                                 <li class="our-work-blog-list flex-wrap">
                                                     <div class="our-work-blog-list-row">
                                                         <div class="our-work-blog-list-row-image">
@@ -865,7 +822,7 @@
                                                         </div>
                                                     </div>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                     </div>
                                 </div>
@@ -938,7 +895,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-reactjs-developer">Hire RactJS Developer</a>
+                                                        href="hire-reactjs-developer">Hire ReactJS Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
@@ -1039,7 +996,7 @@
                                     href="hire-nodejs-developer">Hire Node.js Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-reactjs-developer">Hire RactJS Developer</a>
+                                    href="hire-reactjs-developer">Hire ReactJS Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="hire-angularjs-developer">Hire AngularJS Developer</a>

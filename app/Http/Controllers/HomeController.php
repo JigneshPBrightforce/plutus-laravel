@@ -329,14 +329,6 @@ class HomeController extends Controller
         ];
         return view('portfolio.rapidparty-portfolio')->with($data);
     }
-    public function reshyne_portfolio(){
-        $data = [
-            'title' => 'Reshyne | Plutustec',
-            'metaDescription' => 'Reshyne | Plutustec',
-            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
-        ];
-        return view('portfolio.reshyne-portfolio')->with($data);
-    }
     public function skilltrade_portfolio(){
         $data = [
             'title' => 'Skill Trade Exam | Plutustec',
@@ -409,8 +401,103 @@ class HomeController extends Controller
         ];
         return view('portfolio.msb-portfolio')->with($data);
     }
+    // Python
+    public function reshyne_portfolio(){
+        $data = [
+            'title' => 'Reshyne | Plutustec',
+            'metaDescription' => 'Reshyne | Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.reshyne-portfolio')->with($data);
+    }
+    public function incomtax_portfolio(){
+        $data = [
+            'title' => 'Incomtax | Plutustec',
+            'metaDescription' => 'Incomtax | Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.incomtax-portfolio')->with($data);
+    }
+    public function cycle_ai_portfolio(){
+        $data = [
+            'title' => 'Clycle AI | Plutustec',
+            'metaDescription' => 'Clycle AI | Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.cycle-ai-portfolio')->with($data);
+    }
+    // Python
+    // Android
+    public function nkenne_portfolio(){
+        $data = [
+            'title' => 'Nkenne | Plutustec',
+            'metaDescription' => 'nkenne| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.nkenne-portfolio')->with($data);
+    }    
+    public function side_stream_portfolio(){
+        $data = [
+            'title' => 'Side Stream | Plutustec',
+            'metaDescription' => 'sidestream| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.side-stream-portfolio')->with($data);
+    }    
+    public function misal_portfolio(){
+        $data = [
+            'title' => 'Misal | Plutustec',
+            'metaDescription' => 'misal| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.misal-portfolio')->with($data);
+    }    
+    public function easyref_portfolio(){
+        $data = [
+            'title' => 'Easyreferensing | Plutustec',
+            'metaDescription' => 'easyref| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.easyref-portfolio')->with($data);
+    }
+    // Android
 
-
+    // Ios  
+    public function offsite_portfolio(){
+        $data = [
+            'title' => 'Offsite | Plutustec',
+            'metaDescription' => 'offsite| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.offsite-portfolio')->with($data);
+    }  
+    public function bidalift_portfolio(){
+        $data = [
+            'title' => 'Bidalift | Plutustec',
+            'metaDescription' => 'bidalift| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.bidalift-portfolio')->with($data);
+    }
+    // Ios
+    // .Net 
+    public function applebees_portfolio(){
+        $data = [
+            'title' => 'Applebees | Plutustec',
+            'metaDescription' => 'Applebees| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.applebees-portfolio')->with($data);
+    }  
+    public function simpliworks_portfolio(){
+        $data = [
+            'title' => 'Simpliworks | Plutustec',
+            'metaDescription' => 'Simpliworks| Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.simpliworks-portfolio')->with($data);
+    }
+    // .Net
 
     public function blog(){
         $data = [

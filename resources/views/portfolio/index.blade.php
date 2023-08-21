@@ -76,22 +76,8 @@
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">Skill Trade Exam</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">Study for your exam from anywhere.</p>
                         <a href="skilltrade_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
-                            View
-                        </a>
-                    </div>
-                </div>
-            </li>
-            <li class="mix web wp col-xl-6 col-md-6 col-12 col-sm-6 pd ">
-                <img src="portfolio_images/reshyne1.jpg"
-                    alt="Image description">
-                <div class="portfolio-overlay">
-                    <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Reshyne</h3>
-                        <p class="category">Reshyne helps companies make the most of their repairs business.    </p>
-                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
@@ -117,7 +103,7 @@
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">Agrotrade</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">Explore the new dimension of foodstuff importing experience.</p>
                         <a href="agrotrade_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -125,13 +111,13 @@
                 </div>
             </li>
             <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
-                <img src="https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80"
+                <img src="portfolio_images/powerzada.jpg"
                     alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">Powerzada</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">Charge your devices, in any place, at any time, if you have to leave them behind or worry about cables.</p>
                         <a href="powerzada_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -139,13 +125,13 @@
                 </div>
             </li>
             <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
-                <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                <img src="portfolio_images/cycleai.jpg"
                     alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">Cycleai</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">CycleAl is on a mission to empower micromobility users for their safety through Al.</p>
                         <a href="cycleai_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -153,13 +139,13 @@
                 </div>
             </li>
             <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
-                <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                <img src="portfolio_images/cheekyevents.jpg"
                     alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">cheekyevents</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">Speed dating is an organized matchmaking process with the objective of encouraging eligible singles to meet large numbers of potential partners in a short period of time.</p>
                         <a href="cheekyevent_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -167,13 +153,13 @@
                 </div>
             </li>
             <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
-                <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                <img src="portfolio_images/propertywatch.jpg"
                     alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
                         <h3 class="category">PropertyWatch</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="category">Protect your properties and gain peace of mind with the property checking solution.</p>
                         <a href="propertyWatch_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -181,19 +167,177 @@
                 </div>
             </li>
             <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
-                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                <img src="portfolio_images/msb.jpg"
                     alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">MSB</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="category">MSB Instructor App</h3>
+                        <p class="category">Easily manage, maximixe, and coordinate your swim lesson schedule across many locations with numerous communities and families.</p>
                         <a href="msb_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
+            <!-- Python -->
+            <li class="mix web wp col-xl-6 col-md-6 col-12 col-sm-6 pd ">
+                <img src="portfolio_images/reshyne.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Reshyne</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>     
+            <li class="mix web wp col-xl-6 col-md-6 col-12 col-sm-6 pd ">
+                <img src="portfolio_images/cycleai-web.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Cycleai Web</h3>
+                        <p class="category">CycleAl is on a mission to empower micromobility users for their safety through Al.</p>
+                        <a href="cycle_ai_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>       
+            <li class="mix web col-xl-6 col-md-6 col-12 col-sm-6 pd angular">
+                <img src="portfolio_images/incometax.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Incometax</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="incomtax_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!-- .Net -->
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd dotnet">
+                <img src="portfolio_images/applebees.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">.Net</span>
+                        <h3 class="category">Applebees</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="applebees_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd dotnet">
+                <img src="portfolio_images/simpliwork.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">.Net</span>
+                        <h3 class="category">Simpliwork</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="simpliworks_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!-- iOs -->
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd ios">
+                <img src="portfolio_images/offsight.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">iOS</span>
+                        <h3 class="category">Offsight</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="offsite_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd ios">
+                <img src="portfolio_images/Bidalift.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">iOS</span>
+                        <h3 class="category">Bidalift</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="bidalift_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!-- Android -->
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd android">
+                <img src="portfolio_images/nkenne.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Android</span>
+                        <h3 class="category">Nkenne</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="nkenne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd android">
+                <img src="portfolio_images/sidestream.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Android</span>
+                        <h3 class="category">SideStream</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="side_stream_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd android">
+                <img src="portfolio_images/misal.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Android</span>
+                        <h3 class="category">Misal</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="misal_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd android">
+                <img src="portfolio_images/easyreferencing.jpg"
+                    alt="Image description">
+                <div class="portfolio-overlay">
+                    <div class="overlay-content">
+                        <span class="overlay-content-badge">Android</span>
+                        <h3 class="category">Easyreferencing</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="easyref_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </li> 
         </ul>
     </div>
 </section>
