@@ -25,7 +25,7 @@
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne_topbanner.jpg') }}">
+    <img class="w-100" src="{{ asset('portfolio_images/Offsite/reshyne_topbanner.jpg') }}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -96,22 +96,22 @@
 </div>
 <div class="portfolio-slider" style="background-image:url('portfolio_images/reshyne_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-invoice.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/Offsite/Offsight_-(1).jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-login.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images//Offsite/Offsight_-(2).jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-pricelist.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images//Offsite/Offsight_-(3).jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-service.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images//Offsite/Offsight_-(4).jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store-1.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images//Offsite/Offsight_-(5).jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/Reshyne/reshyne-store.png') }}">
+        <img class="w-100" src="{{ asset('portfolio_images//Offsite/Offsight_-(6).jpg') }}">
     </div>
     <!-- <div>
             <img class="w-100" src="{{ asset('Portfolio/RSD_splash.jpg') }}">
