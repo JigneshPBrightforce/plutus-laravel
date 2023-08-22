@@ -8,17 +8,17 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><span>Portfolio</span></li>
-                        <li class="breadcrumb-item active" aria-current="page">Bidalift</li>
+                        <li class="breadcrumb-item active" aria-current="page">Bidalift user</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>Bidalift</h3>
-                    <p class="sub-dec ms-4 mt-4">Reshyne helps companies make the most of their repairs business. </p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Bidalift user</h3>
+                    <p class="sub-dec ms-4 mt-4">Save money by being in control of what you pay! Enter a bid YOU feel is fair for your ride.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/Nkenne/Nkenne.png') }}" width="200" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Bidalift/Logo.webp') }}" width="200" class="" alt="">
                 </div>
             </div>
         </div>
@@ -29,25 +29,12 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue
-            growth and business success. Offer your customers a fully branded repair experience that allows them to browse services, place orders,
-            print out shipping labels, and track progress, all directly from your website. Reshyne makes the process
-            seamless, secure, and completely contact-free to keep your customers confident, satisfied, and coming back for more.<br>
-
-            Payment Gateway Integration:
-Payment services used across the Reshyne for payment. Integrated stripe payment gateway along with transaction failure
-handling mechanism, refund mechanism, stripe connect etc.
-<br>
-
-Shipping Integration:
-Shipping services used across the Reshyne for shipping. Integrated EasyPost shipping along with a carrier account mechanism,
-shipping rates, download label, tracking shipment, etc.
-</p>
+        <p class="sub-dec">Save money by being in control of what you pay! Enter a bid YOU feel is fair for your ride. All drivers in the area will receive your bid and compete for YOUR business!</p>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Reshyne</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Bidalift</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -61,17 +48,17 @@ shipping rates, download label, tracking shipment, etc.
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>New York
+                        <p>United States
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Jewelry reparis store 
+                        <p>Travel
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>E-commerce
+                        <p>Travel
                         </p>
                     </div>
                 </div>
@@ -86,30 +73,18 @@ shipping rates, download label, tracking shipment, etc.
     </div>
     <div class="container industry-verticals-box-row">
         <div class="row">
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
-                <div class="industry-box">
-                    <img src="{{ asset('image/react-2.svg') }}" alt="slide 1">
-                    <h3>ReactJS</h3>
+            <div class="col-12 col-md-3 col-lg-3 aos-init d-flex" data-aos="fade-up" data-aos-delay="200">
+                <div class="industry-box d-flex flex-column h-auto w-100">
+                    <img src="{{ asset('image/swift.svg') }}" alt="slide 1">
+                    <h3>iOS Swift</h3>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
-                <div class="industry-box">
-                    <img src="{{ asset('image/python.svg') }}" alt="slide 1">
-                    <h3>Python</h3>
+            <div class="col-12 col-md-3 col-lg-3 aos-init d-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="industry-box d-flex flex-column h-auto w-100">
+                    <img src="{{ asset('image/firebase-1.svg') }}" alt="slide 1">
+                    <h3>Firebase push notifications</h3>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg') }}" alt="slide 1">
-                    <h3>Ionic</h3>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg') }}" alt="slide 1">
-                    <h3>Java</h3>
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>

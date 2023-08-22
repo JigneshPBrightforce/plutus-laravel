@@ -13,7 +13,7 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Nkenne</h3>
-                    <p class="sub-dec ms-4 mt-4">Reshyne helps companies make the most of their repairs business. </p>
+                    <p class="sub-dec ms-4 mt-4">NKENNE is the premier and only dedicated African Language learning app. Join our community of over 25,000 users in learning any of our 6 offered African languages on the app: Twi, Igbo, Yoruba, Swahili, Somali, and Hausa. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -29,20 +29,8 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue
-            growth and business success. Offer your customers a fully branded repair experience that allows them to browse services, place orders,
-            print out shipping labels, and track progress, all directly from your website. Reshyne makes the process
-            seamless, secure, and completely contact-free to keep your customers confident, satisfied, and coming back for more.<br>
-
-            Payment Gateway Integration:
-Payment services used across the Reshyne for payment. Integrated stripe payment gateway along with transaction failure
-handling mechanism, refund mechanism, stripe connect etc.
-<br>
-
-Shipping Integration:
-Shipping services used across the Reshyne for shipping. Integrated EasyPost shipping along with a carrier account mechanism,
-shipping rates, download label, tracking shipment, etc.
-</p>
+        <p class="sub-dec">We offer hundreds of language learning lessons developed by accredited educators around the world. With our community-focused approach to language learning, we offer a unique approach to learning African languages and engaging with the beautiful cultures and people of Africa.</p>
+        <p class="sub-dec mt-3">NKENNE means "mother’s own" and it is a unisex name from the southeastern part of Nigeria. Driven by passion and inspired by technology, we built NKENNE to revolutionize African language learning for everyone.</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -61,18 +49,15 @@ shipping rates, download label, tracking shipment, etc.
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>New York
-                        </p>
+                        <p>Africa</p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Jewelry reparis store 
-                        </p>
+                        <p>Student & Teachers</p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>E-commerce
-                        </p>
+                        <p>Education</p>
                     </div>
                 </div>
             </div>

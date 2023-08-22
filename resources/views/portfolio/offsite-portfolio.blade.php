@@ -13,12 +13,12 @@
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Offsite</h3>
-                    <p class="sub-dec ms-4 mt-4">Reshyne helps companies make the most of their repairs business. </p>
+                    <p class="sub-dec ms-4 mt-4">Offsight solves the delivery, quality, traceability and communication challenges of modular/offsite construction and project-based manufacturing with our easy to use mobile software. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/Nkenne/Nkenne.png') }}" width="200" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Offsite/offsite.png') }}" width="300" class="" alt="">
                 </div>
             </div>
         </div>
@@ -29,25 +29,21 @@
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue
-            growth and business success. Offer your customers a fully branded repair experience that allows them to browse services, place orders,
-            print out shipping labels, and track progress, all directly from your website. Reshyne makes the process
-            seamless, secure, and completely contact-free to keep your customers confident, satisfied, and coming back for more.<br>
-
-            Payment Gateway Integration:
-Payment services used across the Reshyne for payment. Integrated stripe payment gateway along with transaction failure
-handling mechanism, refund mechanism, stripe connect etc.
-<br>
-
-Shipping Integration:
-Shipping services used across the Reshyne for shipping. Integrated EasyPost shipping along with a carrier account mechanism,
-shipping rates, download label, tracking shipment, etc.
-</p>
+        <p class="sub-dec">Offsight solves the delivery, quality, traceability and communication challenges of modular/offsite construction and project-based manufacturing with our easy to use mobile software.</p>
+        <p class="sub-dec mt-3">We enable collaboration between project managers, quality inspectors, production supervisors, architects, general contractors and developers to ensure your offsite projects stay on track. </p>
+        <p class="sub-dec mt-3">If you're thinking about going offsite/modular or ready to take the next step to streamline your quality and productivity, this is the app for you.</p>
+        <ul>
+            <li>Manage factory assembly of all offsite products and components, track project status and provide daily updates to stakeholders</li>
+            <li>Identify, resolve, and report all non-conformance/quality and assembly errors before your products leave the factory floor</li>
+            <li>Take, add, and annotate photos using our camera functionality to capture quality issues and provide verification for sign-offs</li>
+            <li>Enable app and email alerts to automatically link assembly progress with your delivery schedule and get alerted when quality issues occur that affect client delivery</li>
+            <li>Integrate with third party cloud and construction applications to view all necessary designs and digital materials during assembly</li>
+        </ul>
     </div>
 </div>
 <div class="about_portfolio space">
     <div class="container aos-init" data-aos="fade-up">
-        <h3 class="subtitle d-flex align-items-center"> <span></span>About Reshyne</h3>
+        <h3 class="subtitle d-flex align-items-center"> <span></span>About Offsite</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="core-value-boxx-main">
@@ -61,18 +57,15 @@ shipping rates, download label, tracking shipment, etc.
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>New York
-                        </p>
+                        <p>Canada</p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Jewelry reparis store 
-                        </p>
+                        <p>Engineering employees</p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>E-commerce
-                        </p>
+                        <p>Business</p>
                     </div>
                 </div>
             </div>
@@ -88,28 +81,16 @@ shipping rates, download label, tracking shipment, etc.
         <div class="row">
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="{{ asset('image/react-2.svg') }}" alt="slide 1">
-                    <h3>ReactJS</h3>
+                    <img src="{{ asset('image/ios.svg') }}" alt="slide 1">
+                    <h3>iOS</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/python.svg') }}" alt="slide 1">
-                    <h3>Python</h3>
+                    <img src="{{ asset('image/objective_c.svg') }}" alt="slide 1">
+                    <h3>Objective C</h3>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Ionic-logo.svg') }}" alt="slide 1">
-                    <h3>Ionic</h3>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
-                <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg') }}" alt="slide 1">
-                    <h3>Java</h3>
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
