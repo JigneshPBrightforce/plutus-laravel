@@ -3,45 +3,7 @@
 //         $(".collapse").toggleClass("d-block");
 //     });
 // });  
-// Case Study Slider
-// const customCursor = document.getElementById('custom-cursor');
-//         const hoverContainer = document.querySelectorAll('.dropdown-item');       
-//         const updateCursorPosition = (event) => {
-//           customCursor.style.top = `${event.clientY}px`;
-//           customCursor.style.left = `${event.clientX}px`;
-//         }
-        
-//         window.addEventListener('mousemove', (event) => {
-//           updateCursorPosition(event)
-//           if (hoverContainer.matches(':hover')) {
-//             customCursor.classList.add('zoom')
-//           } else {
-//             customCursor.classList.remove('zoom')
-//           }
-//         })
-
-const customCursor = document.getElementById('custom-cursor');
-const hoverContainer = document.querySelectorAll('.cursor-hover');
-
-const updateCursorPosition = (event) => {
-  customCursor.style.top = `${event.clientY}px`;
-  customCursor.style.left = `${event.clientX}px`;
-}
-
-hoverContainer.forEach((item) => {
-  item.addEventListener('mouseover', () => {
-    customCursor.classList.add('zoom');
-  });
-
-  item.addEventListener('mouseout', () => {
-    customCursor.classList.remove('zoom');
-  });
-});
-
-window.addEventListener('mousemove', (event) => {
-  updateCursorPosition(event);
-});
-
+// Case Study Slider 
 
 $('.case-study-slider').slick({
     dots: false,

@@ -422,7 +422,7 @@
         </div>
     </div>
 </div>
-<section class="blog-wrap space">
+<!-- <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Blog</h3>
     </div>
@@ -485,7 +485,7 @@
                 our Blog</a>
         </div>
     </div>
-</section>
+</section> -->
 
 @include('inquiryform')
 

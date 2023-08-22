@@ -83,12 +83,8 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Nunito-regular" !important;  
-  cursor: none;
-} 
-body:hover #custom-cursor {
-  opacity: 1;
-} 
+  font-family: "Nunito-regular" !important;   
+}  
 ul {
   list-style: none !important;
 }
@@ -3082,8 +3078,7 @@ select {
   transition: 0.5s;
   border: none;
   min-width: 150px;
-  text-align: center;
-  cursor: none;
+  text-align: center; 
 }
 
 .btn-orange:hover {
@@ -3106,33 +3101,7 @@ select {
   border-radius: 100%;
   transform: scale(1, 1) translate(-50%);
   transform-origin: 50% 50%;
-}
-.btn-orange::before {
-  content: '';
-  position: absolute;
-  border: 2px solid transparent;
-  width: calc(100% - 10px);
-  left: 50%;
-  top: 50%;
-  height: calc(100% - 10px);
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  transition: all linear 0.3s;
-  opacity: 0;
-}
-.btn-orange:hover::before {
-  content: '';
-  position: absolute;
-  border: 2px solid #fff;
-  width: calc(100% - 10px);
-  left: 50%;
-  top: 50%;
-  height: calc(100% - 10px);
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  opacity: 1;
-}
-
+} 
 .hm-banner-sec .main-hero-image {
   max-width: 60%;
   width: 100%;
@@ -3417,7 +3386,7 @@ select {
   -moz-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   -o-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-  cursor: none;
+  cursor: grab !important;
 }
 
 .service-main-slider .our-services-slider-owl .owl-stage .our-services-inner .service-box .card {
@@ -5571,21 +5540,7 @@ select {
   #custom-cursor.zoom {
     transform: scale(2);
   }
-}
-@media (max-width: 1040px){   
-  body{
-    cursor: default !important;
-  }
-  .btn-orange{
-    cursor: pointer !important;
-  }
-  .form-control{
-    cursor: auto !important;
-  }
-  .service-main-slider .our-services-slider-owl .owl-stage .our-services-inner .service-box{
-    cursor: grab !important;
-  }
-}
+} 
 .portfolio-detail ul li{
   padding-left: 30px;
   position: relative;
@@ -5602,17 +5557,9 @@ select {
 }
 select.error option,select.error {
   color: #000000 !important;
-}
-.form-control{
-  cursor: none !important;
-}
+} 
 .coming-soon{
   font-size: 16px;
   line-height: 120%;
   color: #333333;
-}
-.coming-soon-img{
-  max-width: 600px;
-  margin: auto;
-  width: 100%;
-}
+} 

@@ -923,13 +923,13 @@
         </div>
     </div>
 </section>
-<section class="blog-wrap">
+<!-- <section class="blog-wrap">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Blog</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
         <div class="listing-view text-center">
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
@@ -984,14 +984,13 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <img src="image/coming-soon.png" class="coming-soon-img" alt="Coming soon" />
+            </div> 
         </div>
-        <!-- <div class="button-box text-center">
+        <div class="button-box text-center">
             <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
-        </div> -->
+        </div>
     </div>
-</section>
+</section> -->
 @include('inquiryform')
 @endsection

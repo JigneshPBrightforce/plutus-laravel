@@ -274,7 +274,7 @@
                 </li>
                 <li
                     class="services-menu <?php echo preg_match("(services|development|maintenance)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='services' class="main-tag">Services</a>
+                    <a href='#' class="main-tag">Services</a>
                     <ul>
                         <li class="bg-white h-auto services-mobile-row-hine heading-t">
                             <div class="container">

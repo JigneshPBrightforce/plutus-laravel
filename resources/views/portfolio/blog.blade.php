@@ -46,7 +46,6 @@
         </div>
     </div>
     <div class="blog-wrap">
-
         <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
             <div class="listing-view">
                 <div class="row">
