@@ -25,7 +25,7 @@
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/RSD/rsd_top_banner.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/agrotrade/top_banner_agrotrade.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -98,7 +98,7 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/agrotrade_bg.jpg');background-repeat: no-repeat;background-size: cover;">>
     <div>
         <img class="w-100" src="{{ asset('portfolio_images/agrotrade/communication.jpg') }}">
     </div>
