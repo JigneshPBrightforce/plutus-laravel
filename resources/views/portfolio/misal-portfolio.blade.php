@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/Reshyne/reshyne.svg') }}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Misal/misal.webp') }}" class="" alt="">
                 </div>
             </div>
         </div>

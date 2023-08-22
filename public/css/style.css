@@ -2285,6 +2285,10 @@ video::-webkit-media-controls-panel {
 
 .portfolio-menu {
   text-align: center;
+  position: sticky;
+  top: 130px;
+  background-color: #ffffff;
+  z-index: 9;
 }
 
 .control {
