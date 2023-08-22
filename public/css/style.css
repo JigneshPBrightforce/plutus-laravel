@@ -1737,6 +1737,7 @@ video::-webkit-media-controls-panel {
 .portfolio-slider {
   /* background-image: url("../image/rsd_bg.png"); */
   padding: 80px 0px;
+  background-position: center;
 }
 
 .portfolio-slider .slick-slide {

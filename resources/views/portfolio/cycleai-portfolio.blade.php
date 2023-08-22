@@ -25,7 +25,7 @@
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/STE/top_banner _ste.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/cycleai/top_banner_cycleai.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -101,31 +101,31 @@
         </div>
     </div>
 </div>
-<div class="portfolio-slider" style="background-image:url('portfolio_images/ste_bg.jpg');background-repeat: no-repeat;background-size: cover;">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/cycleai_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Dashboard_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_1.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Exam_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_2.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Login_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_3.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Result_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_4.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_splash_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_5.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Summary_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_6.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Test_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_7.jpg') }}">
     </div>
-    <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
-    </div> -->
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_8.jpg') }}">
+    </div>
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
