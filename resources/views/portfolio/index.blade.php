@@ -260,7 +260,7 @@
                     <div class="overlay-content">
                         <span class="overlay-content-badge">iOS</span>
                         <h3 class="category">Offsight</h3>
-                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <p class="category">Offsight solves the delivery, quality, traceability and communication challenges of modular/offsite construction and project-based manufacturing with our easy to use mobile software.</p>
                         <a href="offsite_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -273,8 +273,8 @@
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">iOS</span>
-                        <h3 class="category">Bidalift</h3>
-                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <h3 class="category">Bidalift user</h3>
+                        <p class="category">Save money by being in control of what you pay! Enter a bid YOU feel is fair for your ride.</p>
                         <a href="bidalift_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
@@ -289,7 +289,7 @@
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Android</span>
                         <h3 class="category">Nkenne</h3>
-                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <p class="category">NKENNE is the premier and only dedicated African Language learning app. Join our community of over 25,000 users in learning any of our 6 offered African languages on the app: Twi, Igbo, Yoruba, Swahili, Somali, and Hausa.</p>
                         <a href="nkenne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
