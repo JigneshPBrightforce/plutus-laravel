@@ -105,3 +105,25 @@ Route::get('/career-details-fresher', 'HomeController@career_details_fresher');
 
 // Case study 
 Route::get('/one-clickheat', 'HomeController@one_click_heat');
+
+Auth::routes();
+
+Route::get('logout', function(){ Auth::logout();    return Redirect::to('/'); });
+
+Route::get('/home', function() {    
+    return redirect('/admin/dashboard');    
+})->name('home');
+
+Route::group(['middleware' => ['auth']] , function() {
+    Route::get('/admin/dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
+    Route::get('/admin/portfolio', 'Admin\PortfolioController@index')->name('admin.portfolio');
+
+    Route::get('/admin/technology', 'Admin\TechnologyController@index')->name('admin.technology');
+    Route::get('/admin/technology/create', 'Admin\TechnologyController@create')->name('admin.technology.create');
+    Route::post('/admin/technology/save', 'Admin\TechnologyController@store')->name('admin.technology.store');
+    Route::get('/admin/technology/edit/{id}', 'Admin\TechnologyController@edit')->name('admin.technology.edit');
+    Route::post('/admin/technology/update', 'Admin\TechnologyController@update')->name('admin.technology.update');
+    Route::get('/admin/technology/delete/{id}', 'Admin\TechnologyController@destroy')->name('admin.technology.delete');
+    Route::get('/admin/technology/getCategoriesTableData', 'Admin\TechnologyController@getCategoriesTableData')->name('admin.technology.getCategoriesTableData');
+    Route::get('/admin/technology/changeStatus/{id}', 'Admin\TechnologyController@changeStatus')->name('admin.technology.changeStatus');
+});
