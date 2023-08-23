@@ -11,15 +11,14 @@
 <!-- Default box -->
 <div class="container box">
     <div class="box-header">
-        <a class="btn btn-primary" href="{{ route('admin.dashboard') }}">Add New</a>
+        <a class="btn btn-primary" href="{{ route('admin.portfolio.create') }}">Add New</a>
     </div>
     <div class="box-body">
         <table id="example1" class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Name</th>
-                    <th>Email</th>
+                    <th>Portfolio Name</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -27,9 +26,10 @@
                 @foreach($arrdata as $data)
                 <tr>
                     <td>{{ $data->id }}</td>
-                    <td>{{ $data->name }} </td>
-                    <td>{{ $data->email }}</td>
-                    <td>{{ $data->created_at }}</td>
+                    <td>{{ $data->project_name }} </td>
+                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a
+                            href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}">Delete</a>
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
