@@ -297,11 +297,11 @@
                                                         href="android-development">Android App
                                                         Development</a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="ionic-development">Ionic App
                                                         Development</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(react-native)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="react-native-development">React Native
@@ -471,11 +471,11 @@
                                                         href="android-development">Android App
                                                         Development</a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="ionic-development">Ionic App
                                                         Development</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(react)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="react-native-development">React Native
@@ -629,10 +629,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover" href="">Android App Developer</a>
-                                                </li>
-                                                <li>
-                                                    <a class="cursor-hover" href="">Ionic App Developer</a>
-                                                </li>
+                                                </li> 
                                                 <li>
                                                     <a class="cursor-hover" href="">React Native App Developer</a>
                                                 </li>
@@ -735,10 +732,7 @@
                                                 </li>
                                                 <!-- <li>
                                                     <a class="cursor-hover" href="">2. Android App Developer</a>
-                                                </li>
-                                                <li>
-                                                    <a class="cursor-hover" href="">3. Ionic App Developer</a>
-                                                </li>
+                                                </li> 
                                                 <li>
                                                     <a class="cursor-hover" href="">4. React Native App Developer</a>
                                                 </li>
@@ -893,11 +887,11 @@
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
-                                                <li>
+                                                <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="hire-ionic-app-developer">Hire Ionic App
                                                         Developer</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                                         href="hire-reactnative-app-developer"> Hire React Native
@@ -1003,8 +997,8 @@
                                     href="hire-uiux-designer">Hire UI/UX Designer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
-                                <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-ionic-app-developer">Hire Ionic App Developer</a>
+                                <!-- <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
+                                    href="hire-ionic-app-developer">Hire Ionic App Developer</a> -->
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="hire-reactnative-app-developer"> Hire React Native App Developer </a>

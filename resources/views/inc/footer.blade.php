@@ -154,6 +154,6 @@
 <script>
 document.getElementById('currentYear').innerHTML = new Date().getFullYear();
 </script>
-<a class="cursor-hover w-app-call" target="_blank" href="https://wa.me/+917948000107?text=Hi">
+<a class="cursor-hover w-app-call" target="_blank" href="https://wa.me/+917600782354?text=Hi">
     <img src="{{ asset('image/whatsapp.png')}}" alt="whatsapp call">
 </a>
