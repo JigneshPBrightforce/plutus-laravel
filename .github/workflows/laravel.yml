@@ -15,26 +15,26 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v1
       
-      # - name: Install Dependencies
-      #   run: composer update -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Install Dependencies
+        run: composer update -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
       
-      # - name: Deploy to my EC2 instance
-      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      #   with:
-      #     server: ${{ secrets.HOST_DNS }}
-      #     username: ${{ secrets.USERNAME }}
-      #     password: ${{ secrets.PASSWORD }}            
-      #     remote_path: ${{ secrets.TARGET_DIR }}            
-      #     sftpArgs: '-o ConnectTimeout=5'
+      - name: Deploy to my EC2 instance
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.HOST_DNS }}
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          TARGET: ${{ secrets.TARGET_DIR }}
+          SSH_CMD_ARGS : "-o StrictHostKeyChecking=no"
       
-      # - name: executing remote ssh commands using password
-      #   uses: appleboy/ssh-action@v0.1.10
-      #   with:
-      #     host: ${{ secrets.HOST_DNS }}
-      #     username: ${{ secrets.USERNAME }}
-      #     # key: ${{ secrets.EC2_SSH_KEY }}
-      #     password: ${{ secrets.PASSWORD }}            
-      #     script: |
-      #       cd $TARGET_DIR
-      #       chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
-      #       chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}            
+          script: |
+            cd $TARGET_DIR
+            chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
+            chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
