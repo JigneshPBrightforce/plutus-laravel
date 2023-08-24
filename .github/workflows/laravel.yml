@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: composer update -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
       
-      - name: Deploy to my EC2 instance
+      - name: Deploy to plutus-web instance
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
