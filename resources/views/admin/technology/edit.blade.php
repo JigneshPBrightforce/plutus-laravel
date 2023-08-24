@@ -35,12 +35,14 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Logo</label>
                 <div class="col-md-4">
-                    <img src="{{ asset($arrData->logo) }}" width="100" />
-                    <input type="file" accept="image/*" data-max-size="2M" data-min-width="1300" data-min-height="600"
-                        name="logo" data-default-file="{{$arrData->logo ? asset($arrData->logo) : ''}}" id="logo" />
+                    <input type="file" accept="image/*" name="logo" data-max-size="2M" class="dropify"
+                        data-default-file="{{$arrData->logo ? asset($arrData->logo) : ''}}" id="logo" />
                     @if($errors->has('logo'))
                     <div class="error">{{ $errors->first('logo') }}</div>
                     @endif
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ asset($arrData->logo) }} " width="250" class="mt-2 border">
                 </div>
             </div>
 
@@ -58,4 +60,9 @@
 <!-- /.box -->
 @endsection
 @push('extra-js-scripts')
+<script src="{{asset('admin/js/dropify.min.js')}}"></script>
+<link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
+<script>
+$('.dropify').dropify();
+</script>
 @endpush

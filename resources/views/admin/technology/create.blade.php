@@ -34,8 +34,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 required col-form-label text-md-right">Logo</label>
                 <div class="col-md-4">
-                    <input type="file" data-max-size="1M" data-min-width="1300" data-min-height="600" accept="image/*"
-                        name="logo" id="logo" />
+                    <input type="file" accept="image/*" name="logo" id="logo" data-max-size="2M" class="dropify" />
                     @if($errors->has('logo'))
                     <div class="error">{{ $errors->first('logo') }}</div>
                     @endif
@@ -55,4 +54,9 @@
 <!-- /.box -->
 @endsection
 @push('extra-js-scripts')
+<script src="{{asset('admin/js/dropify.min.js')}}"></script>
+<link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
+<script>
+$('.dropify').dropify();
+</script>
 @endpush

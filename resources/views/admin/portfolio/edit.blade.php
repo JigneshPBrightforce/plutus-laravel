@@ -13,19 +13,6 @@
     <div class="box">
         <div class="box-body">
             <div class="form-group row">
-                <label for="name" class="col-md-2 required col-form-label text-md-right">portfolio Name</label>
-                <div class="col-md-4">
-                    <input id="portfolio_name" type="text"
-                        class="form-control @error('portfolio Name') is-invalid @enderror" name="project_name"
-                        value="{{ $arrData->project_name }}" placeholder="" autocomplete="portfolio_name" autofocus>
-                    @if($errors->has('project_name'))
-                    <div class="error">{{ $errors->first('project_name') }}</div>
-                    @endif
-                </div>
-            </div>
-            -------------
-
-            <div class="form-group row">
                 <label for="name" class="col-md-2  col-form-label text-md-right">Portfolio Name</label>
                 <div class="col-md-4">
                     <input id="name" type="text" class="form-control" name="project_name"
@@ -59,20 +46,21 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Logo</label>
                 <div class="col-md-4">
-                    <img src="{{ asset($arrData->project_logo) }}" width="100" />
-                    <input type="file" accept="image/*" name="project_logo"
+                    <input type="file" accept="image/*" name="project_logo" data-max-size="2M" class="dropify"
                         data-default-file="{{$arrData->project_logo ? asset($arrData->project_logo) : ''}}"
                         id="project_logo" />
                     @if($errors->has('project_logo'))
                     <div class="error">{{ $errors->first('project_logo') }}</div>
                     @endif
                 </div>
+                <div class="col-md-4">
+                    <img src="{{ asset($arrData->project_logo) }} " width="250" class="mt-2 border">
+                </div>
             </div>
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Banner</label>
                 <div class="col-md-4">
-                    <img src="{{ asset($arrData->project_banner) }}" width="100" />
-                    <input type="file" accept="image/*" name="project_banner"
+                    <input type="file" accept="image/*" name="project_banner" data-max-size="2M" class="dropify"
                         data-default-file="{{$arrData->project_banner ? asset($arrData->project_banner) : ''}}"
                         id="project_banner" />
                     @if($errors->has('project_banner'))
@@ -83,8 +71,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Image</label>
                 <div class="col-md-4">
-                    <img src="{{ asset($arrData->project_image) }}" width="100" />
-                    <input type="file" accept="image/*" name="project_image"
+                    <input type="file" accept="image/*" name="project_image" data-max-size="2M" class="dropify"
                         data-default-file="{{$arrData->project_image ? asset($arrData->project_image) : ''}}"
                         id="project_image" />
                     @if($errors->has('project_image'))
@@ -151,8 +138,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Carosoul banner</label>
                 <div class="col-md-4">
-                    <img src="{{ asset($arrData->screenshort_banner) }}" width="100" />
-                    <input type="file" accept="image/*" name="screenshort_banner"
+                    <input type="file" accept="image/*" name="screenshort_banner" data-max-size="2M" class="dropify"
                         data-default-file="{{$arrData->screenshort_banner ? asset($arrData->screenshort_banner) : ''}}"
                         id="screenshort_banner" />
                     @if($errors->has('screenshort_banner'))
@@ -160,7 +146,26 @@
                     @endif
                 </div>
             </div>
-
+            <div class="form-group row">
+                <label for="name" class="col-md-2 col-form-label text-md-right">Carosoul Images</label>
+                <div class="col-md-4">
+                    <input type="file" multiple accept="image/*" name="screenshort_images[]" data-max-size="2M"
+                        class="dropify"
+                        data-default-file="{{$arrData->screenshort_images ? asset($arrData->screenshort_images) : ''}}"
+                        id="screenshort_images" />
+                    @if($errors->has('screenshort_images'))
+                    <div class="error">{{ $errors->first('screenshort_images') }}</div>
+                    @endif
+                </div>
+                <div class="col-md-4">
+                    <?php 
+                    $ssImages = explode(',',$arrData->screenshort_images);
+                    foreach ($ssImages as $file) {
+                        echo '<img src="'. asset($file).'" width="250" class="mt-2 border" >';
+                    }
+                    ?>
+                </div>
+            </div>
 
         </div>
 
@@ -176,6 +181,12 @@
 <!-- /.box -->
 @endsection
 @push('extra-js-scripts')
+<script src="{{asset('admin/js/dropify.min.js')}}"></script>
+<link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
+<script>
+$('.dropify').dropify();
+</script>
+
 <script type="text/javascript">
 var techarray = [];
 $("#technology").on('change', function() {

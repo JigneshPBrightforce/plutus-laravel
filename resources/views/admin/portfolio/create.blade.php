@@ -46,7 +46,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Logo</label>
                 <div class="col-md-4">
-                    <input type="file" name="project_logo" id="project_logo" />
+                    <input type="file" name="project_logo" id="project_logo" data-max-size="2M" class="dropify" />
                     @if($errors->has('project_logo'))
                     <div class="error">{{ $errors->first('project_logo') }}</div>
                     @endif
@@ -55,7 +55,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Banner</label>
                 <div class="col-md-4">
-                    <input type="file" name="project_banner" id="project_banner" />
+                    <input type="file" name="project_banner" id="project_banner" data-max-size="2M" class="dropify" />
                     @if($errors->has('project_banner'))
                     <div class="error">{{ $errors->first('project_banner') }}</div>
                     @endif
@@ -64,7 +64,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Image</label>
                 <div class="col-md-4">
-                    <input type="file" name="project_image" id="project_image" />
+                    <input type="file" name="project_image" id="project_image" data-max-size="2M" class="dropify" />
                     @if($errors->has('project_image'))
                     <div class="error">{{ $errors->first('project_image') }}</div>
                     @endif
@@ -128,7 +128,8 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Carosoul banner</label>
                 <div class="col-md-4">
-                    <input type="file" name="screenshort_banner" id="screenshort_banner" />
+                    <input type="file" name="screenshort_banner" id="screenshort_banner" data-max-size="2M"
+                        class="dropify" />
                     @if($errors->has('screenshort_banner'))
                     <div class="error">{{ $errors->first('screenshort_banner') }}</div>
                     @endif
@@ -148,6 +149,12 @@
 <!-- /.box -->
 @endsection
 @push('extra-js-scripts')
+<script src="{{asset('admin/js/dropify.min.js')}}"></script>
+<link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
+<script>
+$('.dropify').dropify();
+</script>
+
 <script type="text/javascript">
 var techarray = [];
 $("#technology").on('change', function() {

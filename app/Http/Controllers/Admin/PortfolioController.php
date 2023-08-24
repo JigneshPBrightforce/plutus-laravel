@@ -39,12 +39,17 @@ class PortfolioController extends Controller
             // dd($data);
         $data->validate([
             'project_name' => 'required',
+            'project_short_description' => 'required',
+            'project_long_description' => 'required',
+            'project_logo' => 'required',
+            'project_image' => 'required',
+            'project_banner' => 'required',
         ]);
         
         $project_logo = NULL;
         if ($data->hasFile('project_logo')) {
             $data->validate([
-                'project_logo' => 'sometimes|image|mimes:jpg,png,jpeg',
+                'project_logo' => 'sometimes|image|mimes:jpg,png,jpeg,svg',
             ]);
             $project_logo = $this->imageUploadOnFolder($data->file('project_logo'), str_replace(" ", "_",strtolower($data['project_name'])));
         }
@@ -70,7 +75,7 @@ class PortfolioController extends Controller
             $screenshort_banner = $this->imageUploadOnFolder($data->file('screenshort_banner'), str_replace(" ", "_",strtolower($data['project_name'])));
         }
         
-        $user = Portfolio::create([
+        Portfolio::create([
                 "project_name" => $data['project_name'],
                 "project_short_description" => $data['project_short_description'],
                 "project_long_description" => $data['project_long_description'],
@@ -126,10 +131,12 @@ class PortfolioController extends Controller
     */
     public function update(Request $data)
     {
+        
         $data->validate([
             'project_name' => 'required',
         ]);
         
+        $PortfolioData = Portfolio::find($data['action']);
         Portfolio::where('id',$data['action'])->update([
                 "project_name" => $data['project_name'],
                 "project_short_description" => $data['project_short_description'],
@@ -148,11 +155,10 @@ class PortfolioController extends Controller
         }
         if ($data->hasFile('project_logo')) {
             $data->validate([
-                'project_logo' => 'sometimes|image|mimes:jpg,png,jpeg',
+                'project_logo' => 'sometimes|image|mimes:jpg,png,jpeg,svg',
             ]);
-            $user = Portfolio::find($data['action']);
-            if($user->project_logo != ''){
-                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$user->project_logo));
+            if($PortfolioData->project_logo != ''){
+                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$PortfolioData->project_logo));
             }
             $project_logo = $this->imageUploadOnFolder($data->file('project_logo'), str_replace(" ", "_",strtolower($data['project_name'])));
             Portfolio::where('id',$data['action'])->update([
@@ -163,9 +169,9 @@ class PortfolioController extends Controller
             $data->validate([
                 'project_banner' => 'sometimes|image|mimes:jpg,png,jpeg',
             ]);
-            $user = Portfolio::find($data['action']);
-            if($user->project_banner != ''){
-                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$user->project_banner));
+            
+            if($PortfolioData->project_banner != ''){
+                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$PortfolioData->project_banner));
             }
             $project_banner = $this->imageUploadOnFolder($data->file('project_banner'), str_replace(" ", "_",strtolower($data['project_name'])));
             Portfolio::where('id',$data['action'])->update([
@@ -177,9 +183,8 @@ class PortfolioController extends Controller
             $data->validate([
                 'project_image' => 'sometimes|image|mimes:jpg,png,jpeg',
             ]);
-            $user = Portfolio::find($data['action']);
-            if($user->project_image != ''){
-                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$user->project_image));
+            if($PortfolioData->project_image != ''){
+                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$PortfolioData->project_image));
             }
             $project_image = $this->imageUploadOnFolder($data->file('project_image'), str_replace(" ", "_",strtolower($data['project_name'])));
             Portfolio::where('id',$data['action'])->update([
@@ -192,15 +197,40 @@ class PortfolioController extends Controller
             $data->validate([
                 'screenshort_banner' => 'sometimes|image|mimes:jpg,png,jpeg',
             ]);
-            $user = Portfolio::find($data['action']);
-            if($user->screenshort_banner != ''){
-                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$user->screenshort_banner));
+            if($PortfolioData->screenshort_banner != ''){
+                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$PortfolioData->screenshort_banner));
             }
             $screenshort_banner = $this->imageUploadOnFolder($data->file('screenshort_banner'), str_replace(" ", "_",strtolower($data['project_name'])));
             Portfolio::where('id',$data['action'])->update([
                 'screenshort_banner' => $screenshort_banner,
             ]);                    
         }
+        $screenshort_images=array();
+        $rules = [];
+        if ($data->hasFile('screenshort_images')) {
+            $ssImages = explode(',',$PortfolioData->screenshort_images);
+            foreach ($ssImages as $file) {
+                $this->deleteImageOnFolder(str_replace(config('app.url'),'',$file));
+            }
+
+            $files = $data->file('screenshort_images');
+            $allowedfileExtension=['jpeg','jpg','png'];
+            foreach ($files as $file) {
+                $extension = $file->getClientOriginalExtension();
+                $check=in_array($extension,$allowedfileExtension);
+                if($check)
+                {
+                    $screenshort_images[] = $this->imageUploadOnFolder($file, str_replace(" ", "_",strtolower($data['project_name'])));
+                }else{
+                    $rules ['screenshort_images'] = 'Image type must be jpeg,jpg,png';
+                }
+            }
+            $data->validate($rules);
+            Portfolio::where('id',$data['action'])->update([
+                'screenshort_images' => implode(",",$screenshort_images),
+            ]);
+        }
+        
         return redirect("/admin/portfolio")->with('message','Record updated successfully.');
    }
 
