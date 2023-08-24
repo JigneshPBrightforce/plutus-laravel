@@ -5,7 +5,7 @@
     <div class="hero-wrapper">
         <div class="main-hero-title">
             <span class="top-title aos-init" data-aos="fade-up" data-aos-delay="100">Top Web and Mobile Apps
-                Development Company</span>
+                Development Company in india</span>
             <h1 class="aos-init" data-aos="fade-up" data-aos-delay="200">Building your vision, one pixel at a time
             </h1>
             <div class="main-hero-desc aos-init" data-aos="fade-up" data-aos-delay="400">
