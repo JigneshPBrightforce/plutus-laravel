@@ -13,6 +13,16 @@
     <div class="box">
         <div class="box-body">
             <div class="form-group row">
+                <label for="name" class="col-md-2 col-form-label text-md-right">Project Type</label>
+                <div class="col-md-4">
+                    <select class="form-control" id="project_type" name="project_type" required>
+                        <option value="">Select</option>
+                        <option value="0">Web</option>
+                        <option value="1">Mobile</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
                 <label for="name" class="col-md-2  col-form-label text-md-right">Portfolio Name</label>
                 <div class="col-md-4">
                     <input id="name" type="text" class="form-control" name="project_name"

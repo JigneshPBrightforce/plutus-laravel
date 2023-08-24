@@ -47,6 +47,7 @@ Route::get('/customer-support-maintenance', 'HomeController@customer_support_mai
 
 // portfolio menu
 Route::get('/portfolio', 'HomeController@portfolio');
+Route::get('/portfolio/{slug}', 'HomeController@portfolioDetials');
 Route::get('/rsd_portfolio', 'HomeController@rsd_portfolio');
 Route::get('/blog', 'HomeController@blog');
 Route::get('/blog-details', 'HomeController@blog_details');

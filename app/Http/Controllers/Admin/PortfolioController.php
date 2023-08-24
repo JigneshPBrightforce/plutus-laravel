@@ -38,6 +38,7 @@ class PortfolioController extends Controller
     {
             // dd($data);
         $data->validate([
+            'project_type' => 'required',
             'project_name' => 'required',
             'project_short_description' => 'required',
             'project_long_description' => 'required',
@@ -76,6 +77,8 @@ class PortfolioController extends Controller
         }
         
         Portfolio::create([
+                "slug" => str_replace(" ", "_",strtolower($data['project_name'])),
+                "project_type" => $data['project_type'],
                 "project_name" => $data['project_name'],
                 "project_short_description" => $data['project_short_description'],
                 "project_long_description" => $data['project_long_description'],
@@ -138,6 +141,8 @@ class PortfolioController extends Controller
         
         $PortfolioData = Portfolio::find($data['action']);
         Portfolio::where('id',$data['action'])->update([
+                "project_type" => $data['project_type'],
+                "slug" => str_replace(" ", "_",strtolower($data['project_name'])),
                 "project_name" => $data['project_name'],
                 "project_short_description" => $data['project_short_description'],
                 "project_long_description" => $data['project_long_description'],
