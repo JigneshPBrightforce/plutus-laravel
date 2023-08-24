@@ -148,7 +148,7 @@
                 angleMin: 0,
                 angleHour: 0,
                 skin: 1,
-                imgpath: ''
+                imgpath: '/'
             }
             
             // merge user options with defaults
