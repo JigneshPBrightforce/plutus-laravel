@@ -15,8 +15,8 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v1
       
-      # - name: Install Dependencies
-      #   run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Install Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
       
       # - name: Deploy to my EC2 instance
       #   uses: easingthemes/ssh-deploy@v2.1.5
@@ -27,14 +27,14 @@ jobs:
       #     TARGET: ${{ secrets.TARGET_DIR }}
       #     SSH_CMD_ARGS : "-o StrictHostKeyChecking=no"
     
-      # - name: executing remote ssh commands using password
-      #   uses: appleboy/ssh-action@v0.1.10
-      #   with:
-      #     host: ${{ secrets.HOST_DNS }}
-      #     username: ${{ secrets.USERNAME }}
-      #     # key: ${{ secrets.EC2_SSH_KEY }}
-      #     password: ${{ secrets.PASSWORD }}            
-      #     script: |
-      #       cd $TARGET_DIR
-      #       sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
-      #       sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          # key: ${{ secrets.EC2_SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}            
+          script: |
+            cd $TARGET_DIR
+            sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
+            sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
