@@ -36,5 +36,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}            
           script: |
             cd $TARGET_DIR
-            sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
-            sudo chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
+            chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/storage/
+            chmod 777 -R /home/plutustec-web/htdocs/web.plutustec.com/bootstrap/
