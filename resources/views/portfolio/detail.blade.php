@@ -28,9 +28,8 @@
     <img class="w-100" src="{{ asset($portfolio->project_banner)}}">
 </div>
 <div class="portfolio-detail">
-    <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">{{ $portfolio->project_long_description }}
-        </p>
+    <div class="container space aos-init description" data-aos="fade-up" data-aos-delay="400">
+        {!! $portfolio->project_long_description !!}
     </div>
 </div>
 <div class="about_portfolio space">

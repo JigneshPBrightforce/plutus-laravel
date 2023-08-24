@@ -161,11 +161,13 @@
 @push('extra-js-scripts')
 <script src="{{asset('admin/js/dropify.min.js')}}"></script>
 <link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
-<script>
-$('.dropify').dropify();
-</script>
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 
 <script type="text/javascript">
+$(document).ready(function() {
+    $('.dropify').dropify();
+    $('.ckeditor').ckeditor();
+});
 var techarray = [];
 $("#technology").on('change', function() {
     techarray.push($(this).val());

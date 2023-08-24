@@ -44,8 +44,8 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2  col-form-label text-md-right">Long description</label>
                 <div class="col-md-4">
-                    <textarea name="project_long_description"
-                        class="form-control">{{ $arrData->project_long_description }}</textarea>
+                    <textarea name="project_long_description" class="ckeditor form-control">
+                    {{ $arrData->project_long_description }}</textarea>
                     @if($errors->has('project_long_description'))
                     <div class="error">{{ $errors->first('project_long_description') }}</div>
                     @endif
@@ -192,11 +192,14 @@
 @push('extra-js-scripts')
 <script src="{{asset('admin/js/dropify.min.js')}}"></script>
 <link rel="stylesheet" href="{{asset('admin/css/dropify.min.css')}}">
-<script>
-$('.dropify').dropify();
-</script>
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 
 <script type="text/javascript">
+$(document).ready(function() {
+    $('.dropify').dropify();
+    $('.ckeditor').ckeditor();
+});
+
 var techarray = [];
 $("#technology").on('change', function() {
     techarray.push($(this).val());
