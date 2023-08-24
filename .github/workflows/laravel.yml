@@ -19,14 +19,14 @@ jobs:
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
       
       - name: Deploy to my EC2 instance
-        uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-          # SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.HOST_DNS }}
-          REMOTE_USER: ${{ secrets.USERNAME }}
-          TARGET: ${{ secrets.TARGET_DIR }}
-          SSH_CMD_ARGS : "-o StrictHostKeyChecking=no"
-    
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}            
+          remote_path: ${{ secrets.TARGET_DIR }}            
+          sftpArgs: '-o ConnectTimeout=5'
+      
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v0.1.10
         with:
