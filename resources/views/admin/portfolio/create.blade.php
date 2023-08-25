@@ -131,6 +131,7 @@
                     @if($errors->has(' technology'))
                     <div class="error">{{ $errors->first('	technology') }}</div>
                     @endif
+                    <div class="col-md-12 mb-2 techList"></div>
                 </div>
             </div>
             <hr>

@@ -129,7 +129,6 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label text-md-right">Technology </label>
                 <div class="col-md-4">
-
                     <select class="form-select" aria-label="select example" id="technology">
                         <option value="">Select</option>
                         @foreach ($technology as $tech)
@@ -137,10 +136,10 @@
                         @endforeach
                     </select>
                     <input type="hidden" id="technologyList" name="technology" id="page" value="" />
-                    {{ $arrData->technology }}
                     @if($errors->has(' technology'))
                     <div class="error">{{ $errors->first('	technology') }}</div>
                     @endif
+                    <div class="col-md-12 mb-2 techList"></div>
                 </div>
             </div>
             <hr>
@@ -195,12 +194,16 @@
 <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 
 <script type="text/javascript">
+var techarray = <?php echo json_encode(explode(",",$arrData->technology)); ?>
+
 $(document).ready(function() {
     $('.dropify').dropify();
     $('.ckeditor').ckeditor();
 });
+setTimeout(() => {
+    setTechtohtml();
+}, 1000);
 
-var techarray = [];
 $("#technology").on('change', function() {
     techarray.push($(this).val());
     techarray = techarray.filter((item,
