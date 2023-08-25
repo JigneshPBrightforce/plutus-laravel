@@ -105,7 +105,7 @@ $techArray = [];
                 <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
             </div>
             <div id="successMsg" class="text-primary mt-3" style="display: none">Application sent successfully.</div>
-            <div id="errorMsg" class="text-primary mt-3" style="display: none"></div>
+            <!-- <div id="errorMsg" class="text-primary mt-3" style="display: none"></div> -->
         </form>
     </div>
 </div>

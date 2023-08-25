@@ -83,5 +83,5 @@
         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
     </div>
     <div id="successMsg" class="text-primary mt-3" style="display: none">Resume sent successfully.</div>
-    <div id="errorMsg" class="text-primary mt-3" style="display: none"></div>
+    <!-- <div id="errorMsg" class="text-primary mt-3" style="display: none"></div> -->
 </form>
