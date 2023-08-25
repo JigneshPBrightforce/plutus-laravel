@@ -9,17 +9,18 @@
 <!-- Info boxes -->
 
 <!-- Default box -->
-<div class="container box">
-    <div class="box-header">
-        <a class="btn btn-primary" href="{{ route('admin.portfolio.create') }}">Add New</a>
-    </div>
-    <div class="box-body">
+<div class="admin-wrapper py-4">
+    <div class="container box"> 
+        <div class="d-md-flex align-items-center justify-content-between flex-wrap w-100 mb-0 mb-lg-4">
+            <h4 class="page-title mb-3 mb-lg-0">Portfolio</h4>
+            <a class="btn btn-primary btn-orange" href="{{ route('admin.portfolio.create') }}">Add New</a>
+        </div> 
         <table id="example1" class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Portfolio Name</th>
-                    <th>Action</th>
+                    <th style="width: 150px;">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,15 +28,22 @@
                 <tr>
                     <td>{{ $data->id }}</td>
                     <td>{{ $data->project_name }} </td>
-                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a
-                            href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}">Delete</a>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}" class="square-btn edit me-2">
+                                <img src="{{ asset('admin/image/edit.svg')}}" alt="Edit" />
+                            </a>
+                            <a href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}" class="square-btn delete">
+                                <img src="{{ asset('admin/image/delete.svg')}}" alt="Delete" />
+                            </a>
+                        </div>
                     </td>
                 </tr>
                 @endforeach
             </tbody>
-        </table>
+        </table> 
+        <!-- /.box-footer-->
     </div>
-    <!-- /.box-footer-->
 </div>
 <!-- /.box -->
 @endsection
