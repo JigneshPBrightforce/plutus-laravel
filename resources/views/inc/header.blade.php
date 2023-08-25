@@ -847,7 +847,7 @@
                     <a href='/career' class="cursor-hover main-tag">Careers</a>
                 </li>
                 <li class="hire-resources-menu <?php echo preg_match("(hire)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='/javascript:void(0)' class="main-tag">Hire Resources</a>
+                    <a href='javascript:void(0)' class="main-tag">Hire Resources</a>
                     <ul>
                         <li class="hire-resources-mobile-row-hine heading-t bg-white h-auto">
                             <div class="container">

@@ -82,7 +82,8 @@
     </div>
 </div>
 @endif
-<?php $ss = explode("," ,$portfolio->screenshort_images); ?>
+@if($portfolio->screenshort_images != '')
+<?php $ss = explode("," ,$portfolio->screenshort_images);?>
 <div class="portfolio-slider"
     style="background-image:url('{{ asset($portfolio->screenshort_banner) }}');background-repeat: no-repeat;background-size: cover;">
     @foreach($ss as $img)
@@ -91,6 +92,7 @@
     </div>
     @endforeach
 </div>
+@endif
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">You May Also Like</h3>
@@ -135,14 +137,6 @@ $('.portfolio-slider').slick({
     autoplay: true,
     slidesToShow: <?php echo $portfolio->project_type === 1 ? 5 : 2 ;?>,
     responsive: [{
-            breakpoint: 1024,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: <?php echo $portfolio->project_type === 1 ? 3 : 2 ;?>,
-            }
-        }, {
             breakpoint: 768,
             settings: {
                 arrows: false,

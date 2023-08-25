@@ -9,35 +9,38 @@
 <!-- Info boxes -->
 
 <!-- Default box -->
-<div class="container box">
-    <div class="box-header">
-        <a class="btn btn-primary" href="{{ route('admin.technology.create') }}">Add New</a>
+<div class="admin-wrapper py-4">
+    <div class="container box">
+        <div class="d-md-flex align-items-center justify-content-between flex-wrap w-100 mb-0 mb-lg-4">
+            <h4 class="page-title mb-3 mb-lg-0">Technology</h4>
+            <a class="btn btn-primary btn-orange" href="{{ route('admin.technology.create') }}">Add New</a>
+        </div>
+        <div class="box-body">
+            <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Technology</th>
+                        <th>Status</th>
+                        <th style="width: 150px;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach($arrdata as $data)
+                    <tr>
+                        <td>{{ $data->id }}</td>
+                        <td>{{ $data->tech_name }} </td>
+                        <td>{{ $data->is_active ? 'In-active' : 'Active' }}</td>
+                        <td><a href="{{ route('admin.technology.edit', array('id' => $data->id))}}">Edit</a> | <a
+                                href="{{ route('admin.technology.delete', array('id' => $data->id))}}">Delete</a>
+                        </td>
+                    </tr>
+                    @endforeach
+                </tbody>
+            </table>
+        </div>
+        <!-- /.box-footer-->
     </div>
-    <div class="box-body">
-        <table id="example1" class="table table-bordered table-striped">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Technology</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach($arrdata as $data)
-                <tr>
-                    <td>{{ $data->id }}</td>
-                    <td>{{ $data->tech_name }} </td>
-                    <td>{{ $data->is_active ? 'In-active' : 'Active' }}</td>
-                    <td><a href="{{ route('admin.technology.edit', array('id' => $data->id))}}">Edit</a> | <a
-                            href="{{ route('admin.technology.delete', array('id' => $data->id))}}">Delete</a>
-                    </td>
-                </tr>
-                @endforeach
-            </tbody>
-        </table>
-    </div>
-    <!-- /.box-footer-->
 </div>
 <!-- /.box -->
 @endsection
