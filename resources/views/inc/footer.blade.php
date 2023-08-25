@@ -65,11 +65,11 @@
                             About Us
                         </a>
                     </li>
-                    <li>
-                        <a href="/services" class="cursor-hover f-t">
+                    <!-- <li>
+                        <a href="#" class="cursor-hover f-t">
                             Services
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/portfolio" class="cursor-hover f-t">
                             Portfolio

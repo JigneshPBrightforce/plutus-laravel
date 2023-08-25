@@ -15,7 +15,7 @@
                     the boundaries of our industry and setting new standards of excellence.</p>
             </div>
             <div class="button-box justify-content-start aos-init" data-aos="fade-up" data-aos-delay="500">
-                <a class="btn-orange cursor-hover" href="">What we do</a>
+                <a class="btn-orange cursor-hover" href="contact-us">Contact us</a>
             </div>
         </div>
         <div class="main-hero-image">
@@ -32,10 +32,10 @@
                             <img src="image/Video-icon.svg" alt="vidoeicon">
                         </span>
                     </div>
-                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop=""
-                        onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls
+                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100"
+                        onloadedmetadata="this.muted=true" poster="image/Banner-bg.jpg" controls
                         controlsList="nodownload" autoplay="false">
-                        <source type="video/mp4" src="video/pexels-pixabay.mp4">
+                        <source type="video/mp4" src="video/Anniversary_Video.m4v" autoplay="false">
                     </video>
                     <div class="video-full-screen"><span class="icon-ic-white-full-screen"></span></div>
                 </div>
@@ -324,288 +324,288 @@
                 <div class="tab-pane fade show active" id="backend" role="tabpanel" aria-labelledby="backend-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="">
                                 <div class="icon-box">
                                     <img src="image/nodejs.svg" alt="nodejs">
                                 </div>
                                 <h3>NodeJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/python.svg" alt="python">
                                 </div>
                                 <h3>Python</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/dotnet-logo.svg" alt="dotnet">
                                 </div>
                                 <h3>.NET</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Laravel-logo.svg" alt="laravel">
                                 </div>
                                 <h3>Laravel</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/codeigniter-icon.svg" alt="codeigniter">
                                 </div>
                                 <h3>CodeIgniter</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/php-1.svg" alt="php">
                                 </div>
                                 <h3>PHP</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/react-2.svg" alt="react">
                                 </div>
                                 <h3>ReactJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/vuejs-seeklogo.com.svg" alt="vuejs">
                                 </div>
                                 <h3>VueJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/angular-icon-1.svg" alt="angular">
                                 </div>
                                 <h3>AngularJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/bootstrap-5-1.svg" alt="bootstrap">
                                 </div>
                                 <h3>Bootstrap</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/html-1.svg" alt="html">
                                 </div>
                                 <h3>HTML5</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/css-3.svg" alt="css">
                                 </div>
                                 <h3>CSS3</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Flutter-logo.svg" alt="flutter">
                                 </div>
                                 <h3>Flutter</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/apple-ios.svg" alt="ios">
                                 </div>
                                 <h3>iOS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/react-2.svg" alt="react">
                                 </div>
                                 <h3>React Native</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/android.svg" alt="android">
                                 </div>
                                 <h3>Android</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Ionic-logo.svg" alt="ionic">
                                 </div>
                                 <h3>Ionic</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/xamarin.svg" alt="xamarin">
                                 </div>
                                 <h3>Xamarin</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="cms" role="tabpanel" aria-labelledby="cms-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/drupal.svg" alt="drupal">
                                 </div>
                                 <h3>Drupal</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/WordPress-logo.svg" alt="Wordpress">
                                 </div>
                                 <h3>WordPress</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/prestashop.svg" alt="prestashop">
                                 </div>
                                 <h3>PrestaShop</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/wix-com-website-logo-1.svg" alt="wixcom">
                                 </div>
                                 <h3>Wix</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/shopify.svg" alt="shopify">
                                 </div>
                                 <h3>Shopify</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/magento-2.svg" alt="magento">
                                 </div>
                                 <h3>Magento</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/nopcommerce_logo.svg" alt="nopcommerce">
                                 </div>
                                 <h3>NopCommerce</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="databse" role="tabpanel" aria-labelledby="databse-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/microsoft-sql-server-1.svg" alt="sqlserver">
                                 </div>
                                 <h3>SQL Server</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/mysql-3.svg" alt="mysql">
                                 </div>
                                 <h3>MySQL</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/postgresql.svg" alt="postgresql">
                                 </div>
                                 <h3>PostgreSQL</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/mongodb-icon.svg" alt="mongodb">
                                 </div>
                                 <h3>MongoDB</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="uiux" role="tabpanel" aria-labelledby="uiux-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-photoshop-2.svg" alt="Photoshop">
                                 </div>
                                 <h3>Adobe Photoshop</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-illustrator-cc-icon.svg" alt="Illustrator">
                                 </div>
                                 <h3>Adobe Illustrator</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-xd-1.svg" alt="XD">
                                 </div>
                                 <h3>Adobe XD</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/figma-1.svg" alt="figma">
                                 </div>
                                 <h3>Figma</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -628,7 +628,7 @@
                                 <p class="cs-title">Ready set dance</p>
                                 <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking the world by storm!</h2>
                                 <div class="client-says">
-                                    <h4>“I With READY SET DANCE, you no longer need to plan, search for, or create new content.”</h4>
+                                    <h4>“With READY SET DANCE, you no longer need to plan, search for, or create new content.”</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Incometax_ 1.svg" alt="ncometax" width="48" height="48">

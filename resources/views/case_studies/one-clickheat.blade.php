@@ -7,8 +7,8 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">1 1ClickHeat App</li>
+                        <li class="breadcrumb-item"><span>Home</span></li>
+                        <li class="breadcrumb-item active" aria-current="page">1ClickHeat App</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
