@@ -84,8 +84,7 @@
 
 /* Show it is fixed to the top */ 
 .color-orange{
-  /* color: #ff6c37 !important; */
-  color: #da3a00 !important
+  color: #ff6c37 !important; 
 }
 
 body{
@@ -137,8 +136,8 @@ ul {
   transition: 0.5s;
 } 
 .btn-orange{
-  background-color: #da3a00 !important;
-  border-color: #da3a00 !important;
+  background-color: #ff6c37 !important;
+  border-color: #ff6c37 !important;
   color: #fff;
 }
 .btn-orange:hover{
@@ -227,8 +226,7 @@ input,input:focus,input:hover {
 
 /* Navbar */
 .navbar{
-/* background-color: #ff6c37 !important */
-background-color: #da3a00 !important;
+background-color: #ff6c37 !important 
 }
 .nav-link{
   font-family: 'Nunito-medium';
