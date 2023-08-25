@@ -47,6 +47,7 @@ Route::get('/customer-support-maintenance', 'HomeController@customer_support_mai
 
 // portfolio menu
 Route::get('/portfolio', 'HomeController@portfolio');
+Route::get('/portfolio/{slug}', 'HomeController@portfolioDetials');
 Route::get('/rsd_portfolio', 'HomeController@rsd_portfolio');
 Route::get('/blog', 'HomeController@blog');
 Route::get('/blog-details', 'HomeController@blog_details');
@@ -116,8 +117,14 @@ Route::get('/home', function() {
 
 Route::group(['middleware' => ['auth']] , function() {
     Route::get('/admin/dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
-    Route::get('/admin/portfolio', 'Admin\PortfolioController@index')->name('admin.portfolio');
 
+    Route::get('/admin/portfolio', 'Admin\PortfolioController@index')->name('admin.portfolio');
+    Route::get('/admin/portfolio/create', 'Admin\PortfolioController@create')->name('admin.portfolio.create');
+    Route::post('/admin/portfolio/save', 'Admin\PortfolioController@store')->name('admin.portfolio.store');
+    Route::get('/admin/portfolio/edit/{id}', 'Admin\PortfolioController@edit')->name('admin.portfolio.edit');
+    Route::post('/admin/portfolio/update', 'Admin\PortfolioController@update')->name('admin.portfolio.update');
+    Route::get('/admin/portfolio/delete/{id}', 'Admin\PortfolioController@destroy')->name('admin.portfolio.delete');
+    
     Route::get('/admin/technology', 'Admin\TechnologyController@index')->name('admin.technology');
     Route::get('/admin/technology/create', 'Admin\TechnologyController@create')->name('admin.technology.create');
     Route::post('/admin/technology/save', 'Admin\TechnologyController@store')->name('admin.technology.store');

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
-
+use App\Models\Portfolio, App\Models\Technology;
 class HomeController extends Controller
 {
     
@@ -311,8 +311,22 @@ class HomeController extends Controller
             'metaDescription' => 'Custom Software Development Company in India | Plutustec',
             'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
         ];
-        return view('portfolio.index')->with($data);
+        $portfolios = Portfolio::all();
+        return view('portfolio.index', compact('portfolios'))->with($data);
     }
+
+    public function portfolioDetials($slug){
+        $portfolio = Portfolio::where('slug', $slug)->first();
+        $technology = Technology::whereIn('tech_name', explode(',', $portfolio->technology))->get();
+        $suggetion = Portfolio::select('project_name','slug','technology','project_short_description','project_image')->get()->random(2);
+        $data = [
+            'title' => $portfolio->project_name .' | Plutustec',
+            'metaDescription' => $portfolio->project_short_description .' | Plutustec',
+            'metaKeywords' => 'plutus, software development, company, ahmedabad, applications',
+        ];
+        return view('portfolio.detail', compact('portfolio','technology','suggetion'))->with($data);
+    }
+
     public function rsd_portfolio(){
         $data = [
             'title' => 'Ready Set Dance | Plutustec',

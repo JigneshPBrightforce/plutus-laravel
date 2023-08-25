@@ -5,15 +5,15 @@
             <div class="top-left">
                 <ul>
                     <li class="me-4">
-                        <a href="mailto:sales@plutustec.com" class="cursor-hover"> <i
+                        <a href="/mailto:sales@plutustec.com" class="cursor-hover"> <i
                                 class="fa fa-envelope"></i>sales@plutustec.com</a>
                     </li>
                     <li class="me-4">
-                        <a href="tel:+91-794-800-0107" class="cursor-hover"><i
+                        <a href="/tel:+91-794-800-0107" class="cursor-hover"><i
                                 class="fa fa-phone"></i>+91-794-800-0107</a>
                     </li>
                     <li>
-                        <a href="skype:live:kalpit.belani?chat" class="cursor-hover"> <i
+                        <a href="/skype:live:kalpit.belani?chat" class="cursor-hover"> <i
                                 class="fa fa-skype"></i>sales.plutustec</a>
                     </li>
                 </ul>
@@ -90,7 +90,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="{{ asset('image/about-us.svg')}}" alt="aboutus">
                                             <a class="dropdown-item cursor-hover <?php echo preg_match("(aboutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="aboutus">About Us</a>
+                                                href="/aboutus">About Us</a>
                                         </div>
                                         <hr>
                                         <p>We understand your business
@@ -101,7 +101,7 @@
                                         <div><img src="{{ asset('image/Engagement-Model.svg')}}"
                                                 alt="engagement-models">
                                             <a class="dropdown-item cursor-hover <?php echo preg_match("(engagement)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="engagement-models">Engagement
+                                                href="/engagement-models">Engagement
                                                 Model</a>
                                         </div>
                                         <hr>
@@ -113,7 +113,7 @@
                                         <div><img src="{{ asset('image/client-confidentiality.svg')}}"
                                                 alt="client-confidentiality">
                                             <a class="dropdown-item cursor-hover <?php echo preg_match("(client)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="client-confidentiality">Client
+                                                href="/client-confidentiality">Client
                                                 Confidentiality</a>
                                         </div>
                                         <hr>
@@ -124,7 +124,7 @@
                                     <div class="col-lg-3 col-md-6  dp-text">
                                         <div><img src="{{ asset('image/life-plutus.svg')}}" alt="life-at-plutus">
                                             <a class="dropdown-item cursor-hover <?php echo preg_match("(life-at-plutus)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                href="life-at-plutus">Life@Plutus</a>
+                                                href="/life-at-plutus">Life@Plutus</a>
                                         </div>
                                         <hr>
                                         <p>We understand your business
@@ -151,7 +151,7 @@
                                                             <img width="25" height="20"
                                                                 src="{{ asset('image/mail-icon-white.svg')}}"
                                                                 alt="mail">
-                                                            <a href="mailto:sales@plutustec.com"
+                                                            <a href="/mailto:sales@plutustec.com"
                                                                 class="cursor-hover">sales@plutustec.com</a>
                                                         </div>
                                                     </div>
@@ -159,7 +159,7 @@
                                                         <div class="contact-details d-flex align-items-center">
                                                             <img src="{{ asset('image/Skype-icon-white.svg')}}"
                                                                 alt="skype">
-                                                            <a href="skype:live:kalpit.belani?chat"
+                                                            <a href="/skype:live:kalpit.belani?chat"
                                                                 class="cursor-hover">sales.plutustec</a>
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@
                                                         <div class="contact-details d-flex align-items-center">
                                                             <img src="{{ asset('image/Phone-icon-white.svg')}}"
                                                                 alt="call">
-                                                            <a href="tel:+91-794-800-0107">+91-794-800-0107</a>
+                                                            <a href="/tel:+91-794-800-0107">+91-794-800-0107</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 social-icons">
@@ -217,7 +217,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="cursor-hover dropdown-item mobile-inner-title-menu"
-                                                href="aboutus">About
+                                                href="/aboutus">About
                                                 Us</a>
                                             <p>We understand your business
                                                 requirements are unique.
@@ -232,7 +232,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="cursor-hover dropdown-item mobile-inner-title-menu"
-                                                href="engagement-models">Engagement Model</a>
+                                                href="/engagement-models">Engagement Model</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -247,7 +247,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="cursor-hover dropdown-item mobile-inner-title-menu"
-                                                href="client-confidentiality">Client Confidentiality</a>
+                                                href="/client-confidentiality">Client Confidentiality</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -261,7 +261,7 @@
                                         </div>
                                         <div class="mobile-right-content-div">
                                             <a class="cursor-hover dropdown-item mobile-inner-title-menu"
-                                                href="life-at-plutus">Life@Plutus</a>
+                                                href="/life-at-plutus">Life@Plutus</a>
                                             <p>We understand your business
                                                 requirements are unique.
                                                 Considering that we offer...</p>
@@ -274,7 +274,7 @@
                 </li>
                 <li
                     class="services-menu <?php echo preg_match("(services|development|maintenance)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='#' class="main-tag">Services</a>
+                    <a href='/#' class="main-tag">Services</a>
                     <ul>
                         <li class="bg-white h-auto services-mobile-row-hine heading-t">
                             <div class="container">
@@ -290,26 +290,26 @@
                                             <ul>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ios-development">iOS App Development</a>
+                                                        href="/ios-development">iOS App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="android-development">Android App
+                                                        href="/android-development">Android App
                                                         Development</a>
                                                 </li>
                                                 <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ionic-development">Ionic App
+                                                        href="/ionic-development">Ionic App
                                                         Development</a>
                                                 </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(react-native)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="react-native-development">React Native
+                                                        href="/react-native-development">React Native
                                                         App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="flutter-development">Flutter App
+                                                        href="/flutter-development">Flutter App
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -326,36 +326,36 @@
                                             <ul>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="php-development">PHP Development</a>
+                                                        href="/php-development">PHP Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="nodejs-development">Node.js
+                                                        href="/nodejs-development">Node.js
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="angularjs-development">AngularJS
+                                                        href="/angularjs-development">AngularJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="reactjs-development">ReactJS
+                                                        href="/reactjs-development">ReactJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="fullstack-development">Fullstack
+                                                        href="/fullstack-development">Fullstack
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="python-development">Python
+                                                        href="/python-development">Python
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(aspnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="aspnet-development">.NET Development</a>
+                                                        href="/aspnet-development">.NET Development</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -370,17 +370,17 @@
                                             <ul>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="wordpress-development">WordPress
+                                                        href="/wordpress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="drupal-development">Drupal
+                                                        href="/drupal-development">Drupal
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="magento-development">Magento
+                                                        href="/magento-development">Magento
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -396,7 +396,7 @@
                                             <ul>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(softwaretesting)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="softwaretesting-development">Software
+                                                        href="/softwaretesting-development">Software
                                                         Testing</a>
                                                 </li>
                                             </ul>
@@ -413,16 +413,16 @@
                                             <ul>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="uiux-development">UI/UX Design</a>
+                                                        href="/uiux-development">UI/UX Design</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="digital-marketing-development">Digital
+                                                        href="/digital-marketing-development">Digital
                                                         Marketing</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(customer)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="customer-support-maintenance">Support &
+                                                        href="/customer-support-maintenance">Support &
                                                         Maintenance</a>
                                                 </li>
                                             </ul>
@@ -442,7 +442,7 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact
+                                                    <a class="cursor-hover btn btn-white" href="/contact-us">Contact
                                                         Us</a>
                                                 </div>
                                             </div>
@@ -464,26 +464,26 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ios-development">iOS App Development</a>
+                                                        href="/ios-development">iOS App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="android-development">Android App
+                                                        href="/android-development">Android App
                                                         Development</a>
                                                 </li>
                                                 <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="ionic-development">Ionic App
+                                                        href="/ionic-development">Ionic App
                                                         Development</a>
                                                 </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(react)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="react-native-development">React Native
+                                                        href="/react-native-development">React Native
                                                         App Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="flutter-development">Flutter App
+                                                        href="/flutter-development">Flutter App
                                                         Development</a>
                                                 </li>
                                             </ul>
@@ -501,35 +501,35 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="php-development">PHP Development</a>
+                                                        href="/php-development">PHP Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="nodejs-development">Node.js Development</a>
+                                                        href="/nodejs-development">Node.js Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="angularjs-development">AngularJS
+                                                        href="/angularjs-development">AngularJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="reactjs-development">ReactJS
+                                                        href="/reactjs-development">ReactJS
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="fullstack-development">Fullstack
+                                                        href="/fullstack-development">Fullstack
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="python-development">Python
+                                                        href="/python-development">Python
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(aspnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="aspnet-development">.NET Development</a>
+                                                        href="/aspnet-development">.NET Development</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -545,17 +545,17 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(WordPress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="wordpress-development">WordPress
+                                                        href="/wordpress-development">WordPress
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="drupal-development">Drupal
+                                                        href="/drupal-development">Drupal
                                                         Development</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="magento-development">Magento
+                                                        href="/magento-development">Magento
                                                         Development</a>
                                                 </li>
 
@@ -573,7 +573,7 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(softwaretesting)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="softwaretesting-development">Software
+                                                        href="/softwaretesting-development">Software
                                                         Testing</a>
                                                 </li>
                                             </ul>
@@ -590,16 +590,16 @@
                                             <ul class="sub-inner-list">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="uiux-development">UI/UX Design</a>
+                                                        href="/uiux-development">UI/UX Design</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="digital-marketing-development">Digital
+                                                        href="/digital-marketing-development">Digital
                                                         Marketing</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(customer)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="customer-support-maintenance">Support &
+                                                        href="/customer-support-maintenance">Support &
                                                         Maintenance</a>
                                                 </li>
                                             </ul>
@@ -611,7 +611,7 @@
                     </ul>
                 </li>
                 <li class="our-work">
-                    <a href='#'>Our Work</a>
+                    <a href='/#'>Our Work</a>
                     <ul>
                         <li class="mobile-row-hine bg-white h-auto">
                             <div class="container">
@@ -621,20 +621,20 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Case Study</h4>
-                                                <a class="cursor-hover" href="">See all</a>
+                                                <a class="cursor-hover" href="/">See all</a>
                                             </div>
                                             <ul class="mt-3">
                                                 <li>
-                                                    <a class="cursor-hover" href="one-clickheat">1Click Heat</a>
+                                                    <a class="cursor-hover" href="/one-clickheat">1Click Heat</a>
                                                 </li>
                                                 <li>
-                                                    <a class="cursor-hover" href="">Android App Developer</a>
-                                                </li> 
-                                                <li>
-                                                    <a class="cursor-hover" href="">React Native App Developer</a>
+                                                    <a class="cursor-hover" href="/">Android App Developer</a>
                                                 </li>
                                                 <li>
-                                                    <a class="cursor-hover" href="">Flutter App Developer</a>
+                                                    <a class="cursor-hover" href="/">React Native App Developer</a>
+                                                </li>
+                                                <li>
+                                                    <a class="cursor-hover" href="/">Flutter App Developer</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -645,31 +645,31 @@
                                                 <div
                                                     class="d-flex justify-content-between align-items-center w-100 portfolio-head">
                                                     <h4>Portfolio</h4>
-                                                    <a class="cursor-hover" href="portfolio">See all</a>
+                                                    <a class="cursor-hover" href="/portfolio">See all</a>
                                                 </div>
                                                 <div class="mt-3 row">
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="rsd_portfolio" class="p-0"><img
+                                                        <a class="cursor-hover" href="/rsd_portfolio" class="p-0"><img
                                                                 src="{{ asset('image/RSD-1.jpg')}}" alt="portfolio">
                                                             <h5>RSD</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="rapidparty_portfolio"
+                                                        <a class="cursor-hover" href="/rapidparty_portfolio"
                                                             class="p-0"><img src="{{ asset('image/rapidparty.png')}}"
                                                                 alt="portfolio">
                                                             <h5>Rapid party</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="reshyne_portfolio"
+                                                        <a class="cursor-hover" href="/reshyne_portfolio"
                                                             class="p-0"><img src="{{ asset('image/reshyne_1.jpg')}}"
                                                                 alt="portfolio">
                                                             <h5>Reshyne</h5>
                                                         </a>
                                                     </div>
                                                     <div class="col-6 portfolio-box">
-                                                        <a class="cursor-hover" href="skilltrade_portfolio"
+                                                        <a class="cursor-hover" href="/skilltrade_portfolio"
                                                             class="p-0"><img
                                                                 src="{{ asset('image/skilled_trade_exam.jpg')}}"
                                                                 alt="portfolio">
@@ -685,7 +685,7 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Blog</h4>
-                                                <!-- <a class="cursor-hover" href="blog">See all</a> -->
+                                                <!-- <a class="cursor-hover" href="/blog">See all</a> -->
                                             </div>
                                             <span class="coming-soon d-block mt-4">Coming soon...</span>
                                         </div>
@@ -706,7 +706,7 @@
                                             <div class="bottom-text p-0">
                                                 <div class="d-flex align-items-center justify-content-end">
                                                     <h5>Want to convert idea into Web/Application?</h5>
-                                                    <a class="cursor-hover btn btn-white" href="contact-us">Contact
+                                                    <a class="cursor-hover btn btn-white" href="/contact-us">Contact
                                                         Us</a>
                                                 </div>
                                             </div>
@@ -723,21 +723,21 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4 class="dropdown-item">Case Study</h4>
-                                                <a class="cursor-hover" href="">See all</a>
+                                                <a class="cursor-hover" href="/">See all</a>
                                             </div>
-                                            <!-- <a class="dropdown-item" href="">Case Study</a> -->
+                                            <!-- <a class="dropdown-item" href="/">Case Study</a> -->
                                             <ul class="sub-inner-list">
                                                 <li>
-                                                    <a class="cursor-hover" href="">1. IOS App Developer</a>
+                                                    <a class="cursor-hover" href="/">1. IOS App Developer</a>
                                                 </li>
                                                 <!-- <li>
-                                                    <a class="cursor-hover" href="">2. Android App Developer</a>
+                                                    <a class="cursor-hover" href="/">2. Android App Developer</a>
                                                 </li> 
                                                 <li>
-                                                    <a class="cursor-hover" href="">4. React Native App Developer</a>
+                                                    <a class="cursor-hover" href="/">4. React Native App Developer</a>
                                                 </li>
                                                 <li>
-                                                    <a class="cursor-hover" href="">5. Flutter App Developer</a>
+                                                    <a class="cursor-hover" href="/">5. Flutter App Developer</a>
                                                 </li> -->
                                             </ul>
                                         </div>
@@ -749,32 +749,32 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center w-100 portfolio-head">
                                                 <h4>Portfolio</h4>
-                                                <a class="cursor-hover" href="portfolio">See all</a>
+                                                <a class="cursor-hover" href="/portfolio">See all</a>
                                             </div>
-                                            <!-- <a class="dropdown-item" href="portfolio">Portfolio</a> -->
+                                            <!-- <a class="dropdown-item" href="/portfolio">Portfolio</a> -->
                                             <ul class="sub-inner-list our-work-portfolio-boxes-mian">
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
                                                         <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
                                                             alt="portfolio">
-                                                        <a class="cursor-hover" href="">Clubify</a>
+                                                        <a class="cursor-hover" href="/">Clubify</a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
                                                         <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
                                                             alt="portfolio">
-                                                        <a class="cursor-hover" href="">RSD</a>
+                                                        <a class="cursor-hover" href="/">RSD</a>
                                                     </div>
                                                 </li>
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
                                                         <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
                                                             alt="portfolio">
-                                                        <a class="cursor-hover" href="">Rapidparty</a>
+                                                        <a class="cursor-hover" href="/">Rapidparty</a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
                                                         <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
                                                             alt="portfolio">
-                                                        <a class="cursor-hover" href="">Dotima</a>
+                                                        <a class="cursor-hover" href="/">Dotima</a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -787,7 +787,7 @@
                                             <div
                                                 class="d-flex justify-content-between align-items-center portfolio-head">
                                                 <h4>Blog</h4>
-                                                <a class="cursor-hover" href="blog">See all</a>
+                                                <a class="cursor-hover" href="/blog">See all</a>
                                             </div>
                                             <span class="coming-soon d-block mt-4 mb-4">Coming soon...</span>
                                             <!-- <ul class="sub-inner-list blog-list-main">
@@ -798,7 +798,7 @@
                                                                 alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
-                                                            <a class="cursor-hover title" href="">
+                                                            <a class="cursor-hover title" href="/">
                                                                 Online food delivery app clone:
                                                             </a>
                                                             <span class="date">
@@ -812,7 +812,7 @@
                                                                 alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
-                                                            <a class="cursor-hover title" href="">
+                                                            <a class="cursor-hover title" href="/">
                                                                 Online food delivery app clone:
                                                             </a>
                                                             <span class="date">
@@ -826,7 +826,7 @@
                                                                 alt="blog">
                                                         </div>
                                                         <div class="our-work-blog-list-row-content">
-                                                            <a class="cursor-hover title" href="">
+                                                            <a class="cursor-hover title" href="/">
                                                                 Online food delivery app clone:
                                                             </a>
                                                             <span class="date">
@@ -844,10 +844,10 @@
                     </ul>
                 </li>
                 <li class="<?php echo strpos($filename, 'career') !== false ? 'active' : ''; ?>">
-                    <a href='career' class="cursor-hover main-tag">Careers</a>
+                    <a href='/career' class="cursor-hover main-tag">Careers</a>
                 </li>
                 <li class="hire-resources-menu <?php echo preg_match("(hire)", $filename) === 1 ? 'active' : ''; ?>">
-                    <a href='javascript:void(0)' class="main-tag">Hire Resources</a>
+                    <a href='/javascript:void(0)' class="main-tag">Hire Resources</a>
                     <ul>
                         <li class="hire-resources-mobile-row-hine heading-t bg-white h-auto">
                             <div class="container">
@@ -857,96 +857,96 @@
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-php-developers">Hire PHP
+                                                        href="/hire-php-developers">Hire PHP
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-android-app-developer"> Hire Android
+                                                        href="/hire-android-app-developer"> Hire Android
                                                         App Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-ios-app-developer">Hire iOS App
+                                                        href="/hire-ios-app-developer">Hire iOS App
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-wordpress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-wordpress-developer">Hire WordPress
+                                                        href="/hire-wordpress-developer">Hire WordPress
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-magento-app-developer">Hire Magento
+                                                        href="/hire-magento-app-developer">Hire Magento
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-uiux-designer">Hire UI/UX
+                                                        href="/hire-uiux-designer">Hire UI/UX
                                                         Designer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <!-- <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-ionic-app-developer">Hire Ionic App
+                                                        href="/hire-ionic-app-developer">Hire Ionic App
                                                         Developer</a>
                                                 </li> -->
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-reactnative-app-developer"> Hire React Native
+                                                        href="/hire-reactnative-app-developer"> Hire React Native
                                                         App Developer </a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-flutter-app-developer">Hire Flutter App
+                                                        href="/hire-flutter-app-developer">Hire Flutter App
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-nodejs-developer">Hire Node.js Developer</a>
+                                                        href="/hire-nodejs-developer">Hire Node.js Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-reactjs-developer">Hire ReactJS Developer</a>
+                                                        href="/hire-reactjs-developer">Hire ReactJS Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-angularjs-developer">Hire AngularJS
+                                                        href="/hire-angularjs-developer">Hire AngularJS
                                                         Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-fullstack-developer">Hire Fullstack
+                                                        href="/hire-fullstack-developer">Hire Fullstack
                                                         Developer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-python-developer">Hire Python Developer</a>
+                                                        href="/hire-python-developer">Hire Python Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-dotnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-dotnet-developer"> Hire .NET Developer </a>
+                                                        href="/hire-dotnet-developer"> Hire .NET Developer </a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-drupal-developer">Hire Drupal Developer</a>
+                                                        href="/hire-drupal-developer">Hire Drupal Developer</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-softwaretester">Hire Software Tester</a>
+                                                        href="/hire-softwaretester">Hire Software Tester</a>
                                                 </li>
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-digitalmarketer">Hire Digital Marketer</a>
+                                                        href="/hire-digitalmarketer">Hire Digital Marketer</a>
                                                 </li>
                                             </ul>
                                             <ul class="col-12 col-lg-3 col-md-6">
                                                 <li>
                                                     <a class="cursor-hover <?php echo preg_match("(hire-support-team)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                                        href="hire-support-team">Hire Support Team</a>
+                                                        href="/hire-support-team">Hire Support Team</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -966,7 +966,7 @@
 
                                             <div class="hire-resources-contact-btn">
                                                 <div class="d-flex align-items-center  justify-content-end">
-                                                    <a href="contact-us" class="cursor-hover btn btn-white">Contact
+                                                    <a href="/contact-us" class="cursor-hover btn btn-white">Contact
                                                         Us</a>
                                                 </div>
                                             </div>
@@ -978,71 +978,71 @@
                         <li class="row mobile-row-show heading-t bg-white h-auto">
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-php)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-php-developers">Hire PHP Developer</a>
+                                    href="/hire-php-developers">Hire PHP Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-android)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-android-app-developer"> Hire Android App
+                                    href="/hire-android-app-developer"> Hire Android App
                                     Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-ios)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-ios-app-developer">Hire iOS App Developer</a>
+                                    href="/hire-ios-app-developer">Hire iOS App Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-wordpress)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-wordpress-developer">Hire WordPress Developer</a>
+                                    href="/hire-wordpress-developer">Hire WordPress Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-magento)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-magento-app-developer">Hire Magento Developer</a>
+                                    href="/hire-magento-app-developer">Hire Magento Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-uiux-designer">Hire UI/UX Designer</a>
+                                    href="/hire-uiux-designer">Hire UI/UX Designer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <!-- <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-ionic-app-developer">Hire Ionic App Developer</a> -->
+                                    href="/hire-ionic-app-developer">Hire Ionic App Developer</a> -->
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-reactnative)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-reactnative-app-developer"> Hire React Native App Developer </a>
+                                    href="/hire-reactnative-app-developer"> Hire React Native App Developer </a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-flutter)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-flutter-app-developer">Hire Flutter App Developer</a>
+                                    href="/hire-flutter-app-developer">Hire Flutter App Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-nodejs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-nodejs-developer">Hire Node.js Developer</a>
+                                    href="/hire-nodejs-developer">Hire Node.js Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-reactjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-reactjs-developer">Hire ReactJS Developer</a>
+                                    href="/hire-reactjs-developer">Hire ReactJS Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-angularjs)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-angularjs-developer">Hire AngularJS Developer</a>
+                                    href="/hire-angularjs-developer">Hire AngularJS Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-fullstack-developer">Hire Fullstack Developer</a>
+                                    href="/hire-fullstack-developer">Hire Fullstack Developer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-python)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-python-developer">Hire Python Developer</a>
+                                    href="/hire-python-developer">Hire Python Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-dotnet)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-dotnet-developer"> Hire .NET Developer </a>
+                                    href="/hire-dotnet-developer"> Hire .NET Developer </a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-drupal)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-drupal-developer">Hire Drupal Developer</a>
+                                    href="/hire-drupal-developer">Hire Drupal Developer</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-softwaretester)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-softwaretester">Hire Software Tester</a>
+                                    href="/hire-softwaretester">Hire Software Tester</a>
 
                                 <a class="cursor-hover <?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-digitalmarketer">Hire Digital Marketer</a>
+                                    href="/hire-digitalmarketer">Hire Digital Marketer</a>
                             </div>
                             <div class="col-12 col-lg-3 col-md-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-support-team)", $filename) === 1 ? 'main-tag' : ''; ?>"
-                                    href="hire-support-team">Hire Support Team</a>
+                                    href="/hire-support-team">Hire Support Team</a>
                             </div>
                         </li>
                     </ul>
                 </li>
                 <li class="<?php echo preg_match("(contact-us)", $filename) === 1 ? 'active'  : ''; ?>">
-                    <a href='contact-us' class="cursor-hover main-tag">Contact Us</a>
+                    <a href='/contact-us' class="cursor-hover main-tag">Contact Us</a>
                 </li>
             </ul>
         </nav>
