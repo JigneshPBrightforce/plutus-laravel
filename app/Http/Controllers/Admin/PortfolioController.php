@@ -86,7 +86,7 @@ class PortfolioController extends Controller
                 "country_name" => $data['country_name'],
                 "targeted_audience" => $data['targeted_audience'],
                 "industry" => $data['industry'],
-                "technology" => $data['technologyList'],
+                "technology" => $data['technology'],
                 'project_logo' => $project_logo,
                 'project_banner' => $project_banner,
                 'project_image' => $project_image,

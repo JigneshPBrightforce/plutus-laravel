@@ -46,7 +46,7 @@
                 <label for="name" class="col-md-2  col-form-label text-md-right">Long description</label>
                 <div class="col-md-4">
                     <textarea name="project_long_description"
-                        class="form-control">{{ old('project_long_description') }}</textarea>
+                        class="form-control ckeditor">{{ old('project_long_description') }}</textarea>
                     @if($errors->has('project_long_description'))
                     <div class="error">{{ $errors->first('project_long_description') }}</div>
                     @endif
