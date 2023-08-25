@@ -12,7 +12,8 @@
     <meta name="userId" content="{{ Auth::check() ? Auth::user()->id : '' }}">
 
     <title>Admin Panel | Plutustec</title>
-    <link rel="icon" type="image/x-icon" href="{{asset('storage/img/favicon.ico')}}" />
+    <link rel="icon" type="image/x-icon" href="{{asset('image/Plutus-logo(fevicon).ico')}}" />
+    <!-- <link rel="stylesheet" href="{{asset('css/style.css')}}?t=<?php echo time();?>" /> -->
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 

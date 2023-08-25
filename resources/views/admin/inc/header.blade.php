@@ -20,31 +20,35 @@
                 d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
         </symbol>
     </svg>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Admin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('admin/dashboard') ? 'active' : '' }}"
-                            href="{{ route('admin.dashboard')}}">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('admin/portfolio') ? 'active' : '' }}"
-                            href="{{ route('admin.portfolio')}}">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('admin/technology') ? 'active' : '' }}"
-                            href="{{ route('admin.technology')}}">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('logout')}}">Logout</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <a class="navbar-brand" href="#">
+                    <img src="{{ asset('image/logo-white.png')}}" width="150" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link p-0 {{ Request::is('admin/dashboard') ? 'active' : '' }}"
+                                href="{{ route('admin.dashboard')}}">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0 ms-3 {{ Request::is('admin/portfolio') ? 'active' : '' }}"
+                                href="{{ route('admin.portfolio')}}">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0 ms-3 {{ Request::is('admin/technology') ? 'active' : '' }}"
+                                href="{{ route('admin.technology')}}">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0 ms-3" title="Logout" href="{{ route('logout')}}"><img src="{{ asset('admin/images/logout.svg')}}" width="32" height="32" alt="Logout"/></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>

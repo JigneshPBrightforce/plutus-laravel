@@ -1,9 +1,8 @@
 @if(Auth::check())
 <!-- Footer Section -->
 <div class="footer">
-    <div class="policy">
-        <hr>
-        <p class="mb-0 text-center pb-2">© <span id="currentYear"></span> Plutus Technologies Pvt. Ltd.</p>
+    <div class="policy p-2"> 
+        <p class="mb-0 text-center">© <span id="currentYear"></span> Plutus Technologies Pvt. Ltd.</p>
     </div>
 </div>
 <script>
