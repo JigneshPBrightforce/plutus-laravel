@@ -614,6 +614,7 @@ header .logo a {
 }
 
 .our-work-portfolio-boxes-mian .our-work-portfolio-row .our-work-portfolio-row-box a,
+.our-work-portfolio-boxes-mian .our-work-portfolio-row .our-work-portfolio-row-box a h5,
 .portfolio-box a {
   font-size: 20px !important;
   line-height: 22px !important;
@@ -625,6 +626,12 @@ header .logo a {
   color: #000 !important;
   font-family: "Nunito-semibold";
   border: none !important;
+}
+.our-work-portfolio-row-box img {
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .our-work-blog-list .our-work-blog-list-row {
@@ -3603,6 +3610,7 @@ select {
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 0px;
+  height: auto !important;
 }
 
 .case-study-section .case-study-box .cs-main .cs-info .case-study-block .cs-detail .client-says .client-box {
@@ -5520,8 +5528,13 @@ select {
     flex: 0 0 100%;
     width: 100%;
   }
-}
-
+  .g-recaptcha iframe{
+    transform: scale(0.80) translateX(-36px);
+  }
+  #hiredevelopers .g-recaptcha iframe{
+    transform: scale(0.90) translateX(0);
+  }
+} 
 /* Media End */
 
 @media (min-width: 1040px){

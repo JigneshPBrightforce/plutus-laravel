@@ -626,16 +626,7 @@
                                             <ul class="mt-3">
                                                 <li>
                                                     <a class="cursor-hover" href="/one-clickheat">1Click Heat</a>
-                                                </li>
-                                                <li>
-                                                    <a class="cursor-hover" href="/">Android App Developer</a>
-                                                </li>
-                                                <li>
-                                                    <a class="cursor-hover" href="/">React Native App Developer</a>
-                                                </li>
-                                                <li>
-                                                    <a class="cursor-hover" href="/">Flutter App Developer</a>
-                                                </li>
+                                                </li> 
                                             </ul>
                                         </div>
                                     </div>
@@ -728,7 +719,8 @@
                                             <!-- <a class="dropdown-item" href="/">Case Study</a> -->
                                             <ul class="sub-inner-list">
                                                 <li>
-                                                    <a class="cursor-hover" href="/">1. IOS App Developer</a>
+                                                    <!-- <a class="cursor-hover" href="/">1. IOS App Developer</a> -->
+                                                    <a class="cursor-hover" href="/one-clickheat">1Click Heat</a>
                                                 </li>
                                                 <!-- <li>
                                                     <a class="cursor-hover" href="/">2. Android App Developer</a>
@@ -755,29 +747,37 @@
                                             <ul class="sub-inner-list our-work-portfolio-boxes-mian">
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="portfolio">
-                                                        <a class="cursor-hover" href="/">Clubify</a>
+                                                        <a class="cursor-hover" href="/rsd_portfolio" class="p-0"><img
+                                                                src="{{ asset('image/RSD-1.jpg')}}" alt="portfolio">
+                                                            <h5>RSD</h5>
+                                                        </a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="portfolio">
-                                                        <a class="cursor-hover" href="/">RSD</a>
+                                                        <a class="cursor-hover" href="/rapidparty_portfolio"
+                                                            class="p-0"><img src="{{ asset('image/rapidparty.png')}}"
+                                                                alt="portfolio">
+                                                            <h5>Rapid party</h5>
+                                                        </a>
                                                     </div>
                                                 </li>
                                                 <li class="our-work-portfolio-row">
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="portfolio">
-                                                        <a class="cursor-hover" href="/">Rapidparty</a>
+                                                        <a class="cursor-hover" href="/reshyne_portfolio"
+                                                            class="p-0"><img src="{{ asset('image/reshyne_1.jpg')}}"
+                                                                alt="portfolio">
+                                                            <h5>Reshyne</h5>
+                                                        </a>
                                                     </div>
                                                     <div class="our-work-portfolio-row-box">
-                                                        <img src="{{ asset('image/Demo-portfolio-small.svg')}}"
-                                                            alt="portfolio">
-                                                        <a class="cursor-hover" href="/">Dotima</a>
+                                                        <a class="cursor-hover" href="/skilltrade_portfolio"
+                                                            class="p-0"><img
+                                                                src="{{ asset('image/skilled_trade_exam.jpg')}}"
+                                                                alt="portfolio">
+                                                            <h5>Skilled trade exam</h5>
+                                                        </a>
                                                     </div>
                                                 </li>
-                                            </ul>
+                                            </ul> 
                                         </div>
                                     </div>
                                 </div>
@@ -975,8 +975,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="row mobile-row-show heading-t bg-white h-auto">
-                            <div class="col-12 col-lg-3 col-md-6 dp-text">
+                        <li class="row mobile-row-show heading-t bg-white h-auto d-flex d-xxl-none flex-wrap">
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-php)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-php-developers">Hire PHP Developer</a>
 
@@ -996,7 +996,7 @@
                                 <a class="cursor-hover <?php echo preg_match("(hire-uiux)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-uiux-designer">Hire UI/UX Designer</a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6 dp-text">
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 dp-text">
                                 <!-- <a class="cursor-hover <?php echo preg_match("(hire-ionic)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-ionic-app-developer">Hire Ionic App Developer</a> -->
 
@@ -1018,7 +1018,7 @@
                                 <a class="cursor-hover <?php echo preg_match("(hire-fullstack)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-fullstack-developer">Hire Fullstack Developer</a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6 dp-text">
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-python)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-python-developer">Hire Python Developer</a>
 
@@ -1034,7 +1034,7 @@
                                 <a class="cursor-hover <?php echo preg_match("(hire-digital)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-digitalmarketer">Hire Digital Marketer</a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6 dp-text">
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 dp-text">
                                 <a class="cursor-hover <?php echo preg_match("(hire-support-team)", $filename) === 1 ? 'main-tag' : ''; ?>"
                                     href="/hire-support-team">Hire Support Team</a>
                             </div>
