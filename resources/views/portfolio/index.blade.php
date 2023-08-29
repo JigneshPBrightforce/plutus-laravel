@@ -19,9 +19,9 @@
         <div class="portfolio-menu mt-2 mb-4">
             <nav class="controls">
                 <button type="button" class="cursor-hover control outline" data-filter="all">All</button>
-                <button type="button" class="cursor-hover control outline" data-filter=".web">Python</button>
-                <button type="button" class="cursor-hover control outline" data-filter=".dev">Web Design</button>
-                <button type="button" class="cursor-hover control outline" data-filter=".wp">React</button>
+                <button type="button" class="cursor-hover control outline" data-filter=".python">Python</button>
+                <button type="button" class="cursor-hover control outline" data-filter=".web">Web Design</button>
+                <button type="button" class="cursor-hover control outline" data-filter=".reactjs">ReactJS</button>
                 <button type="button" class="cursor-hover control outline" data-filter=".flutter">Flutter</button>
                 <button type="button" class="cursor-hover control outline" data-filter=".angular">Angular</button>
                 <button type="button" class="cursor-hover control outline" data-filter=".ios">iOS</button>
@@ -32,11 +32,16 @@
         </div>
         <ul class="row portfolio-item">
             @foreach($portfolios as $data)
-            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd">
+            <li
+                class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd <?php echo strtolower(str_replace(",", " ", $data->technology));?>">
                 <img src="{{ asset($data->project_image) }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">{{$data->technology}}</span>
+                        @if($data->technology != '')
+                        @foreach(explode(",",$data->technology) as $tech)
+                        <span class="overlay-content-badge">{{$tech}}</span>
+                        @endforeach
+                        @endif
                         <h3 class="category">{{$data->project_name}}</h3>
                         <p class="category">{{$data->project_short_description}}</p>
                         <a href="{{ url('portfolio/'. $data->slug) }}" title="View Project" target="_blank"

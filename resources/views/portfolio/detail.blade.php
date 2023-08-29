@@ -104,7 +104,11 @@
                 <img src="{{ asset($data->project_image) }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">{{$data->technology}}</span>
+                        @if($data->technology != '')
+                        @foreach(explode(",",$data->technology) as $tech)
+                        <span class="overlay-content-badge">{{$tech}}</span>
+                        @endforeach
+                        @endif
                         <h3 class="category">{{$data->project_name}}</h3>
                         <p class="category">{{$data->project_short_description}}</p>
                         <a href="{{ url('portfolio/'. $data->slug) }}" title="View Project" target="_blank"
