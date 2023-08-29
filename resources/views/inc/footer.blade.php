@@ -3,10 +3,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-3">
-
                 <div id="clock_hou"></div>
                 <div class="address-box">
-
                     <h6 class="my-2">India</h6>
                     <span class="map-url">
                         1222-1223 Zion Z1 ,
@@ -15,23 +13,18 @@
                         Ahmedabad 380054
                     </span>
                 </div>
-
             </div>
             <div class="col-12 col-lg-3">
-
                 <div id="clock_dub"></div>
                 <div class="address-box">
-
                     <h6 class="my-2">Dubai</h6>
                     <span class="map-url">
                         2501, Fortune Tower, Cluster C JLT,
                         Dubai, UAE, P.O.Box 454597
                     </span>
                 </div>
-
             </div>
         </div>
-
     </div>
 </section>
 <div class="footer">
@@ -39,9 +32,8 @@
         <div class="row">
             <div class="col-md-6 col-lg-3 f-abt footer-logo">
                 <img class="" src="{{ asset('image/logo-white.png')}}" alt="logo">
-                <p class="c-txt pt-4 pb-3">Plutus Technologies Pvt. Ltd is one of the most versatile
-                    web & mobile application development company with
-                    headquarter in India & clients across the globe.</p>
+                <p class="c-txt pt-4 pb-3">Plutus Technologies Pvt. Ltd is one of the most versatile web & mobile
+                    application development company with headquarter in India & clients across the globe.</p>
                 <ul class="s-icon">
                     <li>
                         <a href="https://www.facebook.com/PlutusTechnologies" class="cursor-hover" target="_blank"><i
@@ -125,12 +117,16 @@
             <div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
                 <h2 class="f-h  pb-4">Contact</h2>
                 <ul class="c-text">
-                    <li class="pb-3"><a class="cursor-hover d-flex"><i class="fa fa-map-marker"></i><span>1222-23, Zion
+                    <li class="pb-3"><a class="cursor-hover d-flex"><i class="fa fa-map-marker"></i>
+                            <span>1222-23, Zion
                                 Z1,Off
                                 Sindhu Bhavan
                                 Marg,
                                 Bodakdev, Ahmedabad-380054,
-                                Gujarat, India.</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li>
+                                Gujarat, India.</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </li>
                     <li class="cursor-hover d-flex pb-3">
                         <i class="fa fa-phone"></i>
                         <div>

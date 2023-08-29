@@ -7,19 +7,19 @@
 @endpush
 @section('content')
 <!-- Info boxes -->
-
 <!-- Default box -->
-<div class="container box">
-    <div class="box-header">
-        <a class="btn btn-primary" href="{{ route('admin.portfolio.create') }}">Add New</a>
-    </div>
-    <div class="box-body">
+<div class="admin-wrapper py-4">
+    <div class="container box"> 
+        <div class="d-md-flex align-items-center justify-content-between flex-wrap w-100 mb-0 mb-lg-4">
+            <h4 class="page-title mb-3 mb-lg-0">Portfolio</h4>
+            <a class="btn btn-primary btn-orange" href="{{ route('admin.portfolio.create') }}">Add New</a>
+        </div> 
         <table id="example1" class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Portfolio Name</th>
-                    <th>Action</th>
+                    <th style="width: 150px;">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,15 +27,26 @@
                 <tr>
                     <td>{{ $data->id }}</td>
                     <td>{{ $data->project_name }} </td>
-                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a
-                            href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}">Delete</a>
+<<<<<<< HEAD
+                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a href="javascript:void(0)" onclick="deleteRecord(<?= $data->id ?>)">Delete</a></td>
+=======
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}" class="square-btn edit me-2">
+                                <img src="{{ asset('admin/image/edit.svg')}}" alt="Edit" />
+                            </a>
+                            <a href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}" class="square-btn delete">
+                                <img src="{{ asset('admin/image/delete.svg')}}" alt="Delete" />
+                            </a>
+                        </div>
                     </td>
+>>>>>>> 5e7b0a6ee5dde72ba5f544add362d8347d3b2287
                 </tr>
                 @endforeach
             </tbody>
-        </table>
+        </table> 
+        <!-- /.box-footer-->
     </div>
-    <!-- /.box-footer-->
 </div>
 <!-- /.box -->
 @endsection
@@ -47,26 +58,26 @@
 <script src="{{asset('admin/sweetalerts/custom-sweetalert.js')}}"></script>
 <!-- page script -->
 <script>
-$(document).ready(function() {
-    var table = $('#example1').DataTable({});
-
-});
-
-function deleteRecord(num) {
-    swal({
-        title: 'Are you sure?',
-        text: "You won't be able to revert this!",
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonText: 'Delete',
-        padding: '2em'
-    }).then(function(result) {
-        if (result.value) {
-            window.location.href = '{{URL("roles")}}{{"/delete"}}/' + num;
-        } else {
-            swal("Cancelled", "Your Data is safe :)", "error");
-        }
+    $(document).ready(function() {
+        var table = $('#example1').DataTable({});
     });
-};
+
+    function deleteRecord(num) {
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Delete',
+            padding: '2em'
+        }).then(function(result) {
+            if (result.value) {
+                // admin.portfolio.delete
+                window.location.href = '{{URL("admin")}}{{"/portfolio"}}{{"/delete"}}/' + num;
+            } else {
+                swal("Cancelled", "Your Data is safe :)", "error");
+            }
+        });
+    };
 </script>
 @endpush

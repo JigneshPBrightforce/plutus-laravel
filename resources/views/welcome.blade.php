@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content') 
+@section('content')
 <section class="hm-banner-sec">
     <div class="hero-wrapper">
         <div class="main-hero-title">
@@ -32,10 +32,10 @@
                             <img src="image/Video-icon.svg" alt="vidoeicon">
                         </span>
                     </div>
-                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100"
-                        onloadedmetadata="this.muted=true" poster="image/Banner-bg.jpg" controls
+                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop=""
+                        onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls
                         controlsList="nodownload" autoplay="false">
-                        <source type="video/mp4" src="video/Anniversary_Video.m4v" autoplay="false">
+                        <source type="video/mp4" src="video/pexels-pixabay.mp4">
                     </video>
                     <div class="video-full-screen"><span class="icon-ic-white-full-screen"></span></div>
                 </div>
@@ -49,28 +49,35 @@
             <div class="brands-marquee-inner ml-0 float-left">
                 <ul class="m-0">
                     <li>
-                        <a href="" aria-label="Oracle" class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Oracle"
+                            class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
                                 src="image/eva-play-new-blue.png" alt="eva-play-new-blue"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Cambridge" class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Cambridge"
+                            class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
                                 src="image/maingutschen.svg" alt="maingutschen"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Mumayiz" class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Mumayiz"
+                            class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
                                 src="image/mektronic-new.png" alt="mektronic-new"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTN Logo" class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTN Logo"
+                            class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
                                 src="image/Offsight_Logo.svg" alt="Offsight"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTU Logo" class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTU Logo"
+                            class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
                                 src="image/skylon-tower_logo.svg" alt="skylon-tower_logo"></a>
                     </li>
                     <li>
-                            <a href="" aria-label="BCG Logo" class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/reshyne.svg" alt="Reshyne" /></a>
-                         </li>
+                        <a href="" aria-label="BCG Logo"
+                            class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img
+                                src="image/reshyne.svg" alt="Reshyne" /></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -296,28 +303,31 @@
         <div class="technologies-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
-                        type="button" role="tab" aria-controls="frontend" aria-selected="false">Front End</button>
+                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab"
+                        data-bs-target="#frontend" type="button" role="tab" aria-controls="frontend"
+                        aria-selected="false">Front End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
-                        type="button" role="tab" aria-controls="backend" aria-selected="true">Back End</button>
+                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab"
+                        data-bs-target="#backend" type="button" role="tab" aria-controls="backend"
+                        aria-selected="true">Back End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button"
-                        role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
+                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile"
+                        type="button" role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button"
-                        role="tab" aria-controls="cms" aria-selected="false">CMS</button>
+                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms"
+                        type="button" role="tab" aria-controls="cms" aria-selected="false">CMS</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse"
-                        type="button" role="tab" aria-controls="databse" aria-selected="false">Database</button>
+                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab"
+                        data-bs-target="#databse" type="button" role="tab" aria-controls="databse"
+                        aria-selected="false">Database</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
-                        role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
+                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux"
+                        type="button" role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -622,13 +632,15 @@
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="400">
                 <a class="cursor-hover cs-main" href="rsd_portfolio" tabindex="0">
                     <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;" >
+                        style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Ready set dance</p>
-                                <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking the world by storm!</h2>
+                                <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking
+                                    the world by storm!</h2>
                                 <div class="client-says">
-                                    <h4>“With READY SET DANCE, you no longer need to plan, search for, or create new content.”</h4>
+                                    <h4>“With READY SET DANCE, you no longer need to plan, search for, or create new
+                                        content.”</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Incometax_ 1.svg" alt="ncometax" width="48" height="48">
@@ -666,7 +678,7 @@
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="600">
                 <a class="cursor-hover cs-main" href="reshyne_portfolio" tabindex="0">
                     <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;" >
+                        style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;">
                         <div class="case-study-block odd">
                             <div class="cs-thumb-img">
                                 <div class="case-study-slider">
@@ -689,10 +701,12 @@
                             </div>
                             <div class="cs-detail">
                                 <p class="cs-title">Reshyne</p>
-                                <h2 class="cs-description">Reshyne helps companies make the most of their repairs business
+                                <h2 class="cs-description">Reshyne helps companies make the most of their repairs
+                                    business
                                 </h2>
                                 <div class="client-says">
-                                    <h4>"From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue growth and business success."</h4>
+                                    <h4>"From a customer-facing service-based storefront to dynamic operations and
+                                        management tools that lead to revenue growth and business success."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/RSD.svg" alt="Rsd" width="48" height="48">
@@ -715,9 +729,11 @@
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Recovr</p>
-                                <h2 class="cs-description">A digital marketplace that provides affordable and accessible rehab and recovery content</h2>
+                                <h2 class="cs-description">A digital marketplace that provides affordable and accessible
+                                    rehab and recovery content</h2>
                                 <div class="client-says">
-                                    <h4>"All content is created by trusted rehab professionals that have gone through a rigorous quality content process."</h4>
+                                    <h4>"All content is created by trusted rehab professionals that have gone through a
+                                        rigorous quality content process."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Recover.svg" alt="Recover" width="48" height="48">
@@ -763,20 +779,28 @@
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Innovation, Bottoms Up.</h3>
     </div>
     <div class="container">
-        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">We understand innovation often occurs as a result of improvements to products & services, technologies, processes, and artworks. It's not always upper management who comes up with the most innovative ideas, sometimes it's the bottom-up team members who do. We use our extensive experience, knowledge, and expertise combined with innovative ideas to deliver value-added software solutions that support the growth of your business. We, at Plutus Technologies, focus on both top-down R&D and bottom-up ideas to build the most innovative technology solution based on your custom business needs. Our team of highly skilled and experienced software developers, creative designers, and marketing experts not only helps you with innovations but also creates next-gen solutions that make your business thrive in the competitive marketplace. </p>
+        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">We understand innovation often occurs as
+            a result of improvements to products & services, technologies, processes, and artworks. It's not always
+            upper management who comes up with the most innovative ideas, sometimes it's the bottom-up team members who
+            do. We use our extensive experience, knowledge, and expertise combined with innovative ideas to deliver
+            value-added software solutions that support the growth of your business. We, at Plutus Technologies, focus
+            on both top-down R&D and bottom-up ideas to build the most innovative technology solution based on your
+            custom business needs. Our team of highly skilled and experienced software developers, creative designers,
+            and marketing experts not only helps you with innovations but also creates next-gen solutions that make your
+            business thrive in the competitive marketplace. </p>
         <!-- Jugaad Video Modal Popup -->
         <div class="jugaad-video aos-init" data-aos="fade-up" data-aos-delay="300">
             <div class="jugaad-video-img-play">
                 <img src="image/Video-bg.jfif" alt="video" width="1000" height="562">
             </div>
             <div class="jugaad-video-btn">
-                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#innovationModal">
                     <img src="image/Video-icon.svg" alt="vidoeicon">
                 </button>
             </div>
         </div>
         <!-- Jugaad Video Modal Popup -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="innovationModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <!-- <div class="modal-header">
@@ -799,7 +823,8 @@
         </div>
         <!-- Jugaad Video Modal Popup -->
         <div class="button-box text-center">
-            <a class="cursor-hover btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work Together</a>
+            <a class="cursor-hover btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work
+                Together</a>
         </div>
     </div>
 </section>

@@ -65,7 +65,7 @@ Route::get('/msb_portfolio', 'HomeController@msb_portfolio');
 Route::get('/nkenne_portfolio', 'HomeController@nkenne_portfolio');
 Route::get('/side_stream_portfolio', 'HomeController@side_stream_portfolio');
 Route::get('/misal_portfolio', 'HomeController@misal_portfolio');
-Route::get('/easyref_portfolio', 'HomeController@easyref_portfolio'); 
+Route::get('/easyref_portfolio', 'HomeController@easyref_portfolio');
 Route::get('/offsite_portfolio', 'HomeController@offsite_portfolio');
 Route::get('/bidalift_portfolio', 'HomeController@bidalift_portfolio');
 Route::get('/incomtax_portfolio', 'HomeController@incomtax_portfolio');
@@ -109,22 +109,25 @@ Route::get('/one-clickheat', 'HomeController@one_click_heat');
 
 Auth::routes();
 
-Route::get('logout', function(){ Auth::logout();    return Redirect::to('/'); });
+Route::get('logout', function () {
+    Auth::logout();
+    return Redirect::to('/');
+});
 
-Route::get('/home', function() {    
-    return redirect('/admin/dashboard');    
+Route::get('/home', function () {
+    return redirect('/admin/dashboard');
 })->name('home');
 
-Route::group(['middleware' => ['auth']] , function() {
-    Route::get('/admin/dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
+Route::group(['middleware' => ['auth']], function () {
 
+    Route::get('/admin/dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
     Route::get('/admin/portfolio', 'Admin\PortfolioController@index')->name('admin.portfolio');
     Route::get('/admin/portfolio/create', 'Admin\PortfolioController@create')->name('admin.portfolio.create');
     Route::post('/admin/portfolio/save', 'Admin\PortfolioController@store')->name('admin.portfolio.store');
     Route::get('/admin/portfolio/edit/{id}', 'Admin\PortfolioController@edit')->name('admin.portfolio.edit');
     Route::post('/admin/portfolio/update', 'Admin\PortfolioController@update')->name('admin.portfolio.update');
     Route::get('/admin/portfolio/delete/{id}', 'Admin\PortfolioController@destroy')->name('admin.portfolio.delete');
-    
+
     Route::get('/admin/technology', 'Admin\TechnologyController@index')->name('admin.technology');
     Route::get('/admin/technology/create', 'Admin\TechnologyController@create')->name('admin.technology.create');
     Route::post('/admin/technology/save', 'Admin\TechnologyController@store')->name('admin.technology.store');
@@ -133,4 +136,12 @@ Route::group(['middleware' => ['auth']] , function() {
     Route::get('/admin/technology/delete/{id}', 'Admin\TechnologyController@destroy')->name('admin.technology.delete');
     Route::get('/admin/technology/getCategoriesTableData', 'Admin\TechnologyController@getCategoriesTableData')->name('admin.technology.getCategoriesTableData');
     Route::get('/admin/technology/changeStatus/{id}', 'Admin\TechnologyController@changeStatus')->name('admin.technology.changeStatus');
+
+
+    Route::get('/admin/casestudy', 'Admin\CaseStudyController@index')->name('admin.casestudy');
+    Route::get('/admin/casestudy/create', 'Admin\CaseStudyController@create')->name('admin.casestudy.create');
+    Route::post('/admin/casestudy/save', 'Admin\CaseStudyController@store')->name('admin.casestudy.store');
+    Route::get('/admin/casestudy/edit/{id}', 'Admin\CaseStudyController@edit')->name('admin.casestudy.edit');
+    Route::post('/admin/casestudy/update', 'Admin\CaseStudyController@update')->name('admin.casestudy.update');
+    Route::get('/admin/casestudy/delete/{id}', 'Admin\CaseStudyController@destroy')->name('admin.casestudy.delete');
 });

@@ -50,7 +50,7 @@
                 </button>
             </div>
             @endif
-
+            
             @if(session('message'))
             <div class="alert alert-success alert-dismissible show " role="alert">
                 <strong>{{ trans(session('message'))}}</strong>
