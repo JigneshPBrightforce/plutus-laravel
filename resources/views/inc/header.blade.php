@@ -5,15 +5,15 @@
             <div class="top-left">
                 <ul>
                     <li class="me-4">
-                        <a href="/mailto:sales@plutustec.com" class="cursor-hover"> <i
+                        <a href="mailto:sales@plutustec.com" class="cursor-hover"> <i
                                 class="fa fa-envelope"></i>sales@plutustec.com</a>
                     </li>
                     <li class="me-4">
-                        <a href="/tel:+91-794-800-0107" class="cursor-hover"><i
+                        <a href="tel:+91-794-800-0107" class="cursor-hover"><i
                                 class="fa fa-phone"></i>+91-794-800-0107</a>
                     </li>
                     <li>
-                        <a href="/skype:live:kalpit.belani?chat" class="cursor-hover"> <i
+                        <a href="skype:live:kalpit.belani?chat" class="cursor-hover"> <i
                                 class="fa fa-skype"></i>sales.plutustec</a>
                     </li>
                 </ul>
@@ -151,7 +151,7 @@
                                                             <img width="25" height="20"
                                                                 src="{{ asset('image/mail-icon-white.svg')}}"
                                                                 alt="mail">
-                                                            <a href="/mailto:sales@plutustec.com"
+                                                            <a href="mailto:sales@plutustec.com"
                                                                 class="cursor-hover">sales@plutustec.com</a>
                                                         </div>
                                                     </div>
@@ -159,7 +159,7 @@
                                                         <div class="contact-details d-flex align-items-center">
                                                             <img src="{{ asset('image/Skype-icon-white.svg')}}"
                                                                 alt="skype">
-                                                            <a href="/skype:live:kalpit.belani?chat"
+                                                            <a href="skype:live:kalpit.belani?chat"
                                                                 class="cursor-hover">sales.plutustec</a>
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@
                                                         <div class="contact-details d-flex align-items-center">
                                                             <img src="{{ asset('image/Phone-icon-white.svg')}}"
                                                                 alt="call">
-                                                            <a href="/tel:+91-794-800-0107">+91-794-800-0107</a>
+                                                            <a href="tel:+91-794-800-0107">+91-794-800-0107</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4 social-icons">
@@ -626,7 +626,7 @@
                                             <ul class="mt-3">
                                                 <li>
                                                     <a class="cursor-hover" href="/one-clickheat">1Click Heat</a>
-                                                </li> 
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -777,7 +777,7 @@
                                                         </a>
                                                     </div>
                                                 </li>
-                                            </ul> 
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>

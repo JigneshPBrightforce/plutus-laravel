@@ -134,14 +134,14 @@
                     <li class="cursor-hover d-flex pb-3">
                         <i class="fa fa-phone"></i>
                         <div>
-                            <a class="d-block" href="/tel:+917600-782-354">+91 760-078-2354 </a>
-                            <a href="/tel:+917948-000-107">+91 794-800-0107</a>
+                            <a class="d-block" href="tel:+917600-782-354">+91 760-078-2354 </a>
+                            <a href="tel:+917948-000-107">+91 794-800-0107</a>
                         </div>
                     </li>
-                    <li class="pb-3"><a class="cursor-hover" href="/mailto:sales@plutustec.com"><i
+                    <li class="pb-3"><a class="cursor-hover" href="mailto:sales@plutustec.com"><i
                                 class="fa fa-envelope"></i>sales@plutustec.com </a>
                     </li>
-                    <li class="pb-3"><a class="cursor-hover" href="/skype:live:kalpit.belani?chat"><i
+                    <li class="pb-3"><a class="cursor-hover" href="skype:live:kalpit.belani?chat"><i
                                 class="fa fa-skype"></i>sales.plutustec
                         </a>
                     </li>
