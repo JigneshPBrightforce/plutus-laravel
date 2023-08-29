@@ -6,26 +6,11 @@
 
 <!-- Default box -->
 <div class="admin-wrapper py-4">
-    <div class="container box"> 
+    <div class="container box">
         <form id="general-info" name="frmUpdateProfile" method="POST" enctype="multipart/form-data"
             action="{{ route('admin.portfolio.store') }}">
             @csrf
 
-<<<<<<< HEAD
-<form id="general-info" name="frmUpdateProfile" method="POST" enctype="multipart/form-data"
-    action="{{ route('admin.portfolio.store') }}">
-    @csrf
-    <div class="box">
-        <div class="box-body">
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Project Type</label>
-                <div class="col-md-4">
-                    <select class="form-control" id="project_type" name="project_type" required>
-                        <option value="">Select</option>
-                        <option value="0">Web</option>
-                        <option value="1">Mobile</option>
-                    </select>
-=======
             <div class="box">
                 <div class="box-body">
                     <div class="form-group row">
@@ -36,6 +21,9 @@
                                 <option value="0">Web</option>
                                 <option value="1">Mobile</option>
                             </select>
+                            @if($errors->has('project_type'))
+                            <div class="error">{{ $errors->first('project_type') }}</div>
+                            @endif
                         </div>
                     </div>
                     <div class="form-group row">
@@ -72,7 +60,8 @@
                     <div class="form-group row">
                         <label for="name" class="col-md-2 col-form-label text-md-right">Logo</label>
                         <div class="col-md-4">
-                            <input type="file" name="project_logo" id="project_logo" data-max-size="2M" class="dropify" />
+                            <input type="file" name="project_logo" id="project_logo" data-max-size="2M"
+                                class="dropify" />
                             @if($errors->has('project_logo'))
                             <div class="error">{{ $errors->first('project_logo') }}</div>
                             @endif
@@ -81,7 +70,8 @@
                     <div class="form-group row">
                         <label for="name" class="col-md-2 col-form-label text-md-right">Banner</label>
                         <div class="col-md-4">
-                            <input type="file" name="project_banner" id="project_banner" data-max-size="2M" class="dropify" />
+                            <input type="file" name="project_banner" id="project_banner" data-max-size="2M"
+                                class="dropify" />
                             @if($errors->has('project_banner'))
                             <div class="error">{{ $errors->first('project_banner') }}</div>
                             @endif
@@ -90,7 +80,8 @@
                     <div class="form-group row">
                         <label for="name" class="col-md-2 col-form-label text-md-right">Image</label>
                         <div class="col-md-4">
-                            <input type="file" name="project_image" id="project_image" data-max-size="2M" class="dropify" />
+                            <input type="file" name="project_image" id="project_image" data-max-size="2M"
+                                class="dropify" />
                             @if($errors->has('project_image'))
                             <div class="error">{{ $errors->first('project_image') }}</div>
                             @endif
@@ -109,7 +100,8 @@
                     <div class="form-group row">
                         <label for="name" class="col-md-2  col-form-label text-md-right">Country name</label>
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="country_name" value="{{ old('country_name') }}">
+                            <input type="text" class="form-control" name="country_name"
+                                value="{{ old('country_name') }}">
                             @if($errors->has('country_name'))
                             <div class="error">{{ $errors->first('country_name') }}</div>
                             @endif
@@ -162,7 +154,6 @@
                             @endif
                         </div>
                     </div>
->>>>>>> 5e7b0a6ee5dde72ba5f544add362d8347d3b2287
                 </div>
                 <div class="box-footer">
                     <div class="form-group">
