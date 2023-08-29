@@ -36,9 +36,9 @@
                         <li class="nav-item">
                             <a class="nav-link p-0 ms-3 {{ Request::is('admin/technology') ? 'active' : '' }}" href="{{ route('admin.technology')}}">Technology</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link p-0 ms-3 {{ Request::is('admin/casestudy') ? 'active' : '' }}" href="{{ route('admin.casestudy')}}">Casestudy</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link p-0 ms-3" title="Logout" href="{{ route('logout')}}"><img src="{{ asset('admin/images/logout.svg')}}" width="32" height="32" alt="Logout" /></a>
                         </li>
