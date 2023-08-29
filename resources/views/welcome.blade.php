@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content') 
+@section('content')
 <section class="hm-banner-sec">
     <div class="hero-wrapper">
         <div class="main-hero-title">
@@ -22,8 +22,7 @@
             <div class="home-video-section aos-init" data-aos="zoom-out" data-aos-delay="200" style="margin-top:0px;">
                 <span class="icon-locker-close-icon scroll-video-btn close-scroll-video-btn"></span>
                 <div class="home-video-box">
-                    <img width="1140" height="750" class="video-poster-bg lazyloaded" src="image/Banner-bg.jpg"
-                        alt="banner" data-ll-status="loaded">
+                    <img width="1140" height="750" class="video-poster-bg lazyloaded" src="image/Banner-bg.jpg" alt="banner" data-ll-status="loaded">
                     <noscript>
                         <img width="1140" height="750" class="video-poster-bg" src="image/Banner-bg.jpg" alt="banner">
                     </noscript>
@@ -32,9 +31,7 @@
                             <img src="image/Video-icon.svg" alt="vidoeicon">
                         </span>
                     </div>
-                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop=""
-                        onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls
-                        controlsList="nodownload" autoplay="false">
+                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop="" onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls controlsList="nodownload" autoplay="false">
                         <source type="video/mp4" src="video/pexels-pixabay.mp4">
                     </video>
                     <div class="video-full-screen"><span class="icon-ic-white-full-screen"></span></div>
@@ -49,28 +46,23 @@
             <div class="brands-marquee-inner ml-0 float-left">
                 <ul class="m-0">
                     <li>
-                        <a href="" aria-label="Oracle" class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
-                                src="image/eva-play-new-blue.png" alt="eva-play-new-blue"></a>
+                        <a href="" aria-label="Oracle" class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img src="image/eva-play-new-blue.png" alt="eva-play-new-blue"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Cambridge" class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
-                                src="image/maingutschen.svg" alt="maingutschen"></a>
+                        <a href="" aria-label="Cambridge" class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img src="image/maingutschen.svg" alt="maingutschen"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Mumayiz" class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
-                                src="image/mektronic-new.png" alt="mektronic-new"></a>
+                        <a href="" aria-label="Mumayiz" class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img src="image/mektronic-new.png" alt="mektronic-new"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTN Logo" class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
-                                src="image/Offsight_Logo.svg" alt="Offsight"></a>
+                        <a href="" aria-label="MTN Logo" class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img src="image/Offsight_Logo.svg" alt="Offsight"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTU Logo" class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
-                                src="image/skylon-tower_logo.svg" alt="skylon-tower_logo"></a>
+                        <a href="" aria-label="MTU Logo" class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img src="image/skylon-tower_logo.svg" alt="skylon-tower_logo"></a>
                     </li>
                     <li>
-                            <a href="" aria-label="BCG Logo" class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/reshyne.svg" alt="Reshyne" /></a>
-                         </li>
+                        <a href="" aria-label="BCG Logo" class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/reshyne.svg" alt="Reshyne" /></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -296,28 +288,22 @@
         <div class="technologies-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
-                        type="button" role="tab" aria-controls="frontend" aria-selected="false">Front End</button>
+                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend" type="button" role="tab" aria-controls="frontend" aria-selected="false">Front End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
-                        type="button" role="tab" aria-controls="backend" aria-selected="true">Back End</button>
+                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend" type="button" role="tab" aria-controls="backend" aria-selected="true">Back End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button"
-                        role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
+                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button"
-                        role="tab" aria-controls="cms" aria-selected="false">CMS</button>
+                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button" role="tab" aria-controls="cms" aria-selected="false">CMS</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse"
-                        type="button" role="tab" aria-controls="databse" aria-selected="false">Database</button>
+                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse" type="button" role="tab" aria-controls="databse" aria-selected="false">Database</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
-                        role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
+                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button" role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -621,8 +607,7 @@
         <div class="our-work-block-slider">
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="400">
                 <a class="cursor-hover cs-main" href="rsd_portfolio" tabindex="0">
-                    <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;" >
+                    <div class="cs-info" style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Ready set dance</p>
@@ -665,8 +650,7 @@
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="600">
                 <a class="cursor-hover cs-main" href="reshyne_portfolio" tabindex="0">
-                    <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;" >
+                    <div class="cs-info" style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;">
                         <div class="case-study-block odd">
                             <div class="cs-thumb-img">
                                 <div class="case-study-slider">
@@ -710,8 +694,7 @@
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="800">
                 <a class="cursor-hover cs-main" href="recovr_portfolio" tabindex="0">
-                    <div class="cs-info"
-                        style="background: linear-gradient(80.12deg, #596D3A -0.35%, #B7D18E 99.53%);border-radius: 8px;">
+                    <div class="cs-info" style="background: linear-gradient(80.12deg, #596D3A -0.35%, #B7D18E 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Recovr</p>
@@ -770,13 +753,13 @@
                 <img src="image/Video-bg.jfif" alt="video" width="1000" height="562">
             </div>
             <div class="jugaad-video-btn">
-                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#innovationModal">
                     <img src="image/Video-icon.svg" alt="vidoeicon">
                 </button>
             </div>
         </div>
         <!-- Jugaad Video Modal Popup -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="innovationModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <!-- <div class="modal-header">
@@ -785,12 +768,8 @@
                         </div> -->
                     <div class="modal-body">
                         <div id="iframe_div">
-                            <button type="button cursor-hover" class="btn-close float-end" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <iframe id="ytplayer" class="w-100" sandbox
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                src="video/Anniversary_Video.m4v" height="540" controls controlsList="nodownload"
-                                autoplay="false">
+                            <button type="button cursor-hover" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <iframe id="ytplayer" class="w-100" sandbox allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" src="video/Anniversary_Video.m4v" height="540" controls controlsList="nodownload" autoplay="false">
                             </iframe>
                         </div>
                     </div>
@@ -812,8 +791,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -828,8 +806,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -844,8 +821,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -860,8 +836,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -876,8 +851,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -892,8 +866,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -908,8 +881,7 @@
         <div class="item">
             <div class="testimonial-box">
                 <div class="client-img">
-                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp"
-                        alt="Carmelo Milian" width="740" height="410">
+                    <img src="https://dcdh7ea8gkhvt.cloudfront.net/wp-content/uploads/2022/02/carmelo-milian-video-thumb.webp" alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
                     <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">

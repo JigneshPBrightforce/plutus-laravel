@@ -7,7 +7,6 @@
 @endpush
 @section('content')
 <!-- Info boxes -->
-
 <!-- Default box -->
 <div class="container box">
     <div class="box-header">
@@ -27,15 +26,12 @@
                 <tr>
                     <td>{{ $data->id }}</td>
                     <td>{{ $data->project_name }} </td>
-                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a
-                            href="{{ route('admin.portfolio.delete', array('id' => $data->id))}}">Delete</a>
-                    </td>
+                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a href="javascript:void(0)" onclick="deleteRecord(<?= $data->id ?>)">Delete</a></td>
                 </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
-    <!-- /.box-footer-->
 </div>
 <!-- /.box -->
 @endsection
@@ -47,26 +43,26 @@
 <script src="{{asset('admin/sweetalerts/custom-sweetalert.js')}}"></script>
 <!-- page script -->
 <script>
-$(document).ready(function() {
-    var table = $('#example1').DataTable({});
-
-});
-
-function deleteRecord(num) {
-    swal({
-        title: 'Are you sure?',
-        text: "You won't be able to revert this!",
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonText: 'Delete',
-        padding: '2em'
-    }).then(function(result) {
-        if (result.value) {
-            window.location.href = '{{URL("roles")}}{{"/delete"}}/' + num;
-        } else {
-            swal("Cancelled", "Your Data is safe :)", "error");
-        }
+    $(document).ready(function() {
+        var table = $('#example1').DataTable({});
     });
-};
+
+    function deleteRecord(num) {
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Delete',
+            padding: '2em'
+        }).then(function(result) {
+            if (result.value) {
+                // admin.portfolio.delete
+                window.location.href = '{{URL("admin")}}{{"/portfolio"}}{{"/delete"}}/' + num;
+            } else {
+                swal("Cancelled", "Your Data is safe :)", "error");
+            }
+        });
+    };
 </script>
 @endpush

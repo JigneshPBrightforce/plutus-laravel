@@ -9,7 +9,6 @@
 <form id="general-info" name="frmUpdateProfile" method="POST" enctype="multipart/form-data"
     action="{{ route('admin.portfolio.store') }}">
     @csrf
-
     <div class="box">
         <div class="box-body">
             <div class="form-group row">

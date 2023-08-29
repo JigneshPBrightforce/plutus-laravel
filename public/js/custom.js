@@ -50,7 +50,7 @@ $(document).ready(function () {
         var cssmenu = $(this), settings = $.extend({
             format: "dropdown",
             sticky: false
-        }, options);        
+        }, options);
         return this.each(function () {
             cssmenu.find('li ul').parent().addClass('has-sub');
             $(this).find(".button").on('click', function () {
@@ -204,7 +204,7 @@ $('.about-me-img').hover(function () {
 var showModal = function () {
     const modal = document.querySelector("#modal");
     const body = document.querySelector("body");
-    
+
     modal.classList.toggle("hidden");
 
     // if (!modal.classList.contains("hidden")) {
@@ -245,10 +245,13 @@ var tabPanelToShow = function (elem) {
 var tabLinkToActivate = function (elem) {
     $('.v-tab-pane').children('div').removeClass('in').parent().find(elem).addClass('in');
 
-
 };
 
-
+$("#innovationModal").on("hidden.bs.modal", function () {
+    var src = $('#ytplayer').attr('src');
+    $('#ytplayer').attr('src', '');
+    $('#ytplayer').attr('src', src);
+});
 
  // $(function ($) {
         //     var options = {
@@ -260,4 +263,3 @@ var tabLinkToActivate = function (elem) {
         //     $('.jclock').jclock(options);
         // }); 
 
-        
