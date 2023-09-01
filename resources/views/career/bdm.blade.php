@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="career">Careers</a></li>
+                        <li class="breadcrumb-item"><span>Careers</span></li>
                         <li class="breadcrumb-item active" aria-current="page">BDM</li>
                     </ol>
                 </nav>
@@ -146,7 +146,7 @@
         <div class="row aos-init" data-aos="fade-up" data-aos-delay="500">
             <div class="col-12">
                 <div class="">
-                    <button class="btn btn-primary" id="apply_now">Apply now</button>
+                    <button class="cursor-hover btn btn-primary" id="apply_now">Apply now</button>
                 </div>
             </div>
         </div>

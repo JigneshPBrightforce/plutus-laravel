@@ -7,7 +7,7 @@
             <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><span>Home</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire Android App Developer</li>
                     </ol>
                 </nav>
@@ -16,13 +16,8 @@
                         alt="hire-android-banner">
                 </div>
                 <div class="aos-init" data-aos="fade-up">
-                    <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Android App Developer</h3> you
-                    employ our Android App
-                    Developers, you can anticipate excellent service and results. Our developers are up to date
-                    on the latest Android technology and trends, so your mobile app will stand out from the
-                    crowd. Their knowledge of the Android platform gives them the ability to make the best use
-                    of its features to provide a consistent user experience for every one of their applications.
-                    </p>
+                    <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Android App Developer</h3> 
+                    <p>When you employ our Android App Developers, you can anticipate excellent service and results. Our developers are up to date on the latest Android technology and trends, so your mobile app will stand out from the crowd. Their knowledge of the Android platform gives them the ability to make the best use of its features to provide a consistent user experience for every one of their applications.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -40,26 +35,9 @@
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire Android Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">Plutus Technologies recognizes the expanding importance of the
-                        Android market, as well as the demand for fascinating and engaging business apps. Our
-                        invested Android app developers have considerable industry experience, allowing us to
-                        provide great app development services targeted to your individual demands and objectives.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">Android is the most prominent mobile operating system in the world,
-                        and having a talented team
-                        of Android developers is essential for developing successful apps. Our workforce is made up
-                        of
-                        seasoned individuals who are knowledgeable about the newest Android technologies and have a
-                        thorough understanding of the Android environment.</p>
-
-                    <p class="sub-dec ms-4 mt-4">To keep up with the newest advances and trends, our Android
-                        developers constantly upgrade their
-                        knowledge and abilities. When you engage an Android developer from our team, you can count
-                        on
-                        regular updates along with 24/7 dedicated point of contact and open communication about the
-                        status of your project. We value your feedback and endeavour to offer high-quality work
-                        within a
-                        tight project development cycle and a short turnaround time.</p>
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies recognizes the expanding importance of the Android market, as well as the demand for fascinating and engaging business apps. Our invested Android app developers have considerable industry experience, allowing us to provide great app development services targeted to your demands and objectives.</p>
+                    <p class="sub-dec ms-4 mt-4">Android is the most prominent mobile operating system in the world, and having a talented team of Android developers is essential for developing successful apps. Our workforce is made up of seasoned individuals who are knowledgeable about the newest Android technologies and have a thorough understanding of the Android environment.</p>
+                    <p class="sub-dec ms-4 mt-4">To keep up with the newest advances and trends, our Android developers constantly upgrade their knowledge and abilities. When you engage an Android developer from our team, you can count on regular updates along with a 24/7 dedicated point of contact and open communication about the status of your project. We value your feedback and endeavour to offer high-quality work within a tight project development cycle and a short turnaround time.</p>
 
                 </div>
             </div>
@@ -183,16 +161,16 @@
                 <div class="select-catagory d-lg-block align-items-start d-flex">
                     <div class="nav flex-column nav-pills align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
                             aria-selected="true">iOS App Development</button>
-                        <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
                             aria-selected="false">Ionic App Development</button>
-                        <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
                             aria-selected="false">React Native App Development</button>
-                        <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
                             aria-selected="false">Flutter App Development</button>
                     </div>
@@ -258,10 +236,7 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>1. </span> Diverse Expertise</h3>
-                        <p>Plutustec's Android developers have extensive experience in all aspects of Android
-                            application development. Hiring Android developers from Plutustec ensures that your
-                            Android app is produced with the greatest expertise, ensuring the highest quality.
-                        </p>
+                        <p>Plutustec's Android developers have extensive experience in all aspects of Android application development. Hiring Android developers from Plutustec ensures that your Android app is produced with the greatest expertise, ensuring the highest quality.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -279,12 +254,8 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-start  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Having the detailed knowledge of the Android ecosystem, our team memebers have the
-                            ability to optimize app performance, improve user experience, and solve any technical
-                            issues that may arise during the development process. You can greatly benefit when you
-                            hire Dedicated Android Developers of Plutus Technology.
-                        </p>
+                        Intense Knowledge</h3>
+                        <p>Having a detailed knowledge of the Android ecosystem, our team members have the ability to optimize app performance, improve user experience, and solve any technical issues that may arise during the development process. You can greatly benefit when you hire Dedicated Android Developers of Plutus Technology.</p>
                     </div>
                 </div>
             </div>
@@ -292,12 +263,7 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
                         <h3 class="subtitle d-flex align-items-start"><span>3. </span> Custom Solutions</h3>
-                        <p>No matter if you are looking for enterprise apps, e-commerce platforms, or gaming apps,
-                            Plutustec's Android developers will be able to provide you with significant solutions
-                            that suit your individual needs. Using close collaboration with clients, they gather
-                            detailed insights into their business objectives and target audience, enabling them to
-                            create customized Android applications that meet the client's needs.
-                        </p>
+                        <p>No matter if you are looking for enterprise apps, e-commerce platforms, or gaming apps, Plutustec's Android developers will be able to provide you with significant solutions that suit your individual needs. Using close collaboration with clients, they gather detailed insights into their business objectives and target audience, enabling them to create customized Android applications that meet the client's needs.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

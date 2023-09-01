@@ -7,7 +7,7 @@
             <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><span>Home</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire Node.js Developer</li>
                     </ol>
                 </nav>
@@ -16,10 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire Node.js Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">In your search for a Node.js Developer, we are at the forefront of technological competence and proficiency. Our platform provides an unparalleled opportunity to obtain the services of Node.js and skilled Node.js Programmers. Our dedication reflects the complexities of your quest for unrivalled technological acuity.</p>
+                    <p class="sub-dec ms-4 mt-4">Our distinguishing feature, however, is our astute technique, which has been rigorously customised to match your requirements with bespoke talents. Thus, PlutusTec's team of Node.js developers emerges as the blueprint for achieving unmatched functionality providing the best of the best to the clients.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,20 +36,8 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">Do you have a new PHP development project coming up? Then
-                        definitely you must be looking for expert
-                        PHP developers from a reputed and cost-effective web development company. Well, you can
-                        always count
-                        on us. Build Robust websites and applicationsby hiring the best PHP developers from India.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">PHP cms developers at Plutus Technologies build your business
-                        website with feature-rich database maintenance
-                        and ensure the greatest levels of tailored PHP development. As an open-source platform, PHP
-                        is a greatly used
-                        platform for we b and portal development. We are known for being committed to providing the
-                        best solutions for
-                        PHP development.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">In today's web and application ecosystem, Node.js is the crucial linchpin. There is a unique quality about us because we carefully select talent for each project based on the skill levels of our professionals and ensure that these requirements are aligned meticulously with the requirements of the project. Our goal is to elevate your Node.js endeavours through the combination of outstanding technical expertise and unwavering professionalism provided by PlutusTec. Our careful screening procedure guarantees that only the most skilled Node.js programmers are assigned to your project, giving you confidence that your software endeavours are in capable hands. </p>
+                    <p class="sub-dec ms-4 mt-4">We uphold a high standard that guarantees client happiness, efficiency, and expertise, inspired by industry pioneers such as Toptal. Choose PlutusTec to improve your development game and obtain access to a talent pool that not only meets but surpasses expectations.</p>
                 </div>
             </div> 
         </div>
@@ -168,16 +154,16 @@
                 <div class="select-catagory d-lg-block align-items-start d-flex">
                     <div class="nav flex-column nav-pills align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
                             aria-selected="true">.NET Development</button>
-                        <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
                             aria-selected="false">Python Development</button>
-                        <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
                             aria-selected="false">AngularJS Development</button>
-                        <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
                             aria-selected="false">ReactJS Development</button>
                     </div>
@@ -242,11 +228,8 @@
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Full-Cycle Development</h3>
+                        <p>We provide you with Node.js developers who are with you every step of the way, from the initial concept through deployment and continuous maintenance. With our all-encompassing strategy, you can rest assured that your project will receive the highest level of attention and expertise possible.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -264,26 +247,16 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
-                        </p>
+                        No Geographical Limitations</h3>
+                        <p>As a global company, we are capable of extending our reach beyond geographical boundaries. Getting in touch with PlutusTec Node.js engineers will give you a chance to work with an active team of Node.js experts who can bring a unique perspective and perspective to the table. While you can take advantage of these services from anywhere around the world.</p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Prompt Issue Resolution</h3>
+                        <p>It is no secret that development is a difficult process. It is our team of Node.js developers, on the other hand, that are proficient at quickly recognizing and addressing issues, which ensures that your project progresses smoothly and that setbacks are reduced to a minimum.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

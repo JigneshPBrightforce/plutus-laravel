@@ -7,7 +7,7 @@
             <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><span>Home</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire ReactJS Developer</li>
                     </ol>
                 </nav>
@@ -16,10 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire ReactJS Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Explore the world of intricately intertwined components and state management techniques as you browse our outstanding ReactJS Developers. Our developers change the paradigms of user experience and interface interactivity via virtual DOM manipulation and reactive programming.</p>
+                    <p class="sub-dec ms-4 mt-4">How well the project necessitates requires extensive UI/UX components, immediate updates via React hooks, or React interaction with backend technologies, our developers are capable of navigating complexity. Your decision to work with us is more than just a hiring decision; it is an investment in a streamlined, inventive, and future-proof development process. When you work with PlutusTec, your access to pro-ReactJS developers results in a technical synergy that produces amazing digital solutions. We recognise, like our competitors, that recruiting ReactJS virtuosos is critical in today's fast-paced digital world, and we ensure that every developer you hire from PlutusTec adheres to this mindset. </p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -36,15 +34,8 @@
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>About Hire ReactJS Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">As the Android market is growing bigger and bigger, businesses need
-                        apps that can fascinate and engage
-                        their target audiences. Our extensive expertise in the industry gives us hands-on experience
-                        in the development
-                        of Android apps. Hire Android App Developer from our team of experienced professionals. They
-                        meticulously
-                        help you in thrusting your business by developing custom apps that perfectly match your
-                        needs and requirements.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">PlutusTec exemplifies not only a hiring platform but also a strategic collaborator and ally in negotiating the complex tapestry of current online development. ReactJS is an open-source JavaScript library that is commonly used to create User Interfaces (UIs) in online applications. React, which was created and is maintained by Facebook, has achieved enormous appeal in the ranks of developers because of its speed, versatility, and capacity to construct engaging and reactive UIs.</p>
+                    <p class="sub-dec ms-4 mt-4">Our pool of talent goes beyond the conventional, including specialists with not just technical ability but also a strong creative streak. Imagine a virtual symphony of finely orchestrated components, all harmonizing perfectly to generate unique user experiences as you navigate through our expertly curated selection of specialists.</p>
                 </div>
             </div> 
         </div>
@@ -161,16 +152,16 @@
                 <div class="select-catagory d-lg-block align-items-start d-flex">
                     <div class="nav flex-column nav-pills align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
                             aria-selected="true">PHP Web Development</button>
-                        <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
                             aria-selected="false">.NET Development</button>
-                        <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
                             aria-selected="false">Fullstack Development</button>
-                        <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
                             aria-selected="false">Node.js Development</button>
                     </div>
@@ -235,11 +226,8 @@
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Quality Improvement</h3>
+                        <p>In a market in which proficiency is a non-negotiable, PlutusTec is unrelenting in its efforts to deliver unrelenting quality. By providing our services, we exemplify our commitment to exceeding expectations and improving the act of hiring ReactJS talent into an investment in success and giving our clients the best experience possible.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -257,26 +245,16 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
-                        </p>
+                        Innovation at its Best</h3>
+                        <p>In the field of innovation, our ReactJS developers lead the way. We continue to push the boundaries of what is possible, creating solutions that are both innovative and useful.</p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Rapid Development</h3>
+                        <p>Several of our ReactJS developers are efficient in agile development methodologies, allowing us to accelerate the development process without impairing the quality of the delivered product.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

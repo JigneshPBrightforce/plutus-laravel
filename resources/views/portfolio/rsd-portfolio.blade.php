@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">RSD</li>
                     </ol>
                 </nav>

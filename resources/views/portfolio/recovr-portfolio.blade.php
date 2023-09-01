@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Recovr</li>
                     </ol>
                 </nav>
@@ -137,29 +137,29 @@
         <h3 class="home-page-title d-flex align-items-center justify-content-center">You May Also Like</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
-
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/agrotrade.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Android</span>
-                        <h3 class="category">RapidParty</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Agrotrade</h3>
+                        <p class="category">Explore the new dimension of foodstuff importing experience.</p>
+                        <a href="agrotrade_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="{{ asset('portfolio_images/rapidparty.jpg') }}" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">RapidParty</h3>
+                        <p class="category">Feature-rich event planning. Item registry, crowdfunding, chat and more!</p>
+                        <a href="rapidparty_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>

@@ -15,7 +15,7 @@
                     the boundaries of our industry and setting new standards of excellence.</p>
             </div>
             <div class="button-box justify-content-start aos-init" data-aos="fade-up" data-aos-delay="500">
-                <a class="btn-orange" href="">What we do</a>
+                <a class="btn-orange cursor-hover" href="contact-us">Contact us</a>
             </div>
         </div>
         <div class="main-hero-image">
@@ -28,14 +28,14 @@
                         <img width="1140" height="750" class="video-poster-bg" src="image/Banner-bg.jpg" alt="banner">
                     </noscript>
                     <div class="video-btn-play">
-                        <span class="icon-video-play tglclass">
+                        <span class="icon-video-play tglclass cursor-hover">
                             <img src="image/Video-icon.svg" alt="vidoeicon">
                         </span>
                     </div>
-                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100" loop=""
-                        onloadedmetadata="this.muted=true" playsinline="" poster="image/Banner-bg.jpg" controls
+                    <video preload="none" id="home_video_bx" class="testimonial-video homepage_video w-100"
+                        onloadedmetadata="this.muted=true" poster="image/Banner-bg.jpg" controls
                         controlsList="nodownload" autoplay="false">
-                        <source type="video/mp4" src="video/pexels-pixabay.mp4">
+                        <source type="video/mp4" src="video/Anniversary_Video.m4v" autoplay="false">
                     </video>
                     <div class="video-full-screen"><span class="icon-ic-white-full-screen"></span></div>
                 </div>
@@ -49,28 +49,35 @@
             <div class="brands-marquee-inner ml-0 float-left">
                 <ul class="m-0">
                     <li>
-                        <a href="" aria-label="Oracle" class="logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Oracle"
+                            class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
                                 src="image/eva-play-new-blue.png" alt="eva-play-new-blue"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Cambridge" class="logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Cambridge"
+                            class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
                                 src="image/maingutschen.svg" alt="maingutschen"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="Mumayiz" class="abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="Mumayiz"
+                            class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
                                 src="image/mektronic-new.png" alt="mektronic-new"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTN Logo" class="logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTN Logo"
+                            class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
                                 src="image/Offsight_Logo.svg" alt="Offsight"></a>
                     </li>
                     <li>
-                        <a href="" aria-label="MTU Logo" class="logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
+                        <a href="" aria-label="MTU Logo"
+                            class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
                                 src="image/skylon-tower_logo.svg" alt="skylon-tower_logo"></a>
                     </li>
-                    <!-- <li>
-                            <a href="" aria-label="BCG Logo" class="logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="image/mektronic-new.png" /></a>
-                         </li> -->
+                    <li>
+                        <a href="" aria-label="BCG Logo"
+                            class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img
+                                src="image/reshyne.svg" alt="Reshyne" /></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -296,316 +303,319 @@
         <div class="technologies-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
-                        type="button" role="tab" aria-controls="frontend" aria-selected="false">Front End</button>
+                    <button class="nav-link cursor-hover" id="frontend-tab" data-bs-toggle="tab"
+                        data-bs-target="#frontend" type="button" role="tab" aria-controls="frontend"
+                        aria-selected="false">Front End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
-                        type="button" role="tab" aria-controls="backend" aria-selected="true">Back End</button>
+                    <button class="nav-link active cursor-hover" id="backend-tab" data-bs-toggle="tab"
+                        data-bs-target="#backend" type="button" role="tab" aria-controls="backend"
+                        aria-selected="true">Back End</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button"
-                        role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
+                    <button class="nav-link cursor-hover" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile"
+                        type="button" role="tab" aria-controls="mobile" aria-selected="false">Mobile App</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms" type="button"
-                        role="tab" aria-controls="cms" aria-selected="false">CMS</button>
+                    <button class="nav-link cursor-hover" id="cms-tab" data-bs-toggle="tab" data-bs-target="#cms"
+                        type="button" role="tab" aria-controls="cms" aria-selected="false">CMS</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="databse-tab" data-bs-toggle="tab" data-bs-target="#databse"
-                        type="button" role="tab" aria-controls="databse" aria-selected="false">Database</button>
+                    <button class="nav-link cursor-hover" id="databse-tab" data-bs-toggle="tab"
+                        data-bs-target="#databse" type="button" role="tab" aria-controls="databse"
+                        aria-selected="false">Database</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button"
-                        role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
+                    <button class="nav-link cursor-hover" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux"
+                        type="button" role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="backend" role="tabpanel" aria-labelledby="backend-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="">
                                 <div class="icon-box">
                                     <img src="image/nodejs.svg" alt="nodejs">
                                 </div>
                                 <h3>NodeJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/python.svg" alt="python">
                                 </div>
                                 <h3>Python</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/dotnet-logo.svg" alt="dotnet">
                                 </div>
                                 <h3>.NET</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Laravel-logo.svg" alt="laravel">
                                 </div>
                                 <h3>Laravel</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/codeigniter-icon.svg" alt="codeigniter">
                                 </div>
                                 <h3>CodeIgniter</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/php-1.svg" alt="php">
                                 </div>
                                 <h3>PHP</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/react-2.svg" alt="react">
                                 </div>
                                 <h3>ReactJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/vuejs-seeklogo.com.svg" alt="vuejs">
                                 </div>
                                 <h3>VueJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/angular-icon-1.svg" alt="angular">
                                 </div>
                                 <h3>AngularJS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/bootstrap-5-1.svg" alt="bootstrap">
                                 </div>
                                 <h3>Bootstrap</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/html-1.svg" alt="html">
                                 </div>
                                 <h3>HTML5</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/css-3.svg" alt="css">
                                 </div>
                                 <h3>CSS3</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Flutter-logo.svg" alt="flutter">
                                 </div>
                                 <h3>Flutter</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/apple-ios.svg" alt="ios">
                                 </div>
                                 <h3>iOS</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/react-2.svg" alt="react">
                                 </div>
                                 <h3>React Native</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/android.svg" alt="android">
                                 </div>
                                 <h3>Android</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/Ionic-logo.svg" alt="ionic">
                                 </div>
                                 <h3>Ionic</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/xamarin.svg" alt="xamarin">
                                 </div>
                                 <h3>Xamarin</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="cms" role="tabpanel" aria-labelledby="cms-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/drupal.svg" alt="drupal">
                                 </div>
                                 <h3>Drupal</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/WordPress-logo.svg" alt="Wordpress">
                                 </div>
                                 <h3>WordPress</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/prestashop.svg" alt="prestashop">
                                 </div>
                                 <h3>PrestaShop</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/wix-com-website-logo-1.svg" alt="wixcom">
                                 </div>
                                 <h3>Wix</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/shopify.svg" alt="shopify">
                                 </div>
                                 <h3>Shopify</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/magento-2.svg" alt="magento">
                                 </div>
                                 <h3>Magento</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/nopcommerce_logo.svg" alt="nopcommerce">
                                 </div>
                                 <h3>NopCommerce</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="databse" role="tabpanel" aria-labelledby="databse-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/microsoft-sql-server-1.svg" alt="sqlserver">
                                 </div>
                                 <h3>SQL Server</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/mysql-3.svg" alt="mysql">
                                 </div>
                                 <h3>MySQL</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/postgresql.svg" alt="postgresql">
                                 </div>
                                 <h3>PostgreSQL</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/mongodb-icon.svg" alt="mongodb">
                                 </div>
                                 <h3>MongoDB</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="uiux" role="tabpanel" aria-labelledby="uiux-tab">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-photoshop-2.svg" alt="Photoshop">
                                 </div>
                                 <h3>Adobe Photoshop</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-illustrator-cc-icon.svg" alt="Illustrator">
                                 </div>
                                 <h3>Adobe Illustrator</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/adobe-xd-1.svg" alt="XD">
                                 </div>
                                 <h3>Adobe XD</h3>
-                            </a>
+                            </div>
                         </div>
                         <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="icon-block" aria-label="" href="">
+                            <div class="icon-block" aria-label="" href="">
                                 <div class="icon-box">
                                     <img src="image/figma-1.svg" alt="figma">
                                 </div>
                                 <h3>Figma</h3>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -620,15 +630,17 @@
     <div class="container">
         <div class="our-work-block-slider">
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="400">
-                <a class="cs-main" href="rsd_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="rsd_portfolio" tabindex="0">
                     <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;" >
+                        style="background: linear-gradient(80.12deg, #834397 -0.35%, #D296E6 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Ready set dance</p>
-                                <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking the world by storm!</h2>
+                                <h2 class="cs-description">READY SET DANCE is the award winning dance curriculum taking
+                                    the world by storm!</h2>
                                 <div class="client-says">
-                                    <h4>“I With READY SET DANCE, you no longer need to plan, search for, or create new content.”</h4>
+                                    <h4>“With READY SET DANCE, you no longer need to plan, search for, or create new
+                                        content.”</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Incometax_ 1.svg" alt="ncometax" width="48" height="48">
@@ -664,9 +676,9 @@
                 </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="600">
-                <a class="cs-main" href="reshyne_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="reshyne_portfolio" tabindex="0">
                     <div class="cs-info"
-                    style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;" >
+                        style="background: linear-gradient(80.12deg, #424BA1 -0.35%, #838EF8 99.53%);border-radius: 8px;">
                         <div class="case-study-block odd">
                             <div class="cs-thumb-img">
                                 <div class="case-study-slider">
@@ -689,10 +701,12 @@
                             </div>
                             <div class="cs-detail">
                                 <p class="cs-title">Reshyne</p>
-                                <h2 class="cs-description">Reshyne helps companies make the most of their repairs business
+                                <h2 class="cs-description">Reshyne helps companies make the most of their repairs
+                                    business
                                 </h2>
                                 <div class="client-says">
-                                    <h4>"From a customer-facing service-based storefront to dynamic operations and management tools that lead to revenue growth and business success."</h4>
+                                    <h4>"From a customer-facing service-based storefront to dynamic operations and
+                                        management tools that lead to revenue growth and business success."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/RSD.svg" alt="Rsd" width="48" height="48">
@@ -709,15 +723,17 @@
                 </a>
             </div>
             <div class="case-study-box aos-init" data-aos="fade-up" data-aos-delay="800">
-                <a class="cs-main" href="recovr_portfolio" tabindex="0">
+                <a class="cursor-hover cs-main" href="recovr_portfolio" tabindex="0">
                     <div class="cs-info"
                         style="background: linear-gradient(80.12deg, #596D3A -0.35%, #B7D18E 99.53%);border-radius: 8px;">
                         <div class="case-study-block even">
                             <div class="cs-detail">
                                 <p class="cs-title">Recovr</p>
-                                <h2 class="cs-description">A digital marketplace that provides affordable and accessible rehab and recovery content</h2>
+                                <h2 class="cs-description">A digital marketplace that provides affordable and accessible
+                                    rehab and recovery content</h2>
                                 <div class="client-says">
-                                    <h4>"All content is created by trusted rehab professionals that have gone through a rigorous quality content process."</h4>
+                                    <h4>"All content is created by trusted rehab professionals that have gone through a
+                                        rigorous quality content process."</h4>
                                     <!-- <div class="d-inline-flex client-box">
                                        <div class="client-thumb">                                            
                                           <img src="image/Recover.svg" alt="Recover" width="48" height="48">
@@ -754,7 +770,7 @@
             </div>
         </div>
         <div class="button-box aos-init" data-aos="fade-up" data-aos-delay="900">
-            <a class="btn-orange" aria-label="View All" href="portfolio">View All</a>
+            <a class="cursor-hover btn-orange" aria-label="View All" href="portfolio">View All</a>
         </div>
     </div>
 </section>
@@ -763,24 +779,28 @@
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Innovation, Bottoms Up.</h3>
     </div>
     <div class="container">
-        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">When we mix organized Jugaad with
-            our structural R&amp;D and expertise, it can deliver commendable results that create value. All in all,
-            IndiaNIC believes that Jugaad shouldn’t replace the structured approach to innovation but rather
-            compliment it like bread &amp; butter. It’s always about finding the right balance between top-down
-            R&amp;D vs bottom-up Jugaad innovation.</p>
+        <p class="text-center aos-init" data-aos="fade-up" data-aos-delay="200">We understand innovation often occurs as
+            a result of improvements to products & services, technologies, processes, and artworks. It's not always
+            upper management who comes up with the most innovative ideas, sometimes it's the bottom-up team members who
+            do. We use our extensive experience, knowledge, and expertise combined with innovative ideas to deliver
+            value-added software solutions that support the growth of your business. We, at Plutus Technologies, focus
+            on both top-down R&D and bottom-up ideas to build the most innovative technology solution based on your
+            custom business needs. Our team of highly skilled and experienced software developers, creative designers,
+            and marketing experts not only helps you with innovations but also creates next-gen solutions that make your
+            business thrive in the competitive marketplace. </p>
         <!-- Jugaad Video Modal Popup -->
         <div class="jugaad-video aos-init" data-aos="fade-up" data-aos-delay="300">
             <div class="jugaad-video-img-play">
                 <img src="image/Video-bg.jfif" alt="video" width="1000" height="562">
             </div>
             <div class="jugaad-video-btn">
-                <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#innovationModal">
                     <img src="image/Video-icon.svg" alt="vidoeicon">
                 </button>
             </div>
         </div>
         <!-- Jugaad Video Modal Popup -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="innovationModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <!-- <div class="modal-header">
@@ -789,7 +809,7 @@
                         </div> -->
                     <div class="modal-body">
                         <div id="iframe_div">
-                            <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                            <button type="button cursor-hover" class="btn-close float-end" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                             <iframe id="ytplayer" class="w-100" sandbox
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -803,7 +823,8 @@
         </div>
         <!-- Jugaad Video Modal Popup -->
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work Together</a>
+            <a class="cursor-hover btn-orange" aria-label="Let's Work Together" href="contact-us">Let's Work
+                Together</a>
         </div>
     </div>
 </section>
@@ -820,7 +841,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -836,7 +857,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -852,7 +873,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -868,7 +889,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -884,7 +905,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -900,7 +921,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -916,7 +937,7 @@
                         alt="Carmelo Milian" width="740" height="410">
                 </div>
                 <div class="client-video">
-                    <button class="icon-video-play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="icon-video-play cursor-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="image/Video-icon.svg" alt="vidoeicon">
                     </button>
                     <div class="client-name">
@@ -927,17 +948,18 @@
         </div>
     </div>
 </section>
-<section class="blog-wrap">
+<!-- <section class="blog-wrap">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Blog</h3>
     </div>
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
-        <div class="listing-view">
+        <div class="listing-view text-center">
             <div class="row">
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details"
+                                class="cursor-hover"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp') }}"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -946,7 +968,8 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
+                            <a href="blog-details" aria-label="More from our Blog"
+                                class="cursor-hover">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -955,14 +978,16 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a href="blog-details" 
+                                class="cursor-hover" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp') }}"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a href="blog-details"
+                                class="cursor-hover" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -970,25 +995,27 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a href="blog-details" 
+                                class="cursor-hover" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp') }}" alt="ai" width="350"
                                     height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
+                            <a href="blog-details"
+                                class="cursor-hover" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
+            <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>
-</section>
+</section> -->
 @include('inquiryform')
 @endsection

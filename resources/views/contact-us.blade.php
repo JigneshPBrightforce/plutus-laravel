@@ -63,16 +63,18 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="g-recaptcha" data-sitekey="6Lc7bHcmAAAAAKJMOt6Gz7gv2X80LqFFjJTicu3s"
-                                    data-callback="recaptchaCallback"></div>
-                                <div id="contact_captchError" class="error" style="display: none;">This field is required.
+                                    data-callback="recaptchaActions"></div>
+                                <div id="contact_captchError" class="error" style="display: none;">This field is
+                                    required.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="">
-                    <div class="d-flex align-items-center mt-3">
-                        <button type="submit" class="btn btn-primary btn-orange" id="submitButton">Send</button>
+                    <div class="d-flex align-items-center">
+                        <button type="submit" class="cursor-hover btn btn-primary btn-orange"
+                            id="submitButton">Send</button>
                         <!-- <img src="{{ asset('images/loading.gif')}} " alt="loader" id="loaderImg" style="display: none;"> -->
                         <div class="loader mx-3" id="loaderImg" style="display: none;"></div>
                     </div>
@@ -84,7 +86,7 @@
     </div>
     <div class="container aos-init" data-aos="fade-up">
         <div class="row">
-            <div class="col-md-4 white-boxs">
+            <div class="col-lg-4 white-boxs">
                 <div class="contact-us-details-box">
                     <img src="{{ asset('image/Map-pin.svg')}} " alt="map-pin">
                     <h3>Plutus Technologies</h3>
@@ -94,7 +96,7 @@
                         Gujarat 380054</p>
                 </div>
             </div>
-            <div class="col-md-4 white-boxs">
+            <div class="col-lg-4 white-boxs">
                 <div class="contact-us-details-box">
                     <img src="{{ asset('image/Map-pin.svg')}}" alt="map-pin">
                     <h3>Plutus Technologies</h3>
@@ -103,16 +105,16 @@
                         P.O.Box 454597</p>
                 </div>
             </div>
-            <div class="col-md-4 white-boxs last-box">
+            <div class="col-lg-4 white-boxs last-box">
                 <div class="contact-us-details-box">
                     <h3>General Contact</h3>
                     <div class="contact-number">
                         <img src="{{ asset('image/Gray-phone-icon.svg') }}" alt="phone">
                         <div class="">
-                            <a href="tel:+91 760-078-2354">
+                            <a class="cursor-hover" href="tel:+91 760-078-2354">
                                 <p>+91 760-078-2354</p>
                             </a>
-                            <a href="tel:+91 794-800-0107">
+                            <a class="cursor-hover" href="tel:+91 794-800-0107">
                                 <p>+91 794-800-0107</p>
                             </a>
                         </div>
@@ -120,7 +122,7 @@
                     <div class="contact-number">
                         <img src="{{ asset('image/Gray-email-icon.svg')}} " alt="email">
                         <div class="">
-                            <a href="mailto:sales@plutustec.com">
+                            <a class="cursor-hover" href="mailto:sales@plutustec.com">
                                 <p>sales@plutustec.com</p>
                             </a>
                         </div>
@@ -128,14 +130,14 @@
                     <div class="contact-number">
                         <img src="{{ asset('image/Gray-skype-icon.svg')}} " alt="skype">
                         <div class="">
-                            <a href="skype:live:kalpit.belani?chat">
+                            <a class="cursor-hover" href="skype:live:kalpit.belani?chat">
                                 <p>sales.plutustec
                                 </p>
                             </a>
                         </div>
                     </div>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/PlutusTechnologies" target="_blank">
+                        <a class="cursor-hover" href="https://www.facebook.com/PlutusTechnologies" target="_blank">
                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -143,7 +145,7 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a href="https://twitter.com/PlutusTech" target="_blank">
+                        <a class="cursor-hover" href="https://twitter.com/PlutusTech" target="_blank">
                             <svg width="28" height="23" viewBox="0 0 28 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -151,7 +153,8 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
+                        <a class="cursor-hover"
+                            href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
                             target="_blank">
                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +163,7 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/plutustechnology/" target="_blank">
+                        <a class="cursor-hover" href="https://www.instagram.com/plutustechnology/" target="_blank">
                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -168,7 +171,8 @@
                                     fill="#929292" />
                             </svg>
                         </a>
-                        <a href="https://in.pinterest.com/plutustechnologies/" target="_blank" class="me-3">
+                        <a class="cursor-hover" href="https://in.pinterest.com/plutustechnologies/" target="_blank"
+                            class="me-3">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path

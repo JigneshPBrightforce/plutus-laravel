@@ -5,7 +5,7 @@
     <div class="container aos-init" data-aos="fade-up">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Company</a></li>
+                <li class="breadcrumb-item"><span>Company</span></li>
                 <li class="breadcrumb-item active" aria-current="page">Engagement Models</li>
             </ol>
         </nav>
@@ -22,29 +22,29 @@
                 <div class="brands-marquee-inner" style="margin-right: 0px; float: left;">
                     <ul class="m-0">
                         <li>
-                            <a href="" aria-label="Oracle" class="logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
+                            <a href="" aria-label="Oracle" class="cursor-hover logo-brand-black-oracle svg_sprite_bg svg-sprite"><img
                                     src="{{ asset('image/eva-play-new-blue.png') }}" alt="eva-play-new-blue"></a>
                         </li>
                         <li>
-                            <a href="" aria-label="Cambridge" class="logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
+                            <a href="" aria-label="Cambridge" class="cursor-hover logo-cambridge-v3 svg_sprite_bg svg-sprite"><img
                                     src="{{ asset('image/maingutschen.svg') }}" alt="maingutschen"></a>
                         </li>
                         <li>
                             <a href="" aria-label="Mumayiz"
-                                class="abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
+                                class="cursor-hover abdul-latif-jameel-logo svg_sprite_bg svg-sprite"><img
                                     src="{{ asset('image/mektronic-new.png') }}" alt="mektronic-new"></a>
                         </li>
                         <li>
-                            <a href="" aria-label="MTN Logo" class="logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
+                            <a href="" aria-label="MTN Logo" class="cursor-hover logo-brand-black-mtn svg_sprite_bg svg-sprite"><img
                                     src="{{ asset('image/Offsight_Logo.svg') }}" alt="Offsight"></a>
                         </li>
                         <li>
-                            <a href="" aria-label="MTU Logo" class="logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
+                            <a href="" aria-label="MTU Logo" class="cursor-hover logo-brand-black-mtu svg_sprite_bg svg-sprite"><img
                                     src="{{ asset('image/skylon-tower_logo.svg') }}" alt="skylon-tower_logo"></a>
                         </li>
-                        <!-- <li>
-                                <a href="" aria-label="BCG Logo" class="logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="{{ asset('image/mektronic-new.png') }}" /></a>
-                             </li> -->
+                        <li>
+                            <a href="" aria-label="BCG Logo" class="cursor-hover logo-brand-black-bcg svg_sprite_bg svg-sprite"><img src="{{ asset('image/reshyne.svg') }}" alt="Reshyne" /></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                         Business and Technology Solutions.</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="contact-us" class="btn btn-primary">Contact Us</a>
+                    <a href="contact-us" class="cursor-hover btn btn-primary">Contact Us</a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Reshyne</li>
                     </ol>
                 </nav>
@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/Reshyne/Reshyne-logo.png') }}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/Reshyne/reshyne.svg') }}" class="" alt="">
                 </div>
             </div>
         </div>
@@ -61,18 +61,17 @@ shipping rates, download label, tracking shipment, etc.
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="core-value-detail-box">
                         <h3>Country</h3>
-                        <p>Denmark
+                        <p>New York
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Targeted Audience</h3>
-                        <p>Item Traders,
-                            Individuals looking to buy or sell used items
+                        <p>Jewelry reparis store 
                         </p>
                     </div>
                     <div class="core-value-detail-box">
                         <h3>Industry</h3>
-                        <p>E-commerce, Items Trading
+                        <p>E-commerce
                         </p>
                     </div>
                 </div>
@@ -89,14 +88,14 @@ shipping rates, download label, tracking shipment, etc.
         <div class="row">
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Flutter-logo.svg') }}" alt="slide 1">
-                    <h3>Flutter</h3>
+                    <img src="{{ asset('image/react-2.svg') }}" alt="slide 1">
+                    <h3>ReactJS</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Kotlin-logo.svg') }}" alt="slide 1">
-                    <h3>Kotlin</h3>
+                    <img src="{{ asset('image/python.svg') }}" alt="slide 1">
+                    <h3>Python</h3>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="400">
@@ -147,27 +146,29 @@ shipping rates, download label, tracking shipment, etc.
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix web col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/incometax.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">CycleAi</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="cycleai_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Python</span>
+                        <h3 class="category">Incometax</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/applebees.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">.Net</span>
+                        <h3 class="category">Applebees</h3>
+                        <p class="category">Reshyne helps companies make the most of their repairs business.</p>
+                        <a href="reshyne_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
@@ -194,7 +195,7 @@ $('.portfolio-slider').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
     responsive: [{
             breakpoint: 768,
             settings: {

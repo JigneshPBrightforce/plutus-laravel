@@ -7,34 +7,29 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Cycleai</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Cycleai</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">CycleAl is on a mission to empower micromobility users for their safety through Al.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="page-breadcrumb-img">
-                    <img src="{{ asset('portfolio_images/cycleai/cycleai_logo.png')}}" class="" alt="">
+                    <img src="{{ asset('portfolio_images/cycleai/cycleai_logo.png')}}" class="w-100" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div>
-    <img class="w-100" src="{{ asset('portfolio_images/STE/top_banner _ste.jpg')}}">
+    <img class="w-100" src="{{ asset('portfolio_images/cycleai/top_banner_cycleai.jpg')}}">
 </div>
 <div class="portfolio-detail">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
-        <p class="sub-dec">Use your smart device to change your future! Skilled Trade Exams provides access to auto-generated multiple
-            choice exam questions to prepare you for license and certification test questions that can be found in real-test scenarios.
-</p>
+        <p class="sub-dec">CycleAl is on a mission to empower micromobility users for their safety through Al. Active mobility is of utmost importance to the sustainable cities of the future, although the modes are generally not perceived as safe. We place the safest and most reliable routes at people's fingertips!</p>
     </div>
 </div>
 <div class="about_portfolio space">
@@ -97,40 +92,40 @@
                     <h3>GetX</h3>
                 </div>
             </div>
-            <!-- <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-12 col-md-3 col-lg-3 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="industry-box">
-                    <img src="{{ asset('image/Java-logo.svg')}}" alt="slide 1">
-                    <h3>Java</h3>
+                    <img src="{{ asset('image/google-places-application.svg')}}" alt="slide 1">
+                    <h3>Google place API</h3>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
-<div class="portfolio-slider" style="background-image:url('portfolio_images/ste_bg.jpg');background-repeat: no-repeat;background-size: cover;">
+<div class="portfolio-slider" style="background-image:url('portfolio_images/cycleai_bg.jpg');background-repeat: no-repeat;background-size: cover;">
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Dashboard_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_1.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Exam_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_2.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Login_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_3.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Result_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_4.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_splash_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_5.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Summary_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_6.jpg') }}">
     </div>
     <div>
-        <img class="w-100" src="{{ asset('portfolio_images/STE/STE_Test_page.jpg') }}">
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_7.jpg') }}">
     </div>
-    <!-- <div>
-        <img class="w-100" src="{{ asset('Portfolio/STE/s.jpg') }}">
-    </div> -->
+    <div>
+        <img class="w-100" src="{{ asset('portfolio_images/cycleai/cycleai_8.jpg') }}">
+    </div>
 </div>
 <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
@@ -139,27 +134,29 @@
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="300">
 
         <ul class="row portfolio-item">
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/agrotrade.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">Powerzada</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="powerzada_portfolio" title="View Project" target="_blank" class="btn btn-white">
+                        <h3 class="category">Agrotrade</h3>
+                        <p class="category">Explore the new dimension of foodstuff importing experience.</p>
+                        <a href="agrotrade_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
-            <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+            <li class="mix flutter col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
+                <img src="portfolio_images/powerzada.jpg"
+                    alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
-                        <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="{{ url('emvite_portfolio')}}" title="View Project" target="_blank" class="btn btn-white">
+                        <span class="overlay-content-badge">Flutter</span>
+                        <h3 class="category">Powerzada</h3>
+                        <p class="category">Charge your devices, in any place, at any time, if you have to leave them behind or worry about cables.</p>
+                        <a href="powerzada_portfolio" title="View Project" target="_blank" class="cursor-hover btn btn-white">
                             View
                         </a>
                     </div>

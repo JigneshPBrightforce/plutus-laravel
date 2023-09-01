@@ -11,7 +11,7 @@
     <meta http-equiv="Expires" content="0">
 
     <link rel="icon" type="image/x-icon" href="{{asset('image/Plutus-logo(fevicon).ico')}}" />
-    <link rel="stylesheet" href="{{asset('css/style.css')}}?t=<?php echo time();?>" />
+    <link rel="stylesheet" href="{{asset('css/style.css')}}?t=<?php echo time(); ?>" />
 
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
@@ -54,7 +54,7 @@
 
 </head>
 
-<body lass="">
+<body class="">
     @include('inc.header')
 
     @yield('content')

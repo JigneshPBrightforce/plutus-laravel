@@ -7,7 +7,7 @@
             <div class="col-lg-6 order-2 order-lg-0 mt-4 mt-lg-0">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><span>Home</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Hire .NET Developer</li>
                     </ol>
                 </nav>
@@ -16,10 +16,8 @@
                 </div>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>Hire .NET Developer</h3>
-                    <p class="sub-dec ms-4 mt-4">We are the fastest growing Website Development company having a
-                        team of expert
-                        programmers. Hire PHP developers who help your business grow bigger and faster
-                        in the digital world.</p>
+                    <p class="sub-dec ms-4 mt-4">Finding the right .NET developer is critical when it comes to developing sturdy and modern software solutions. PlutusTec provides the ideal platform to hire dedicated .NET developers that understand the intricacies of the .NET framework. It is our pleasure to be able to provide you with the knowledge and expertise when you hire .NET programmers from our team toanswer to your particular requirements in your project.</p>
+                    <p class="sub-dec ms-4 mt-4">Regardless of whether you need a single developer or a team of developers, we will be able to tailor our services to your specific needs. As a result of partnering with our experienced personnel, you can rest assured that you will receive top-tier solutions that will closely align with your business objectives.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center d-none d-lg-block">
@@ -38,20 +36,8 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="aos-init" data-aos="fade-up">
-                    <p class="sub-dec ms-4 mt-4">Do you have a new PHP development project coming up? Then
-                        definitely you must be looking for expert
-                        PHP developers from a reputed and cost-effective web development company. Well, you can
-                        always count
-                        on us. Build Robust websites and applicationsby hiring the best PHP developers from India.
-                    </p>
-                    <p class="sub-dec ms-4 mt-4">PHP cms developers at Plutus Technologies build your business
-                        website with feature-rich database maintenance
-                        and ensure the greatest levels of tailored PHP development. As an open-source platform, PHP
-                        is a greatly used
-                        platform for we b and portal development. We are known for being committed to providing the
-                        best solutions for
-                        PHP development.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies offers you the opportunity to hire the finest Dot Net developers for your project. By choosing to work with us, you harness the power of the latest developments, which our team of top-tier .NET programmers has tapped. We combine creativity and technological aptitude correctly in order to create custom solutions that are aligned with your business objectives. Using the .NET framework's range, our specialists create adaptable and powerful applications that survive over a period of time.</p>
+                    <p class="sub-dec ms-4 mt-4">Hiring our exceptional .NET developers provides you with access to a talent pool that stays current with industry trends and creates solutions that beyond expectations. Whether you require a short-term collaboration or a long-term commitment.</p>
                 </div>
             </div> 
         </div>
@@ -168,16 +154,16 @@
                 <div class="select-catagory d-lg-block align-items-start d-flex">
                     <div class="nav flex-column nav-pills align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service active " id="v-pills-first-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
                             aria-selected="true">AngularJS Development</button>
-                        <button class="nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-second-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
                             aria-selected="false">Node.js Development</button>
-                        <button class="nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-third-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
                             aria-selected="false">ReactJS Development</button>
-                        <button class="nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
+                        <button class="cursor-hover nav-link tech-service" id="v-pills-four-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four"
                             aria-selected="false">.NET Development</button>
                     </div>
@@ -242,11 +228,8 @@
             <div class="row align-items-center aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Diverse Expertise</h3>
-                        <p>Having nearly 8+ years of experience in PHP web development, we have been providing
-                            quality and effective solutions. Our 40+ in-house developers are well-versed with the
-                            needs and requirements of a business to provide 200% customer satisfaction.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>1. </span> Security</h3>
+                        <p>You can be assured that your data and intellectual property will be kept secure by us. It is Plutustec's goal to ensure that your business information is kept confidential by taking strict security measures to protect your valuable assets.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
@@ -264,26 +247,16 @@
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="mission">
                         <h3 class="subtitle d-flex align-items-center  justify-content-lg-end"><span>2. </span>
-                            Intense Knowledge</h3>
-                        <p>Our team of developers and programmers always go beyond and above to understand
-                            the main objective of building a website for a business. So that they can bring
-                            the best tools and techniques together to deliver an extremely suitable solution.
-                        </p>
+                        Innovative Approach</h3>
+                        <p>As the leading .NET application development company, PlutusTec fosters a culture of innovation which ensures that the latest technologies and trends are incorporated into all our projects, ensuring you remain at the forefront of your industry.</p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center mission-row aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-lg-8 order-2 order-lg-1">
                     <div class="vission">
-                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Custom Solutions</h3>
-                        <p>No one better than us understands that no two businesses are the same, nor their
-                            objectives. That is why we offer custom solutions according to their business
-                            objectives and needs.
-                            Our PHP developers are well experienced in building eye-catching, customized
-                            PHP solutions suited to your requirements within the stipulated timelines and terms.
-                            In addition, our efficient development team offers the most efficient web development
-                            process blended with a competitive pricing strategy.
-                        </p>
+                        <h3 class="subtitle d-flex align-items-center"><span>3. </span> Strong Support</h3>
+                        <p>We take great pride in our post-development support services. It is our commitment to provide ongoing support, which ensures a positive experience long after the project has been completed by our .NET developers.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">

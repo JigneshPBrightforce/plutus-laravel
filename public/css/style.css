@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}
+} 
 
 @font-face {
   font-family: "Nunito-regular";
@@ -25,8 +25,7 @@
 @font-face {
   font-family: "Nunito-bold";
   src: url("../font/Nunito-Bold.ttf");
-}
-
+} 
 
 /* Loader */
 .loader {
@@ -84,9 +83,8 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Nunito-regular" !important;
-}
-
+  font-family: "Nunito-regular" !important;   
+}  
 ul {
   list-style: none !important;
 }
@@ -237,7 +235,7 @@ input {
   align-items: center;
 }
 
-.page-breadcrumb .breadcrumb-item a {
+.page-breadcrumb .breadcrumb-item span {
   color: #939598;
   font-size: 24px;
   font-family: "Nunito-regular";
@@ -616,6 +614,7 @@ header .logo a {
 }
 
 .our-work-portfolio-boxes-mian .our-work-portfolio-row .our-work-portfolio-row-box a,
+.our-work-portfolio-boxes-mian .our-work-portfolio-row .our-work-portfolio-row-box a h5,
 .portfolio-box a {
   font-size: 20px !important;
   line-height: 22px !important;
@@ -627,6 +626,12 @@ header .logo a {
   color: #000 !important;
   font-family: "Nunito-semibold";
   border: none !important;
+}
+.our-work-portfolio-row-box img {
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .our-work-blog-list .our-work-blog-list-row {
@@ -1735,16 +1740,12 @@ video::-webkit-media-controls-panel {
 .portfolio-slider {
   /* background-image: url("../image/rsd_bg.png"); */
   padding: 80px 0px;
+  background-position: center;
 }
 
 .portfolio-slider .slick-slide {
   margin: 20px 20px 0;
-}
-
-.portfolio-slider .slick-slide.slick-current {
-  margin: 0px 20px 0;
-}
-
+} 
 /* portfolio details css end */
 
 /* iOS app development Page Css Start */
@@ -1944,7 +1945,8 @@ video::-webkit-media-controls-panel {
 
 .industry-box img {
   height: 100px;
-  width: 100%;
+  width: 100px;
+  margin: auto;
 }
 
 .industry-box h3 {
@@ -2287,6 +2289,10 @@ video::-webkit-media-controls-panel {
 
 .portfolio-menu {
   text-align: center;
+  position: sticky;
+  top: 130px;
+  background-color: #ffffff;
+  z-index: 9;
 }
 
 .control {
@@ -2491,7 +2497,7 @@ video::-webkit-media-controls-panel {
   margin: 50px 0px 0px 0px !important;
 }
 .page-breadcrumb-img img {
-  max-height: 250px;
+  max-height: 400px;
 }
 .orange-box-row .orange-box {
   background-color: #ff6c37;
@@ -3080,7 +3086,7 @@ select {
   transition: 0.5s;
   border: none;
   min-width: 150px;
-  text-align: center;
+  text-align: center; 
 }
 
 .btn-orange:hover {
@@ -3103,8 +3109,7 @@ select {
   border-radius: 100%;
   transform: scale(1, 1) translate(-50%);
   transform-origin: 50% 50%;
-}
-
+} 
 .hm-banner-sec .main-hero-image {
   max-width: 60%;
   width: 100%;
@@ -3389,7 +3394,7 @@ select {
   -moz-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   -o-transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-  cursor: grab;
+  cursor: grab !important;
 }
 
 .service-main-slider .our-services-slider-owl .owl-stage .our-services-inner .service-box .card {
@@ -3605,6 +3610,7 @@ select {
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 0px;
+  height: auto !important;
 }
 
 .case-study-section .case-study-box .cs-main .cs-info .case-study-block .cs-detail .client-says .client-box {
@@ -5207,7 +5213,8 @@ select {
   }
 
   .industry-box img {
-    height: 60px;
+    height: 60px; 
+    width: 60px; 
   }
 
   .industry-box h3 {
@@ -5309,7 +5316,9 @@ select {
 }
 
 @media (max-width: 767px) {
-
+    .video-poster-bg {
+      height: 300px;
+    }
   .black-tap {
     display: none;
   }
@@ -5519,6 +5528,52 @@ select {
     flex: 0 0 100%;
     width: 100%;
   }
-}
-
+  .g-recaptcha iframe{
+    transform: scale(0.80) translateX(-36px);
+  }
+  #hiredevelopers .g-recaptcha iframe{
+    transform: scale(0.90) translateX(0);
+  }
+} 
 /* Media End */
+
+@media (min-width: 1040px){
+  #custom-cursor {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    pointer-events: none; 
+    z-index: 99999;
+    transition: transform 500ms; 
+  } 
+
+  #custom-cursor.zoom {
+    transform: scale(2);
+  }
+} 
+.portfolio-detail ul li{
+  padding-left: 30px;
+  position: relative;
+}
+.portfolio-detail ul li::before{
+  content: '';
+  width: 15px;
+  height: 2px;
+  background-color: #ff895f;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+select.error option,select.error {
+  color: #000000 !important;
+} 
+.coming-soon{
+  font-size: 16px;
+  line-height: 120%;
+  color: #333333;
+}  

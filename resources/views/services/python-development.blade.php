@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="services">Services</a></li>
+                        <li class="breadcrumb-item"><span>Services</span></li>
                         <li class="breadcrumb-item active" aria-current="page">Python Development</li>
                     </ol>
                 </nav>
@@ -119,7 +119,8 @@
                         <p>Migrations or upgrades are conceptualized and carried out thoroughly, alleviating
                             compatibility issues as well as data migration challenges to avoid downtime. We ensure
                             that your applications remain fully functional and optimized keeping up with new
-                            technologies and versions.</p>
+                            technologies and versions.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -181,7 +182,8 @@
                     <h3>
                         We provide consulting services to help clients for their
                         specific needs and issues with Python-based websites
-                        and applications.</h3>
+                        and applications.
+                    </h3>
                 </div>
             </div>
 
@@ -239,7 +241,7 @@
                     <h2>Let's Discuss Your Python Idea</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="contact-us" class="btn btn-primary">Click Here</a>
+                    <a href="contact-us" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
@@ -252,7 +254,7 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         What is the use of Python in web development?
                     </button>
@@ -273,7 +275,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         What is the use of Django in Python web development?
                     </button>
@@ -295,7 +297,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="400">
                 <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Which Python software is the best for web development?
                     </button>
@@ -316,7 +318,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         What kind of apps can you develop using Python?
                     </button>
@@ -339,7 +341,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         Will you help me to maintain my Python web development?
                     </button>
@@ -360,7 +362,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         Do you have any Python app examples?
                     </button>
@@ -384,7 +386,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         What if I am dissatisfied with the work of the hired developer and wish to leave?
                     </button>
@@ -520,13 +522,13 @@
                     <h2>Hire Python Developer</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="hire-python-developer" class="btn btn-primary">Click Here</a>
+                    <a href="hire-python-developer" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<section class="blog-wrap space">
+<!-- <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Blog</h3>
     </div>
@@ -536,7 +538,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details"
+                            <a class="cursor-hover" href="blog-details"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp') }}"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -545,7 +547,7 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -554,14 +556,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a class="cursor-hover" href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp') }}"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -569,14 +571,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a class="cursor-hover" href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp') }}" alt="ai" width="350"
                                     height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
@@ -584,11 +586,11 @@
             </div>
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
+            <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>
-</section>
+</section> -->
 
 @include('inquiryform')
 

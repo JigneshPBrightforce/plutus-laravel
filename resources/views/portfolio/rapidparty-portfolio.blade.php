@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+                        <li class="breadcrumb-item"><span>Portfolio</span></li>
                         <li class="breadcrumb-item active" aria-current="page">RapidParty</li>
                     </ol>
                 </nav>
@@ -151,22 +151,22 @@
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Flutter</span>
-                        <h3 class="category">RapidParty</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <h3 class="category">Skill Trade Exam</h3>
+                        <p class="category">Study for your exam from anywhere.</p>
+                        <a href="skilltrade_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>
                 </div>
             </li>
             <li class="col-xl-6 col-md-6 col-12 col-sm-6 pd position-relative">
-                <img src="{{ asset('image/reshyne.jpg') }}" alt="Image description">
+                <img src="portfolio_images/emvite.jpg" alt="Image description">
                 <div class="portfolio-overlay">
                     <div class="overlay-content">
                         <span class="overlay-content-badge">Python</span>
-                        <h3 class="category">Project Name</h3>
-                        <p class="category">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" title="View Project" target="_blank" class="btn btn-white">
+                        <h3 class="category">Emvite</h3>
+                        <p class="category">A digital marketplace that provides affordable and accessible rehab and recovery content to users globally.</p>
+                        <a href="emvite_portfolio" title="View Project" target="_blank" class="btn btn-white">
                             View
                         </a>
                     </div>

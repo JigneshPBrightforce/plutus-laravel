@@ -14,14 +14,12 @@
         <tbody>
             <tr style="width: 100%;display: table;border: 0;">
                 <td style="width:90%;padding: 15px 0 15px 40px;border: 0;text-align: center;background-color:#f8f8f6">
-                    <a href="{{ env('APP_URL') }}" target="_blank"> <img src="{{ asset('image/Plutus-logo.png') }}"
-                            alt="Logo" style="height: 60px;"></a>
+                    <a href="{{ env('APP_URL') }}" target="_blank"> <img src="{{ asset('image/Plutus-logo.png') }}" alt="Logo" style="height: 60px;"></a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="{{ asset('image/contact.png') }}" alt="Ecommerce"
-                        style="max-width: 450px; height:auto; margin:10px auto; display: block;" />
+                    <img src="{{ asset('image/contact.png') }}" alt="Ecommerce" style="max-width: 450px; height:auto; margin:10px auto; display: block;" />
 
                 </td>
             </tr>
@@ -36,8 +34,7 @@
             </tr>
             <tr>
                 <td>
-                    <table style="padding: 10px 10px 10px 10px; max-width: 740px;width:100%; margin: 0px auto;"
-                        cellpadding="0" cellspacing="0">
+                    <table style="padding: 10px 10px 10px 10px; max-width: 740px;width:100%; margin: 0px auto;" cellpadding="0" cellspacing="0">
                         <tr style="background-color:#FFF3EE">
                             <td style="padding-left: 10px;">
                                 <p style="color: #020202;font-weight: 300;font-size: 14px;">
@@ -116,19 +113,14 @@
             </tr>
             <tr>
                 <td>
-                    <div
-                        style="width: 100%;background-color: #ffffff;height:auto; text-align: center;align-items: center; padding: 20px 0px;">
+                    <div style="width: 100%;background-color: #ffffff;height:auto; text-align: center;align-items: center; padding: 20px 0px;">
                         <ul style=" padding-left: 0px;">
                             <li style="display: inline-block;margin-right:20px;margin-left: 0;">
                                 <a href="https://www.facebook.com/PlutusTechnologies/" target="_blank">
-                                    <img src="{{ asset('image/facebook.png') }}" alt="ecommerce"
-                                        style="padding-right: 10px; width: 20px;"></a>
-                                <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/"
-                                    target="_blank"><img src="{{ asset('image/linkedin.png') }}" alt="ecommerce"
-                                        style="padding-right: 10px; width: 20px;"></a>
+                                    <img src="{{ asset('image/facebook.png') }}" alt="ecommerce" style="padding-right: 10px; width: 20px;"></a>
+                                <a href="https://www.linkedin.com/company/plutus-technologies-pvt-ltd/mycompany/" target="_blank"><img src="{{ asset('image/linkedin.png') }}" alt="ecommerce" style="padding-right: 10px; width: 20px;"></a>
                                 <a href="https://twitter.com/PlutusTech" target="_blank">
-                                    <img src="{{ asset('image/twitter.png') }}" alt="ecommerce"
-                                        style="padding-right: 10px; width: 20px;">
+                                    <img src="{{ asset('image/twitter.png') }}" alt="ecommerce" style="padding-right: 10px; width: 20px;">
                                 </a>
                             </li>
                         </ul>

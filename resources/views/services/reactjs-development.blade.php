@@ -7,23 +7,14 @@
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="services">Services</a></li>
+                        <li class="breadcrumb-item"><span>Services</span></li>
                         <li class="breadcrumb-item active" aria-current="page">ReactJS Development</li>
                     </ol>
                 </nav>
                 <div class="aos-init" data-aos="fade-up">
                     <h3 class="subtitle d-flex align-items-center"> <span></span>ReactJS Development</h3>
-                    <p class="sub-dec ms-4 mt-4">Plutus Technologies, an experienced ReactJS Development Company in
-                        India, specializes in providing outstanding ReactJS Development Services that are highly
-                        scalable and versatile. Our team is made up of talented ReactJS Developers who excel at
-                        incorporating modern technologies and turning them into influential, business-focused
-                        solutions.
-
-                        Our React Web App Development Services and ReactJS App Development Services are designed to
-                        deliver the best possible digital solution for your project, so you know you're getting the
-                        best. The ReactJS development team at Plutus Technologies can help you reach your full
-                        potential.
-                    </p>
+                    <p class="sub-dec ms-4 mt-4">Plutus Technologies, an experienced ReactJS Development Company in India, specializes in providing outstanding ReactJS Development Services that are highly scalable and versatile. Our team is made up of talented ReactJS Developers who excel at incorporating modern technologies and turning them into influential, business-focused solutions. </p>
+                    <p class="sub-dec ms-4 mt-4">Our React Web App Development Services and ReactJS App Development Services are designed to deliver the best possible digital solution for your project, so you know you're getting the best. The ReactJS development team at Plutus Technologies can help you reach your full potential.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -37,16 +28,8 @@
 <div class="about-ios-app-development">
     <div class="container space aos-init" data-aos="fade-up" data-aos-delay="400">
         <h3 class="subtitle d-flex align-items-center"> <span></span>About ReactJS Development</h3>
-        <p class="sub-dec">Plutustec, a prominent ReactJS Development Company in India, has extensive experience in
-            creating the best and most functional ReactJS-based web and mobile applications with the most stunning
-            user interfaces for our global clients. We are a group of skilled and experienced ReactJS developers who
-            can create client-centric solutions.
-
-            We develop high-end, scalable, and lightweight ReactJS solutions that smoothly integrate with
-            third-party APIs and can be easily modified or updated. Designing new apps or customizing existing apps
-            are just some of the services we offer for ReactJS development.
-
-        </p>
+        <p class="sub-dec">Plutustec, a prominent ReactJS Development Company in India, has extensive experience in creating the best and most functional ReactJS-based web and mobile applications with the most stunning user interfaces for our global clients. We are a group of skilled and experienced ReactJS developers who can create client-centric solutions.</p>
+        <p class="sub-dec">We develop high-end, scalable, and lightweight ReactJS solutions that smoothly integrate with third-party APIs and can be easily modified or updated. Designing new apps or customizing existing apps are just some of the services we offer for ReactJS development.</p>
     </div>
 </div>
 <div class="engagement-models ios-app-development-boxes bg-lightblue-100 space">
@@ -58,11 +41,10 @@
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="200">
                 <div class="engagement-models-box bg-lightblue">
                     <img src="{{ asset('image/reactjs-development-box-1.svg') }}" class="" alt="">
-                    <h3 class="mb-0">Custom ReactJS Development</h3>
+                    <h3 class="mb-0">Custom React.js development</h3>
                     <div class="engement-overly-div bg-lightblue">
-                        <h3 class="mb-0">Custom ReactJS Development</h3>
-                        <p>Using ReactJS, we deliver highly customized and scalable solutions to meet your specific
-                            brand needs.</p>
+                        <h3 class="mb-0">Custom React.js development</h3>
+                        <p>Using React.js, we deliver highly customized and scalable solutions to meet your specific brand needs.</p>
                     </div>
                 </div>
             </div>
@@ -72,9 +54,7 @@
                     <h3 class="mb-0">API Development</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">API Development</h3>
-                        <p>Through our expertise in ReactJS, we develop powerful APIs that connect easily with your
-                            online apps, ensuring continuous data flow and improving the overall functionality and
-                            speed of your systems.</p>
+                        <p>Through our expertise in React.js, we develop powerful APIs that connect easily with your online apps, ensuring continuous data flow and improving the overall functionality and speed of your systems.</p>
                     </div>
                 </div>
             </div>
@@ -84,22 +64,17 @@
                     <h3 class="mb-0">React Migration Services</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">React Migration Services</h3>
-                        <p>With experienced developers provide uniform conversion services, assisting you in
-                            migrating your existing apps to React.js while ensuring minimal downtime and maximizing
-                            the benefits of this powerful JavaScript library.</p>
+                        <p>With experienced developers provide uniform conversion services, assisting you in migrating your existing apps to React.js while ensuring minimal downtime and maximizing the benefits of this powerful JavaScript library.</p>
                     </div>
                 </div>
             </div>
             <div class="model-box col-md-6 col-lg-4 mb-3 mb-md-0 aos-init" data-aos="fade-up" data-aos-delay="500">
                 <div class="engagement-models-box bg-lightorange">
                     <img src="{{ asset('image/reactjs-development-box-4.svg') }}" class="" alt="">
-                    <h3 class="mb-0">ReactJS UI/UX Development</h3>
+                    <h3 class="mb-0">ReactJs UI/UX development</h3>
                     <div class="engement-overly-div bg-lightorange">
-                        <h3 class="mb-0">ReactJS UI/UX Development</h3>
-                        <p>We concentrate in producing visually appealing and highly dynamic online applications
-                            that engage and captivate your users by creating stunning and intuitive user interfaces
-                            (UI) and user experiences (UX) using ReactJS.
-                        </p>
+                        <h3 class="mb-0">ReactJs UI/UX development</h3>
+                        <p>We concentrate on producing visually appealing and highly dynamic online applications that engage and captivate your users by creating stunning and intuitive User Interfaces (UI) and User Experiences (UX) using React.js.</p>
                     </div>
                 </div>
             </div>
@@ -109,9 +84,7 @@
                     <h3 class="mb-0">ReactJS Plugins</h3>
                     <div class="engement-overly-div bg-lightblue">
                         <h3 class="mb-0">ReactJS Plugins</h3>
-                        <p>Extend the capabilities of your ReactJS applications with our custom plugins. With our
-                            team of specialists, we create streamlined workflows, enhanced functionality, and
-                            increased productivity for your business.</p>
+                        <p>Extend the capabilities of your React.js applications with our custom plugins.  With our team of specialists, we create streamlined workflows, enhanced functionality, and increased productivity for your business.</p>
                     </div>
                 </div>
             </div>
@@ -121,10 +94,7 @@
                     <h3 class="mb-0">ReactJS Maintenance & Support</h3>
                     <div class="engement-overly-div bg-lightorange">
                         <h3 class="mb-0">ReactJS Maintenance & Support</h3>
-                        <p>Maintaining and supporting your ReactJS application ensures its smooth operation. As
-                            part of our commitment to excellence, we strive to resolve any difficulties, optimise
-                            performance, and maintain your application in compliance with industry best practices.
-                        </p>
+                        <p>Maintaining and supporting your React.js application ensures its smooth operation. As a part of our commitment to excellence, we strive to resolve any difficulties, optimise performance, and maintain your application in compliance with industry best practices.</p>
                     </div>
                 </div>
             </div>
@@ -141,51 +111,43 @@
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-1">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS uses a virtual DOM, which improves performance by minimizing actual DOM
-                        manipulations, resulting in faster rendering and a smoother user experience.
+                    React.js uses a virtual DOM, which improves performance by minimizing actual DOM manipulations, resulting in faster rendering and a smoother user experience.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-2">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS promotes a modular approach to building user interfaces by breaking them down into
-                        reusable components, making development and maintenance easier.
+                    React.js promotes a modular approach to building user interfaces by breaking them down into reusable components, making development and maintenance easier.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-3">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS follows a unidirectional data flow, which ensures that changes in the parent
-                        component automatically propagate to child components, reducing potential bugs.
-
+                    React.js follows a unidirectional data flow, which ensures that changes in the parent component automatically propagate to child components, reducing potential bugs.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-4">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS utilizes JSX, a syntax extension that allows developers to write HTML-like code
-                        within JavaScript, enabling a more intuitive and efficient development process.
+                    React.js utilizes JSX, a syntax extension that allows developers to write HTML-like code within JavaScript, enabling a more intuitive and efficient development process.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-5">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS promotes the building of reusable user interface components. Using this modular
-                        approach, developers can create a library of components that can be readily shared and
-                        reused across numerous projects.
+                    React.js promotes the building of reusable user interface components. Using this modular approach, developers can create a library of components that can be readily shared and reused across numerous projects.
                     </h3>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 col-xl-4 benefits-ios-box-6">
                 <div class="benefits-ios-box">
                     <h3>
-                        ReactJS includes speed optimisation techniques like code splitting, lazy loading, and
-                        caching to help developers fine-tune and optimise their applications for improved
-                        performance.</h3>
+                    React.js includes speed optimisation techniques like code splitting, lazy loading, and caching to help developers fine-tune and optimise their applications for improved performance.
+                    </h3>
                 </div>
             </div>
 
@@ -243,7 +205,7 @@
                     <h2>Let's Discuss Your ReactJs Idea</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="contact-us" class="btn btn-primary">Click Here</a>
+                    <a href="contact-us" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
@@ -256,7 +218,7 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Does your ReactJS development company provide migration services?
                     </button>
@@ -277,7 +239,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         How does ReactJS reduce app development cost?
                     </button>
@@ -297,7 +259,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="400">
                 <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         What project management tools do you use?
                     </button>
@@ -318,7 +280,7 @@
             </div>
             <div class="accordion-item aos-init" data-aos="fade-up" data-aos-delay="500">
                 <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="cursor-hover accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Why choose Plutustec for ReactJS app development company?
                     </button>
@@ -454,13 +416,13 @@
                     <h2>Hire ReactJs Developer</h2>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="hire-reactjs-developer" class="btn btn-primary">Click Here</a>
+                    <a href="hire-reactjs-developer" class="cursor-hover btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<section class="blog-wrap space">
+<!-- <section class="blog-wrap space">
     <div class="container aos-init" data-aos="fade-up">
         <h3 class="home-page-title d-flex align-items-center justify-content-center">Blog</h3>
     </div>
@@ -471,6 +433,7 @@
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
                             <a href="blog-details"
+                                class="cursor-hover"
                                 aria-label="How AI is transforming the way businesses operate and compete?">
                                 <img src="{{ asset('image/hm-ai-in-business-transforming-banner.webp') }}"
                                     alt="AI is transforming the way businesses operate and compete" width="350"
@@ -479,7 +442,7 @@
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">How AI is transforming the
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">How AI is transforming the
                                 way businesses operate
                                 and compete?</a>
                         </div>
@@ -488,14 +451,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
+                            <a class="cursor-hover" href="blog-details" aria-label="Google BARD Vs Chat GPT: the ultimate battle">
                                 <img src="{{ asset('image/hm-the-impact-of-ai-on-customer-banner1.webp') }}"
                                     alt="The impact of AI on customer service and experience" width="350" height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">Google BARD Vs Chat GPT: the
                                 ultimate battle</a>
                         </div>
                     </div>
@@ -503,14 +466,14 @@
                 <div class="col-md-6 col-lg-4 col-xl-4 blog-listing-box-main">
                     <div class="blog-listing-box">
                         <div class="listing-sm-img">
-                            <a href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
+                            <a class="cursor-hover" href="blog-details" aria-label="Artificial Intelligence Myths VS Reality">
                                 <img src="{{ asset('image/hm-ai-myths-vs-reality-banner.webp') }}" alt="ai" width="350"
                                     height="210">
                             </a>
                         </div>
                         <div class="blog-listing-detail">
                             <span class="category">Web Development</span>
-                            <a href="blog-details" aria-label="More from our Blog">Artificial Intelligence
+                            <a class="cursor-hover" href="blog-details" aria-label="More from our Blog">Artificial Intelligence
                                 Myths VS Reality</a>
                         </div>
                     </div>
@@ -518,11 +481,11 @@
             </div>
         </div>
         <div class="button-box text-center">
-            <a class="btn-orange" aria-label="More from our Blog" href="blog">More From
+            <a class="cursor-hover btn-orange" aria-label="More from our Blog" href="blog">More From
                 our Blog</a>
         </div>
     </div>
-</section>
+</section> -->
 
 @include('inquiryform')
 
