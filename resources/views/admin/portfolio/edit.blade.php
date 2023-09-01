@@ -2,170 +2,187 @@
 @push('extra-css')
 @endpush
 @section('content')
-<form id="general-info" name="frmUpdateProfile" method="POST" enctype="multipart/form-data" action="{{ route('admin.portfolio.update') }}">
-    @csrf
-    <input type="hidden" name="action" value="{{ $arrData->id }}">
-    <div class="box">
-        <div class="box-body">
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Project Type</label>
+<div class="admin-wrapper py-4">
+    <div class="container box">
+        <h4 class="page-title mb-4">Edit Portfolio</h4>
+        <form id="general-info" class="white-section-box" name="frmUpdateProfile" method="POST" enctype="multipart/form-data" action="{{ route('admin.portfolio.update') }}">
+            @csrf
+            <input type="hidden" name="action" value="{{ $arrData->id }}"> 
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Project Type</label>
+                        <select class="form-select" id="project_type" name="project_type">
+                            <option value="0" <?php echo ($arrData->project_type == 0) ? 'selected' : ''; ?>>Web</option>
+                            <option value="1" <?php echo ($arrData->project_type == 1) ? 'selected' : ''; ?>>Mobile</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">Portfolio Name</label>
+                        <input id="name" type="text" class="form-control" name="project_name" value="{{ $arrData->project_name }}" placeholder="" autocomplete="name" autofocus>
+                        @if($errors->has('project_name'))
+                        <div class="error">{{ $errors->first('project_name') }}</div>
+                        @endif
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">Short description</label>
+                        <input type="text" class="form-control" name="project_short_description" value="{{ $arrData->project_short_description }}">
+                        @if($errors->has('project_short_description'))
+                        <div class="error">{{ $errors->first('project_short_description') }}</div>
+                        @endif
+                    </div>
+                </div>                
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Long description</label>
+                        <textarea name="project_long_description" class="ckeditor form-control">
+                        {{ $arrData->project_long_description }}</textarea>
+                        @if($errors->has('project_long_description'))
+                        <div class="error">{{ $errors->first('project_long_description') }}</div>
+                        @endif
+                    </div>
+                </div> 
+            </div> 
+            <hr class="divider my-4">
+            <div class="row">
                 <div class="col-md-4">
-                    <select class="form-control" id="project_type" name="project_type">
-                        <option value="0" <?php echo ($arrData->project_type == 0) ? 'selected' : ''; ?>>Web</option>
-                        <option value="1" <?php echo ($arrData->project_type == 1) ? 'selected' : ''; ?>>Mobile</option>
-                    </select>
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Logo</label>
+                        <input type="file" accept="image/*" name="project_logo" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_logo ? asset($arrData->project_logo) : ''}}" id="project_logo" />
+                        @if($errors->has('project_logo'))
+                        <div class="error">{{ $errors->first('project_logo') }}</div>
+                        @endif
+                        <div class="mt-2">
+                            <img src="{{ asset($arrData->project_logo) }} " width="250" class="border">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Banner</label>
+                        <input type="file" accept="image/*" name="project_banner" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_banner ? asset($arrData->project_banner) : ''}}" id="project_banner" />
+                        @if($errors->has('project_banner'))
+                        <div class="error">{{ $errors->first('project_banner') }}</div>
+                        @endif
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Image</label>
+                        <input type="file" accept="image/*" name="project_image" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_image ? asset($arrData->project_image) : ''}}" id="project_image" />
+                        @if($errors->has('project_image'))
+                        <div class="error">{{ $errors->first('project_image') }}</div>
+                        @endif
+                    </div>
                 </div>
             </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Portfolio Name</label>
+            <hr class="divider my-4">
+            <div class="row">
                 <div class="col-md-4">
-                    <input id="name" type="text" class="form-control" name="project_name" value="{{ $arrData->project_name }}" placeholder="" autocomplete="name" autofocus>
-                    @if($errors->has('project_name'))
-                    <div class="error">{{ $errors->first('project_name') }}</div>
-                    @endif
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">About title</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="about_title" value="{{ $arrData->about_title }}">
+                            @if($errors->has('about_title'))
+                            <div class="error">{{ $errors->first('about_title') }}</div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">Country name</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="country_name" value="{{ $arrData->country_name }}">
+                            @if($errors->has('country_name'))
+                            <div class="error">{{ $errors->first('country_name') }}</div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">Targeted audience</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="targeted_audience" value="{{ $arrData->targeted_audience }}">
+                            @if($errors->has('targeted_audience'))
+                            <div class="error">{{ $errors->first('targeted_audience') }}</div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class=" custom_label mb-1">Industry</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="industry" value="{{ $arrData->industry }}">
+                            @if($errors->has('industry'))
+                            <div class="error">{{ $errors->first('industry') }}</div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Technology </label>
+                        <div class="col-md-4">
+                            <select class="form-select" aria-label="select example" id="technology">
+                                <option value="">Select</option>
+                                @foreach ($technology as $tech)
+                                <option value="{{$tech->tech_name}}">{{$tech->tech_name}}</option>
+                                @endforeach
+                            </select>
+                            <input type="hidden" id="technologyList" name="technology" id="page" value="" />
+                            @if($errors->has(' technology'))
+                            <div class="error">{{ $errors->first('	technology') }}</div>
+                            @endif
+                            <div class="col-md-12 mb-2 techList"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Short description</label>
+            <hr class="divider my-4">
+            <div class="row">
                 <div class="col-md-4">
-                    <input type="text" class="form-control" name="project_short_description" value="{{ $arrData->project_short_description }}">
-                    @if($errors->has('project_short_description'))
-                    <div class="error">{{ $errors->first('project_short_description') }}</div>
-                    @endif
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Carosoul banner</label>
+                        <input type="file" accept="image/*" name="screenshort_banner" data-max-size="2M" class="dropify" data-default-file="{{$arrData->screenshort_banner ? asset($arrData->screenshort_banner) : ''}}" id="screenshort_banner" />
+                        @if($errors->has('screenshort_banner'))
+                        <div class="error">{{ $errors->first('screenshort_banner') }}</div>
+                        @endif
+                    </div>
                 </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Long description</label>
-                <div class="col-md-4">
-                    <textarea name="project_long_description" class="ckeditor form-control">
-                    {{ $arrData->project_long_description }}</textarea>
-                    @if($errors->has('project_long_description'))
-                    <div class="error">{{ $errors->first('project_long_description') }}</div>
-                    @endif
+                <div class="col-md-8">
+                    <div class="form-group mb-4">
+                        <label for="name" class="custom_label mb-1">Carosoul Images</label>
+                        <input type="file" multiple accept="image/*" name="screenshort_images[]" data-max-size="2M" class="dropify" data-default-file="{{$arrData->screenshort_images ? asset($arrData->screenshort_images) : ''}}" id="screenshort_images" />
+                        @if($errors->has('screenshort_images'))
+                        <div class="error">{{ $errors->first('screenshort_images') }}</div>
+                        @endif
+                        <?php
+                        $ssImages = explode(',', $arrData->screenshort_images);
+                        foreach ($ssImages as $file) {
+                            echo '<img src="' . asset($file) . '" width="250" class="mt-2 border" >';
+                        }
+                        ?>
+                    </div>
                 </div>
-            </div>
-            <hr>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Logo</label>
-                <div class="col-md-4">
-                    <input type="file" accept="image/*" name="project_logo" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_logo ? asset($arrData->project_logo) : ''}}" id="project_logo" />
-                    @if($errors->has('project_logo'))
-                    <div class="error">{{ $errors->first('project_logo') }}</div>
-                    @endif
-                </div>
-                <div class="col-md-4">
-                    <img src="{{ asset($arrData->project_logo) }} " width="250" class="mt-2 border">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Banner</label>
-                <div class="col-md-4">
-                    <input type="file" accept="image/*" name="project_banner" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_banner ? asset($arrData->project_banner) : ''}}" id="project_banner" />
-                    @if($errors->has('project_banner'))
-                    <div class="error">{{ $errors->first('project_banner') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Image</label>
-                <div class="col-md-4">
-                    <input type="file" accept="image/*" name="project_image" data-max-size="2M" class="dropify" data-default-file="{{$arrData->project_image ? asset($arrData->project_image) : ''}}" id="project_image" />
-                    @if($errors->has('project_image'))
-                    <div class="error">{{ $errors->first('project_image') }}</div>
-                    @endif
-                </div>
-            </div>
-            <hr>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">About title</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="about_title" value="{{ $arrData->about_title }}">
-                    @if($errors->has('about_title'))
-                    <div class="error">{{ $errors->first('about_title') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Country name</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="country_name" value="{{ $arrData->country_name }}">
-                    @if($errors->has('country_name'))
-                    <div class="error">{{ $errors->first('country_name') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Targeted audience</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="targeted_audience" value="{{ $arrData->targeted_audience }}">
-                    @if($errors->has('targeted_audience'))
-                    <div class="error">{{ $errors->first('targeted_audience') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2  col-form-label text-md-right">Industry</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="industry" value="{{ $arrData->industry }}">
-                    @if($errors->has('industry'))
-                    <div class="error">{{ $errors->first('industry') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Technology </label>
-                <div class="col-md-4">
-                    <select class="form-select" aria-label="select example" id="technology">
-                        <option value="">Select</option>
-                        @foreach ($technology as $tech)
-                        <option value="{{$tech->tech_name}}">{{$tech->tech_name}}</option>
-                        @endforeach
-                    </select>
-                    <input type="hidden" id="technologyList" name="technology" id="page" value="" />
-                    @if($errors->has(' technology'))
-                    <div class="error">{{ $errors->first('	technology') }}</div>
-                    @endif
-                    <div class="col-md-12 mb-2 techList"></div>
-                </div>
-            </div>
-            <hr>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Carosoul banner</label>
-                <div class="col-md-4">
-                    <input type="file" accept="image/*" name="screenshort_banner" data-max-size="2M" class="dropify" data-default-file="{{$arrData->screenshort_banner ? asset($arrData->screenshort_banner) : ''}}" id="screenshort_banner" />
-                    @if($errors->has('screenshort_banner'))
-                    <div class="error">{{ $errors->first('screenshort_banner') }}</div>
-                    @endif
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label text-md-right">Carosoul Images</label>
-                <div class="col-md-4">
-                    <input type="file" multiple accept="image/*" name="screenshort_images[]" data-max-size="2M" class="dropify" data-default-file="{{$arrData->screenshort_images ? asset($arrData->screenshort_images) : ''}}" id="screenshort_images" />
-                    @if($errors->has('screenshort_images'))
-                    <div class="error">{{ $errors->first('screenshort_images') }}</div>
-                    @endif
-                </div>
-                <div class="col-md-4">
-                    <?php
-                    $ssImages = explode(',', $arrData->screenshort_images);
-                    foreach ($ssImages as $file) {
-                        echo '<img src="' . asset($file) . '" width="250" class="mt-2 border" >';
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
-        <div class="box-footer">
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Update">
+            </div> 
+            <div class="d-flex align-items-center justify-content-end">
                 <a href="{{ route('admin.portfolio') }}" class="btn btn-danger m-1">Cancel</a>
-            </div>
-        </div>
-        <!-- /.box-footer-->
+                <input type="submit" class="btn btn-orange w-auto" value="Update">
+            </div>  
+        </form>
     </div>
-</form>
-<!-- /.box -->
+</div> 
 @endsection
 @push('extra-js-scripts')
 

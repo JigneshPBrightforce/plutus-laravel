@@ -27,9 +27,6 @@
                 <tr>
                     <td>{{ $data->id }}</td>
                     <td>{{ $data->project_name }} </td>
-<<<<<<< HEAD
-                    <td><a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}">Edit</a> | <a href="javascript:void(0)" onclick="deleteRecord(<?= $data->id ?>)">Delete</a></td>
-=======
                     <td>
                         <div class="d-flex align-items-center">
                             <a href="{{ route('admin.portfolio.edit', array('id' => $data->id))}}" class="square-btn edit me-2">
@@ -40,7 +37,6 @@
                             </a>
                         </div>
                     </td>
->>>>>>> 5e7b0a6ee5dde72ba5f544add362d8347d3b2287
                 </tr>
                 @endforeach
             </tbody>

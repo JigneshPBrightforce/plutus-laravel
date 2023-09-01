@@ -201,7 +201,10 @@ input::placeholder {
 
 input,
 input:focus,
-input:hover {
+input:hover,
+select,
+select:focus,
+select:hover {
   border: 1px solid #d8d8d8 !important;
   padding: 10px 10px 10px 10px !important;
   width: 100% !important;
@@ -211,8 +214,7 @@ input:hover {
   border-radius: 4px !important;
   outline: none !important;
   box-shadow: none !important;
-}
-
+} 
 input.btn-orange:hover {
   width: auto !important;
   padding: 11px 30px !important;
@@ -307,7 +309,7 @@ input.btn-orange:hover {
 
 /* Titles */
 .custom_label {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 120%;
   color: #121212;
   text-transform: uppercase;
@@ -396,7 +398,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 
 select {
-  appearance: auto !important;
+  appearance: none !important;
 }
 
 .active>.page-link,
@@ -423,6 +425,11 @@ select {
 
 .square-btn.delete {
   background-color: #dc3545;
+}
+
+.divider{
+ border-top: 1px solid rgba(0, 0, 0, 0.5) !important; 
+  margin: 0px;
 }
 
 .dropify-wrapper .dropify-message p {
